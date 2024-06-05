@@ -1,0 +1,35 @@
+<!-- layouts/shortcodes/printbutton.html -->
+{{ if .Get "print" }}
+  <div id="print-button-container">
+    <button id="print-button">Save this page as PDF!! Click here :)</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('print-button').addEventListener('click', function () {
+        window.print();
+      });
+    });
+  </script>
+  <style>
+
+    #print-button-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    #print-button {
+  padding: 10px 20px;
+  background-color: #000;
+  border-color: aliceblue;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* Adjust the values as needed */
+}
+
+
+    #print-button:hover {
+      background-color: #333;
+    }
+  </style>
+{{ end }}

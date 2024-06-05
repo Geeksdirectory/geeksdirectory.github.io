@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on GeeksDirectory</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://localhost:1313/page/about/</link>
+        <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/about/</guid>
+        <description>&lt;h2 id=&#34;currently-working-on&#34;&gt;currently working on&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Projects&lt;/th&gt;
+&lt;th&gt;tools / languages&lt;/th&gt;
+&lt;th&gt;links&lt;/th&gt;
+&lt;th&gt;live links&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;GeeksDirectory&lt;/td&gt;
+&lt;td&gt;hugo, typescript, scss, netlify&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/geeksdirhugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://geeksdirectory.netlify.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;devops-projects&#34;&gt;DevOps Projects&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Domain&lt;/th&gt;
+&lt;th&gt;Skills/Tools&lt;/th&gt;
+&lt;th&gt;Projects&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;full-stack-projects&#34;&gt;full stack projects&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Projects&lt;/th&gt;
+&lt;th&gt;tools / languages&lt;/th&gt;
+&lt;th&gt;links&lt;/th&gt;
+&lt;th&gt;live links&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;my portfolio&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;react, tailwind css, mdx, gatsby, netlify&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/yashbhangale.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;modern blog app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;nextjs, tailwind css, GraphQL, vercel&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/modernblog_app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://modernblog-app.vercel.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;linktree clone&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vite, mongoDB, svelte, netlify&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/my-linktree&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.netlify.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;uniswap clone&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, solidity, hardhat, cranq,vercel&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/Cryptway_swap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/Cryptway_swap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;livelink&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;to-do app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, css, vercel&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/react-todo-app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;http://react-todo-app-seven-bay.vercel.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;chat-app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, css, expressjs, heroku&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/react-chat-app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashuopreactchat-app.herokuapp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;video-chat app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, Nodejs, css, heroku&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/basic_video_chat_app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://simplevideocall.vercel.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;movie catalouge app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, Rapid api ( omdb api ), css&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/simple_movie_catalogue&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://simplevideocall.vercel.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;budget allocation app&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React,css, netlify&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/Budget-allocation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://budgetallocation.netlify.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;nexus os website&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;React, css, netlify&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/nexusos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://nexusos.org.in/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;some-other-web-development-projects&#34;&gt;Some Other web-development Projects&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Projects&lt;/th&gt;
+&lt;th&gt;tools / languages&lt;/th&gt;
+&lt;th&gt;links&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;website template&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css, Js, bootstrap&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/cyber-guy-website-template&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Shaids static website&lt;/strong&gt; (clg community website)&lt;/td&gt;
+&lt;td&gt;html, tailwind css&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/shaids-static&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;GeeksDirectory&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css, js&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.github.io/Geeksdirectory/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Webfusion&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css,js&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/WebFusion&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ecomm-django&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;django, vercel&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/ecomm-django&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;nextradocs&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Nextjs, hugo&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/nextradocs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;tic tac toe&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css, js&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.github.io/tic-tac-toe/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;rock,paper,scissor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css ,js&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.github.io/Rock-paper_and_scissor/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;protfolio template&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;html, css ,js , bootstrap&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://yashbhangale.github.io/portfolio_templet/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;live link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;other-projects&#34;&gt;Other Projects&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;Domain&lt;/th&gt;
+&lt;th&gt;tools / languages&lt;/th&gt;
+&lt;th&gt;links&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Nexus OS&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;shell scripting, C, Python, Docker, AWS&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/nexusos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;traffic management sys&lt;/td&gt;
+&lt;td&gt;automation&lt;/td&gt;
+&lt;td&gt;Python , open CV&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/traffic-management-system&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tic tac toe&lt;/td&gt;
+&lt;td&gt;game development&lt;/td&gt;
+&lt;td&gt;java&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/tiktactoe_java&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pygame Pong&lt;/td&gt;
+&lt;td&gt;game development&lt;/td&gt;
+&lt;td&gt;pygame, python&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/Pygame_pong&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pong unity&lt;/td&gt;
+&lt;td&gt;game development&lt;/td&gt;
+&lt;td&gt;unity, c#&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/pong_unity&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;space runner&lt;/td&gt;
+&lt;td&gt;game development&lt;/td&gt;
+&lt;td&gt;unity c#&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/spacerunner_unity&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;share it&lt;/td&gt;
+&lt;td&gt;python programming&lt;/td&gt;
+&lt;td&gt;python, socket&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/share-it-using-python&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;repo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 align=&#34;left&#34;&gt;Languages and Tools:&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt; &lt;a href=&#34;https://developer.android.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg&#34; alt=&#34;android&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt;  &lt;a href=&#34;https://www.cprogramming.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg&#34; alt=&#34;c&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://www.w3schools.com/cpp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg&#34; alt=&#34;cplusplus&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt;  &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg&#34; alt=&#34;docker&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg&#34; alt=&#34;git&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt;  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg&#34; alt=&#34;javascript&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://www.linux.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg&#34; alt=&#34;linux&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://nodejs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg&#34; alt=&#34;nodejs&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://www.python.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg&#34; alt=&#34;python&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg&#34; alt=&#34;react&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://unity.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg&#34; alt=&#34;unity&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;a href=&#34;https://unrealengine.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg&#34; alt=&#34;unreal&#34; width=&#34;40&#34; height=&#34;40&#34;/&gt; &lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt; 🤝🏻 Connect with Me &lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&amp;nbsp; &lt;a href=&#34;https://www.instagram.com/__itsyash/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://img.icons8.com/nolan/64/instagram-new.png&#34; width=&#34;50&#34; /&gt;&lt;/a&gt;  
+&amp;nbsp; &lt;a href=&#34;mailto:yashbhangale9@gmail.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://img.icons8.com/nolan/64/new-post.png&#34;  width=&#34;50&#34; /&gt;&lt;/a&gt;
+&amp;nbsp; &lt;a href=&#34;https://twitter.com/archuser69&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://img.icons8.com/nolan/64/x.png&#34; width=&#34;50&#34; /&gt;&lt;/a&gt;
+  &amp;nbsp; &lt;a href=&#34;https://www.linkedin.com/in/yashbhangale/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://img.icons8.com/nolan/64/linkedin.png&#34; width=&#34;50&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/yashbhangale/geeksdirhugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/links/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ts-logo-128.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

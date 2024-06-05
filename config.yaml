@@ -1,0 +1,185 @@
+baseURL: "https://geeksdirectory.in/"
+title: GeeksDirectory
+paginate: 5
+theme: stack
+
+# # menus for papermod
+
+# menu:
+#   main:
+#     - identifier: categories
+#       name: categories
+#       url: /categories/
+#       weight: 10
+#     - identifier: tags
+#       name: tags
+#       url: /tags/
+#       weight: 20
+#     - identifier: archives
+#       name: Archives
+#       url: /archives/
+#       weight: 30
+#     - identifier: example
+#       name: example.org
+#       url: https://example.org
+#       weight: 30
+
+# #home
+# params:
+#     homeInfoParams:
+#         Title: Hi there wave
+#         Content: Can be Info, links, about...
+
+#     socialIcons:
+#         - name: instagram
+#           url: "www.instagram.com"
+#         - name: github
+#           url: "www.github.com"
+#         - name: github
+#           url: "www.github.com"
+#         - name: github
+#           url: "www.github.com"
+#         - name: github
+#           url: "www.github.com"
+
+#     ShowBreadCrumbs: true
+
+#     cover:
+#       linkFullImages: true
+
+#     ShowTags: true
+
+#     ShowCategories: true
+
+#     ShowReadingTime: true
+
+#     ShowAuthor: true
+
+#     ShowShareButtons: true
+
+#     ShowPostNavLinks: true
+
+#     ShowCodeCopyButtons: true
+
+#     comments: true
+
+Params:
+  comments:
+      enabled: true
+      provider: giscus
+
+      giscus:
+          repo: yashbhangale/geeksdirhugo
+          repoID: R_kgDOLC9X0g
+          category: General
+          categoryID: DIC_kwDOLC9X0s4CcUa9
+          mapping: pathname
+          reactionsEnabled: 1
+          emitMetadata: 0
+          theme: dark
+  widgets:
+      homepage:
+          - type: search
+          - type: archives
+            params:
+                limit: 10
+          - type: categories
+            params:
+                limit: 10
+          - type: tag-cloud
+            params:
+                limit: 20
+      page:
+          - type: toc
+
+  Article:
+    math: true
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+      default: "Licensed under CC BY-NC-SA 4.0"
+
+  description: "Site description goes here"
+  mainSections:
+    - "post"
+  featuredImageField: "image"
+  rssFullContent: true
+  DateFormat:
+    published: "Jan 02, 2006"
+    lastUpdated: "Jan 02, 2006 15:04 MST"
+  Sidebar:
+    compact: false
+    emoji: ✌️
+    subtitle: moshi moshi
+    avatar:
+      enable: true
+      src: "img/icon.png"
+      local: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: -100
+      params:
+        icon: home
+        newTab: true
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: -100
+      params:
+        icon: tag
+        newTab: true
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/yashbhangale
+      params:
+        icon: brand-github
+
+    - identifier: twitter
+      name: Twitter
+      url: https://twitter.com/archuser69
+      params:
+        icon: brand-twitter
+
+    - identifier: instagram
+      name: Instagram
+      url: https://www.instagram.com/__yashhh9
+      params:
+        icon: instagram
+
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/yashbhangale/
+      params:
+        icon: linkedin
+
+    - identifier: youtube
+      name: YouTube
+      url: https://youtube.com
+      params:
+        icon: youtube
+
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+
+    - name: categories
+      weight: 200
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      xhtml: true
+      
