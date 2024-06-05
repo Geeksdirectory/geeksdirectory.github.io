@@ -1,4 +1,4 @@
-baseURL: "https://geeksdirectory.in/"
+baseURL: "https://geeksdirectory.github.io/"
 title: GeeksDirectory
 paginate: 5
 theme: stack
