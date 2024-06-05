@@ -84,4 +84,50 @@ less: View file contents one page at a time, with navigation options
 head: View the first few lines of a file
 tail: View the last few lines of a file
 ```
+## shell scripting structure 
+1. shebang(#!/bin/bash)
+The shebang (#!) is used at the beginning of a script to specify the interpreter that should be used to execute the script. The most common shebang for Bash scripts is #!/bin/bash.
+```
+#!/bin/bash
+echo "hii"
+```
+2. comments: used to add explanation and notes in the script 
+```
+#!/bin/bash
+echo hii
+# this is comment
+```
+3. stores the data that can be referenced and manipulated within the script 
+
+```
+#!/bin/bash
+# Assign a value to a variable
+greeting="Hello, World!"
+# Use the variable
+echo $greeting
+```
+- important points
+    No spaces around the = sign when assigning a value.
+    Use $ before the variable name to reference its value.
+
+- Variable Operations:
+
+    Environment Variables: Access environment variables using $VARIABLE_NAME.
+    Local Variables: Defined within the script and accessible only in that script.
+    Command Substitution: Assign the output of a command to a variable using backticks `command` or $(command).
+```
+#!/bin/bash
+# Command substitution
+current_date=$(date)
+echo "Today's date is: $current_date"
+```
+
+4. Quoting
+Quoting is used to handle strings and special characters. There are three types of quoting: single quotes, double quotes, and backticks.
+
+```
+#!/bin/bash
+name='John Doe'
+echo 'Hello, $name' # Outputs: Hello, $name
+```
 
