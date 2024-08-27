@@ -2,17 +2,187 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on GeeksDirectory</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://geeksdirectory.github.io/post/</link>
         <description>Recent content in Posts on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 04 Jun 2024 00:38:39 +0530</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 27 Aug 2024 17:17:13 +0530</lastBuildDate><atom:link href="https://geeksdirectory.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hosting_static_website_azure_ngnix</title>
+        <link>https://geeksdirectory.github.io/post/hosting_static_website_azure_ngnix/</link>
+        <pubDate>Tue, 27 Aug 2024 17:17:13 +0530</pubDate>
+        
+        <guid>https://geeksdirectory.github.io/post/hosting_static_website_azure_ngnix/</guid>
+        <description>&lt;p&gt;#hii&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Git configure password in linux</title>
+        <link>https://geeksdirectory.github.io/post/gitconfigurepasswordinlinux/</link>
+        <pubDate>Wed, 05 Jun 2024 12:24:01 +0530</pubDate>
+        
+        <guid>https://geeksdirectory.github.io/post/gitconfigurepasswordinlinux/</guid>
+        <description>&lt;h1 id=&#34;clone-the-desired-repo&#34;&gt;clone the desired repo&lt;/h1&gt;
+&lt;p&gt;(git clone repourl)&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/yashbhangale/geeksdirhugo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;assign-access-token-password-to-the-remote-repo&#34;&gt;assign access token (password) to the remote repo&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo git remote set-url origin https://Accesstokenpastehere@github.com/yashbhangale/geeksdirhugo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;then cd into repo&lt;/p&gt;
+&lt;h1 id=&#34;assign-username-and-user-email&#34;&gt;assign username and user email&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo git config --global user.email &amp;#34;yashbhangale9@gmail.com&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo git config --global user.name &amp;#34;yashbhangale&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>Shellscripting</title>
+        <link>https://geeksdirectory.github.io/post/shellscripting/</link>
+        <pubDate>Wed, 05 Jun 2024 11:52:01 +0530</pubDate>
+        
+        <guid>https://geeksdirectory.github.io/post/shellscripting/</guid>
+        <description>&lt;h2 id=&#34;basics-of-shell-scripting-&#34;&gt;basics of shell scripting :&lt;/h2&gt;
+&lt;h3 id=&#34;what-is-shell&#34;&gt;what is shell?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A shell is a command-line interpreter that provides a user interface for the Unix/Linux operating system. Users can typecommands to perform specific tasks such as navigating the file system, running programs, and managing system processes. Thereare different types of shells, with Bash (Bourne Again Shell) being one of the most popular.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;what-is-shell-scripting&#34;&gt;what is shell scripting?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shell scripting is a text file with a list of commands that instruct an operating system to perform certain tasks. A shell is an interface that interprets, processes, and executes these commands from the shell script. It can be particularly helpful to automate repetitive tasks, helping to save time and reduce human error.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;types-of-shells&#34;&gt;Types of Shells:&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;Bash (Bourne Again Shell)
+Zsh (Z Shell)
+Ksh (Korn Shell)
+Tcsh (Tenex C Shell)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A shell script is a text file containing a series of commands that the shell can execute. It typically has a .sh extension.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;creating-and-running-a-simple-shell-script&#34;&gt;Creating and Running a Simple Shell Script:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new file: Use a text editor like nano, vi, or gedit to create a new file. Name it example.sh.&lt;/li&gt;
+&lt;li&gt;Add the shebang line: The first line of the script should be #!/bin/bash to specify that the script should be run with Bash.&lt;/li&gt;
+&lt;li&gt;Add commands: Write some simple commands. For example:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+echo &amp;#34;Hello, World!&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Save the file and exit the editor.&lt;/li&gt;
+&lt;li&gt;Make the script executable: Change the file&amp;rsquo;s permissions to make it executable.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;chmod +x example.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Run the script: Execute the script by typing:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./example.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;basic-shell-scripting-commands&#34;&gt;Basic shell scripting commands&lt;/h2&gt;
+&lt;h3 id=&#34;navigating-the-filesystem&#34;&gt;Navigating the Filesystem&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;pwd (Print Working Directory)&lt;/li&gt;
+&lt;li&gt;ls (List)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    ls: Basic listing
+    ls -l: Long listing format (shows file permissions, ownership, size, and modification date)
+    ls -a: Lists all files, including hidden files (those starting with a dot)
+    ls -lh: Long listing with human-readable file sizes
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;cd (Change Directory)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    cd /path/to/directory: Change to a specific directory
+    cd ..: Move up one directory level
+    cd ~: Move to the home directory
+    cd -: Switch to the previous directory
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;mkdir (Make Directory)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir new_directory
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;rmdir (Remove Directory):
+remove an empty directory&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rmdir dirname
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;touch: create an empty file with touch command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;touch filename.extension
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;cp (copyfile/dir)&lt;/li&gt;
+&lt;li&gt;mv (move file/dir)&lt;/li&gt;
+&lt;li&gt;rm (remove):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rm file: Remove a file
+rm -r directory: Remove a directory and its contents recursively
+rm -i file: Prompt before each removal (interactive mode)
+rm -f file: Force removal without prompt (use with caution)
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;viewing file content&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat: Concatenate and display file contents
+less: View file contents one page at a time, with navigation options
+head: View the first few lines of a file
+tail: View the last few lines of a file
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;shell-scripting-structure&#34;&gt;shell scripting structure&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;shebang(#!/bin/bash)
+The shebang (#!) is used at the beginning of a script to specify the interpreter that should be used to execute the script. The most common shebang for Bash scripts is #!/bin/bash.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+echo &amp;#34;hii&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;comments: used to add explanation and notes in the script&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+echo hii
+# this is comment
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;stores the data that can be referenced and manipulated within the script&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+# Assign a value to a variable
+greeting=&amp;#34;Hello, World!&amp;#34;
+# Use the variable
+echo $greeting
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;important points
+No spaces around the = sign when assigning a value.
+Use $ before the variable name to reference its value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variable Operations:&lt;/p&gt;
+&lt;p&gt;Environment Variables: Access environment variables using $VARIABLE_NAME.
+Local Variables: Defined within the script and accessible only in that script.
+Command Substitution: Assign the output of a command to a variable using backticks &lt;code&gt;command&lt;/code&gt; or $(command).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+# Command substitution
+current_date=$(date)
+echo &amp;#34;Today&amp;#39;s date is: $current_date&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Quoting
+Quoting is used to handle strings and special characters. There are three types of quoting: single quotes, double quotes, and backticks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+name=&amp;#39;John Doe&amp;#39;
+echo &amp;#39;Hello, $name&amp;#39; # Outputs: Hello, $name
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
         <title>Docs</title>
-        <link>http://localhost:1313/post/docs/</link>
+        <link>https://geeksdirectory.github.io/post/docs/</link>
         <pubDate>Tue, 04 Jun 2024 00:38:39 +0530</pubDate>
         
-        <guid>http://localhost:1313/post/docs/</guid>
+        <guid>https://geeksdirectory.github.io/post/docs/</guid>
         <description>&lt;p&gt;#hii&lt;/p&gt;
+&lt;p&gt;how are you&lt;/p&gt;
+&lt;p&gt;aabara ka dabra&lt;/p&gt;
+&lt;p&gt;ooyee papaji&lt;/p&gt;
+&lt;p&gt;ooye paaji ooye&lt;/p&gt;
 </description>
         </item>
         
