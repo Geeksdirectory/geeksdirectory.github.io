@@ -23,4 +23,4 @@ ooye paaji ooye
 
 
 
-![[Pasted image 20240917174448.png]]
+!(hii)[Pasted image 20240917174448.png]]
