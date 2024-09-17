@@ -5,6 +5,7 @@ draft: false
 categories:
   - cloud
   - Azure certifications
+description: humba humba damba dmba
 ---
 
 #hii
@@ -23,4 +24,4 @@ ooye paaji ooye
 
 
 
-!(hii)[Pasted image 20240917174448.png]]
+!(hii)[Pasted image 20240917174448.png]
