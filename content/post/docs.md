@@ -10,8 +10,10 @@ how are you
 
 
 aabara ka dabra 
-
+dsadas
 ooyee papaji
-
+buibhker
+gergerger
+rgerge
 
 ooye paaji ooye
