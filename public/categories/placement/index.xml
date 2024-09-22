@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Placement on GeeksDirectory</title>
+        <link>http://localhost:1313/categories/placement/</link>
+        <description>Recent content in Placement on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/placement/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>operators in java</title>
+        <link>http://localhost:1313/post/operators-in-java/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/operators-in-java/</guid>
+        <description>&lt;h2 id=&#34;operators-in-java&#34;&gt;Operators in Java&lt;/h2&gt;
+&lt;p&gt;classified into different types, such as arithmetic, relational, logical, bitwise, assignment, and more.&lt;/p&gt;
+&lt;h3 id=&#34;arithmetic-operators&#34;&gt;Arithmetic Operators&lt;/h3&gt;
+&lt;p&gt;These operators are used to perform basic mathematical operations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt; (Addition)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt; (Subtraction)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*&lt;/code&gt; (Multiplication)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; (Division)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;%&lt;/code&gt; (Modulus - returns the remainder)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 10 ;
+int b = 10 ;
+System.out.println(a+b);
+System.out.println(a-b);
+System.out.println(a*b);
+System.out.println(a/b);
+System.out.println(a%b);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;relational-comparison-operators&#34;&gt;Relational (Comparison) Operators&lt;/h3&gt;
+&lt;p&gt;These operators compare two values and return a boolean value (&lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;==&lt;/code&gt; (Equal to)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!=&lt;/code&gt; (Not equal to)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; (Greater than)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;&lt;/code&gt; (Less than)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt; (Greater than or equal to)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt; (Less than or equal to)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 10;
+int b = 20;
+System.out.println( a &amp;lt; b );
+System.out.println( a == b );
+System.out.println( a!= b);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;logical-operator&#34;&gt;Logical Operator&lt;/h3&gt;
+&lt;p&gt;These operators are used for combining multiple conditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; (Logical AND)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;||&lt;/code&gt; (Logical OR)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!&lt;/code&gt; (Logical NOT)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 10;
+int b = 5;
+System.out.println(a &amp;gt; b &amp;amp;&amp;amp; a &amp;gt; 0); // Output: true
+System.out.println(a &amp;lt; b || a &amp;gt; 0); // Output: true
+System.out.println(!(a == b));      // Output: true
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;bitwise-operators&#34;&gt;Bitwise Operators&lt;/h3&gt;
+&lt;p&gt;These operators perform operations on bits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&lt;/code&gt; (Bitwise AND)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;|&lt;/code&gt; (Bitwise OR)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^&lt;/code&gt; (Bitwise XOR)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~&lt;/code&gt; (Bitwise NOT)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt; (Left shift)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; (Right shift)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; (Unsigned right shift)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+System.out.println(a &amp;amp; b); // Output: 1  (Binary: 0001)
+System.out.println(a | b); // Output: 7  (Binary: 0111)
+System.out.println(a ^ b); // Output: 6  (Binary: 0110)
+System.out.println(~a);    // Output: -6 (Binary: 1010)
+System.out.println(a &amp;lt;&amp;lt; 1); // Output: 10 (Binary: 1010)
+System.out.println(a &amp;gt;&amp;gt; 1); // Output: 2  (Binary: 0010)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;assignment-operators&#34;&gt;Assignment Operators&lt;/h4&gt;
+&lt;p&gt;These operators are used to assign values to variables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;=&lt;/code&gt; (Assigns value)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+=&lt;/code&gt; (Add and assign)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-=&lt;/code&gt; (Subtract and assign)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*=&lt;/code&gt; (Multiply and assign)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/=&lt;/code&gt; (Divide and assign)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;%=&lt;/code&gt; (Modulus and assign)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 10;
+a += 5;  // a = a + 5
+System.out.println(a);  // Output: 15
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://www.allaboutcircuits.com/uploads/articles/count-using-different-kinds-of-numeration-systems.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>my sql</title>
+        <link>http://localhost:1313/post/mysql-course/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/mysql-course/</guid>
+        <description>&lt;p&gt;Sql Datatypes&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20240917183249.png]]&lt;/p&gt;
+&lt;p&gt;char stores any type of strings&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
