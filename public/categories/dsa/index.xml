@@ -7,6 +7,156 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>bit manipulation in java</title>
+        <link>http://localhost:1313/post/bit-manipulation-in-java/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/bit-manipulation-in-java/</guid>
+        <description>&lt;p&gt;Bit manipulation is a powerful tool in programming that involves directly operating on bits (0s and 1s) of data.
+often used to optimize code for speed and memory usage in performance-critical applications.
+Java provides a set of bitwise operators that allow manipulation of individual bits.&lt;/p&gt;
+&lt;h3 id=&#34;bit-manipulation-in-java&#34;&gt;Bit Manipulation in Java&lt;/h3&gt;
+&lt;p&gt;Bit manipulation is a powerful tool in programming that involves directly operating on bits (0s and 1s) of data. It is often used to optimize code for speed and memory usage in performance-critical applications. Java provides a set of bitwise operators that allow manipulation of individual bits.&lt;/p&gt;
+&lt;h3 id=&#34;common-bitwise-operators-in-java&#34;&gt;Common Bitwise Operators in Java&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bitwise AND (&lt;code&gt;&amp;amp;&lt;/code&gt;)&lt;/strong&gt;:
+Compares each bit of two numbers and returns &lt;code&gt;1&lt;/code&gt; if both bits are &lt;code&gt;1&lt;/code&gt;, otherwise returns &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0011 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0001 in binary (1 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bitwise OR (&lt;code&gt;|&lt;/code&gt;)&lt;/strong&gt;:
+Compares each bit of two numbers and returns &lt;code&gt;1&lt;/code&gt; if at least one of the bits is &lt;code&gt;1&lt;/code&gt;, otherwise returns &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0011 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0111 in binary (7 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bitwise XOR (&lt;code&gt;^&lt;/code&gt;)&lt;/strong&gt;:
+Compares each bit of two numbers and returns &lt;code&gt;1&lt;/code&gt; if the bits are different, and &lt;code&gt;0&lt;/code&gt; if they are the same.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0011 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0110 in binary (6 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bitwise NOT (&lt;code&gt;~&lt;/code&gt;)&lt;/strong&gt;:
+Inverts all the bits of a number (1 becomes 0, and 0 becomes 1).&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt;a;  &lt;span style=&#34;color:#75715e&#34;&gt;// 1010 in binary (-6 in decimal due to two&amp;#39;s complement representation)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: -6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Left Shift (&lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;)&lt;/strong&gt;:
+Shifts the bits of the number to the left by the specified number of positions. This effectively multiplies the number by &lt;code&gt;2^n&lt;/code&gt; (where &lt;code&gt;n&lt;/code&gt; is the number of positions shifted).&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; 1;  &lt;span style=&#34;color:#75715e&#34;&gt;// 1010 in binary (10 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Right Shift (&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;)&lt;/strong&gt;:
+Shifts the bits of the number to the right by the specified number of positions. This effectively divides the number by &lt;code&gt;2^n&lt;/code&gt; (where &lt;code&gt;n&lt;/code&gt; is the number of positions shifted), but keeps the sign bit intact (preserving the sign for negative numbers).&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10;  &lt;span style=&#34;color:#75715e&#34;&gt;// 1010 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 1;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary (5 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Unsigned Right Shift (&lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;)&lt;/strong&gt;:
+Shifts the bits of the number to the right, but does not preserve the sign bit. It inserts &lt;code&gt;0&lt;/code&gt; in the leftmost bits. It treats the number as an unsigned value.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;10;  &lt;span style=&#34;color:#75715e&#34;&gt;// 11111111111111111111111111110110 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 1;  &lt;span style=&#34;color:#75715e&#34;&gt;// 01111111111111111111111111111011 in binary (2147483643 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(result);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 2147483643&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;common-bit-manipulation-techniques&#34;&gt;Common Bit Manipulation Techniques&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Checking if a number is odd or even&lt;/strong&gt;:
+You can use the bitwise AND operator to check if the least significant bit (LSB) is 1 (odd) or 0 (even).&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;boolean&lt;/span&gt; isOdd &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; 1) &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; 1;  &lt;span style=&#34;color:#75715e&#34;&gt;// If LSB is 1, the number is odd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(isOdd);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: true (since 5 is odd)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Swapping two numbers without a temporary variable&lt;/strong&gt;:
+You can swap two numbers using XOR.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5, b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// a becomes 6 (0110)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// b becomes 5 (0101)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt; b;  &lt;span style=&#34;color:#75715e&#34;&gt;// a becomes 3 (0011)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;, b: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: a: 3, b: 5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flipping all the bits of a number&lt;/strong&gt;:
+Use the bitwise NOT (&lt;code&gt;~&lt;/code&gt;) operator to flip all the bits.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// 0101 in binary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; flipped &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt;a;  &lt;span style=&#34;color:#75715e&#34;&gt;// 1010 in binary (-6 in decimal)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(flipped);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: -6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Counting the number of set bits (1-bits)&lt;/strong&gt;:
+You can count the number of 1s in the binary representation of a number using a loop or Java&amp;rsquo;s &lt;code&gt;Integer.bitCount()&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// Binary: 0101&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; count &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;bitCount&lt;/span&gt;(a);  &lt;span style=&#34;color:#75715e&#34;&gt;// Number of 1s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(count);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Checking if the &lt;code&gt;n&lt;/code&gt;-th bit is set&lt;/strong&gt;:
+You can check if the &lt;code&gt;n&lt;/code&gt;-th bit (starting from 0) is set to &lt;code&gt;1&lt;/code&gt; using the bitwise AND operator.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// Binary: 0101&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 2;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;boolean&lt;/span&gt; isSet &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; n)) &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; 0;  &lt;span style=&#34;color:#75715e&#34;&gt;// Check if the 2nd bit is set&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(isSet);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: true (since the 2nd bit is 1)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Setting the &lt;code&gt;n&lt;/code&gt;-th bit&lt;/strong&gt;:
+You can set the &lt;code&gt;n&lt;/code&gt;-th bit to &lt;code&gt;1&lt;/code&gt; using the bitwise OR operator.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// Binary: 0101&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 1;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; (1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; n);  &lt;span style=&#34;color:#75715e&#34;&gt;// Set the 1st bit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 7 (Binary: 0111)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clearing the &lt;code&gt;n&lt;/code&gt;-th bit&lt;/strong&gt;:
+You can clear the &lt;code&gt;n&lt;/code&gt;-th bit (set it to &lt;code&gt;0&lt;/code&gt;) using the bitwise AND with a mask that has the &lt;code&gt;n&lt;/code&gt;-th bit as &lt;code&gt;0&lt;/code&gt; and all other bits as &lt;code&gt;1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// Binary: 0101&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 2;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt;(1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; n);  &lt;span style=&#34;color:#75715e&#34;&gt;// Clear the 2nd bit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 1 (Binary: 0001)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Toggle the &lt;code&gt;n&lt;/code&gt;-th bit&lt;/strong&gt;:
+You can toggle the &lt;code&gt;n&lt;/code&gt;-th bit (flip it) using the bitwise XOR operator.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;  &lt;span style=&#34;color:#75715e&#34;&gt;// Binary: 0101&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 1;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt; (1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; n);  &lt;span style=&#34;color:#75715e&#34;&gt;// Toggle the 1st bit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);  &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 7 (Binary: 0111)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Bit manipulation in Java is a highly efficient way to perform operations at the bit level. By mastering bitwise operators and common techniques like setting, clearing, and toggling bits, you can write optimized and high-performance code. This is particularly useful in areas like cryptography, compression, graphics programming, and low-level systems programming.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>operators in java</title>
         <link>http://localhost:1313/post/operators-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
@@ -89,7 +239,198 @@ System.out.println(a &amp;gt;&amp;gt; 1); // Output: 2  (Binary: 0010)
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a = 10;
 a += 5;  // a = a + 5
 System.out.println(a);  // Output: 15
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;!()[https://www.allaboutcircuits.com/textbook/digital/chpt-1/decimal-versus-binary-numeration/]&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://www.allaboutcircuits.com/uploads/articles/count-using-different-kinds-of-numeration-systems.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>sorting in java</title>
+        <link>http://localhost:1313/post/sorting-in-java/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/sorting-in-java/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; bubble Sort ✅ 2024-09-22&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; selection sort ✅ 2024-09-22&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; insertion sort ✅ 2024-09-22&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;example of sorting : select for lowest to highest and vice-versa amazon&lt;/p&gt;
+&lt;h2 id=&#34;bubble-sort&#34;&gt;Bubble sort&lt;/h2&gt;
+&lt;p&gt;bhari element ko array k peeche ko push karte hain and hame ascending order ka array ilta hain&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;simple comparison-based sorting algorithm
+runs loop n - 1  times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bubble_sort&#34; data-lang=&#34;bubble_sort&#34;&gt;import java.util.Arrays;
+
+public class BubbleSort {
+
+    // Function to implement bubble sort
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        boolean swapped;  // A flag to detect if any swapping occurred in a pass
+
+        // Loop over the array n-1 times
+        for (int i = 0; i &amp;lt; n - 1; i++) {
+            swapped = false;
+
+            // Inner loop to compare adjacent elements
+            for (int j = 0; j &amp;lt; n - 1 - i; j++) {
+                // Swap if the current element is greater than the next
+                if (arr[j] &amp;gt; arr[j + 1]) {
+                    // Swap elements
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+
+                    swapped = true;  // Mark that a swap occurred
+                }
+            }
+
+            // If no elements were swapped in the inner loop, the array is already sorted
+            if (!swapped) break;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+
+        System.out.println(&amp;#34;Original array: &amp;#34; + Arrays.toString(arr));
+        
+        // Perform bubble sort
+        bubbleSort(arr);
+
+        System.out.println(&amp;#34;Sorted array: &amp;#34; + Arrays.toString(arr));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;explanation&#34;&gt;Explanation:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Outer Loop&lt;/strong&gt;: Runs &lt;code&gt;n-1&lt;/code&gt; times because, after each pass, the largest element is placed at the end of the unsorted section.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner Loop&lt;/strong&gt;: Compares adjacent elements in each pass. For each pair, if the first element is larger than the second, they are swapped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-it-works&#34;&gt;How It Works:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Initially, the largest number &amp;ldquo;bubbles&amp;rdquo; to the last position of the array.&lt;/li&gt;
+&lt;li&gt;In each subsequent pass, the next largest number is placed in its correct position.&lt;/li&gt;
+&lt;li&gt;This process continues until the entire array is sorted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bubble sort is easy to implement, but it&amp;rsquo;s inefficient for large datasets compared to more advanced algorithms like QuickSort or MergeSort. It&amp;rsquo;s mostly used for educational purposes to introduce sorting algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;selection-sort&#34;&gt;Selection Sort&lt;/h2&gt;
+&lt;p&gt;simple comparison-based sorting algorithm. It works by repeatedly selecting the smallest (or largest, depending on sorting order) element from the unsorted portion of the array and swapping it with the first unsorted element. The algorithm proceeds until the entire array is sorted.&lt;/p&gt;
+&lt;h4 id=&#34;how-selection-sort-works&#34;&gt;How Selection Sort Works:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Find the minimum element from the unsorted part of the array.&lt;/li&gt;
+&lt;li&gt;Swap it with the first element of the unsorted part.&lt;/li&gt;
+&lt;li&gt;Move the boundary of the sorted part one element to the right.&lt;/li&gt;
+&lt;li&gt;Repeat the process until the entire array is sorted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;time-complexity&#34;&gt;Time Complexity:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Worst-case, average-case, and best-case time complexity&lt;/strong&gt;: &lt;strong&gt;O(n²)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Selection_sort&#34; data-lang=&#34;Selection_sort&#34;&gt;public static void main(String args[]){
+	int arr[] = {7,8,3,1,2};
+	for(int i =0; i&amp;lt;arr.length-1;i++){
+		int smallest = i ;
+		for(int j=i+1; j&amp;lt;arr.length; i++){
+			smallest = j;
+		}
+	}
+	int temp = arr[smallest];
+	arr[smallest] = arr[i];
+	arr[i] = temp;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;explanation-1&#34;&gt;Explanation:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Outer Loop&lt;/strong&gt;: Traverses through the entire array. For each iteration, it considers the current element and searches for the smallest element in the remaining unsorted part.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner Loop&lt;/strong&gt;: Scans through the unsorted part of the array to find the minimum element.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Swapping&lt;/strong&gt;: Once the minimum element is found, it is swapped with the first unsorted element.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;how-it-works-1&#34;&gt;How It Works:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In the first pass, the smallest element is selected from the entire array and swapped with the first element.&lt;/li&gt;
+&lt;li&gt;In the second pass, the smallest element from the remaining unsorted part is selected and swapped with the second element, and so on.&lt;/li&gt;
+&lt;li&gt;This process continues until the entire array is sorted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;key-points&#34;&gt;Key Points:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Selection sort has a time complexity of &lt;strong&gt;O(n²)&lt;/strong&gt; for all cases (worst, average, and best), making it inefficient for large arrays.&lt;/li&gt;
+&lt;li&gt;It performs well with small datasets and is easy to implement and understand.&lt;/li&gt;
+&lt;li&gt;Unlike bubble sort, selection sort minimizes the number of swaps, making it more efficient in scenarios where writing to memory is expensive. However, it still performs a large number of comparisons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;insertion-sort&#34;&gt;Insertion Sort:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Insertion Sort&lt;/strong&gt; is a simple, comparison-based sorting algorithm that builds the final sorted array one element at a time. It works by dividing the array into a &amp;ldquo;sorted&amp;rdquo; and &amp;ldquo;unsorted&amp;rdquo; section. The sorted section is built from left to right, and each new element is inserted into its correct position in the sorted section.&lt;/p&gt;
+&lt;h4 id=&#34;how-insertion-sort-works&#34;&gt;How Insertion Sort Works:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Assume the first element is already sorted.&lt;/li&gt;
+&lt;li&gt;Take the next element and compare it with elements in the sorted section, moving it left until it is in the correct position.&lt;/li&gt;
+&lt;li&gt;Repeat for all elements in the unsorted section.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;time-complexity-1&#34;&gt;Time Complexity:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Worst-case and average-case time complexity&lt;/strong&gt;: &lt;strong&gt;O(n²)&lt;/strong&gt; (when the array is in reverse order).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best-case time complexity&lt;/strong&gt;: &lt;strong&gt;O(n)&lt;/strong&gt; (when the array is already sorted).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import java.util.Arrays;
+
+public class InsertionSort {
+
+    // Function to implement insertion sort
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+
+        // Start from the second element since the first is &amp;#34;already sorted&amp;#34;
+        for (int i = 1; i &amp;lt; n; i++) {
+            int key = arr[i];  // Element to be inserted into the sorted part
+            int j = i - 1;
+
+            // Move elements that are greater than &amp;#39;key&amp;#39; one position to the right
+            while (j &amp;gt;= 0 &amp;amp;&amp;amp; arr[j] &amp;gt; key) {
+                arr[j + 1] = arr[j];  // Shift element to the right
+                j--;
+            }
+
+            // Insert &amp;#39;key&amp;#39; into its correct position
+            arr[j + 1] = key;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6};
+
+        System.out.println(&amp;#34;Original array: &amp;#34; + Arrays.toString(arr));
+
+        // Perform insertion sort
+        insertionSort(arr);
+
+        System.out.println(&amp;#34;Sorted array: &amp;#34; + Arrays.toString(arr));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;explanation-2&#34;&gt;Explanation:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Outer Loop&lt;/strong&gt;: Iterates through the array starting from the second element, because the first element is already considered &amp;ldquo;sorted.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner Loop&lt;/strong&gt;: Compares the current element (key) with elements in the sorted section. If the current element is smaller, it shifts the larger elements to the right.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key&lt;/strong&gt;: The key is inserted into the correct position in the sorted section after shifting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-it-works-2&#34;&gt;How It Works:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In the first pass, the second element is compared to the first. If the second element is smaller, it is inserted before the first element.&lt;/li&gt;
+&lt;li&gt;In the next pass, the third element is compared to the elements in the sorted section (first and second elements). It is inserted into its correct position.&lt;/li&gt;
+&lt;li&gt;The process continues until all elements are sorted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;key-points-1&#34;&gt;Key Points:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Insertion Sort is efficient for &lt;strong&gt;small datasets&lt;/strong&gt; or &lt;strong&gt;nearly sorted arrays&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;It has a time complexity of &lt;strong&gt;O(n²)&lt;/strong&gt; in the worst and average cases, but &lt;strong&gt;O(n)&lt;/strong&gt; in the best case when the array is already sorted.&lt;/li&gt;
+&lt;li&gt;It is a &lt;strong&gt;stable sorting algorithm&lt;/strong&gt;, meaning it maintains the relative order of elements with equal values.&lt;/li&gt;
+&lt;li&gt;It can be more efficient than selection or bubble sort for small or nearly sorted arrays.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         

@@ -7,7 +7,7 @@ categories:
 ---
 ## four main pillars of Object-Oriented Programming (OOP) in simple terms:
 
-### **Encapsulation**:
+### 1.**Encapsulation**:
 
 - **What it is**: Encapsulation is like putting data and the methods (functions) that operate on that data inside a single unit, which is called a **class**. This keeps the data safe from outside interference and misuse.
 - **Why it’s useful**: It allows you to control how the data is accessed and modified. You can make certain data private and only accessible through methods, which provides security and avoids unwanted changes.
