@@ -158,10 +158,10 @@ You can toggle the &lt;code&gt;n&lt;/code&gt;-th bit (flip it) using the bitwise
         </item>
         <item>
         <title>operators in java</title>
-        <link>http://localhost:1313/post/operators-in-java/</link>
+        <link>http://localhost:1313/post/dsa/operators-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/operators-in-java/</guid>
+        <guid>http://localhost:1313/post/dsa/operators-in-java/</guid>
         <description>&lt;h2 id=&#34;operators-in-java&#34;&gt;Operators in Java&lt;/h2&gt;
 &lt;p&gt;classified into different types, such as arithmetic, relational, logical, bitwise, assignment, and more.&lt;/p&gt;
 &lt;h3 id=&#34;arithmetic-operators&#34;&gt;Arithmetic Operators&lt;/h3&gt;
@@ -251,10 +251,10 @@ System.out.println(a);  // Output: 15
         </item>
         <item>
         <title>sorting in java</title>
-        <link>http://localhost:1313/post/sorting-in-java/</link>
+        <link>http://localhost:1313/post/dsa/sorting-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/sorting-in-java/</guid>
+        <guid>http://localhost:1313/post/dsa/sorting-in-java/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; bubble Sort ✅ 2024-09-22&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; selection sort ✅ 2024-09-22&lt;/li&gt;

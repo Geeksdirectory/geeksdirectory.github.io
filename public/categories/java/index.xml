@@ -8,12 +8,12 @@
         <language>en</language>
         <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>OOPs in java</title>
-        <link>http://localhost:1313/post/oops-in-java/</link>
+        <link>http://localhost:1313/post/dsa/oops-in-java/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/oops-in-java/</guid>
+        <guid>http://localhost:1313/post/dsa/oops-in-java/</guid>
         <description>&lt;h2 id=&#34;four-main-pillars-of-object-oriented-programming-oop-in-simple-terms&#34;&gt;four main pillars of Object-Oriented Programming (OOP) in simple terms:&lt;/h2&gt;
-&lt;h3 id=&#34;encapsulation&#34;&gt;&lt;strong&gt;Encapsulation&lt;/strong&gt;:&lt;/h3&gt;
+&lt;h3 id=&#34;1encapsulation&#34;&gt;1.&lt;strong&gt;Encapsulation&lt;/strong&gt;:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;What it is&lt;/strong&gt;: Encapsulation is like putting data and the methods (functions) that operate on that data inside a single unit, which is called a &lt;strong&gt;class&lt;/strong&gt;. This keeps the data safe from outside interference and misuse.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Why it’s useful&lt;/strong&gt;: It allows you to control how the data is accessed and modified. You can make certain data private and only accessible through methods, which provides security and avoids unwanted changes.&lt;/li&gt;
@@ -275,10 +275,10 @@ You can toggle the &lt;code&gt;n&lt;/code&gt;-th bit (flip it) using the bitwise
         </item>
         <item>
         <title>operators in java</title>
-        <link>http://localhost:1313/post/operators-in-java/</link>
+        <link>http://localhost:1313/post/dsa/operators-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/operators-in-java/</guid>
+        <guid>http://localhost:1313/post/dsa/operators-in-java/</guid>
         <description>&lt;h2 id=&#34;operators-in-java&#34;&gt;Operators in Java&lt;/h2&gt;
 &lt;p&gt;classified into different types, such as arithmetic, relational, logical, bitwise, assignment, and more.&lt;/p&gt;
 &lt;h3 id=&#34;arithmetic-operators&#34;&gt;Arithmetic Operators&lt;/h3&gt;
@@ -368,10 +368,10 @@ System.out.println(a);  // Output: 15
         </item>
         <item>
         <title>sorting in java</title>
-        <link>http://localhost:1313/post/sorting-in-java/</link>
+        <link>http://localhost:1313/post/dsa/sorting-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/sorting-in-java/</guid>
+        <guid>http://localhost:1313/post/dsa/sorting-in-java/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; bubble Sort ✅ 2024-09-22&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; selection sort ✅ 2024-09-22&lt;/li&gt;
