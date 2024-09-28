@@ -7,7 +7,9 @@ categories:
 ---
 ## check if an array is sorted (strictly sorted)
 
-![[Pasted image 20240928082522.png]]
+
+![](https://i.imgur.com/kUDx16x.png)
+
 
 ```java
 public class Recursion2 {
@@ -39,8 +41,7 @@ public class Recursion2 {
 ```
 
 #### time complexity = O(n)
-
-![[Pasted image 20240928104917.png]]
+![](https://i.imgur.com/YsRLkfz.png)
 
 
 
