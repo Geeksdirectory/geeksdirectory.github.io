@@ -164,7 +164,8 @@ public class Recursion2 {
 }
 ```
 
-#### time complexity = O(n)
+>  time complexity = O(n)
+
 ![](https://i.imgur.com/YsRLkfz.png)
 
 ---
