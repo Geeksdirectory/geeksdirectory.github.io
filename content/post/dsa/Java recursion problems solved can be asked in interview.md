@@ -5,7 +5,131 @@ categories:
   - java
   - placement
 ---
-## check if an array is sorted (strictly sorted)
+## 1. Tower of Hanoi 
+
+![](https://i.imgur.com/8SAx5Qz.png)
+
+![](https://i.imgur.com/VQar2NA.png)
+
+> [!Rules:]
+> 1. Only one disk transferred in 1 step
+> 2. smaller disks are always kept on top of larger disks 
+
+```java
+public class Recursion { // Define a public class named 'Recursion'.
+  
+  // A static method to solve the Tower of Hanoi problem
+  public static void TowerOfHanoi(int n, String src, String helper, String dest) {
+    
+    // Base condition: If there's only one disk, move it directly from source to destination.
+    if (n == 1) {
+      // Print out the move of the single disk from source to destination
+      System.out.println("transfer disk " + n + " from " + src + " to " + dest);
+      return; // End the current recursive call when only one disk is left
+    }
+
+    // Recursive call: Move (n-1) disks from source to helper using destination as an auxiliary
+    TowerOfHanoi(n - 1, src, dest, helper);
+
+    // Move the nth disk (largest) from source to destination
+    System.out.println("transfer disk " + n + " from " + src + " to " + dest);
+
+    // Recursive call: Move (n-1) disks from helper to destination using source as an auxiliary
+    TowerOfHanoi(n - 1, helper, src, dest);
+  }
+  
+  // Main method: the entry point of the program
+  public static void main(String[] args) {
+    int n = 3; // Number of disks
+    // Call the TowerOfHanoi method to solve for 3 disks, with source as "Source", helper as "Helper", and destination as "Destination".
+    TowerOfHanoi(n, " Source ", " Helper ", " Destination ");
+  }
+}
+```
+
+>  Time complexity is = $O(2^n)$
+
+---
+## 2. Reverse a string using Recurssion
+
+abcd
+dcba
+
+
+![](https://i.imgur.com/Lf9KaEO.png)
+
+
+```java
+public class Recursion{
+  public  static void ReverseString(int index, String str) {
+    //base condition
+    if(index == 0 ){
+      System.out.print(str.charAt(index));
+      return;
+    }
+    
+    System.out.print(str.charAt(index));
+    ReverseString( index -1,str);
+  }
+  
+  public static void main (String[] args) {
+    String str = "abcdefg";
+    ReverseString( str.length()-1 , str);
+  }
+}
+```
+
+> Time complexity O(n)
+
+---
+## 3. find the last occurrence of the element in the string.
+
+>> reference video with time stamp =[[ https://youtu.be/u-HgzgYe8KA?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&t=1929]]
+
+![](https://i.imgur.com/riquZZU.png)
+
+```java
+public class Recursion {
+  public static int first = -1;
+  public static int last = -1;
+  
+  public static void findOccurrence(int index, String str, char element) {
+    // Base condition: If index reaches the length of the string, print first and last occurrence
+    if (index == str.length()) {
+      System.out.println("First occurrence: " + first);
+      System.out.println("Last occurrence: " + last);
+      return;
+    }
+
+    // Check if the current character matches the element
+    char currChar = str.charAt(index);
+    if (currChar == element) {
+      if (first == -1) {
+        // Set the first occurrence if it's the first time encountering the element
+        first = index;
+      } else {
+        // Update the last occurrence
+        last = index;
+      }
+    }
+
+    // Recursive call with index incremented to move forward
+    findOccurrence(index + 1, str, element);
+  }
+
+  public static void main(String[] args) {
+    String str = "abcdefga";  // Input string
+    findOccurrence(0, str, 'a');  // Start the search at index 0
+  }
+}
+
+
+```
+
+> time complexity: O(n)
+
+---
+## 4. check if an array is sorted (strictly sorted)
 
 
 ![](https://i.imgur.com/kUDx16x.png)
@@ -43,9 +167,8 @@ public class Recursion2 {
 #### time complexity = O(n)
 ![](https://i.imgur.com/YsRLkfz.png)
 
-
-
-## Move all 'X' to the end of string ("acbcxxd")
+---
+## 5.  Move all 'X' to the end of string ("acbcxxd")
 
 Given a string like `"axbcxxd"`, we want to move all the `'x'` characters to the end. The result for this example would be `"abcxdxx"`
 
@@ -93,9 +216,9 @@ public class MoveXToEnd {
 
 ```
 
-#### time complexity O(n)
+>  time complexity O(n)
 
-### Remove Duplicates of strings 
+## 6.Remove Duplicates of strings 
  
 
 ![](https://i.imgur.com/98boTPH.jpeg)
@@ -128,8 +251,8 @@ public class Recursion2 {
 }
 ```
 
-
-### print all the sub-sequences of a string "abc"
+---
+## 7. print all the sub-sequences of a string "abc"
 
 ![](https://i.imgur.com/caZ2lxN.png)
 ![](https://i.imgur.com/eNwoPlV.png)
@@ -159,9 +282,10 @@ public class Recursion2 {
 }
 ```
 
-#### time complexity = 2^n
+>  time complexity = 2^n
 
-### Print keypad combnation
+---
+## 8. Print keypad combnation
 
 ![](https://i.imgur.com/V5RJ7U9.jpeg)
 
