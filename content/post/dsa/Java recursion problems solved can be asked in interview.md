@@ -84,7 +84,7 @@ public class Recursion{
 ---
 ## 3. find the last occurrence of the element in the string.
 
->> reference video with time stamp =[[ https://youtu.be/u-HgzgYe8KA?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&t=1929]]
+>> reference video with time stamp =[[https://youtu.be/u-[HgzgYe8KA]()?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&t=1929]]
 
 ![](https://i.imgur.com/riquZZU.png)
 

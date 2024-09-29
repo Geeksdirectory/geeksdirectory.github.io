@@ -7,7 +7,13 @@ categories:
 ---
 ## four main pillars of Object-Oriented Programming (OOP) in simple terms:
 
+![](https://media.licdn.com/dms/image/v2/D5622AQFgjd9aqGS7BQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715347741886?e=2147483647&v=beta&t=D-s5QAsd_B0A-m37JyTjOMCQD1-Vy5g1JrmI2ZG-DCw)
+
+
 ### 1.**Encapsulation**:
+
+![](https://miro.medium.com/v2/resize:fit:622/1*axAnHOiQgWtblRlyhFBCbA.jpeg)
+
 
 - **What it is**: Encapsulation is like putting data and the methods (functions) that operate on that data inside a single unit, which is called a **class**. This keeps the data safe from outside interference and misuse.
 - **Why it’s useful**: It allows you to control how the data is accessed and modified. You can make certain data private and only accessible through methods, which provides security and avoids unwanted changes.
@@ -34,8 +40,10 @@ Here, `speed` is encapsulated (hidden) inside the `Car` class and can only be ac
 
 ### 2. **Inheritance**:
 
+![](https://cdn-images-1.medium.com/max/1080/1*gRily1Y6mlrOETJeKRgvgw.png)
+
 - **What it is**: Inheritance is when one class takes on the properties and methods of another class. The class that gives its properties is called the **parent** (or base class), and the class that inherits is called the **child** (or derived class).
-- **Why it’s useful**: It helps in **code reusability**. If multiple classes share similar features, you can put the shared features in a parent class and the child classes can reuse them. Plus, child classes can also add their own features.
+- **Why it’s useful**: It helps in **code re-usability**. If multiple classes share similar features, you can put the shared features in a parent class and the child classes can reuse them. Plus, child classes can also add their own features.
 - **Example**: Let’s say we have a `Vehicle` class with common properties like `speed` and methods like `drive()`. We can create specific classes like `Car` and `Bike` that inherit these properties from `Vehicle`.
 
 ```java
@@ -83,6 +91,7 @@ class Calculator {
 
 Here, the `add()` method is **overloaded**: one version takes two integers, and the other takes two doubles.
 
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230515230306/Overriding-in-Java-3-768.webp)
 **Example of Method Overriding (Run-time Polymorphism)**:
 
 ```java
@@ -101,6 +110,9 @@ class Dog extends Animal {
 
 ```
 In this case, `Dog` **overrides** the `sound()` method of `Animal`. Even though the method name is the same, the behavior is different.
+![](https://i.imgur.com/1lal53m.png)
+
+![](https://i.imgur.com/6Y9TtWy.png)
 
 ### 4. **Abstraction**:
 
