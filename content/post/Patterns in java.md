@@ -106,11 +106,13 @@ public class inverthalfpyramid {
 
 # 5. number pattern problem 
 
+```
 1 
 1 2 
 1 2 3 
 1 2 3 4 
 1 2 3 4 5
+```
 
 ``` java
 public class numberpattern {
@@ -128,11 +130,13 @@ public class numberpattern {
 
 # 6. invert pattern
 
+```
 1 2 3 4 5 
 1 2 3 4 
 1 2 3 
 1 2 
 1
+```
 
 ```java
 public class invertednumberpattern {
@@ -150,12 +154,13 @@ public class invertednumberpattern {
 ```
 
 # 7. Flloids triangle
-
+```
 1 
 2 3 
 4 5 6 
 7 8 9 10 
 11 12 13 14 15
+```
 
 ```java
 public class flloidstriangle {
@@ -175,11 +180,13 @@ public class flloidstriangle {
 
 # 8. binary triangle
  
+```
  1
  0 1
  1 0 1
  0 1 0 1
  1 0 1 0 1
+```
 
 ```java
 public class binarytriangle {
