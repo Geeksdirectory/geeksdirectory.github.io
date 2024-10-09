@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 539.5
   },
   "right": {
     "id": "359bd74976945535",
@@ -147,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1403bcbfc4da778e",
+  "active": "686815857ef4c3fe",
   "lastOpenFiles": [
     "Pasted image 20241008203508.png",
     "rough work.md",

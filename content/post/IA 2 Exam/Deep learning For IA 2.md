@@ -1,6 +1,9 @@
 ---
 title: Deep Learning For IA
 date: 2024-10-07
+categories:
+  - IA 2 Exam
+  - Deep learning
 ---
 
 # Assignment
