@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "a19c01fe2e866e6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "70a86c29825a6944",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1403bcbfc4da778e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "febbaf554e3fa9f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a4e26b19752842d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "686815857ef4c3fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "51d0f4dbb548f240",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "157009af7c610e4c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "359bd74976945535",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb7e365acb02e161",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ff0e90be7cdc995",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c052d5ed900218b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "359093316dd3a60e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2326a0d46269ad9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IA 2 Exam/Deep learning For IA 2.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1403bcbfc4da778e",
+  "lastOpenFiles": [
+    "Pasted image 20241008203508.png",
+    "rough work.md",
+    "IA 2 Exam/Deep learning For IA 2.md",
+    "fusion flux.md",
+    "Pasted image 20241008075601.png",
+    "Pasted image 20241008075515.png",
+    "Pasted image 20241008064249.png",
+    "Pasted image 20241008064151.png",
+    "Pasted image 20241008064112.png",
+    "IA 2 Exam/NLP.md",
+    "Important parameters to write in exam.md",
+    "Untitled"
+  ]
+}
