@@ -14,6 +14,85 @@ iso : 64bit amd64 iso
 
 
 
+# prerequisites
+
+To create a custom Linux distribution using the **Live Build** tool (commonly used for Debian-based distributions like Debian, Ubuntu, and their derivatives), you need to install several prerequisite packages. Here's a list of essential packages and a basic step-by-step guide for setting up the environment.
+
+### Prerequisites for Using `live-build`:
+
+1. **Debian/Ubuntu-based System:**
+   Ensure you are working on a Debian or Ubuntu system, as `live-build` is designed for these distributions.
+
+2. **Install Required Packages:**
+
+   Open a terminal and run the following command to install the required tools:
+
+   ```bash
+   sudo apt-get update
+   sudo apt-get install live-build debootstrap curl wget xorriso syslinux squashfs-tools genisoimage
+   ```
+
+   - **live-build**: The core tool to create live images.
+   - **debootstrap**: Helps in creating a minimal base system (required for bootstrapping a Debian system).
+   - **curl/wget**: For downloading additional files or packages during the build process.
+   - **xorriso**: A command-line ISO 9660 editor and CD image creation tool, needed for making ISO files.
+   - **syslinux**: For booting the system; used to configure boot loaders like ISOLINUX.
+   - **squashfs-tools**: Tools to create a compressed filesystem, which is commonly used in live images.
+   - **genisoimage**: Tool for creating the actual ISO image.
+
+3. **Optional Packages:**
+   Depending on the complexity of the custom distribution, you may need additional packages:
+
+   - **apt-cacher-ng**: If you plan to cache packages during repeated builds.
+     ```bash
+     sudo apt-get install apt-cacher-ng
+     ```
+
+   - **git**: To manage repositories or pull specific configuration files.
+     ```bash
+     sudo apt-get install git
+     ```
+
+   - **locales**: To manage system locales if you want to customize them.
+     ```bash
+     sudo apt-get install locales
+     ```
+
+   - **schroot**: To manage chroots if you are building in an isolated environment.
+     ```bash
+     sudo apt-get install schroot
+     ```
+
+4. **Configure Live Build Environment:**
+
+   After the necessary packages are installed, you can configure the build environment. For example:
+
+   ```bash
+   lb config
+   ```
+
+   This command sets up the default configuration for `live-build`. You can further customize it by adding options, such as specifying the distribution (Debian or Ubuntu version) or desktop environment.
+
+5. **Build the Image:**
+
+   Once the environment is configured, you can start building the ISO by running:
+
+   ```bash
+   sudo lb build
+   ```
+
+This process will generate a live ISO image that you can customize further by editing configuration files or adding packages as per your requirements.
+
+### Key Files and Directories:
+
+- **config/package-lists/**: You can place custom package lists here to include specific software in the build.
+- **config/includes.chroot/**: You can add custom files or scripts to be included in the final system.
+
+By ensuring these prerequisites are installed and following the steps above, you'll be able to create a custom Linux distribution using `live-build`.
+
+
+
+
 # 0th Config file
 
 ```
