@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "file": "rough work.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "file": "rough work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IA 2 Exam/Deep learning For IA 2.md",
+                "file": "rough work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IA 2 Exam/Deep learning For IA 2.md"
+                "file": "rough work.md"
               }
             }
           }
@@ -146,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "686815857ef4c3fe",
+  "active": "1403bcbfc4da778e",
   "lastOpenFiles": [
+    "IA 2 Exam/Deep learning For IA 2.md",
     "Pasted image 20241008203508.png",
     "rough work.md",
-    "IA 2 Exam/Deep learning For IA 2.md",
     "fusion flux.md",
     "Pasted image 20241008075601.png",
     "Pasted image 20241008075515.png",
