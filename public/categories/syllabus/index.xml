@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Syllabus on GeeksDirectory</title>
+        <link>http://localhost:1313/categories/syllabus/</link>
+        <description>Recent content in Syllabus on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language><atom:link href="http://localhost:1313/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>syllabus for DSA</title>
+        <link>http://localhost:1313/post/dsa/syllabus-for-dsa/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/dsa/syllabus-for-dsa/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Basic Java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; OOPs&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Time and Space Complexity&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; sorting algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Bubble sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Insertion sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Selection sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Merge sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Quick sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Heap sort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Patterns&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Recursion&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Backtracking&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Linked List&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Stack&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Queue&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Binary Tree&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; BST&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashSet&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashMap&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Trie&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Graph&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>syllabus for sem7</title>
+        <link>http://localhost:1313/post/syllabus/syllabus/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/syllabus/syllabus/</guid>
+        <description>&lt;h1 id=&#34;deep-learning&#34;&gt;[[Deep Learning]]&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241018114251.png]]
+![[Pasted image 20241018114303.png]]&lt;/p&gt;
+&lt;h1 id=&#34;bda&#34;&gt;[[BDA]]&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241018114311.png]]
+![[Pasted image 20241018114317.png]]&lt;/p&gt;
+&lt;h1 id=&#34;nlp&#34;&gt;[[NlP]]&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241018114357.png]]
+![[Pasted image 20241018114414.png]]&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

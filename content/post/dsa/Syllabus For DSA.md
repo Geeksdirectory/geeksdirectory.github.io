@@ -1,3 +1,12 @@
+---
+title: syllabus for DSA
+date: 2024-25-10
+categories:
+  - dsa
+  - syllabus
+draft:
+---
+
 
 - [ ] [[Basic Java]]
 - [ ] OOPs

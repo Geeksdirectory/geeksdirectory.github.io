@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "3ff7d2c4425bdcb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c56bc7c9aa01e0bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74bb9d913297786d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/dsa/Syllabus For DSA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syllabus For DSA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe7860342dc00bc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "16815359864a0d8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13da6836fa1150b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82e264cde4907aa7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "90732a571a098f8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6327d0845dfcdcc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "999792ba354671e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b46cdb15df5a73d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/post/dsa/Syllabus For DSA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Syllabus For DSA"
+            }
+          },
+          {
+            "id": "61facf4c8f2a8301",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/post/dsa/Syllabus For DSA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Syllabus For DSA"
+            }
+          },
+          {
+            "id": "e383db16606f83aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3193c3ca9c52bc8e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/post/dsa/Syllabus For DSA.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Syllabus For DSA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "74bb9d913297786d",
+  "lastOpenFiles": [
+    "public/categories/ia-2-exam/index.xml",
+    "public/categories/deep-learning/index.xml",
+    "public/categories/arrray/index.xml",
+    "public/categories/syllabus/index.xml",
+    "public/page/7/index.html",
+    "public/page/7",
+    "public/page/6/index.html",
+    "public/page/6",
+    "public/page/5/index.html",
+    "public/page/5",
+    "public/page/4/index.html",
+    "public/post/Pasted image 20241023144225.png",
+    "public/post/Pasted image 20241023144131.png",
+    "public/post/Pasted image 20241018114414.png",
+    "public/post/Pasted image 20241018114357.png",
+    "public/post/Pasted image 20241018114317.png",
+    "public/post/Pasted image 20241018114311.png",
+    "public/post/Pasted image 20241018114303.png",
+    "public/post/Pasted image 20241018114251.png",
+    "public/post/Pasted image 20241018114153.png",
+    "public/post/Pasted image 20241018114131.png"
+  ]
+}
