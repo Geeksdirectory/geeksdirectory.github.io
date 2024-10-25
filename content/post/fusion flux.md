@@ -2,6 +2,14 @@
 title: custom linux distro
 date: 2024-10-01
 ---
+
+# Run container
+
+```
+sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion fusionbuild1 /bin/bash
+
+```
+
 i want to make a custom linux distribution based on debain bookworm with live build tool please help me with that
 distribution usecase : for ai, ml /ds engineers
 based on : debain 12 bookworm
@@ -470,3 +478,230 @@ If you're still encountering issues, here are a few more things to try:
    ```
 
 After making these changes, clean and rebuild your system. If you're still facing issues, please provide the full output of the build process, and I'll be happy to help you troubleshoot further.
+
+
+
+# test with qemu 
+
+```
+qemu-system-x86_64 -cdrom '/home/yash/Desktop/live-image-amd64.hybrid.iso' -boot d -m 3000
+```
+
+
+# building and modififing chroot
+
+Using `chroot` allows you to enter a filesystem environment (in this case, the filesystem of your live-build) and interact with it as if it were the root of your system. This is very useful for testing changes like adding or removing programs without having to rebuild the entire ISO.
+
+Here's a step-by-step guide on how to use `chroot` in the context of a live-build:
+
+### Steps to Use `chroot` with Live-build
+
+1. **Prepare the Build Environment**
+   Make sure you have your live-build setup ready, and you have at least done the `lb build` command once to create the base filesystem. If you haven't built the image yet, run:
+   ```bash
+   lb build
+   ```
+   This will create a `chroot/` directory in your live-build project where the root filesystem resides.
+
+2. **Entering the `chroot` Environment**
+   Once the `chroot` directory is ready, you can enter it:
+   ```bash
+   sudo chroot path/to/chroot/
+   ```
+   For example, if you're in your live-build directory, it might be:
+   ```bash
+   sudo chroot chroot/
+   ```
+   Now you're inside the filesystem as if it's the root of your system.
+
+3. **Update Package Lists**
+   Inside the `chroot`, you’ll want to update the package list to make sure it has access to the latest repositories:
+   ```bash
+   apt-get update
+   ```
+
+4. **Installing Packages**
+   You can now install any packages you want to add to the final ISO. For example:
+   ```bash
+   apt-get install your-package
+   ```
+
+5. **Removing Packages**
+   Similarly, you can remove packages:
+   ```bash
+   apt-get remove your-package
+   ```
+
+6. **Testing and Configuring**
+   You can also modify and test configurations inside the `chroot` environment. You are working within the actual environment that will be part of your live system, so this allows you to test changes immediately.
+
+7. **Exiting the `chroot`**
+   Once you're done making changes, you can simply exit the `chroot` environment:
+   ```bash
+   exit
+   ```
+
+8. **Repack the ISO (if needed)**
+   If you are satisfied with the changes made in the `chroot`, you can rebuild the binary part of the ISO (not the full rebuild) to integrate the changes:
+   ```bash
+   lb clean --binary
+   lb build
+   ```
+
+   This will regenerate the ISO but keep the same base environment, making it faster.
+
+### Additional Notes:
+- **Mount proc, sys, and dev**: Some services or scripts inside `chroot` may require access to `/proc`, `/sys`, or `/dev`. You can mount these as follows before entering `chroot`:
+   ```bash
+   sudo mount -o bind /proc chroot/proc
+   sudo mount -o bind /sys chroot/sys
+   sudo mount -o bind /dev chroot/dev
+   ```
+   After you're done, unmount them:
+   ```bash
+   sudo umount chroot/proc
+   sudo umount chroot/sys
+   sudo umount chroot/dev
+   ```
+
+Using `chroot` allows you to make changes quickly without needing to rebuild the entire image. This can save a lot of time when testing packages or configurations.
+
+
+# add set users, change os name , and configure calamares
+
+
+### 1. **Add default username (`fusion`) and password (`fusion`), and make `fusion` user a sudoer**
+
+You can achieve this by editing the configuration of `live-build` to create a user with the required credentials. You'll modify the hooks to add the user and set up sudo permissions.
+
+- Create a `chroot` hook file:
+  ```bash
+  mkdir -p config/hooks/live
+  nano config/hooks/live/01-create-user.hook.chroot
+  ```
+
+- Add the following content to create the `fusion` user, set the password, and add it to the `sudo` group:
+  ```bash
+  #!/bin/bash
+
+  # Add 'fusion' user with password 'fusion'
+  useradd -m -s /bin/bash fusion
+  echo 'fusion:fusion' | chpasswd
+
+  # Add 'fusion' to sudoers
+  echo 'fusion ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/fusion
+  chmod 0440 /etc/sudoers.d/fusion
+  ```
+
+- Make the hook executable:
+  ```bash
+  chmod +x config/hooks/live/01-create-user.hook.chroot
+  ```
+
+### 2. **Add root user and set the password to `root`**
+
+You can add the `root` password within the same hook created in Step 1 or in a separate hook file.
+
+- In the same hook file (`01-create-user.hook.chroot`), add the following line:
+  ```bash
+  # Set root password to 'root'
+  echo 'root:root' | chpasswd
+  ```
+
+### 3. **Change OS name to `fusion` instead of Debian**
+
+To rebrand the OS, you will need to modify certain files that show the OS name.
+
+- Create another hook to replace all occurrences of `Debian` with `fusion`:
+  ```bash
+  nano config/hooks/live/02-change-os-name.hook.chroot
+  ```
+
+- Add the following commands to replace Debian with Fusion in key files:
+  ```bash
+  #!/bin/bash
+
+  # Change OS name from Debian to fusion
+  sed -i 's/Debian/fusion/g' /etc/issue
+  sed -i 's/Debian/fusion/g' /etc/os-release
+  sed -i 's/Debian/fusion/g' /etc/motd
+  ```
+
+- Make the hook executable:
+  ```bash
+  chmod +x config/hooks/live/02-change-os-name.hook.chroot
+  ```
+
+### 4. **Auto-start Calamares installer on booting the live OS**
+
+To automatically start the Calamares installer when the live system boots, you can configure an autostart file or a systemd service.
+
+- Create a file to handle Calamares autostart:
+  ```bash
+  mkdir -p config/includes.chroot/etc/xdg/autostart/
+  nano config/includes.chroot/etc/xdg/autostart/calamares.desktop
+  ```
+
+- Add the following content to auto-start Calamares:
+  ```bash
+  [Desktop Entry]
+  Type=Application
+  Exec=calamares
+  Hidden=false
+  NoDisplay=false
+  X-GNOME-Autostart-enabled=true
+  Name=Calamares Installer
+  Comment=Start Calamares Installer
+  ```
+
+### 5. **Remove Calamares installer after installing the distribution**
+
+Once the OS is installed, you will want to remove Calamares from the target system (the installed system). You can create a post-installation script for this purpose.
+
+- Create a new hook to remove Calamares after installation:
+  ```bash
+  nano config/hooks/post/03-remove-calamares.hook.postinst
+  ```
+
+- Add the following content to the hook to remove Calamares after the installation process:
+  ```bash
+  #!/bin/bash
+
+  # Remove Calamares after installation
+  apt-get purge --yes calamares
+  ```
+
+- Make the hook executable:
+  ```bash
+  chmod +x config/hooks/post/03-remove-calamares.hook.postinst
+  ```
+
+### Building the Live ISO
+
+Once you have completed all these customizations, you can build your custom Linux distribution using the `live-build` tool.
+
+- First, ensure everything is set up correctly, then start the build process:
+  ```bash
+  sudo lb build
+  ```
+
+This will generate the ISO for your custom Linux distribution with all the changes.
+
+---
+
+### Summary of Changes
+
+1. **User Setup:**
+   - `fusion` user is created with sudo privileges.
+   - `root` user is set up with the password `root`.
+
+2. **OS Branding:**
+   - OS name is changed from `Debian` to `fusion`.
+
+3. **Installer Autostart:**
+   - Calamares installer is set to autostart when the live system boots.
+
+4. **Post-Installation Cleanup:**
+   - Calamares is removed from the system after installation to prevent it from being present in the installed system.
+
+This setup allows you to fully customize the live distribution as per your requirements!

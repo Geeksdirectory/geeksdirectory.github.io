@@ -232,7 +232,7 @@ The **structure of the web** can be understood as a vast network of interconnect
 
 ### 6. **Dead Ends and Sink Pages**
    - **Dead ends** occur when a page has no outbound links, leaving no way for users to navigate to other pages.
-   - **Sink pages** have inbound links but no outbound links, potentially trapping users.
+   - **Sink pages** have inbound links but no  outbound links, potentially trapping users.
 
 ### 7. **Small-World Property**
    - The web exhibits the **small-world phenomenon**, where most pages are separated by only a few links, making it relatively easy to navigate between distant pages.
