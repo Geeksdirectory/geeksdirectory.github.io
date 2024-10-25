@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/dsa/Syllabus For DSA.md",
+                "file": "content/post/fusion flux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus For DSA"
+              "title": "fusion flux"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,6 +165,16 @@
   },
   "active": "74bb9d913297786d",
   "lastOpenFiles": [
+    "content/post/fusion/Work done till now.md",
+    "content/post/fusion/Untitled.md",
+    "content/post/dsa/Syllabus For DSA.md",
+    "content/post/dsa/sorting in java.md",
+    "content/post/dsa/operators in java.md",
+    "content/post/dsa/oops in java.md",
+    "content/post/dsa/Java recursion problems solved can be asked in interview.md",
+    "content/post/dsa/Java Recursion.md",
+    "content/post/dsa/Basic Java.md",
+    "content/post/dsa/Backtracking.md",
     "public/categories/ia-2-exam/index.xml",
     "public/categories/deep-learning/index.xml",
     "public/categories/arrray/index.xml",
@@ -174,7 +185,6 @@
     "public/page/6",
     "public/page/5/index.html",
     "public/page/5",
-    "public/page/4/index.html",
     "public/post/Pasted image 20241023144225.png",
     "public/post/Pasted image 20241023144131.png",
     "public/post/Pasted image 20241018114414.png",

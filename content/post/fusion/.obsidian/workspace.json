@@ -1,40 +1,24 @@
 {
   "main": {
-    "id": "8a5063e0e2ef368a",
+    "id": "5282600549ee60fb",
     "type": "split",
     "children": [
       {
-        "id": "f4471b4d49c74d0f",
+        "id": "ef4c178c14a37a06",
         "type": "tabs",
         "children": [
           {
-            "id": "e44aa0366367248f",
+            "id": "231bb0e7174c3c37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Work done till now.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7251a19f7032780b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "21eeb29e33d5a0b3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Work done till now"
             }
           }
         ]
@@ -43,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0694045ae4b98a55",
+    "id": "e015c880131cedd4",
     "type": "split",
     "children": [
       {
-        "id": "c985554f99537971",
+        "id": "baf3c553fe4feff2",
         "type": "tabs",
         "children": [
           {
-            "id": "f4a346cdfa115e11",
+            "id": "f802ecb1e358c5e2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +47,7 @@
             }
           },
           {
-            "id": "379df14670a588fe",
+            "id": "b2d0d11eecbbc6f8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +64,7 @@
             }
           },
           {
-            "id": "27847e5c007f126e",
+            "id": "c196c63c3a52e172",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,27 +73,28 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "68a4246edf1318a7",
+    "id": "7c5ffc128fe670d9",
     "type": "split",
     "children": [
       {
-        "id": "abf3a3696834fc34",
+        "id": "b6f32b6f3dca0b76",
         "type": "tabs",
         "children": [
           {
-            "id": "c22e926162de0a29",
+            "id": "a4d2423c4e7c7b39",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Work done till now.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Work done till now"
             }
           },
           {
-            "id": "f9df75d4b2340df1",
+            "id": "b289cad068a29b40",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Work done till now.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Work done till now"
             }
           },
           {
-            "id": "5d872eac4a4d418e",
+            "id": "ea4674045a27faf6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,15 +135,15 @@
             }
           },
           {
-            "id": "bb25b8dcdfee39c7",
+            "id": "f67b41e71c47e6f0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Work done till now.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Work done till now"
             }
           }
         ]
@@ -178,8 +163,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e44aa0366367248f",
+  "active": "b2d0d11eecbbc6f8",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Work done till now.md"
   ]
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syllabus For DSA.md",
-                "mode": "preview",
+                "file": "Basic Java.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus For DSA"
+              "title": "Basic Java"
             }
           }
         ]
@@ -72,25 +72,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "a900718a095eaf73",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Syllabus For DSA.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Syllabus For DSA"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,9 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c459033065c2a0e7",
+  "active": "41593b518dbee65b",
   "lastOpenFiles": [
-    "Basic Java.md",
-    "Syllabus For DSA.md"
+    "Syllabus For DSA.md",
+    "Syllabus For DSA.md",
+    "Basic Java.md"
   ]
 }
