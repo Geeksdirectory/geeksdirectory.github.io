@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a706db909ad9f1f",
+        "id": "6dc9533a9e49a073",
         "type": "tabs",
         "children": [
           {
-            "id": "41593b518dbee65b",
+            "id": "4fbfa9bb29d93f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic Java.md",
+                "file": "sorting algorithms/1. Bubble sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Java"
+              "title": "1. Bubble sort"
             }
           }
         ]
@@ -93,17 +93,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus For DSA.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "sorting algorithms/3. insertion sort.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Syllabus For DSA"
+              "title": "Backlinks for 3. insertion sort"
             }
           },
           {
@@ -139,13 +139,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syllabus For DSA.md"
+                "file": "sorting algorithms/3. insertion sort.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Syllabus For DSA"
+              "title": "Outline of 3. insertion sort"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,10 +163,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41593b518dbee65b",
+  "active": "0ddfd2f58698a7d8",
   "lastOpenFiles": [
-    "Syllabus For DSA.md",
-    "Syllabus For DSA.md",
-    "Basic Java.md"
+    "0. Syllabus For DSA.md",
+    "1. Basic Java.md",
+    "2. oops in java.md",
+    "sorting algorithms/1. Bubble sort.md",
+    "sorting in java.md",
+    "operators in java.md",
+    "Java recursion problems solved can be asked in interview.md",
+    "Java Recursion.md",
+    "Access Modifiers in Java.md",
+    "6. Backtracking.md",
+    "5. Recursion.md",
+    "4. Patterns.md",
+    "3. Time and Space Complexity.md",
+    "2. Insertion sort.md",
+    "sorting algorithms/3. insertion sort.md",
+    "sorting algorithms/2. Selection sort.md",
+    "images/Pasted image 20241031162049.png",
+    "images/Pasted image 20241031161316.png",
+    "images/Pasted image 20241031152748.png",
+    "images",
+    "images/Pasted image 20241031144534.png",
+    "images/Pasted image 20241030185440.png",
+    "sorting algorithms",
+    "backtracking.md"
   ]
 }
