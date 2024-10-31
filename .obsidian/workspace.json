@@ -51,12 +51,14 @@
             "id": "9056d31d5e2f917c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "dumpimgs/Pasted image 20241029204158.png"
+                "file": "content/post/Jobs - internship calendar 2025.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241029204158"
+              "icon": "lucide-file",
+              "title": "Jobs - internship calendar 2025"
             }
           }
         ],
@@ -215,10 +217,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13da6836fa1150b9",
+  "active": "9056d31d5e2f917c",
   "lastOpenFiles": [
-    "dumpimgs/Pasted image 20241029204211.png",
     "dumpimgs/Pasted image 20241029204158.png",
+    "dumpimgs/Pasted image 20241029204211.png",
     "dumpimgs/Pasted image 20241029204610.png",
     "dumpimgs",
     "dumpimgs/Pasted image 20241029204231.png",

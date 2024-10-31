@@ -1,3 +1,7 @@
+---
+title: Jobs - internship calendar 2025
+date: 2024-10-31
+---
 
 ![[Pasted image 20241029204158.png]]
 
