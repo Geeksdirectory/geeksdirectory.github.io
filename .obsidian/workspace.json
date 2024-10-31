@@ -27,18 +27,40 @@
             "id": "f62e4fc4b1c28b65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/post/dsa/5. Recursion.md",
-                "mode": "source",
-                "source": false
+                "file": "dumpimgs/Pasted image 20241029204610.png"
               },
-              "icon": "lucide-file",
-              "title": "5. Recursion"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241029204610"
+            }
+          },
+          {
+            "id": "de965e0df7cf159b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "dumpimgs/Pasted image 20241029204158.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241029204158"
+            }
+          },
+          {
+            "id": "9056d31d5e2f917c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "dumpimgs/Pasted image 20241029204158.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241029204158"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,8 +126,7 @@
               "title": "rough work"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,12 +215,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f62e4fc4b1c28b65",
+  "active": "13da6836fa1150b9",
   "lastOpenFiles": [
+    "dumpimgs/Pasted image 20241029204211.png",
+    "dumpimgs/Pasted image 20241029204158.png",
+    "dumpimgs/Pasted image 20241029204610.png",
+    "dumpimgs",
+    "dumpimgs/Pasted image 20241029204231.png",
+    "dumpimgs/Pasted image 20241029204342.png",
+    "dumpimgs/Pasted image 20241029204552.png",
+    "content/post/dsa/5. Recursion.md",
     "content/post/dsa/6. Backtracking.md",
     "content/post/dsa/Java Recursion.md",
     "content/post/Patterns in java.md",
-    "content/post/dsa/5. Recursion.md",
     "content/post/dsa/4. Patterns.md",
     "content/post/dsa/0. Syllabus For DSA.md",
     "content/post/fusion/Work done till now.md",
@@ -212,12 +240,6 @@
     "content/post/dsa/1.Basic Java.md",
     "content/post/dsa/1,Basic Java.md",
     "content/post/dsa/Access Modifiers in Java.md",
-    "Pasted image 20241029204610.png",
-    "Pasted image 20241029204552.png",
-    "Pasted image 20241029204342.png",
-    "Pasted image 20241029204231.png",
-    "Pasted image 20241029204211.png",
-    "Pasted image 20241029204158.png",
     "content/post/certifications/Github foundation.md",
     "content/post/bit manipulation in java.md",
     "Untitled.md",
@@ -229,7 +251,6 @@
     "content/post/IA 2 Exam/NLP.md",
     "content/post/dsa/operators in java.md",
     "content/post/IA 2 Exam/BDA Assignment.md",
-    "archetypes/tags.md",
     "public/categories/ia-2-exam/index.xml",
     "public/categories/deep-learning/index.xml",
     "public/categories/arrray/index.xml",
@@ -238,7 +259,6 @@
     "public/page/7",
     "public/page/6/index.html",
     "public/page/6",
-    "public/page/5/index.html",
     "public/post/Pasted image 20241023144225.png",
     "public/post/Pasted image 20241023144131.png",
     "public/post/Pasted image 20241018114414.png"
