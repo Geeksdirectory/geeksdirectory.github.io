@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Jobs - internship calendar 2025.md",
+                "file": "content/post/DevOps - Cloud/DevOps Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jobs - internship calendar 2025"
+              "title": "DevOps Roadmap"
             }
           }
         ],
@@ -219,6 +219,15 @@
   },
   "active": "9056d31d5e2f917c",
   "lastOpenFiles": [
+    "devops roadmap.pdf",
+    "Untitled.md",
+    "content/post/DevOps - Cloud/DevOps Roadmap.md",
+    "123.png.md",
+    "content/post/DevOps - Cloud",
+    "content/post/Pasted image 20241012161713.png",
+    "content/post/Pasted image 20241008064112.png",
+    "content/post/Pasted image 20241008064151.png",
+    "content/post/Jobs - internship calendar 2025.md",
     "dumpimgs/Pasted image 20241029204158.png",
     "dumpimgs/Pasted image 20241029204211.png",
     "dumpimgs/Pasted image 20241029204610.png",
@@ -233,7 +242,6 @@
     "content/post/dsa/4. Patterns.md",
     "content/post/dsa/0. Syllabus For DSA.md",
     "content/post/fusion/Work done till now.md",
-    "content/post/Jobs - internship calendar 2025.md",
     "content/post/rough work.md",
     "content/post/dsa/Pasted image 20241030185440.png",
     "content/post/dsa/3. Time and Space Complexity.md",
@@ -244,25 +252,18 @@
     "content/post/dsa/Access Modifiers in Java.md",
     "content/post/certifications/Github foundation.md",
     "content/post/bit manipulation in java.md",
-    "Untitled.md",
     "content/post/certifications",
     "movies to watch.md",
     "content/post/AI-900.md",
     "content/post/hosting_static_website_azure_ngnix.md",
     "content/post/fusion flux.md",
     "content/post/IA 2 Exam/NLP.md",
-    "content/post/dsa/operators in java.md",
-    "content/post/IA 2 Exam/BDA Assignment.md",
     "public/categories/ia-2-exam/index.xml",
     "public/categories/deep-learning/index.xml",
     "public/categories/arrray/index.xml",
     "public/categories/syllabus/index.xml",
     "public/page/7/index.html",
     "public/page/7",
-    "public/page/6/index.html",
-    "public/page/6",
-    "public/post/Pasted image 20241023144225.png",
-    "public/post/Pasted image 20241023144131.png",
-    "public/post/Pasted image 20241018114414.png"
+    "public/page/6/index.html"
   ]
 }
