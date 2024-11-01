@@ -6,4 +6,5 @@ categories:
   - cloud
 ---
 
+
 ![[devops roadmap.pdf]]
