@@ -8,59 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28dc6a3bfd649f5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/Deep Learning ( DL ).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep Learning ( DL )"
-            }
-          },
-          {
             "id": "cea9744fb07cedd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Deep Learning/Deep Learning ( DL ).md",
-                "mode": "source",
-                "source": false
+                "file": "Deep Learning/deeplearningQB2.pdf.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Deep Learning ( DL )"
+              "icon": "lucide-file-text",
+              "title": "deeplearningQB2.pdf"
+            }
+          },
+          {
+            "id": "6f8a3bf87de56922",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Deep Learning/deeplearningQB2.pdf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "deeplearningQB2.pdf"
             }
           },
           {
             "id": "48cb629517481e20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/feedforward.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "feedforward"
+              "title": "New tab"
             }
           },
           {
             "id": "9862880d25dc9719",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/feedforward.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "feedforward"
+              "title": "New tab"
             }
           },
           {
@@ -69,16 +57,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/sigmoid activation.md",
+                "file": "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sigmoid activation"
+              "title": "Fundamentals of Neural Networks"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Big data analysis ( BDA ).md",
+                "file": "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Big data analysis ( BDA )"
+              "title": "Backlinks for Fundamentals of Neural Networks"
             }
           },
           {
@@ -196,18 +184,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Big data analysis ( BDA ).md"
+                "file": "Deep Learning/Module 1/Fundamentals of Neural Networks.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Big data analysis ( BDA )"
+              "title": "Outline of Fundamentals of Neural Networks"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,12 +207,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cea9744fb07cedd6",
+  "active": "2fb2c803b65b74fd",
   "lastOpenFiles": [
-    "Deep Learning/feedforward.md",
+    "Deep Learning/Module 1/Pasted image 20241101163557.png",
+    "Deep Learning/Module 1/Pasted image 20241101124709.png",
+    "Deep Learning/Module 1/Pasted image 20241101124702.png",
+    "Deep Learning/Module 1/Pasted image 20241101121535.png",
+    "Deep Learning/Module 1/Pasted image 20241101121517.png",
+    "Deep Learning/deeplearningQB2.pdf.pdf",
+    "Deep Learning/deeplearningQB1.pdf",
+    "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
+    "Deep Learning/Module 1",
+    "Deep Learning/Module 1/feedforward.md",
     "Deep Learning/Pasted image 20241101100717.png",
-    "Deep Learning/Deep Learning ( DL ).md",
-    "Deep Learning/sigmoid activation.md",
+    "Deep Learning/Module 1/sigmoid activation.md",
     "Deep Learning/Pasted image 20241101093133.png",
     "imgdump/Pasted image 20241101092853.png",
     "imgdump/Pasted image 20241101092507.png",
@@ -234,10 +230,6 @@
     "Blockchain.md",
     "imgdump/Pasted image 20241031224258.png",
     "Pasted image 20241031224258.png",
-    "imgdump/Pasted image 20241031224136.png",
-    "imgdump/Pasted image 20241031224120.png",
-    "imgdump/Pasted image 20241031224102.png",
-    "imgdump/Pasted image 20241031224014.png",
     "Natural language processing ( NLP ).md",
     "imgdump",
     "Welcome.md"
