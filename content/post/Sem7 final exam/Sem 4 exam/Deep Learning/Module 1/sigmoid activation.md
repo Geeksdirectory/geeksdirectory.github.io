@@ -1,1 +1,0 @@
-The sigmoid activation function takes real values as input and converts them to numbers between 0 and 1 using the sigmoid formula.

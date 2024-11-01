@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
+                "file": "Deep Learning/Module 1/Activation Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentals of Neural Networks"
+              "title": "Activation Functions"
             }
           }
         ],
@@ -184,10 +184,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Module 1/Fundamentals of Neural Networks.md"
+                "file": "Deep Learning/Module 1/Activation Functions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Fundamentals of Neural Networks"
+              "title": "Outline of Activation Functions"
             }
           }
         ],
@@ -209,6 +209,13 @@
   },
   "active": "2fb2c803b65b74fd",
   "lastOpenFiles": [
+    "Deep Learning/Module 1/Pasted image 20241101164234.png",
+    "Deep Learning/Module 1/Pasted image 20241101164213.png",
+    "Deep Learning/Module 1/Pasted image 20241101164146.png",
+    "Deep Learning/Module 1/Pasted image 20241101164141.png",
+    "Deep Learning/Module 1/Pasted image 20241101164047.png",
+    "Deep Learning/Module 1/Pasted image 20241101163942.png",
+    "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
     "Deep Learning/Module 1/Pasted image 20241101163557.png",
     "Deep Learning/Module 1/Pasted image 20241101124709.png",
     "Deep Learning/Module 1/Pasted image 20241101124702.png",
@@ -216,20 +223,13 @@
     "Deep Learning/Module 1/Pasted image 20241101121517.png",
     "Deep Learning/deeplearningQB2.pdf.pdf",
     "Deep Learning/deeplearningQB1.pdf",
-    "Deep Learning/Module 1/Fundamentals of Neural Networks.md",
     "Deep Learning/Module 1",
     "Deep Learning/Module 1/feedforward.md",
-    "Deep Learning/Pasted image 20241101100717.png",
-    "Deep Learning/Module 1/sigmoid activation.md",
-    "Deep Learning/Pasted image 20241101093133.png",
-    "imgdump/Pasted image 20241101092853.png",
-    "imgdump/Pasted image 20241101092507.png",
+    "Deep Learning/Module 1/Activation Functions.md",
     "Deep Learning",
     "Big data analysis ( BDA ).md",
     "MIS.md",
     "Blockchain.md",
-    "imgdump/Pasted image 20241031224258.png",
-    "Pasted image 20241031224258.png",
     "Natural language processing ( NLP ).md",
     "imgdump",
     "Welcome.md"

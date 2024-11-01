@@ -131,7 +131,7 @@ categories:
 ![[Pasted image 20241101092853.png]]
 
 
-- Every node in the multi-layer perception uses a [[sigmoid activation]] function
+- Every node in the multi-layer perception uses a [[Activation Functions]] function
 - The sigmoid activation function takes real values as input and converts them to numbers between 0 and 1 using the sigmoid formula.
 
 ![[Pasted image 20241101093133.png]]
