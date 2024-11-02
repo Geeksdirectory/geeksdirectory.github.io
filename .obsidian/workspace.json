@@ -4,81 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c56bc7c9aa01e0bf",
+        "id": "60c39f5007d1e50f",
         "type": "tabs",
         "children": [
           {
-            "id": "144be460f6547c6f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/rough work.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "rough work"
-            }
-          },
-          {
-            "id": "f62e4fc4b1c28b65",
+            "id": "02368ceb35b83bee",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "dumpimgs/Pasted image 20241029204610.png"
+                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/deeplearningQB2.pdf.pdf"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241029204610"
-            }
-          },
-          {
-            "id": "de965e0df7cf159b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/DevOps - Cloud/DevOps Roadmap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DevOps Roadmap"
-            }
-          },
-          {
-            "id": "9056d31d5e2f917c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 4 exam/Big data analysis ( BDA ).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Big data analysis ( BDA )"
-            }
-          },
-          {
-            "id": "0bd3765484cdc657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/dsa/Access Modifiers in Java.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Access Modifiers in Java"
+              "icon": "lucide-file-text",
+              "title": "deeplearningQB2.pdf"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dsa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/dsa/Syllabus For DSA.md",
+                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/2.Training, optimization, Regularization of Deep network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Syllabus For DSA"
+              "title": "Backlinks for 2.Training, optimization, Regularization of Deep network"
             }
           },
           {
@@ -210,18 +151,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/dsa/Syllabus For DSA.md"
+                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/deeplearningQB2.pdf.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of Syllabus For DSA"
+              "title": "Outline of deeplearningQB2.pdf"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,53 +174,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13da6836fa1150b9",
+  "active": "02368ceb35b83bee",
   "lastOpenFiles": [
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233750.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233735.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233444.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233429.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233214.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102190302.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102195928.png",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102203543.png",
+    "Pasted image 20241102233044.png",
+    "content/post/rough work.md",
+    "dumpimgs/Pasted image 20241029204610.png",
+    "content/post/DevOps - Cloud/DevOps Roadmap.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Big data analysis ( BDA ).md",
+    "content/post/Projects/Oopsidian.md",
+    "content/post/IA 2 Exam/Deep learning For IA 2.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2",
+    "Untitled",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Untitled.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/feedforward.md",
+    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/Activation Functions.md",
+    "content/post/DevOps - Cloud/Docker.md",
+    "content/post/DevOps - Cloud/git.md",
+    "content/post/fusion flux.md",
+    "content/post/gitconfigurepasswordinlinux.md",
+    "Untitled.md",
+    "content/post/Projects",
     "archetypes/tags.md",
     "content/post/dsa/3. Time and Space Complexity.md",
     "content/post/dsa/0. Syllabus For DSA.md",
     "content/post/dsa/4. Patterns.md",
-    "dumpimgs/Pasted image 20241029204158.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Big data analysis ( BDA ).md",
     "content/post/dsa/Access Modifiers in Java.md",
     "content/post/dsa/1. Basic Java.md",
     "content/post/Sem7 final exam/Sem 4 exam/Blockchain.md",
     "content/post/Sem7 final exam/Sem 4 exam/Deep Learning ( DL ).md",
     "content/post/Sem7 final exam/Sem 4 exam/MIS.md",
     "content/post/Sem7 final exam/Sem 4 exam/Natural language processing ( NLP ).md",
-    "content/post/rough work.md",
-    "content/post/DevOps - Cloud/DevOps Roadmap.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Welcome.md",
     "content/post/Sem7 final exam/Sem 4 exam",
     "content/post/Sem7 final exam",
     "devops roadmap.pdf",
     "content/post/DevOps - Cloud/devops roadmap.pdf",
-    "Untitled.md",
-    "123.png.md",
     "content/post/DevOps - Cloud",
-    "content/post/Pasted image 20241012161713.png",
-    "content/post/Pasted image 20241008064112.png",
-    "content/post/Pasted image 20241008064151.png",
-    "content/post/Jobs - internship calendar 2025.md",
-    "dumpimgs/Pasted image 20241029204211.png",
-    "dumpimgs/Pasted image 20241029204610.png",
     "dumpimgs",
-    "dumpimgs/Pasted image 20241029204231.png",
-    "dumpimgs/Pasted image 20241029204342.png",
-    "dumpimgs/Pasted image 20241029204552.png",
-    "content/post/dsa/5. Recursion.md",
-    "content/post/dsa/6. Backtracking.md",
-    "content/post/dsa/Java Recursion.md",
-    "content/post/Patterns in java.md",
-    "content/post/fusion/Work done till now.md",
-    "content/post/dsa/Pasted image 20241030185440.png",
-    "content/post/dsa/2. oops in java.md",
-    "content/post/dsa/1.Basic Java.md",
-    "content/post/dsa/1,Basic Java.md",
-    "content/post/certifications/Github foundation.md",
-    "content/post/certifications",
-    "public/categories/ia-2-exam/index.xml",
-    "public/categories/deep-learning/index.xml",
-    "public/categories/arrray/index.xml"
+    "content/post/certifications"
   ]
 }
