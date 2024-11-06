@@ -16,7 +16,7 @@ categories:
 
 # module 4 
 
-## Autoencoders
+## [[AutoEncoders]]
 
 ![[Pasted image 20241008064112.png]]
 ![[Pasted image 20241008064151.png]]

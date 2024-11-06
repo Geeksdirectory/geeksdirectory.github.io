@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "60c39f5007d1e50f",
+        "id": "ab93d1b0d82a1c0f",
         "type": "tabs",
         "children": [
           {
-            "id": "02368ceb35b83bee",
+            "id": "6f8e02b135dcbecc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/deeplearningQB2.pdf.pdf"
+                "file": "content/post/resume/DevOps - Cloud.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "deeplearningQB2.pdf"
+              "icon": "lucide-file",
+              "title": "DevOps - Cloud"
+            }
+          },
+          {
+            "id": "cbc3bc0886c13619",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/big data and hadoop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "big data and hadoop"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.51103591918945
+    "width": 245.50260543823242
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -146,15 +163,15 @@
             }
           },
           {
-            "id": "3193c3ca9c52bc8e",
+            "id": "8913c5063f6de94b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/deeplearningQB2.pdf.pdf"
+                "file": "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/big data and hadoop.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of deeplearningQB2.pdf"
+              "title": "Outline of big data and hadoop"
             }
           }
         ],
@@ -174,52 +191,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02368ceb35b83bee",
+  "active": "cbc3bc0886c13619",
   "lastOpenFiles": [
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233750.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233735.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233444.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233429.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102233214.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102190302.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102195928.png",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2/Pasted image 20241102203543.png",
-    "Pasted image 20241102233044.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165405.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165353.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165337.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165323.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165309.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106165045.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106144517.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106141732.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/bdaqb2.pdf",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/bdaqb1.pdf",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/Pasted image 20241106140819.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/syllabus.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/big data and hadoop.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Pasted image 20241106140549.png",
+    "Syllabus.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis",
+    "content/post/Sem7 final exam/Sem 7 exam/Untitled.md",
+    "content/post/resume/common.md",
+    "content/post/resume/FullStack Dev.md",
+    "content/post/resume/DevOps - Cloud.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 3/AutoEncoders.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 4 to 6.md",
+    "content/post/resume",
+    "content/post/IA 2 Exam/Blockchain for ia 2.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 4",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 3/Pasted image 20241104202837.png",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 3",
+    "content/post/dsa/0. Syllabus For DSA.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/deeplearningQB2.pdf.pdf",
     "content/post/rough work.md",
-    "dumpimgs/Pasted image 20241029204610.png",
     "content/post/DevOps - Cloud/DevOps Roadmap.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Big data analysis ( BDA ).md",
+    "content/post/Sem7 final exam/Sem 7 exam/Big data analysis ( BDA ).md",
     "content/post/Projects/Oopsidian.md",
-    "content/post/IA 2 Exam/Deep learning For IA 2.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 2",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 2",
     "Untitled",
     "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Untitled.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/feedforward.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/Activation Functions.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/feedforward.md",
+    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/Activation Functions.md",
     "content/post/DevOps - Cloud/Docker.md",
     "content/post/DevOps - Cloud/git.md",
     "content/post/fusion flux.md",
     "content/post/gitconfigurepasswordinlinux.md",
-    "Untitled.md",
-    "content/post/Projects",
-    "archetypes/tags.md",
-    "content/post/dsa/3. Time and Space Complexity.md",
-    "content/post/dsa/0. Syllabus For DSA.md",
-    "content/post/dsa/4. Patterns.md",
-    "content/post/dsa/Access Modifiers in Java.md",
-    "content/post/dsa/1. Basic Java.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Blockchain.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Deep Learning ( DL ).md",
-    "content/post/Sem7 final exam/Sem 4 exam/MIS.md",
-    "content/post/Sem7 final exam/Sem 4 exam/Natural language processing ( NLP ).md",
-    "content/post/Sem7 final exam/Sem 4 exam",
-    "content/post/Sem7 final exam",
-    "devops roadmap.pdf",
-    "content/post/DevOps - Cloud/devops roadmap.pdf",
-    "content/post/DevOps - Cloud",
-    "dumpimgs",
-    "content/post/certifications"
+    "archetypes/tags.md"
   ]
 }

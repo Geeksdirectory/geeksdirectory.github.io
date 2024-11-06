@@ -1,0 +1,11 @@
+HTML
+CSS
+JS
+NextJS 
+ReactJS
+NodeJS
+Javascript
+MYSQL
+PostgreSQL
+MongoDB
+Postman
