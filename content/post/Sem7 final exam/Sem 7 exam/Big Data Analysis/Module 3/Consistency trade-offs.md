@@ -1,0 +1,1 @@
+Eventual consistency can lead to temporary data inconsistencies, which may be unsuitable for some applications.

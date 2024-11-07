@@ -149,6 +149,7 @@ Architecture:
     - ==Utilities: Supports Hadoop’s core operations and configuration==.
 
 #### Hadoop Ecosystem
+![[Pasted image 20241106172506.png]]
 
 The Hadoop ecosystem consists of a variety of tools and technologies that complement the core Hadoop components to provide a more comprehensive data processing and analytics solution.
 
