@@ -4,101 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ab93d1b0d82a1c0f",
+        "id": "c325e03611c118e8",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8e02b135dcbecc",
+            "id": "5bee348925a6505a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/1. syllabus.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. syllabus"
-            }
-          },
-          {
-            "id": "dd72781154b90ad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/GSOC Google Summer Of Code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GSOC Google Summer Of Code"
-            }
-          },
-          {
-            "id": "169f47a27ec597fc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/deeplearningQB1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "deeplearningQB1"
-            }
-          },
-          {
-            "id": "304d0478ee72a7a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/deeplearningQB2.pdf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "deeplearningQB2.pdf"
-            }
-          },
-          {
-            "id": "f7635e12fa2592f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/IA 2 Exam/BDA Assignment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BDA Assignment"
-            }
-          },
-          {
-            "id": "7e498b2c544a1036",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/bdaqb1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "bdaqb1"
-            }
-          },
-          {
-            "id": "2a68f7c624d4398c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Pasted image 20241106140549.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241106140549"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,8 +83,7 @@
               "title": "rough work"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -255,53 +173,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d543a10327426078",
+  "active": "5bee348925a6505a",
   "lastOpenFiles": [
-    "content/post/GSOC Google Summer Of Code.md",
-    "content/post/resume/common.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1/big data and hadoop.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 4 to 6.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/module 3/AutoEncoders.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/Activation Functions.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/deeplearningQB1.pdf",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/deeplearningQB2.pdf.pdf",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/Pasted image 20241109111154.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/Pasted image 20241109101508.png",
+    "content/post/Java Learning/1. Basic Java.md",
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/Sem7 final exam/Natural language processing ( NLP ).md",
+    "content/post/DSA",
+    "content/post/Sem7 final exam/Note note.md",
+    "content/post/Sem7 final exam/MIS.md",
+    "content/post/Sem7 final exam/Blockchain.md",
+    "content/post/Sem7 final exam/Big data analysis ( BDA ).md",
     "content/post/rough work.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 6/1. Real-time Big Data Models.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/1. syllabus.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 6/Pasted image 20241108163925.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 6/Pasted image 20241108163545.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/1. Finding Similar Items and clustering.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 6",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/Pasted image 20241108133950.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/Pasted image 20241108133851.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/Pasted image 20241108133606.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/Pasted image 20241108132504.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Pasted image 20241106140549.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/bdaqb1.pdf",
-    "content/post/IA 2 Exam/BDA Assignment.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5/Pasted image 20241108113821.png",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/bdaqb2.pdf",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/module 4/1. Mining Data Streams.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 5",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 3/Consistency trade-offs.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 3/1. NoSQL.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/module 4",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 3/developer agencet.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 3/Standardization Challenges.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Deep Learning/Module 1/feedforward.md",
-    "content/post/IA 2 Exam/Blockchain for ia 2.md",
-    "content/post/IA 2 Exam/Syllabus.md",
-    "content/post/IA 2 Exam/NLP.md",
-    "content/post/resume/DevOps - Cloud.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 3",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 2/HDFS and MapReduce.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 2",
-    "content/post/Sem7 final exam/Sem 7 exam/Big Data Analysis/Module 1",
-    "Syllabus.md",
-    "content/post/Sem7 final exam/Sem 7 exam/Untitled.md"
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241101092853.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241101092507.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224258.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224136.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224120.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224102.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224014.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223955.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223852.png",
+    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223812.png",
+    "content/post/Sem7 final exam/imgdump",
+    "content/post/Sem7 final exam/Deep Learning/module 3/AutoEncoders.md",
+    "content/post/Sem7 final exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
+    "content/post/Sem7 final exam/Deep Learning/Module 1/feedforward.md",
+    "content/post/Sem7 final exam/Deep Learning/Module 1/Activation Functions.md",
+    "content/post/Sem7 final exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
+    "content/post/Sem7 final exam/Deep Learning/module 4 to 6.md",
+    "content/post/Sem7 final exam/Deep Learning/module 3",
+    "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
+    "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
+    "content/post/Sem7 final exam/Deep Learning/Module 2",
+    "content/post/Sem7 final exam/Deep Learning/Module 1",
+    "content/post/Sem7 final exam/Deep Learning",
+    "content/post/Sem7 final exam/Big Data Analysis/module 4/1. Mining Data Streams.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 6/1. Real-time Big Data Models.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 5/1. Finding Similar Items and clustering.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 3/developer agencet.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 3/Standardization Challenges.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 3/Consistency trade-offs.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 3/1. NoSQL.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 2/HDFS and MapReduce.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 1/big data and hadoop.md",
+    "content/post/Sem7 final exam/Big Data Analysis/module 4",
+    "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf",
+    "content/post/Sem7 final exam/Big Data Analysis/1. syllabus.md",
+    "content/post/certifications/Azure/AI-900.md",
+    "content/post/learning/DevOps - Cloud/DevOps Roadmap.md"
   ]
 }
