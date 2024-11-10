@@ -16,3 +16,4 @@ date: 2024-06-04T00:38:39+05:30
 | Az l04            | Nlp wala (Ajink) | Sem 7 Starts 12th nov |
 | github foundation |                  |                       |
 
+https://www.youtube.com/watch?v=nq82V5OpapE
