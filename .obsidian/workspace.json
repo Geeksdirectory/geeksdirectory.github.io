@@ -11,13 +11,142 @@
             "id": "5bee348925a6505a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/1. Important Topics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. Important Topics"
+            }
+          },
+          {
+            "id": "43358d1e7ae5503b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/AlexNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AlexNet"
+            }
+          },
+          {
+            "id": "0961554683cd75db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/LeNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LeNet"
+            }
+          },
+          {
+            "id": "e59110fa25fcd3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/gradient Descent problem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gradient Descent problem"
+            }
+          },
+          {
+            "id": "3c4e2ceba307dc29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/GRU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GRU"
+            }
+          },
+          {
+            "id": "4fdf5671ea4f13b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/vanishing and exploding gradient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vanishing and exploding gradient"
+            }
+          },
+          {
+            "id": "d78ec8fb0b434754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/LSTM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LSTM"
+            }
+          },
+          {
+            "id": "5c8283d6c7243425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/module 3/AutoEncoders.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AutoEncoders"
+            }
+          },
+          {
+            "id": "1afbf991dd50bf2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Fundamentals of Neural Networks"
+            }
+          },
+          {
+            "id": "4b8718e5baf836bc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "deeplearningQB2.pdf"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +212,8 @@
               "title": "rough work"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,9 +303,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bee348925a6505a",
+  "active": "43358d1e7ae5503b",
   "lastOpenFiles": [
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111202718.png",
+    "content/post/Sem7 final exam/Deep Learning/1. Important Topics.md",
+    "content/post/Sem7 final exam/Deep Learning/AlexNet.md",
+    "content/post/Sem7 final exam/Deep Learning/LeNet.md",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111202413.png",
+    "content/post/Sem7 final exam/Deep Learning/gradient Descent problem.md",
+    "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
+    "content/post/Sem7 final exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
+    "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
+    "content/post/Sem7 final exam/Deep Learning/vanishing and exploding gradient.md",
+    "content/post/Sem7 final exam/Deep Learning/module 3/AutoEncoders.md",
+    "content/post/Sem7 final exam/Deep Learning/LSTM.md",
+    "content/post/Sem7 final exam/Deep Learning/GRU.md",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111170149.png",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111170126.png",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111151704.png",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111151637.png",
+    "content/post/Sem7 final exam/Deep Learning/RNN.md",
+    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111142928.png",
+    "content/post/Sem7 final exam/Deep Learning/module 4 to 6.md",
+    "content/post/Java Learning/bit manipulation in java.md",
     "content/post/Java Learning/1. Basic Java.md",
+    "content/post/Java Learning/0. Syllabus For DSA.md",
+    "content/post/Java Learning/4. Patterns.md",
+    "content/post/IA 2 Exam/Syllabus.md",
+    "content/post/IA 2 Exam/BDA Assignment.md",
+    "content/post/learning/git/gitconfigurepasswordinlinux.md",
+    "Untitled.canvas",
     "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/Sem7 final exam/Natural language processing ( NLP ).md",
     "content/post/DSA",
@@ -188,38 +345,12 @@
     "content/post/Sem7 final exam/imgdump/Pasted image 20241101092507.png",
     "content/post/Sem7 final exam/imgdump/Pasted image 20241031224258.png",
     "content/post/Sem7 final exam/imgdump/Pasted image 20241031224136.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224120.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224102.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224014.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223955.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223852.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031223812.png",
     "content/post/Sem7 final exam/imgdump",
-    "content/post/Sem7 final exam/Deep Learning/module 3/AutoEncoders.md",
-    "content/post/Sem7 final exam/Deep Learning/Module 2/2.Training, optimization, Regularization of Deep network.md",
-    "content/post/Sem7 final exam/Deep Learning/Module 1/feedforward.md",
-    "content/post/Sem7 final exam/Deep Learning/Module 1/Activation Functions.md",
-    "content/post/Sem7 final exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
-    "content/post/Sem7 final exam/Deep Learning/module 4 to 6.md",
     "content/post/Sem7 final exam/Deep Learning/module 3",
-    "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
-    "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
     "content/post/Sem7 final exam/Deep Learning/Module 2",
     "content/post/Sem7 final exam/Deep Learning/Module 1",
     "content/post/Sem7 final exam/Deep Learning",
-    "content/post/Sem7 final exam/Big Data Analysis/module 4/1. Mining Data Streams.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 6/1. Real-time Big Data Models.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 5/1. Finding Similar Items and clustering.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 3/developer agencet.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 3/Standardization Challenges.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 3/Consistency trade-offs.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 3/1. NoSQL.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 2/HDFS and MapReduce.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 1/big data and hadoop.md",
     "content/post/Sem7 final exam/Big Data Analysis/module 4",
-    "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf",
-    "content/post/Sem7 final exam/Big Data Analysis/1. syllabus.md",
-    "content/post/certifications/Azure/AI-900.md",
-    "content/post/learning/DevOps - Cloud/DevOps Roadmap.md"
+    "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf"
   ]
 }
