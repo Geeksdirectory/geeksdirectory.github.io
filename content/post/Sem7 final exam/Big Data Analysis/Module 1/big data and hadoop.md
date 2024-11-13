@@ -38,7 +38,7 @@ Big Data is generally defined by five main characteristics, often referred to as
 - **Value**:
     
     - The most important V, representing the ==_usefulness and insights_== that can be derived from Big Data.
-    - Turning data into actionable insights or ==added value for businesses==, such as improving decision-making or enhancing customer experiences.
+    - Turning data into actionable insights or ==added value for businesses==, such as ==improving decision-making== or enhancing customer experiences.
 
 
 ### Types of Big data 
@@ -54,7 +54,7 @@ Big Data is generally defined by five main characteristics, often referred to as
     - Examples: Social media ==posts, videos, images, emails, audio recordings, and web pages.==
 
 - **Semi-Structured Data**:
-    - Contains elements of== both structured and unstructured data.==
+    - Contains elements of ==both structured and unstructured data.==
     - Has an overall structure but lacks strict formatting (often in tagged formats).
     - Examples: ==JSON and XML files==, emails with metadata, and log files.
 
@@ -65,19 +65,19 @@ Big Data is generally defined by five main characteristics, often referred to as
     - Examples include social media posts, blog articles, emails, customer feedback, and online transaction records.
 
 - **Machine-Generated Data**:
-    - Produced by machines or devices without direct human input, often through ==sensors or automated processes==.
+    - Produced by ==machines or devices without direct human input==, often through ==sensors or automated processes==.
     - Examples include sensor data from IoT devices, server logs, GPS data, industrial machine logs, and weather sensors.
 
 - **Process-Mediated Data**:
     - Generated as a ==byproduct of business processes or activities.==
     - Often comes from enterprise applications like ==ERP, CRM, and financial systems.==
-    - Examples include supply chain data, sales and transaction records, and purchase histories.
+    - Examples ==include supply chain data, sales and transaction records, and purchase histories.==
 
 #### Types of Big Data Based on Analytics and Use Cases
 
 - **Operational Big Data**:
     - ==Generated from daily operations and business activities==, often in real-time.
-    - Used for process optimization, real-time analytics, and decision-making.
+    - ==Used for process optimization, real-time analytics, and decision-making.==
     - Examples: Log data, transaction records, and website activity.
 
 - **Analytical Big Data**:
