@@ -8,32 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4491e9e9b7b6ee43",
+            "id": "556f494bd32240ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Sem7 final exam/Big Data Analysis/1. Impt questions.md",
+                "file": "content/post/DSA/1. Linked List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Impt questions"
+              "title": "1. Linked List"
             }
           },
           {
-            "id": "556f494bd32240ab",
+            "id": "156a95bedd848418",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf"
+                "file": "content/post/DSA/dump.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "bdaqb2"
+              "icon": "lucide-file",
+              "title": "dump"
+            }
+          },
+          {
+            "id": "eb2684bd28ef6da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Java Learning/1. Basic Java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Basic Java"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324
+    "width": 368.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -189,11 +207,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4491e9e9b7b6ee43",
+  "active": "eb2684bd28ef6da6",
   "lastOpenFiles": [
-    "content/post/Sem7 final exam/Big Data Analysis/Module 1/big data and hadoop.md",
-    "content/post/Sem7 final exam/Big Data Analysis/1. Impt questions.md",
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/DSA/contiguous memory locations.md",
+    "content/post/DSA/dump.md",
+    "content/post/DSA/1. Linked List.md",
+    "content/post/Java Learning/primitive.md",
+    "content/post/Java Learning/1. Basic Java.md",
+    "content/post/DSA/Single linked list.md",
+    "content/post/DSA/Pasted image 20241115202536.png",
+    "content/post/DSA/Pasted image 20241115202203.png",
+    "content/post/DSA/Pasted image 20241115202038.png",
+    "content/post/DSA/Pasted image 20241115201811.png",
+    "content/post/DSA/Pasted image 20241115193301.png",
+    "content/post/DSA/Pasted image 20241115193131.png",
+    "content/post/DSA/Pasted image 20241115193010.png",
+    "content/post/DSA/Pasted image 20241115192550.png",
+    "content/post/DSA/Pasted image 20241115192508.png",
+    "content/post/DSA/Pasted image 20241115192415.png",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 5/1. Finding Similar Items and clustering.md",
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 6/1. Real-time Big Data Models.md",
+    "content/post/Sem7 final exam/Big Data Analysis/1. Impt questions.md",
+    "content/post/Sem7 final exam/Big Data Analysis/Module 1/big data and hadoop.md",
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
     "content/post/Sem7 final exam/Deep Learning/Module 1/1. Fundamentals of Neural Networks.md",
@@ -204,35 +241,16 @@
     "content/post/Sem7 final exam/Deep Learning/gradient Descent problem.md",
     "content/post/Sem7 final exam/Deep Learning/1. Important Topics.md",
     "content/post/Sem7 final exam/Deep Learning/LeNet.md",
-    "content/post/Sem7 final exam/Big Data Analysis/Module 6/1. Real-time Big Data Models.md",
     "content/post/Sem7 final exam/Big Data Analysis/module 4/1. Mining Data Streams.md",
     "content/post/Sem7 final exam/Big Data Analysis/Module 3/1. NoSQL.md",
     "content/post/Sem7 final exam/Big Data Analysis/Module 2/HDFS and MapReduce.md",
     "content/post/Sem7 final exam/Deep Learning/AlexNet.md",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111202718.png",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111202413.png",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111170149.png",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111170126.png",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111151704.png",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111151637.png",
     "content/post/Sem7 final exam/Deep Learning/RNN.md",
-    "content/post/Sem7 final exam/Deep Learning/Pasted image 20241111142928.png",
     "content/post/Sem7 final exam/Deep Learning/module 4 to 6.md",
     "content/post/Java Learning/bit manipulation in java.md",
-    "content/post/Java Learning/1. Basic Java.md",
-    "content/post/Java Learning/0. Syllabus For DSA.md",
-    "content/post/Java Learning/4. Patterns.md",
-    "content/post/IA 2 Exam/Syllabus.md",
-    "content/post/IA 2 Exam/BDA Assignment.md",
-    "content/post/learning/git/gitconfigurepasswordinlinux.md",
     "Untitled.canvas",
-    "content/post/DSA/0. Syllabus For DSA.md",
-    "content/post/Sem7 final exam/Natural language processing ( NLP ).md",
     "content/post/DSA",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241101092853.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241101092507.png",
-    "content/post/Sem7 final exam/imgdump/Pasted image 20241031224258.png",
     "content/post/Sem7 final exam/imgdump",
     "content/post/Sem7 final exam/Deep Learning/module 3",
     "content/post/Sem7 final exam/Deep Learning/Module 2",
