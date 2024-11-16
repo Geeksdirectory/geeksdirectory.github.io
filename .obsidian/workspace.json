@@ -4,53 +4,89 @@
     "type": "split",
     "children": [
       {
-        "id": "2b71b88d6d02b1e0",
+        "id": "cd00d2fd1bc8482c",
         "type": "tabs",
         "children": [
           {
-            "id": "556f494bd32240ab",
+            "id": "c05ffbc3844d1fb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "content/post/DSA/1. Linked List.md",
-                "mode": "source",
-                "source": false
+                "file": "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. Linked List"
+              "icon": "lucide-file-text",
+              "title": "4th QB MIS"
             }
           },
           {
-            "id": "156a95bedd848418",
+            "id": "4a390964c7516e75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "content/post/DSA/dump.md",
-                "mode": "source",
-                "source": false
+                "file": "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf"
               },
-              "icon": "lucide-file",
-              "title": "dump"
+              "icon": "lucide-file-text",
+              "title": "1st QB MIS"
             }
           },
           {
-            "id": "eb2684bd28ef6da6",
+            "id": "d10db904d8071744",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2nd QB MIS"
+            }
+          },
+          {
+            "id": "04c440fd0318bdd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Java Learning/1. Basic Java.md",
+                "file": "content/post/Sem7 final exam/MIS/1. MIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Basic Java"
+              "title": "1. MIS"
+            }
+          },
+          {
+            "id": "56e26ecd9ba8574d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/MIS/Computer Based Information System (CBIS).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computer Based Information System (CBIS)"
+            }
+          },
+          {
+            "id": "6b0489c661639bcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Sem7 final exam/MIS/Information system.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Information system"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324,
-    "collapsed": true
+    "width": 368.5026054382324
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -207,14 +242,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb2684bd28ef6da6",
+  "active": "56e26ecd9ba8574d",
   "lastOpenFiles": [
+    "content/post/Sem7 final exam/MIS/Pasted image 20241117003029.png",
+    "content/post/Sem7 final exam/MIS/1. MIS.md",
+    "content/post/Sem7 final exam/MIS/Computer Based Information System (CBIS).md",
+    "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
+    "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
+    "content/post/Sem7 final exam/MIS/Information system.md",
+    "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
+    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
+    "content/post/DSA/1. Linked List.md",
+    "content/post/DSA/dump.md",
+    "content/post/Java Learning/1. Basic Java.md",
     "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/DSA/contiguous memory locations.md",
-    "content/post/DSA/dump.md",
-    "content/post/DSA/1. Linked List.md",
     "content/post/Java Learning/primitive.md",
-    "content/post/Java Learning/1. Basic Java.md",
     "content/post/DSA/Single linked list.md",
     "content/post/DSA/Pasted image 20241115202536.png",
     "content/post/DSA/Pasted image 20241115202203.png",
@@ -244,17 +287,9 @@
     "content/post/Sem7 final exam/Big Data Analysis/module 4/1. Mining Data Streams.md",
     "content/post/Sem7 final exam/Big Data Analysis/Module 3/1. NoSQL.md",
     "content/post/Sem7 final exam/Big Data Analysis/Module 2/HDFS and MapReduce.md",
-    "content/post/Sem7 final exam/Deep Learning/AlexNet.md",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
-    "content/post/Sem7 final exam/Deep Learning/RNN.md",
-    "content/post/Sem7 final exam/Deep Learning/module 4 to 6.md",
-    "content/post/Java Learning/bit manipulation in java.md",
     "Untitled.canvas",
     "content/post/DSA",
-    "content/post/Sem7 final exam/imgdump",
-    "content/post/Sem7 final exam/Deep Learning/module 3",
-    "content/post/Sem7 final exam/Deep Learning/Module 2",
-    "content/post/Sem7 final exam/Deep Learning/Module 1",
-    "content/post/Sem7 final exam/Deep Learning"
+    "content/post/Sem7 final exam/imgdump"
   ]
 }
