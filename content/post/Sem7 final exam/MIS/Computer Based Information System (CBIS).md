@@ -1,4 +1,4 @@
-CBIS are those that make use of computer technology to perform some dedicated task
+CBIS are those that ==make use of computer technology== to perform some dedicated task
 
 ### The essential elements / components of a CBIS are:
 
@@ -65,8 +65,8 @@ CBIS are those that make use of computer technology to perform some dedicated ta
 | **Hardware**              | Physical devices like computers, storage, and networking equipment.            |
 | **Software**              | Programs that instruct the hardware to perform tasks.                          |
 | **Database**              | ==Central repository of structured data== for efficient access and management. |
-| **Communication-Network** | Infrastructure for data sharing and connectivity across systems.               |
-| **Business Procedure**    | Workflows and rules governing the use of the CBIS.                             |
+| **Communication-Network** | ==Infrastructure for data sharing and connectivity across systems.==           |
+| **Business Procedure**    | ==Workflows and rules governing the use of the CBIS.==                         |
 | **People**                | Users, IT staff, and decision-makers interacting with the system.              |
 
 Each of these components plays a critical role in ensuring the effectiveness and efficiency of a CBIS. Together, they create a cohesive system for managing and using information within an organization.
