@@ -78,7 +78,7 @@ Each of these components plays a critical role in ensuring the effectiveness and
 
 ![[Pasted image 20241117003818.png]]
 
-**Types of Computer-Based Information Systems (CBIS)** can be categorized based on their purpose, users, and the types of decisions they support. Here are the key types:
+**Types of Computer-Based Information Systems (CBIS)** can be categorized based on their ==purpose, users, and the types of decisions they support==. Here are the key types:
 
 ---
 
@@ -97,9 +97,9 @@ Each of these components plays a critical role in ensuring the effectiveness and
 ##### **2. Management Information Systems (MIS)**
 - **Purpose**: Provide summarized and structured information to middle managers for decision-making and reporting.
 - **Features**:
-  - Transform raw data from TPS into meaningful reports.
-  - Focus on operational efficiency and short-term planning.
-- **Examples**:
+  - ==Transform raw data from TPS into meaningful reports==.
+  - ==Focus on operational efficiency and short-term planning==.
+- **Examples**: 
   - Monthly sales reports.
   - Inventory control systems.
 
@@ -117,9 +117,9 @@ Each of these components plays a critical role in ensuring the effectiveness and
 ---
 
 ##### **4. Executive Information Systems (EIS) / Executive Support Systems (ESS)**
-- **Purpose**: Provide top executives with easy-to-access, summarized, and graphical data to support strategic decision-making.
+- **Purpose**: ==Provide top executives with easy-to-access, summarized, and graphical data to support strategic decision-making==.
 - **Features**:
-  - Focus on long-term planning and external environment analysis.
+  - Focus on long-tercomplex, non-routine decisions by analyzing data and presenting simulations or models.m planning and external environment analysis.
   - Use dashboards and data visualization.
 - **Examples**:
   - Market trend analysis systems.
