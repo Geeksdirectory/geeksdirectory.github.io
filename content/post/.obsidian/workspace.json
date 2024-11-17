@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dsa/Syllabus For DSA.md",
+                "file": "Sem7 final exam/MIS/1. MIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus For DSA"
+              "title": "1. MIS"
             }
           }
         ],
@@ -178,8 +178,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "686815857ef4c3fe",
+  "active": "8aaed4939123d319",
   "lastOpenFiles": [
+    "Sem7 final exam/MIS/1.MIS.md",
+    "Sem7 final exam/MIS/1. MIS.md",
+    "Sem7 final exam/MIS",
+    "Syllabus/Syllabus.md",
     "dsa/Basic Java.md",
     "dsa/DSA/Welcome.md",
     "dsa/DSA",
@@ -188,7 +192,6 @@
     "dsa/Backtracking.md",
     "Pasted image 20241023144225.png",
     "Pasted image 20241023144131.png",
-    "Syllabus/Syllabus.md",
     "fusion flux.md",
     "Untitled.md",
     "viva/Deep learning.md",
