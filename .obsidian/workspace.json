@@ -11,10 +11,14 @@
             "id": "62fef1c52e5ee802",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/post/DSA/functions in java.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "functions in java"
             }
           }
         ]
@@ -176,18 +180,22 @@
   },
   "active": "62fef1c52e5ee802",
   "lastOpenFiles": [
+    "content/post/DSA/Pasted image 20241118184020.png",
+    "content/post/DSA/Pasted image 20241118183745.png",
+    "content/post/DSA/Pasted image 20241118183722.png",
+    "content/post/DSA/Pasted image 20241118183209.png",
+    "content/post/DSA/Pasted image 20241118183142.png",
+    "content/post/DSA/Pasted image 20241118175747.png",
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/DSA/2. Conditions and loops.md",
     "content/post/DSA/functions in java.md",
     "content/post/DSA/Pasted image 20241118154907.png",
     "content/post/DSA/Pasted image 20241118150856.png",
     "content/post/DSA/Pasted image 20241118150649.png",
-    "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/DSA/1. Linked List.md",
     "content/post/DSA/Switch Cases and Statements in java.md",
     "content/post/DSA/Pasted image 20241118141545.png",
     "content/post/DSA/Pasted image 20241118141223.png",
-    "content/post/DSA/Pasted image 20241118140209.png",
-    "content/post/DSA/Pasted image 20241118135539.png",
-    "content/post/DSA/Pasted image 20241118134919.png",
     "content/post/Java Learning/1. Basic Java.md",
     "content/post/gsoc/GSOC Google Summer Of Code.md",
     "content/post/Java Learning/4. Merge sort.md",
@@ -199,11 +207,8 @@
     "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
-    "content/post/DSA/2. Conditions and loops.md",
     "content/post/Java Learning/2. Conditions and loops.md",
     "content/post/DSA/2. Conditions and loops 1.md",
-    "content/post/DSA/Pasted image 20241117195929.png",
-    "content/post/DSA/Pasted image 20241117195810.png",
     "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "content/post/DSA/dump.md",
     "content/post/DSA/contiguous memory locations.md",
