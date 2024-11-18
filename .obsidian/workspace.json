@@ -11,10 +11,14 @@
             "id": "7303b5352c9f4ab4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/post/gsoc/GSOC Google Summer Of Code.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "GSOC Google Summer Of Code"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gsoc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
