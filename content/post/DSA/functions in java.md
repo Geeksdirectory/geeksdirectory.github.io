@@ -150,8 +150,10 @@ Shadowing happens when a variable in an inner scope (e.g., a method or block) ha
 
 ### Function overloading
 
-![[Pasted image 20241118184020.png]]
+occurs at compiletime
 
+![[Pasted image 20241118184020.png]]
+ 
 
 
 
