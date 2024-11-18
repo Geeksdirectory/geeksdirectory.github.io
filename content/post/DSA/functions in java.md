@@ -26,6 +26,6 @@ In coding world the word "dry" means don't repeat yourself
 
 ### pass the value of numbers when you are calling the method in main()
 
-
+![[Pasted image 20241118154907.png]]
 
 
