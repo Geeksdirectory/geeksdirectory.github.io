@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b2faaf0686768992",
+        "id": "ba517815eb29ff85",
         "type": "tabs",
         "children": [
           {
-            "id": "f1d1c5fb9cbad52f",
+            "id": "62fef1c52e5ee802",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/DSA/functions in java.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "functions in java"
+              "title": "New tab"
             }
           }
         ]
@@ -178,13 +174,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1d1c5fb9cbad52f",
+  "active": "62fef1c52e5ee802",
   "lastOpenFiles": [
+    "content/post/DSA/functions in java.md",
     "content/post/DSA/Pasted image 20241118154907.png",
     "content/post/DSA/Pasted image 20241118150856.png",
     "content/post/DSA/Pasted image 20241118150649.png",
     "content/post/DSA/0. Syllabus For DSA.md",
-    "content/post/DSA/functions in java.md",
     "content/post/DSA/1. Linked List.md",
     "content/post/DSA/Switch Cases and Statements in java.md",
     "content/post/DSA/Pasted image 20241118141545.png",
@@ -208,7 +204,6 @@
     "content/post/DSA/2. Conditions and loops 1.md",
     "content/post/DSA/Pasted image 20241117195929.png",
     "content/post/DSA/Pasted image 20241117195810.png",
-    "content/post/DSA/Pasted image 20241117195655.png",
     "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "content/post/DSA/dump.md",
     "content/post/DSA/contiguous memory locations.md",

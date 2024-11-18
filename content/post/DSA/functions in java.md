@@ -29,3 +29,5 @@ In coding world the word "dry" means don't repeat yourself
 ![[Pasted image 20241118154907.png]]
 
 
+
+https://youtu.be/vvanI8NRlSI?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=1782
