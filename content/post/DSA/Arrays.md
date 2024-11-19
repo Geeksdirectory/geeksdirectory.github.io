@@ -141,4 +141,25 @@ An ArrayList in Java is a part of the `java.util` package and provides a resizab
 - Automatically resizes when elements are added or removed.
 - No need to define a fixed size at initialization.
 
+![[Pasted image 20241119143637.png]]
+
+
+internal working of arraylist
+
+![[Pasted image 20241119143937.png]]
+
+
+![[Pasted image 20241119144049.png]]
+
+
+
+Q1 swap 2 index in an array
+
+![[Pasted image 20241119151147.png]]
+
+
+Q2. find max value of array
+
+Q3. reverse of array
+
 
