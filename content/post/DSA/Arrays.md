@@ -52,9 +52,9 @@ array objects  in java may not be continuous (it depends on jvm)
 
 ![[Pasted image 20241119122826.png]]
  
-string are immutable and arrays are mutable in java (here mutable means we can change object) 
+strings are immutable and arrays are mutable in java (here mutable means we can change object) 
 
-
+ 
 
 
 
