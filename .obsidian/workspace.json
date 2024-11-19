@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ba517815eb29ff85",
+        "id": "ff34efba604ab8fc",
         "type": "tabs",
         "children": [
           {
-            "id": "62fef1c52e5ee802",
+            "id": "867c4dfaae0926c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/DSA/0. Syllabus For DSA.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "0. Syllabus For DSA"
-            }
-          },
-          {
-            "id": "4a71fb44e5d5d503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/DSA/Arrays.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324,
-    "collapsed": true
+    "width": 368.5026054382324
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -194,8 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a71fb44e5d5d503",
+  "active": "867c4dfaae0926c1",
   "lastOpenFiles": [
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/DSA/Arrays.md",
     "content/post/DSA/Pasted image 20241119151147.png",
     "content/post/DSA/Pasted image 20241119144049.png",
     "content/post/DSA/Pasted image 20241119143937.png",
@@ -206,9 +188,6 @@
     "content/post/DSA/Pasted image 20241119133500.png",
     "content/post/DSA/Pasted image 20241119133407.png",
     "content/post/DSA/Pasted image 20241119123237.png",
-    "content/post/DSA/Pasted image 20241119122826.png",
-    "content/post/DSA/0. Syllabus For DSA.md",
-    "content/post/DSA/Arrays.md",
     "content/post/DSA/functions in java.md",
     "content/post/DSA/2. Conditions and loops.md",
     "content/post/DSA/1. Linked List.md",
