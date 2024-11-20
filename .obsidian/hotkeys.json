@@ -30,5 +30,13 @@
       ],
       "key": "B"
     }
+  ],
+  "ollama:caption-selection": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }
