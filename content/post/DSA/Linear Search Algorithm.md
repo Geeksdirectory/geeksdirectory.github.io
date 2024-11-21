@@ -29,3 +29,65 @@ space complexity means are you taking extra space (extra space taken)
 
 
 
+```java
+public class Search { // Class name should start with an uppercase letter for convention
+
+    public static void main(String[] args) {
+        // Define an array of integers to search from
+        int[] nums = {1, 2, 3, 4, 2, 1, 3, 5, 6};
+
+        // The target value we want to find in the array
+        int target = 5;
+
+        // Call the linearSearch method to search for the target in the array
+        int ans = linearSearch(nums, target);
+
+        // Print the result: If found, it will print the index; otherwise, -1
+        System.out.println(ans);
+    }
+
+    /**
+     * Perform a linear search in the array.
+     * @param arr The array to search in
+     * @param target The value to search for
+     * @return The index of the target if found, otherwise -1
+     */
+    static int linearSearch(int[] arr, int target) {
+        // If the array is empty, return -1 as there is nothing to search
+        if (arr.length == 0) {
+            return -1;
+        }
+
+        // Iterate through each element in the array
+        for (int index = 0; index < arr.length; index++) {
+            // Get the current element at the index
+            int element = arr[index];
+
+            // Check if the current element matches the target
+            if (element == target) {
+                return index; // Return the index of the target if found
+            }
+        }
+
+        // If the loop completes and the target is not found, return -1
+        return -1;
+    }
+}
+
+```
+
+
+![[Pasted image 20241121140431.png]]
+![[Pasted image 20241121140448.png]]
+
+
+
+## Q. Is a char present in the string 
+
+![[Pasted image 20241121141242.png]]
+
+## Q. Search in Range
+
+
+![[Pasted image 20241121141646.png]]
+
