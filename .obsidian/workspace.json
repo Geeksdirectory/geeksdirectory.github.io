@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/DSA/Linear Search Algorithm.md",
+                "file": "content/post/Timelines/AZ-104.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Search Algorithm"
+              "title": "AZ-104"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324,
-    "collapsed": true
+    "width": 368.5026054382324
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -181,6 +180,9 @@
   },
   "active": "42aa0e559efd7640",
   "lastOpenFiles": [
+    "content/post/DSA/Linear Search Algorithm.md",
+    "content/post/Timelines/AZ-104.md",
+    "content/post/Timelines",
     "content/post/DSA/Pasted image 20241121154417.png",
     "content/post/DSA/Pasted image 20241121153519.png",
     "content/post/DSA/Pasted image 20241121153028.png",
@@ -189,7 +191,6 @@
     "content/post/interview/Interview tips.md",
     "content/post/DSA/Untitled 1.md",
     "content/post/DSA/Untitled.md",
-    "content/post/DSA/Linear Search Algorithm.md",
     "content/post/DSA/Pasted image 20241121142913.png",
     "content/post/DSA/Pasted image 20241121142851.png",
     "content/post/DSA/Pasted image 20241121142733.png",
@@ -197,7 +198,6 @@
     "content/post/DSA/Pasted image 20241121141646.png",
     "content/post/DSA/Pasted image 20241121141242.png",
     "content/post/DSA/Pasted image 20241121140448.png",
-    "content/post/DSA/Pasted image 20241121140431.png",
     "content/post/AZ-104/User defined routes.md",
     "content/post/AZ-104/1. Content Table.md",
     "content/post/AZ-104/Network watcher service.md",
@@ -226,7 +226,6 @@
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
-    "Untitled.canvas",
-    "content/post/DSA"
+    "Untitled.canvas"
   ]
 }
