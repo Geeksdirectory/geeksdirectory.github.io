@@ -1,4 +1,7 @@
 
+https://youtu.be/_HRA37X8N_Q?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ
+
+
 A simple algorithm that checks each element in the array until the target element is found or the end of the array is reached.
 
 ![[Pasted image 20241121133906.png]]
@@ -103,6 +106,14 @@ public class Search { // Class name should start with an uppercase letter for co
 ![[Pasted image 20241121142913.png]]
 
 
+## Q. Searching in 2d arrays
+
+## Q. Search and print maximum value in 2D array
 
 
- 
+ ![[Pasted image 20241121153028.png]]
+
+![[Pasted image 20241121153519.png]]
+
+
+![[Pasted image 20241121154417.png]]
