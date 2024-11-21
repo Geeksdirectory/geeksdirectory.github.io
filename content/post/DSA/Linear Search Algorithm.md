@@ -91,3 +91,18 @@ public class Search { // Class name should start with an uppercase letter for co
 
 ![[Pasted image 20241121141646.png]]
 
+
+![[Pasted image 20241121142520.png]]
+
+## Q. find minimum element in the ARRAY
+
+![[Pasted image 20241121142733.png]]
+
+![[Pasted image 20241121142851.png]]
+
+![[Pasted image 20241121142913.png]]
+
+
+
+
+ 
