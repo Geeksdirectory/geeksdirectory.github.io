@@ -25,4 +25,7 @@ best case time complexity (above image)
 O(n) (upper bound time complexity) means it will never go worst then linear, it is always better than linear
 
 
+space complexity means are you taking extra space (extra space taken)
+
+
 
