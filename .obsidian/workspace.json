@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/AZ-104/Azure loadbalancer.md",
+                "file": "content/post/AZ-104/1. Content Table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure loadbalancer"
+              "title": "1. Content Table"
             }
           },
           {
@@ -243,8 +243,8 @@
   },
   "active": "ae28ddbbad1f72a9",
   "lastOpenFiles": [
-    "content/post/AZ-104/1. Content Table.md",
     "content/post/AZ-104/Azure loadbalancer.md",
+    "content/post/AZ-104/1. Content Table.md",
     "content/post/AZ-104/Azure Bastion.md",
     "content/post/Timelines/AZ-104.md",
     "content/post/Sem7 final exam/MIS/1. MIS.md",
