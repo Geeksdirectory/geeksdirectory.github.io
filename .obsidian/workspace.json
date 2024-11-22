@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/AZ-104/hands-on.md",
+                "file": "content/post/DSA/Linear Search Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hands-on"
+              "title": "Linear Search Algorithm"
             }
           },
           {
@@ -257,9 +257,10 @@
   },
   "active": "e135921e78084c78",
   "lastOpenFiles": [
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/AZ-104/hands-on.md",
     "content/post/AZ-104/Pasted image 20241122213025.png",
     "content/post/AZ-104/1. Content Table.md",
-    "content/post/AZ-104/hands-on.md",
     "content/post/AZ-104/Azure loadbalancer.md",
     "content/post/AZ-104/Azure Bastion.md",
     "content/post/Timelines/AZ-104.md",
@@ -274,7 +275,6 @@
     "content/post/DSA/Pasted image 20241121154417.png",
     "content/post/DSA/Pasted image 20241121153519.png",
     "content/post/DSA/Pasted image 20241121153028.png",
-    "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/interview/1. main.md",
     "content/post/interview/Interview tips.md",
     "content/post/DSA/Untitled 1.md",
@@ -285,7 +285,6 @@
     "content/post/DSA/Pasted image 20241121142520.png",
     "content/post/DSA/Pasted image 20241121141646.png",
     "content/post/DSA/Pasted image 20241121141242.png",
-    "content/post/DSA/Pasted image 20241121140448.png",
     "content/post/AZ-104/User defined routes.md",
     "content/post/AZ-104/Network watcher service.md",
     "content/post/DSA/1. Linked List.md",
