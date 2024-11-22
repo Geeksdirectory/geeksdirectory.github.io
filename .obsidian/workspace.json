@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324
+    "width": 368.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -257,6 +258,7 @@
   },
   "active": "e135921e78084c78",
   "lastOpenFiles": [
+    "content/post/DSA/Pasted image 20241122234332.png",
     "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/AZ-104/hands-on.md",
     "content/post/AZ-104/Pasted image 20241122213025.png",

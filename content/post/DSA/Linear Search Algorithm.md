@@ -87,7 +87,7 @@ public class Search { // Class name should start with an uppercase letter for co
 
 ## Q. Is a char present in the string 
 
-![[Pasted image 20241121141242.png]]
+![[Pasted image 20241122234332.png]]
 
 ## Q. Search in Range
 
