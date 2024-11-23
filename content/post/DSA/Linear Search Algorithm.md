@@ -107,9 +107,12 @@ public class Search { // Class name should start with an uppercase letter for co
 
 
 ## Q. Searching in 2d arrays
+![[Pasted image 20241124002356.png]]
 
 ## Q. Search and print maximum value in 2D array
 
+
+![[Pasted image 20241124003045.png]]
 
  ![[Pasted image 20241121153028.png]]
 
