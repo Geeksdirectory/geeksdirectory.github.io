@@ -89,12 +89,14 @@
             "id": "c7f69328145fdf8a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf"
+                "file": "content/post/AZ-104/1. Content Table.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "4th QB MIS"
+              "icon": "lucide-file",
+              "title": "1. Content Table"
             }
           }
         ],
@@ -168,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324,
-    "collapsed": true
+    "width": 368.5026054382324
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -258,20 +259,20 @@
   },
   "active": "c7f69328145fdf8a",
   "lastOpenFiles": [
+    "content/post/AZ-104/hands-on.md",
+    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
+    "content/post/AZ-104/1. Content Table.md",
+    "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/1. MIS.md",
     "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
     "content/post/DSA/Linear Search Algorithm.md",
     "content/post/DSA/Pasted image 20241122234332.png",
     "content/post/DSA/0. Syllabus For DSA.md",
-    "content/post/AZ-104/hands-on.md",
     "content/post/AZ-104/Pasted image 20241122213025.png",
-    "content/post/AZ-104/1. Content Table.md",
     "content/post/AZ-104/Azure loadbalancer.md",
     "content/post/AZ-104/Azure Bastion.md",
     "content/post/Timelines/AZ-104.md",
     "content/post/Sem7 final exam/MIS/ORGANIZATIONAL STRATEGY, COMPETITIVE ADVANTAGES AND IS.md",
-    "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
-    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
     "content/post/Timelines",
     "content/post/DSA/Pasted image 20241121154417.png",
