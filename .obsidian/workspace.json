@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/DSA/Linear Search Algorithm.md",
+                "file": "content/post/AZ-104/Azure loadbalancer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Search Algorithm"
+              "title": "Azure loadbalancer"
             }
           }
         ]
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324
+    "width": 241.50043487548828
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -175,11 +175,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
   "active": "bb2c07e32a6414ef",
   "lastOpenFiles": [
+    "content/post/AZ-104/Pasted image 20241125212332.png",
+    "content/post/AZ-104/1. Content Table.md",
+    "devops roadmap.pdf",
+    "icon.png",
+    "movies to watch.md",
+    "readme.md",
+    "content/post/DSA/2. Conditions and loops.md",
+    "content/post/AZ-104/Azure loadbalancer.md",
+    "content/post/AZ-104/Pasted image 20241125204506.png",
+    "content/post/AZ-104/Pasted image 20241125204308.png",
+    "content/post/AZ-104/Pasted image 20241125204234.png",
+    "content/post/AZ-104/Pasted image 20241125204024.png",
+    "content/post/AZ-104/Pasted image 20241125203806.png",
+    "content/post/DSA/Linear Search Algorithm.md",
     "content/post/DSA/Pasted image 20241125193442.png",
     "content/post/DSA/Pasted image 20241125190847.png",
     "content/post/DSA/Pasted image 20241125185619.png",
@@ -188,29 +203,19 @@
     "content/post/Sem7 final exam/NLP",
     "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/1. MIS.md",
-    "content/post/AZ-104/1. Content Table.md",
-    "content/post/DSA/Linear Search Algorithm.md",
     "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "content/post/DSA/Pasted image 20241124003045.png",
-    "content/post/DSA/Pasted image 20241124002356.png",
     "content/post/AZ-104/hands-on.md",
     "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
-    "content/post/DSA/Pasted image 20241122234332.png",
-    "content/post/AZ-104/Pasted image 20241122213025.png",
-    "content/post/AZ-104/Azure loadbalancer.md",
     "content/post/AZ-104/Azure Bastion.md",
     "content/post/Timelines/AZ-104.md",
     "content/post/Sem7 final exam/MIS/ORGANIZATIONAL STRATEGY, COMPETITIVE ADVANTAGES AND IS.md",
     "content/post/Timelines",
-    "content/post/DSA/Pasted image 20241121154417.png",
-    "content/post/DSA/Pasted image 20241121153519.png",
-    "content/post/DSA/Pasted image 20241121153028.png",
     "content/post/interview/1. main.md",
     "content/post/interview/Interview tips.md",
     "content/post/DSA/Untitled 1.md",
     "content/post/DSA/Untitled.md",
-    "content/post/DSA/Pasted image 20241121142913.png",
     "content/post/AZ-104/User defined routes.md",
     "content/post/AZ-104/Network watcher service.md",
     "content/post/DSA/1. Linked List.md",
@@ -219,13 +224,9 @@
     "content/post/DSA/dump.md",
     "content/post/DSA/functions in java.md",
     "content/post/DSA/Switch Cases and Statements in java.md",
-    "content/post/DSA/Single linked list.md",
     "content/post/AZ-104",
-    "content/post/DSA/2. Conditions and loops.md",
-    "content/post/Java Learning/1. Basic Java.md",
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf",
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
-    "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
     "Untitled.canvas"
   ]
 }
