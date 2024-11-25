@@ -116,7 +116,18 @@ public class Search { // Class name should start with an uppercase letter for co
 
  ![[Pasted image 20241121153028.png]]
 
+![[Pasted image 20241125185619.png]]
+
+https://youtu.be/vwa9vgYz5ZE?t=35
+
+![[Pasted image 20241125190847.png]]
+
+
 ![[Pasted image 20241121153519.png]]
 
 
 ![[Pasted image 20241121154417.png]]
+
+
+
+![[Pasted image 20241125193442.png]]
