@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Azure loadbalancer"
             }
+          },
+          {
+            "id": "e0f29f894d4d9aa6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "content/post/AZ-104/Pasted image 20241125215904.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241125215904"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,8 +192,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "bb2c07e32a6414ef",
+  "active": "e0f29f894d4d9aa6",
   "lastOpenFiles": [
+    "content/post/AZ-104/Pasted image 20241125220040.png",
+    "content/post/AZ-104/Pasted image 20241119222255.png",
+    "content/post/AZ-104/Pasted image 20241125215904.png",
+    "content/post/AZ-104/Azure loadbalancer.md",
     "content/post/AZ-104/Pasted image 20241125212332.png",
     "content/post/AZ-104/1. Content Table.md",
     "devops roadmap.pdf",
@@ -188,7 +205,6 @@
     "movies to watch.md",
     "readme.md",
     "content/post/DSA/2. Conditions and loops.md",
-    "content/post/AZ-104/Azure loadbalancer.md",
     "content/post/AZ-104/Pasted image 20241125204506.png",
     "content/post/AZ-104/Pasted image 20241125204308.png",
     "content/post/AZ-104/Pasted image 20241125204234.png",
@@ -196,8 +212,6 @@
     "content/post/AZ-104/Pasted image 20241125203806.png",
     "content/post/DSA/Linear Search Algorithm.md",
     "content/post/DSA/Pasted image 20241125193442.png",
-    "content/post/DSA/Pasted image 20241125190847.png",
-    "content/post/DSA/Pasted image 20241125185619.png",
     "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/Sem7 final exam/NLP/1. main.md",
     "content/post/Sem7 final exam/NLP",
@@ -205,7 +219,6 @@
     "content/post/Sem7 final exam/MIS/1. MIS.md",
     "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
     "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
-    "content/post/DSA/Pasted image 20241124003045.png",
     "content/post/AZ-104/hands-on.md",
     "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "content/post/AZ-104/Azure Bastion.md",

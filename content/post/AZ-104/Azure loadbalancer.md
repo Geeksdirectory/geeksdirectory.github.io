@@ -37,5 +37,17 @@ To use  loadbalancer it is necessary to make a machines (vms) in availability se
 ![[Pasted image 20241125212332.png]]
 
 ---
+### Deployment of basic load balancer in azure
+
+![[Pasted image 20241125215904.png]]
+
+---
+
+![[Pasted image 20241125220040.png]]
+
+---
+
+# failed to setup load-balancer bcoz my vms are not on availability set it is on availability zones plz rectify this :(                      {lab 116}
 
 
+---
