@@ -4,89 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "adf3ed357f565fb5",
+        "id": "de01d435c8a8921e",
         "type": "tabs",
         "children": [
           {
-            "id": "7266850e4b25f47d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "1st QB MIS"
-            }
-          },
-          {
-            "id": "72cc6eed4638d3d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Sem7 final exam/MIS/1. MIS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. MIS"
-            }
-          },
-          {
-            "id": "ae28ddbbad1f72a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/AZ-104/1. Content Table.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Content Table"
-            }
-          },
-          {
-            "id": "e135921e78084c78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/DSA/Linear Search Algorithm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Search Algorithm"
-            }
-          },
-          {
-            "id": "ce6799c5fde4eaf6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2nd QB MIS"
-            }
-          },
-          {
-            "id": "31b0c7b7dcf46401",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "3rd QB MIS"
-            }
-          },
-          {
-            "id": "c7f69328145fdf8a",
+            "id": "bb2c07e32a6414ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,8 +21,7 @@
               "title": "Linear Search Algorithm"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5026054382324,
-    "collapsed": true
+    "width": 368.5026054382324
   },
   "right": {
     "id": "6327d0845dfcdcc2",
@@ -258,17 +178,19 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "c7f69328145fdf8a",
+  "active": "bb2c07e32a6414ef",
   "lastOpenFiles": [
+    "content/post/DSA/0. Syllabus For DSA.md",
+    "content/post/Sem7 final exam/NLP/1. main.md",
+    "content/post/Sem7 final exam/NLP",
+    "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
+    "content/post/Sem7 final exam/MIS/1. MIS.md",
+    "content/post/AZ-104/1. Content Table.md",
+    "content/post/DSA/Linear Search Algorithm.md",
+    "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
+    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "content/post/DSA/Pasted image 20241124003045.png",
     "content/post/DSA/Pasted image 20241124002356.png",
-    "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
-    "content/post/DSA/Linear Search Algorithm.md",
-    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
-    "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
-    "content/post/AZ-104/1. Content Table.md",
-    "content/post/Sem7 final exam/MIS/1. MIS.md",
-    "content/post/DSA/0. Syllabus For DSA.md",
     "content/post/AZ-104/hands-on.md",
     "content/post/Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "content/post/DSA/Pasted image 20241122234332.png",
@@ -288,7 +210,6 @@
     "content/post/DSA/Pasted image 20241121142913.png",
     "content/post/DSA/Pasted image 20241121142851.png",
     "content/post/DSA/Pasted image 20241121142733.png",
-    "content/post/DSA/Pasted image 20241121142520.png",
     "content/post/AZ-104/User defined routes.md",
     "content/post/AZ-104/Network watcher service.md",
     "content/post/DSA/1. Linked List.md",
@@ -305,7 +226,6 @@
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb2.pdf",
     "content/post/Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
     "content/post/Sem7 final exam/Deep Learning/deeplearningQB2.pdf.pdf",
-    "content/post/Sem7 final exam/Deep Learning/deeplearningQB1.pdf",
     "Untitled.canvas"
   ]
 }
