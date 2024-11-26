@@ -8,31 +8,32 @@ In the context of **Natural Language Processing (NLP)**, knowledge refers to the
 
 Linguistic knowledge includes the fundamental components of language that NLP systems must understand and process.
 
+---
 #### **Phonological Knowledge**
 
 - Deals with the sound patterns of language, including how words are pronounced and understood in speech.
 - Applications: Speech recognition and text-to-speech systems.
-
+---
 #### **Morphological Knowledge**
 
 - Involves the structure of words and how they are formed from smaller units called morphemes (e.g., "unbreakable" = "un" + "break" + "able").
 - Applications: Lemmatization, stemming, and tokenization.
-
+---
 #### **Syntactic Knowledge**
 
 - Focuses on grammar and the structure of sentences, such as how words combine to form phrases and clauses.
 - Applications: Syntax parsing, grammar checkers.
-
+---
 #### **Semantic Knowledge**
 
 - Pertains to the meaning of words, phrases, and sentences, including word sense disambiguation.
 - Applications: Sentiment analysis, question answering.
-
+---
 #### **Pragmatic Knowledge**
 
 - Deals with how context and usage influence meaning, such as recognizing sarcasm or implied information.
 - Applications: Chatbots, conversational AI.
-
+---
 #### **Discourse Knowledge**
 
 - Concerns the relationships between sentences and paragraphs, ensuring coherence in larger texts.

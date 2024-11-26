@@ -14,22 +14,28 @@ NLP involves various levels of linguistic processing:
 1. **Phonological Level**: Deals with the sound structure of language, including phonetics and phonology.
     - Focus: Speech recognition and text-to-speech conversion.
 
+---
+
 2. **Morphological Level**: Analyzes the structure of words and their smallest meaningful units, called morphemes.
     - Focus: Word formation and tokenization.
+
+---
 
 3. **Syntactic Level**: Concerned with the arrangement of words and phrases to form grammatically correct sentences.
     - Focus: Parsing, syntax trees, and grammar checks.
 
+---
 4. **Semantic Level**: Deals with the meaning of words, phrases, and sentences.    
     - Focus: Word sense disambiguation and understanding context.
-
+---
 5. **Pragmatic Level**: Examines the use of language in context and the effect of context on meaning.
 
     - Focus: Sentiment analysis and discourse interpretation.
-
+---
 6. **Discourse Level**: Focuses on larger units of text, such as paragraphs or conversations, and how they relate to each other.    
     - Focus: Coherence and anaphora resolution.
 
+---
 7. **World Knowledge Level**: Incorporates real-world knowledge to better understand the context and meaning.
     
     - Focus: Building intelligent systems that can reason about the world.
