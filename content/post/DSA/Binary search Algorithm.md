@@ -1,3 +1,4 @@
+https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx
 
 - Used for sorted arrays
 - in ascending or descending order
