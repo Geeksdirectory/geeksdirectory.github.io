@@ -51,3 +51,6 @@ To use  loadbalancer it is necessary to make a machines (vms) in availability se
 
 
 ---
+
+
+![[Pasted image 20241127000727.png]]

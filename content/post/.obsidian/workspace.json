@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Binary search Algorithm.md",
+                "file": "AZ-104/Azure loadbalancer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary search Algorithm"
+              "title": "Azure loadbalancer"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bina",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,13 +87,11 @@
               "title": "0. Index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "359bd74976945535",
@@ -181,16 +179,24 @@
   },
   "active": "db64d644e4474928",
   "lastOpenFiles": [
+    "Pasted image 20241127000727.png",
+    "AZ-104/1. Azure Index.md",
+    "AZ-104/Pasted image 20241125215904.png",
+    "AZ-104/Pasted image 20241125220040.png",
+    "AZ-104/Pasted image 20241119222255.png",
+    "AZ-104/Azure loadbalancer.md",
+    "DevOps - Cloud/1. DevOps Index.md",
+    "DevOps - Cloud/devops roadmap 1.pdf",
+    "DevOps - Cloud/Linux.md",
+    "DSA/Binary search Algorithm.md",
     "Pasted image 20241126204755.png",
     "DSA/0. DSA Index.md",
-    "DSA/Binary search Algorithm.md",
     "Sem7 final exam/NLP/Ambiguities in Natural Language.md",
     "0. Index.md",
     "Sem7 final exam/NLP/Knowledge in Language Processing.md",
     "Sem7 final exam/NLP/Natural language processing.md",
     "Sem7 final exam/NLP/Pasted image 20241126013446.png",
     "Sem7 final exam/NLP/Pasted image 20241126015357.png",
-    "DevOps - Cloud/DevOps Index.md",
     "Sem7 final exam/NLP/1. main.md",
     "Projects/unity 3d simulation inventry management.md",
     "Sem7 final exam/NLP/Challenges of NLP.md",
@@ -207,14 +213,10 @@
     "DevOps - Cloud/Docker",
     "img dump/Pasted image 20241008075601.png",
     "DevOps - Cloud/git/git.md",
-    "DevOps - Cloud/devops roadmap 1.pdf",
     "learning/DevOps - Cloud/DevOps Roadmap.md",
     "DevOps - Cloud/git/gitconfigurepasswordinlinux.md",
     "Projects/Project Index.md",
     "Projects/fusion flux.md",
-    "Java Learning/Java Index.md",
-    "interview/Interview Index.md",
-    "AZ-104/Azure Index.md",
     "DevOps - Cloud/devops roadmap.pdf",
     "Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
@@ -222,10 +224,6 @@
     "Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "Pasted image 20241023144225.png",
     "Pasted image 20241023144131.png",
-    "Pasted image 20241018114414.png",
-    "Pasted image 20241018114357.png",
-    "Pasted image 20241018114317.png",
-    "Pasted image 20241018114311.png",
-    "Pasted image 20241018114303.png"
+    "Pasted image 20241018114414.png"
   ]
 }
