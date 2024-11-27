@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3e6af0dd75ff2d8b",
+        "id": "0329b7590aa83add",
         "type": "tabs",
         "children": [
           {
-            "id": "8abdda3c0ace520e",
+            "id": "50f171b420207381",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "self learnings and improvements/1.main.md",
+                "file": "DSA/Binary search Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.main"
-            }
-          },
-          {
-            "id": "b04ab201d6008223",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 Social Skills to master for a Magnetic Aura"
+              "title": "Binary search Algorithm"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,8 +188,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b04ab201d6008223",
+  "active": "50f171b420207381",
   "lastOpenFiles": [
+    "DSA/0. DSA Index.md",
     "self learnings and improvements/1.main.md",
     "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md",
     "self learnings and improvements",
@@ -234,7 +220,6 @@
     "DevOps - Cloud/devops roadmap 1.pdf",
     "DevOps - Cloud/Linux.md",
     "DSA/Binary search Algorithm.md",
-    "DSA/0. DSA Index.md",
     "Sem7 final exam/NLP/Ambiguities in Natural Language.md",
     "Sem7 final exam/NLP/Knowledge in Language Processing.md",
     "Sem7 final exam/NLP/Natural language processing.md",
