@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0a879aba313345c2",
+        "id": "ea67828c5a7ffaf9",
         "type": "tabs",
         "children": [
           {
-            "id": "db64d644e4474928",
+            "id": "474be5d349c82977",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AZ-104/Azure loadbalancer.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Azure loadbalancer"
+              "title": "New tab"
             }
           }
         ]
@@ -177,14 +173,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db64d644e4474928",
+  "active": "474be5d349c82977",
   "lastOpenFiles": [
+    "AZ-104/Azure loadbalancer.md",
     "Pasted image 20241127000727.png",
     "AZ-104/1. Azure Index.md",
     "AZ-104/Pasted image 20241125215904.png",
     "AZ-104/Pasted image 20241125220040.png",
     "AZ-104/Pasted image 20241119222255.png",
-    "AZ-104/Azure loadbalancer.md",
     "DevOps - Cloud/1. DevOps Index.md",
     "DevOps - Cloud/devops roadmap 1.pdf",
     "DevOps - Cloud/Linux.md",
@@ -223,7 +219,6 @@
     "Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
     "Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
     "Pasted image 20241023144225.png",
-    "Pasted image 20241023144131.png",
-    "Pasted image 20241018114414.png"
+    "Pasted image 20241023144131.png"
   ]
 }
