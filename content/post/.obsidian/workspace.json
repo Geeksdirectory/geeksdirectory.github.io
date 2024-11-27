@@ -49,8 +49,7 @@
               "title": "Porter Stemmer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,11 +206,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b0c74de2237bc19",
+  "active": "474be5d349c82977",
   "lastOpenFiles": [
+    "Sem7 final exam/NLP/NLP Techknowledge.pdf",
+    "Sem7 final exam/NLP/n-gram.md",
     "Pasted image 20241127141243.png",
     "Sem7 final exam/NLP/1. main.md",
-    "Sem7 final exam/NLP/n-gram.md",
     "Sem7 final exam/NLP/Porter Stemmer.md",
     "Pasted image 20241127140535.png",
     "Pasted image 20241127000727.png",
@@ -253,7 +253,6 @@
     "Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
     "Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
-    "Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf",
-    "Pasted image 20241023144225.png"
+    "Sem7 final exam/MIS/Question Bank/4th QB MIS.pdf"
   ]
 }
