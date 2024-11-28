@@ -1,4 +1,5 @@
-### **Difference Between Semantic Analysis and Syntactic Analysis**
+
+'### **Difference Between Semantic Analysis and Syntactic Analysis**
 
 | **Aspect**                   | **Syntactic Analysis**                                                                    | **Semantic Analysis**                                                                          |
 | ---------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
