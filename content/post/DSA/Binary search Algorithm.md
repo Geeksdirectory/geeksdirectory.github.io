@@ -36,3 +36,5 @@ https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx
 ![[Pasted image 20241128054208.png]]
 
 ### Order agnostic binary search
+
+![[Pasted image 20241128061939.png]]
