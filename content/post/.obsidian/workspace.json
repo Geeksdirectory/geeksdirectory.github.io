@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "795319e97b415033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/NLP/1. main.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. main"
-            }
-          },
-          {
             "id": "a65fe61c0ce6958b",
             "type": "leaf",
             "state": {
@@ -50,19 +36,49 @@
             }
           },
           {
-            "id": "80c4602bcaf0fdcf",
+            "id": "795319e97b415033",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Sem7 final exam/NLP/NLP Techknowledge.pdf"
+                "file": "Sem7 final exam/NLP/1. main.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "NLP Techknowledge"
+              "icon": "lucide-file",
+              "title": "1. main"
+            }
+          },
+          {
+            "id": "cb49ea951d6e33a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem7 final exam/NLP/Discourse analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Discourse analysis"
+            }
+          },
+          {
+            "id": "09fcf8c9ef896db7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem7 final exam/NLP/pragmatics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pragmatics"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,12 +245,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80c4602bcaf0fdcf",
+  "active": "795319e97b415033",
   "lastOpenFiles": [
-    "Sem7 final exam/NLP/Word Sense Disambiguation.md",
-    "Sem7 final exam/NLP/1. main.md",
-    "Sem7 final exam/NLP/NLP Techknowledge.pdf",
     "Sem7 final exam/NLP/Relation between words and senses.md",
+    "Sem7 final exam/NLP/Word Sense Disambiguation.md",
+    "Sem7 final exam/NLP/pragmatics.md",
+    "Sem7 final exam/NLP/Discourse analysis.md",
+    "Sem7 final exam/NLP/1. main.md",
+    "Sem7 final exam/NLP/Pasted image 20241129054105.png",
+    "Sem7 final exam/NLP/NLP Techknowledge.pdf",
     "Sem7 final exam/NLP/Difference betn semantic  analysis and syntactic analysis.md",
     "Sem7 final exam/NLP/semantic analysis.md",
     "DevOps - Cloud/Linux.md",
@@ -263,12 +282,9 @@
     "Pasted image 20241127190545.png",
     "Pasted image 20241127141243.png",
     "Pasted image 20241126204755.png",
-    "Pasted image 20241127000727.png",
     "0. Index.md",
     "rough work.md",
     "AZ-104/Azure loadbalancer.md",
-    "AZ-104/1. Azure Index.md",
-    "Sem7 final exam/NLP/Rule-Based Tagging.md",
     "DevOps - Cloud/devops roadmap 1.pdf",
     "SQL",
     "DevOps - Cloud/Shell-Scripting",
