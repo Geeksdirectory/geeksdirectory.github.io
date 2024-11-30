@@ -39,14 +39,12 @@
             "id": "795319e97b415033",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Sem7 final exam/NLP/1. main.md",
-                "mode": "source",
-                "source": false
+                "file": "Sem7 final exam/NLP/NLP Techknowledge.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. main"
+              "icon": "lucide-file-text",
+              "title": "NLP Techknowledge"
             }
           },
           {
@@ -247,11 +245,11 @@
   },
   "active": "795319e97b415033",
   "lastOpenFiles": [
+    "Sem7 final exam/NLP/1. main.md",
+    "Sem7 final exam/NLP/Discourse analysis.md",
     "Sem7 final exam/NLP/Relation between words and senses.md",
     "Sem7 final exam/NLP/Word Sense Disambiguation.md",
     "Sem7 final exam/NLP/pragmatics.md",
-    "Sem7 final exam/NLP/Discourse analysis.md",
-    "Sem7 final exam/NLP/1. main.md",
     "Sem7 final exam/NLP/Pasted image 20241129054105.png",
     "Sem7 final exam/NLP/NLP Techknowledge.pdf",
     "Sem7 final exam/NLP/Difference betn semantic  analysis and syntactic analysis.md",
