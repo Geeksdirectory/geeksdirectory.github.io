@@ -1,82 +1,24 @@
 {
   "main": {
-    "id": "a19c01fe2e866e6a",
+    "id": "eab85eb02c529674",
     "type": "split",
     "children": [
       {
-        "id": "0de7ce03f6f4d8b3",
+        "id": "73f5460a55304fa7",
         "type": "tabs",
         "children": [
           {
-            "id": "e31263e7e9c3f985",
+            "id": "8f8f325fb67b58b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps - Cloud/git/git branch commands.md",
+                "file": "techgium.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Word Sense Disambiguation"
-            }
-          },
-          {
-            "id": "77605733a627372a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/NLP/Relation between words and senses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Relation between words and senses"
-            }
-          },
-          {
-            "id": "795319e97b415033",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Sem7 final exam/NLP/NLP Techknowledge.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "NLP Techknowledge"
-            }
-          },
-          {
-            "id": "cb49ea951d6e33a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/NLP/Discourse analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Discourse analysis"
-            }
-          },
-          {
-            "id": "09fcf8c9ef896db7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/NLP/pragmatics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pragmatics"
-=======
-              "title": "git branch commands"
->>>>>>> 0ad9b13e9b740ab3f62992b42a112ae516727667
+              "title": "techgium"
             }
           }
         ]
@@ -85,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "febbaf554e3fa9f0",
+    "id": "d5a03f57b9aae216",
     "type": "split",
     "children": [
       {
-        "id": "7a4e26b19752842d",
+        "id": "a9a1b1be3f88a5a4",
         "type": "tabs",
         "children": [
           {
-            "id": "686815857ef4c3fe",
+            "id": "751f2f926e01e006",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -105,12 +47,12 @@
             }
           },
           {
-            "id": "51d0f4dbb548f240",
+            "id": "6517133188c16ec2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +64,7 @@
             }
           },
           {
-            "id": "157009af7c610e4c",
+            "id": "be082df8e1c4d608",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -130,42 +72,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "a73b66233d815bde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Index"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "359bd74976945535",
+    "id": "22bdc220310381f4",
     "type": "split",
     "children": [
       {
-        "id": "eb7e365acb02e161",
+        "id": "1e94786a437ce012",
         "type": "tabs",
         "children": [
           {
-            "id": "0ff0e90be7cdc995",
+            "id": "fa2c070d978fda5b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus/Syllabus.md",
+                "file": "techgium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Syllabus"
+              "title": "Backlinks for techgium"
             }
           },
           {
-            "id": "1c052d5ed900218b",
+            "id": "6c1b0ecb93aedf5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md",
+                "file": "techgium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6 Social Skills to master for a Magnetic Aura"
+              "title": "Outgoing links from techgium"
             }
           },
           {
-            "id": "359093316dd3a60e",
+            "id": "11d3d248e548e4b7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -206,19 +134,19 @@
             }
           },
           {
-            "id": "2326a0d46269ad9c",
+            "id": "4d920b58b2481787",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md"
+                "file": "techgium.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 6 Social Skills to master for a Magnetic Aura"
+              "title": "Outline of techgium"
             }
           },
           {
-            "id": "1dd45aff294fb773",
+            "id": "dd2c6a5a91230d6a",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -227,12 +155,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -246,62 +173,8 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e31263e7e9c3f985",
+  "active": "8f8f325fb67b58b4",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Sem7 final exam/NLP/1. main.md",
-    "Sem7 final exam/NLP/Discourse analysis.md",
-    "Sem7 final exam/NLP/Relation between words and senses.md",
-=======
-    "DevOps - Cloud/git/git.md",
-    "DevOps - Cloud/git/git branch commands.md",
-    "SIH Project/VR APP.md",
-    "DevOps - Cloud/1. DevOps Index.md",
-    "Projects/unity 3d simulation inventry management.md",
->>>>>>> 0ad9b13e9b740ab3f62992b42a112ae516727667
-    "Sem7 final exam/NLP/Word Sense Disambiguation.md",
-    "dashboard/Yash’s Dashboard ccb8595ae2bd47f6a2e2a7b6529ff0f3.md",
-    "dashboard/17.png",
-    "dashboard/25.png",
-    "dashboard/Unknown_64.jpeg",
-    "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782_all.csv",
-    "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782.csv",
-    "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c_all.csv",
-    "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c.csv",
-    "dashboard/MY Calender 14efd7eb12f3800b8d12d293c7009f2f_all.csv",
-    "dashboard/MY Calender 14efd7eb12f3800b8d12d293c7009f2f.csv",
-    "dashboard/Daily To-Do (1) 14efd7eb12f380b1995bd7351b3d56f4.csv",
-    "dashboard/Daily To-Do (1) 14efd7eb12f380b1995bd7351b3d56f4_all.csv",
-    "dashboard",
-    "SIH Project/AR app.md",
-    "Sem7 final exam/NLP/1. main.md",
-    "SIH Project",
-    "Sem7 final exam/NLP/Relation between words and senses.md",
-    "Sem7 final exam/NLP/pragmatics.md",
-<<<<<<< HEAD
-=======
-    "Sem7 final exam/NLP/Discourse analysis.md",
->>>>>>> 0ad9b13e9b740ab3f62992b42a112ae516727667
-    "Sem7 final exam/NLP/Pasted image 20241129054105.png",
-    "Sem7 final exam/NLP/Difference betn semantic  analysis and syntactic analysis.md",
-    "Sem7 final exam/NLP/semantic analysis.md",
-    "DevOps - Cloud/Linux.md",
-    "self learnings and improvements/1.main.md",
-    "self learnings and improvements/how to be a good communicator.md",
-    "Sem7 final exam/NLP/Natural language processing.md",
-    "Sem7 final exam/NLP/n-gram.md",
-    "Sem7 final exam/NLP/Knowledge in Language Processing.md",
-    "Sem7 final exam/NLP/Challenges of NLP.md",
-    "Sem7 final exam/NLP/CFG Hinglish.md",
-    "Sem7 final exam/NLP/Ambiguities in Natural Language.md",
-    "IA 2 Exam/Blockchain for ia 2.md",
-    "DSA/Binary search Algorithm.md",
-    "DSA/Pasted image 20241128061939.png",
-    "DSA/hinglish explaination of code.md",
-    "DSA/Pasted image 20241128054208.png",
-    "DSA/Pasted image 20241128052907.png",
-    "DSA/Pasted image 20241128052751.png",
-    "DSA/Pasted image 20241115153608.png",
-    "Pasted image 20241127181611.png"
+    "techgium.md"
   ]
 }
