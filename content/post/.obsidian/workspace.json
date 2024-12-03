@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/0. DSA Index.md",
+                "file": "DSA/Binary Search Algo Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. DSA Index"
+              "title": "Binary Search Algo Questions"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "359bd74976945535",
@@ -190,11 +191,14 @@
   },
   "active": "e31263e7e9c3f985",
   "lastOpenFiles": [
+    "DSA/Pasted image 20241203070828.png",
+    "DSA/Pasted image 20241203070809.png",
+    "DSA/Binary search Algorithm.md",
+    "DSA/Binary Search Algo Questions.md",
+    "DSA/WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg",
+    "DSA/0. DSA Index.md",
     "techgium.md",
     "DSA/Pasted image 20241202175529.png",
-    "DSA/Binary Search Algo Questions.md",
-    "DSA/Binary search Algorithm.md",
-    "DSA/0. DSA Index.md",
     "SIH Project/VR APP.md",
     "DevOps - Cloud/git/git branch commands.md",
     "DevOps - Cloud/git/git.md",
@@ -230,11 +234,8 @@
     "Sem7 final exam/NLP/n-gram.md",
     "Sem7 final exam/NLP/Knowledge in Language Processing.md",
     "Sem7 final exam/NLP/Challenges of NLP.md",
-    "Sem7 final exam/NLP/CFG Hinglish.md",
     "DSA/Pasted image 20241128061939.png",
     "DSA/Pasted image 20241128054208.png",
-    "DSA/Pasted image 20241128052907.png",
-    "DSA/Pasted image 20241128052751.png",
-    "DSA/Pasted image 20241115153608.png"
+    "DSA/Pasted image 20241128052907.png"
   ]
 }

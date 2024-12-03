@@ -18,5 +18,12 @@ ceiling(arr,target=15) = 16
 ![[Pasted image 20241202175529.png]]
 
 
+![[Pasted image 20241203070828.png]]
+
 ### Q.2 Floor of a number
 
+![[WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg]]
+
+### Code 
+
+![[Pasted image 20241203070809.png]]
