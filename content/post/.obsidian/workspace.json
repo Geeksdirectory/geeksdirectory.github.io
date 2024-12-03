@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps - Cloud/git/git branch commands.md",
+                "file": "DSA/0. DSA Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git branch commands"
+              "title": "0. DSA Index"
             }
           }
         ]
@@ -190,9 +190,11 @@
   },
   "active": "e31263e7e9c3f985",
   "lastOpenFiles": [
-    "DevOps - Cloud/git/git.md",
-    "DevOps - Cloud/git/git branch commands.md",
+    "DSA/Binary search Algorithm.md",
+    "DSA/0. DSA Index.md",
     "SIH Project/VR APP.md",
+    "DevOps - Cloud/git/git branch commands.md",
+    "DevOps - Cloud/git/git.md",
     "DevOps - Cloud/1. DevOps Index.md",
     "Projects/unity 3d simulation inventry management.md",
     "Sem7 final exam/NLP/Word Sense Disambiguation.md",
@@ -228,9 +230,7 @@
     "Sem7 final exam/NLP/CFG Hinglish.md",
     "Sem7 final exam/NLP/Ambiguities in Natural Language.md",
     "IA 2 Exam/Blockchain for ia 2.md",
-    "DSA/Binary search Algorithm.md",
     "DSA/Pasted image 20241128061939.png",
-    "DSA/hinglish explaination of code.md",
     "DSA/Pasted image 20241128054208.png",
     "DSA/Pasted image 20241128052907.png",
     "DSA/Pasted image 20241128052751.png",
