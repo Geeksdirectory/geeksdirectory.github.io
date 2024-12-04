@@ -8,3 +8,12 @@ present using **star method**
 - **result**: Explain about everything that came out and response that we got from client
 
 Accept your mistake
+
+
+### while solving DSA question try to solve using brute-force approach First
+
+ here brute-force means worst possible solution  
+
+
+
+
