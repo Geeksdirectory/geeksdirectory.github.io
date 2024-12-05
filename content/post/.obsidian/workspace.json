@@ -8,73 +8,113 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e31263e7e9c3f985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AZ-104/1. Azure Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Azure Index"
-            }
-          },
-          {
-            "id": "8a506e6c9c6469bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AZ-104/1. Azure Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Azure Index"
-            }
-          },
-          {
             "id": "56f27fc1b3f1a2c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AZ-104/DNS.md",
+                "file": "Sem7 final exam/Blockchain technology/1. Main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "1. Main"
             }
           },
           {
-            "id": "453989e6ae3d404a",
+            "id": "db5c7cc472a0f2da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Interview Index.md",
+                "file": "Sem7 final exam/Blockchain technology/1. Main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Index"
+              "title": "1. Main"
             }
           },
           {
-            "id": "d78d7e0eba049f30",
+            "id": "6147295b49048241",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Interview tips.md",
+                "file": "Sem7 final exam/Blockchain technology/Merkle Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview tips"
+              "title": "Merkle Tree"
+            }
+          },
+          {
+            "id": "97fcef1775b9b1f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem7 final exam/Blockchain technology/Consensus mechanisms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Consensus mechanisms"
+            }
+          },
+          {
+            "id": "4c4719fc70cdc460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed ledger technology"
+            }
+          },
+          {
+            "id": "caa2d0e059c8eced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn English/1. Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Main"
+            }
+          },
+          {
+            "id": "a55fc612917f684a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn English/vocabulary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vocabulary"
+            }
+          },
+          {
+            "id": "baa529f1c3d592b5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Sem7 final exam/Blockchain technology/QB1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "QB1"
             }
           }
         ],
@@ -245,10 +285,33 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "56f27fc1b3f1a2c6",
+  "active": "6147295b49048241",
   "lastOpenFiles": [
-    "AZ-104/1. Azure Index.md",
+    "Sem7 final exam/Blockchain technology/1. Main.md",
+    "Sem7 final exam/Blockchain technology/Merkle Tree.md",
+    "Sem7 final exam/Blockchain technology/Consensus mechanisms.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205133803.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205133743.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205133712.png",
+    "Learn English/1. Main.md",
+    "Sem7 final exam/Blockchain technology/Blockchain.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205115023.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205115002.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205114948.png",
+    "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205114657.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205114553.png",
+    "Learn English/vocabulary.md",
+    "Sem7 final exam/Blockchain technology/QB1.pdf",
+    "techgium.md",
+    "Learn English",
+    "learn languages/English",
+    "Untitled.md",
+    "learn languages",
+    "Sem7 final exam/Blockchain technology/be_computer-engineering-aids_semester-7_2023_december_dloc-iv_-blockchain-technologies-rev-2019-‘c’-scheme-1.pdf",
     "AZ-104/DNS.md",
+    "Sem7 final exam/Blockchain technology",
+    "AZ-104/1. Azure Index.md",
     "AZ-104/AZure application gateway.md",
     "DSA/Binary Search Algo Questions.md",
     "DSA/Pasted image 20241204114845.png",
@@ -257,12 +320,7 @@
     "interview/Interview tips.md",
     "interview/Interview Index.md",
     "DSA/Pasted image 20241204144936.png",
-    "DSA/Pasted image 20241203070828.png",
-    "DSA/Pasted image 20241203070809.png",
     "DSA/Binary search Algorithm.md",
-    "DSA/WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg",
-    "techgium.md",
-    "DSA/Pasted image 20241202175529.png",
     "SIH Project/VR APP.md",
     "DevOps - Cloud/git/git branch commands.md",
     "DevOps - Cloud/git/git.md",
@@ -270,28 +328,10 @@
     "Projects/unity 3d simulation inventry management.md",
     "Sem7 final exam/NLP/Word Sense Disambiguation.md",
     "dashboard/Yash’s Dashboard ccb8595ae2bd47f6a2e2a7b6529ff0f3.md",
-    "dashboard/17.png",
-    "dashboard/25.png",
-    "dashboard/Unknown_64.jpeg",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782_all.csv",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782.csv",
     "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c_all.csv",
     "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c.csv",
-    "dashboard/MY Calender 14efd7eb12f3800b8d12d293c7009f2f_all.csv",
-    "dashboard/MY Calender 14efd7eb12f3800b8d12d293c7009f2f.csv",
-    "dashboard/Daily To-Do (1) 14efd7eb12f380b1995bd7351b3d56f4.csv",
-    "dashboard/Daily To-Do (1) 14efd7eb12f380b1995bd7351b3d56f4_all.csv",
-    "dashboard",
-    "SIH Project/AR app.md",
-    "Sem7 final exam/NLP/1. main.md",
-    "SIH Project",
-    "Sem7 final exam/NLP/Relation between words and senses.md",
-    "Sem7 final exam/NLP/pragmatics.md",
-    "Sem7 final exam/NLP/Discourse analysis.md",
-    "Sem7 final exam/NLP/Pasted image 20241129054105.png",
-    "Sem7 final exam/NLP/Difference betn semantic  analysis and syntactic analysis.md",
-    "Sem7 final exam/NLP/semantic analysis.md",
-    "DevOps - Cloud/Linux.md",
-    "self learnings and improvements/1.main.md"
+    "SIH Project/AR app.md"
   ]
 }
