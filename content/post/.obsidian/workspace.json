@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0de7ce03f6f4d8b3",
+        "id": "54a23466b151fea2",
         "type": "tabs",
         "children": [
           {
-            "id": "56f27fc1b3f1a2c6",
+            "id": "6da007fb4c912e1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,103 +22,49 @@
             }
           },
           {
-            "id": "db5c7cc472a0f2da",
+            "id": "df1b559aca1d7dce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem7 final exam/Blockchain technology/1. Main.md",
+                "file": "Sem7 final exam/Blockchain technology/poa,pos,pow,lpos,pbft,pob,poet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Main"
+              "title": "poa,pos,pow,lpos,pbft,pob,poet"
             }
           },
           {
-            "id": "6147295b49048241",
+            "id": "3a6e96ddf0a5ab84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem7 final exam/Blockchain technology/Merkle Tree.md",
+                "file": "Sem7 final exam/Blockchain technology/how proof of work solves  the problem of double spending.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Merkle Tree"
+              "title": "how proof of work solves  the problem of double spending"
             }
           },
           {
-            "id": "97fcef1775b9b1f0",
+            "id": "37ba61432c1e69f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem7 final exam/Blockchain technology/Consensus mechanisms.md",
+                "file": "Sem7 final exam/Blockchain technology/Hinglish Double spending.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Consensus mechanisms"
-            }
-          },
-          {
-            "id": "4c4719fc70cdc460",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Distributed ledger technology"
-            }
-          },
-          {
-            "id": "caa2d0e059c8eced",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learn English/1. Main.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Main"
-            }
-          },
-          {
-            "id": "a55fc612917f684a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learn English/vocabulary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vocabulary"
-            }
-          },
-          {
-            "id": "baa529f1c3d592b5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Sem7 final exam/Blockchain technology/QB1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "QB1"
+              "title": "Hinglish Double spending"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "359bd74976945535",
@@ -285,25 +232,34 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "6147295b49048241",
+  "active": "df1b559aca1d7dce",
   "lastOpenFiles": [
-    "Sem7 final exam/Blockchain technology/Pasted image 20241205142204.png",
     "Sem7 final exam/Blockchain technology/1. Main.md",
-    "Sem7 final exam/Blockchain technology/Merkle Tree.md",
+    "Sem7 final exam/Blockchain technology/poa,pos,pow,lpos,pbft,pob,poet.md",
+    "Sem7 final exam/Blockchain technology/Hinglish Double spending.md",
+    "Sem7 final exam/Blockchain technology/how proof of work solves  the problem of double spending.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205183243.png",
+    "Learn English/vocabulary.md",
+    "Learn English/1. Main.md",
+    "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
     "Sem7 final exam/Blockchain technology/Consensus mechanisms.md",
+    "Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
+    "Sem7 final exam/Blockchain technology/Components of Blocks in blockchain.md",
+    "Sem7 final exam/Blockchain technology/Types of blockchain.md",
+    "Sem7 final exam/Blockchain technology/Consensus Protocol.md",
+    "Sem7 final exam/Blockchain technology/2. QB1.pdf",
+    "Sem7 final exam/Blockchain technology/Merkle Tree.md",
+    "Sem7 final exam/Blockchain technology/Blockchain.md",
+    "Sem7 final exam/Blockchain technology/features of blockchain.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205161558.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205160305.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241205142204.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205133803.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205133743.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205133712.png",
-    "Learn English/1. Main.md",
-    "Sem7 final exam/Blockchain technology/Blockchain.md",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205115023.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205115002.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241205114948.png",
-    "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241205114657.png",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241205114553.png",
-    "Learn English/vocabulary.md",
-    "Sem7 final exam/Blockchain technology/QB1.pdf",
     "techgium.md",
     "Learn English",
     "learn languages/English",
@@ -315,23 +271,14 @@
     "AZ-104/1. Azure Index.md",
     "AZ-104/AZure application gateway.md",
     "DSA/Binary Search Algo Questions.md",
-    "DSA/Pasted image 20241204114845.png",
     "DSA/0. DSA Index.md",
     "0. Index.md",
     "interview/Interview tips.md",
     "interview/Interview Index.md",
-    "DSA/Pasted image 20241204144936.png",
     "DSA/Binary search Algorithm.md",
     "SIH Project/VR APP.md",
-    "DevOps - Cloud/git/git branch commands.md",
-    "DevOps - Cloud/git/git.md",
-    "DevOps - Cloud/1. DevOps Index.md",
-    "Projects/unity 3d simulation inventry management.md",
-    "Sem7 final exam/NLP/Word Sense Disambiguation.md",
-    "dashboard/Yash’s Dashboard ccb8595ae2bd47f6a2e2a7b6529ff0f3.md",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782_all.csv",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782.csv",
-    "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c_all.csv",
-    "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c.csv"
+    "dashboard/overview (1) 14efd7eb12f380de86e9d4c25b0a501c_all.csv"
   ]
 }

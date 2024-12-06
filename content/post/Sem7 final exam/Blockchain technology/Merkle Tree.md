@@ -15,6 +15,7 @@ organizes data into a tree-like structure, where each **leaf node** contains a c
 3. **Reduced Storage**: Only the root hash needs to be stored or verified instead of the entire dataset.
 ---
 
+![[Pasted image 20241205160305.png]]
 ### **Merkle Tree Structure**
 
 A Merkle Tree is built by repeatedly hashing pairs of data until a single hash remains, which is the **Merkle Root**.
@@ -59,3 +60,5 @@ A Merkle Tree is built by repeatedly hashing pairs of data until a single hash r
 ### **Summary**
 
 A **Merkle Tree** is a cryptographic data structure that organizes data into a hierarchical tree, allowing efficient and secure verification of data integrity. It is foundational to blockchain because it enables fast verification, scalability, and tamper detection, making it ideal for handling large amounts of transaction data.
+
+![[Pasted image 20241205161558.png]]
