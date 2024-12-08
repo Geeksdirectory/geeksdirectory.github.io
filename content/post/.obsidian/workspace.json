@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54a23466b151fea2",
+        "id": "d94b8f13694b8290",
         "type": "tabs",
         "children": [
           {
-            "id": "a1ce08389ea9f8ff",
+            "id": "ab25d83eb6dcd207",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,49 +22,20 @@
             }
           },
           {
-            "id": "e27f002899a98ede",
+            "id": "619b5c7aa133ad56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem7 final exam/Blockchain technology/State Machine Replication.md",
+                "file": "Sem7 final exam/Blockchain technology/Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State Machine Replication"
-            }
-          },
-          {
-            "id": "151646e11ff1c285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/Blockchain technology/Difference between types of Blockchain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Difference between types of Blockchain"
-            }
-          },
-          {
-            "id": "475cb8a36e4a915f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem7 final exam/Blockchain technology/Private Blockchain System.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Private Blockchain System"
+              "title": "Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,50 +202,50 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e27f002899a98ede",
+  "active": "ab25d83eb6dcd207",
   "lastOpenFiles": [
+    "Sem7 final exam/Blockchain technology/Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs).md",
     "Sem7 final exam/Blockchain technology/1. Main.md",
-    "Sem7 final exam/Blockchain technology/State Machine Replication.md",
-    "Sem7 final exam/Blockchain technology/Difference between types of Blockchain.md",
+    "Sem7 final exam/Blockchain technology/DAO.md",
+    "IA 2 Exam/Blockchain for ia 2.md",
+    "0. Index.md",
+    "Sem7 final exam/Blockchain technology/Difference Between Bitcoin, Altcoins and Tokens.md",
+    "Sem7 final exam/Blockchain technology/hot wallet and cold wallet.md",
+    "Sem7 final exam/Blockchain technology/ERC721 and ERC20.md",
+    "Sem7 final exam/Blockchain technology/DEFI.md",
+    "Sem7 final exam/Blockchain technology/Initial Coin Offering.md",
+    "Sem7 final exam/Blockchain technology/Security token offering.md",
+    "Sem7 final exam/Blockchain technology/UTXO.md",
     "Sem7 final exam/Blockchain technology/Private Blockchain System.md",
+    "Sem7 final exam/Blockchain technology/Transactions in bitcoin network.md",
+    "Sem7 final exam/Blockchain technology/poa,pos,pow,lpos,pbft,pob,poet.md",
+    "Sem7 final exam/Blockchain technology/Case Study of Supply chain management using hyperledger.md",
+    "Sem7 final exam/Blockchain technology/Hyperledger Fabric.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208150952.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208150903.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208150605.png",
+    "Sem7 final exam/Blockchain technology/Hyperledger Platform.md",
+    "Sem7 final exam/Blockchain technology/BYZANTINE FAULT Tolerant algo.md",
+    "Sem7 final exam/Blockchain technology/RAFT.md",
+    "Sem7 final exam/Blockchain technology/PAXOS.md",
+    "Sem7 final exam/Blockchain technology/State Machine Replication.md",
+    "Sem7 final exam/Blockchain technology/Hinglish smr.md",
+    "Sem7 final exam/Blockchain technology/Difference between types of Blockchain.md",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208144729.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208144719.png",
+    "Sem7 final exam/Blockchain technology/Pasted image 20241208144220.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241208133133.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241208132855.png",
     "Sem7 final exam/Blockchain technology/Pasted image 20241208132849.png",
     "Sem7 final exam/Blockchain technology/Smart Contract.md",
     "Sem7 final exam/Blockchain technology/Pasted image 20241208120224.png",
-    "Sem7 final exam/Blockchain technology/DAO.md",
     "Sem7 final exam/Blockchain technology/Architecture of Ethereum.md",
-    "Sem7 final exam/Blockchain technology/Components of Blocks in blockchain.md",
-    "Sem7 final exam/Blockchain technology/Merkle Tree.md",
-    "Sem7 final exam/Blockchain technology/Blockchain 2.0.md",
     "Sem7 final exam/Blockchain technology/2. QB1.pdf",
-    "Sem7 final exam/Blockchain technology/Distributed ledger technology.md",
-    "Sem7 final exam/Blockchain technology/how proof of work solves  the problem of double spending.md",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208115210.png",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208115112.png",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208115101.png",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208115043.png",
-    "Sem7 final exam/Blockchain technology/Transactions in bitcoin network.md",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208114153.png",
-    "Sem7 final exam/Blockchain technology/poa,pos,pow,lpos,pbft,pob,poet.md",
-    "Sem7 final exam/Blockchain technology/Consensus mechanisms.md",
-    "Sem7 final exam/Blockchain technology/Pasted image 20241208113710.png",
-    "Sem7 final exam/Blockchain technology/Consensus Protocol.md",
-    "Sem7 final exam/Blockchain technology/Types of blockchain.md",
-    "Sem7 final exam/Blockchain technology/Blockchain solution actors.md",
-    "Sem7 final exam/Blockchain technology/Hinglish Double spending.md",
-    "Learn English/vocabulary.md",
-    "Learn English/1. Main.md",
     "Sem7 final exam/Big Data Analysis/bdaqb1.pdf",
-    "Sem7 final exam/Blockchain technology/Blockchain.md",
-    "Sem7 final exam/Blockchain technology/features of blockchain.md",
-    "techgium.md",
     "Learn English",
     "learn languages/English",
-    "Untitled.md",
     "learn languages",
     "Sem7 final exam/Blockchain technology/be_computer-engineering-aids_semester-7_2023_december_dloc-iv_-blockchain-technologies-rev-2019-‘c’-scheme-1.pdf",
-    "AZ-104/DNS.md",
     "Sem7 final exam/Blockchain technology",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782_all.csv",
     "dashboard/Weekly To-Do (1) 14efd7eb12f38079b359eb879e3ac782.csv",
