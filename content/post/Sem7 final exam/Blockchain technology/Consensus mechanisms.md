@@ -65,4 +65,4 @@ Here are the three most common consensus mechanisms explained in detail:
 ![[Pasted image 20241205133743.png]]
 
 
-![[Pasted image 20241205133803.png]]
+![[Pasted image 20241205133803.png]]![[Pasted image 20241208113710.png]]

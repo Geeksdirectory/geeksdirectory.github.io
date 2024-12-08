@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/introduction-to-merkle-tree/
 
+![[Pasted image 20241208112938.png]]
+
 ==hash tree , data structure== used in blockchain and other cryptographic systems to efficiently and securely verify large amounts of data.
 
 organizes data into a tree-like structure, where each **leaf node** contains a cryptographic hash of data, and each **non-leaf node** is a hash of its child nodes. The root of the tree, called the **Merkle Root**, summarizes all the data in the tree.

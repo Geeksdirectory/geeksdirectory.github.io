@@ -1,7 +1,7 @@
 Here’s a detailed explanation of different consensus mechanisms in blockchain technology, including **PoA, PoET, PoW, PoS, LPoS, PBFT, and PoB**:
 
 ---
-
+![[Pasted image 20241208113651.png]]
 ### **1. Proof of Authority (PoA)**
 
 - **What is PoA?** Proof of Authority relies on a small group of **pre-approved validators** (or authorities) who are responsible for verifying transactions and adding them to the blockchain.
@@ -19,6 +19,13 @@ Here’s a detailed explanation of different consensus mechanisms in blockchain 
     - Centralized, as it relies on a fixed set of trusted validators.
 - **Use Cases**:
     - VeChain, Ethereum testnets.
+
+#### key components
+- validators
+- block creation
+- validation process
+- consensus
+- block finality
 
 ---
 
@@ -118,6 +125,15 @@ Here’s a detailed explanation of different consensus mechanisms in blockchain 
 - **Use Cases**:
     
     - Waves blockchain.
+
+#### Key components
+
+- token ownership
+- validator selection
+- block production
+- token leasing and rewards 
+- security and consensus
+
 
 ---
 
