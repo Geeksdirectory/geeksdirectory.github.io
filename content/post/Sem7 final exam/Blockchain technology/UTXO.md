@@ -1,34 +1,30 @@
 ### **What is UTXO?**
 
-**UTXO** stands for **Unspent Transaction Output**. It is a fundamental concept in blockchain technology, particularly used in **Bitcoin** and other cryptocurrencies like **Litecoin**.
+**UTXO** stands for ==**Unspent Transaction Output**==. It is a fundamental concept in blockchain technology, particularly used in ==**Bitcoin**== and other cryptocurrencies like ==**Litecoin**==.
 
-In simple terms, a UTXO represents the amount of cryptocurrency that has been sent to a wallet, but has not yet been spent. It’s the equivalent of a “coin” in the digital world. When a transaction is made, the amount of cryptocurrency involved in the transaction is output as a UTXO. This UTXO can later be used as input for future transactions.
+In simple terms, a ==UTXO represents the amount of cryptocurrency that has been sent to a wallet, but has not yet been spent. It’s the equivalent of a “coin” in the digital world. When a transaction is made, the amount of cryptocurrency involved in the transaction is output as a UTXO. This UTXO can later be used as input for future transactions==.
 
 ---
 
 ### **How UTXO Works**
 
 1. **Transaction Creation**:
-    
-    - When someone receives a transaction, it’s recorded on the blockchain as an **output**. This output is the amount sent to the recipient, and it is considered a UTXO (because it hasn’t been spent yet).
+    - When ==someone receives a transaction, it’s recorded on the blockchain as an **output**.== ==This output is the amount sent to the recipient, and it is considered a UTXO (because it hasn’t been spent yet).==
 2. **Spending UTXOs**:
-    
     - When the recipient wants to spend the funds (i.e., send it to someone else), they use their UTXO as an **input** for a new transaction.
     - The new transaction will reference the UTXO, indicating that the funds are being spent. Once the UTXO is used, it’s marked as “spent” and cannot be reused in future transactions.
 3. **Change**:
-    
     - If the amount of the transaction exceeds the value of the UTXO used as input, the **change** is returned to the sender as a new UTXO. This change is often sent to the sender’s wallet as a new unspent output.
-
+	
 ---
 
 ### **UTXO Model vs Account-based Model**
 
 - **UTXO Model (Used by Bitcoin)**:
-    
     - In the UTXO model, each transaction consumes a UTXO (inputs) and creates new UTXOs (outputs). The blockchain keeps track of all UTXOs as the record of how much cryptocurrency each wallet holds.
     - A wallet does not directly hold a balance, but rather a collection of UTXOs that represent its balance.
+
 - **Account-based Model (Used by Ethereum)**:
-    
     - In the account-based model, a user’s balance is tracked directly, and transactions are conducted by updating the balance. In this system, wallets hold a direct balance that gets incremented or decremented with each transaction.
 
 ---
