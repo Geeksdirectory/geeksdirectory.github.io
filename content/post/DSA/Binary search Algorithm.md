@@ -12,7 +12,14 @@ https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx
 3. if mid ele == target ele => ans
 
 ---
+### Loops used in binary search
 
+while
+	if
+		else if 
+		 else 
+
+---
 ### Time Complexity:![[Pasted image 20241126204755.png]]
 
 
