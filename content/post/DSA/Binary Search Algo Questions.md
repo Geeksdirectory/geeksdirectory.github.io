@@ -37,7 +37,7 @@ ceiling(arr,target=15) = 16
 
 
 
-### 34. Find First and Last Position of Element in Sorted Array
+### 4. Find First and Last Position of Element in Sorted Array
 
 **Example 1:**
 **Input:** nums = [5,7,7,8,8,10], target = 8
@@ -52,3 +52,17 @@ ceiling(arr,target=15) = 16
 **Output:** [-1,-1]
 
 ![[Pasted image 20241204114845.png]]
+
+---
+
+### 5. Find position of an element in a sorted array of infiniate numbers. (amazon interview question)
+
+> try not to use array.length in infinite array 
+
+traverse through chunks
+![[Pasted image 20241215122615.png]]
+
+![[Pasted image 20241215121554.png]]
+
+
+
