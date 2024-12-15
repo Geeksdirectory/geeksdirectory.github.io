@@ -59,10 +59,15 @@ ceiling(arr,target=15) = 16
 
 > try not to use array.length in infinite array 
 
+https://youtu.be/W9QJ8HaRvJQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=6656
+
 traverse through chunks
 ![[Pasted image 20241215122615.png]]
 
 ![[Pasted image 20241215121554.png]]
 
 
+Doubling the size of chuck 
+
+![[Pasted image 20241215123745.png]]
 
