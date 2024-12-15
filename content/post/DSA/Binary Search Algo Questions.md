@@ -71,3 +71,4 @@ Doubling the size of chuck
 
 ![[Pasted image 20241215123745.png]]
 
+![[Pasted image 20241215124827.png]]
