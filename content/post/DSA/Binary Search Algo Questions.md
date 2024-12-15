@@ -72,3 +72,16 @@ Doubling the size of chuck
 ![[Pasted image 20241215123745.png]]
 
 ![[Pasted image 20241215124827.png]]
+### 6. leetcode 852 peak index in a mountain Array
+
+also known as biotonic arrray = {1,2,3,4,3,2,1}
+
+![[Pasted image 20241215174002.png]]
+
+
+find peak in mountain array
+try to solve this question with linear search
+#### but here i am using binary search to solve this
+
+it is the sorted array it is sorted in 3 halfs (first asending 2nd decenting)
+
