@@ -20,8 +20,6 @@ features : usb persisteance when boot through usb (that is memory must not loose
 every where it should replace debain as Fusion flux as an Distribution name
 iso : 64bit amd64 iso
 
-
-
 # prerequisites
 
 To create a custom Linux distribution using the **Live Build** tool (commonly used for Debian-based distributions like Debian, Ubuntu, and their derivatives), you need to install several prerequisite packages. Here's a list of essential packages and a basic step-by-step guide for setting up the environment.
@@ -97,8 +95,6 @@ This process will generate a live ISO image that you can customize further by ed
 - **config/includes.chroot/**: You can add custom files or scripts to be included in the final system.
 
 By ensuring these prerequisites are installed and following the steps above, you'll be able to create a custom Linux distribution using `live-build`.
-
-
 
 
 # 0th Config file
@@ -618,6 +614,7 @@ To rebrand the OS, you will need to modify certain files that show the OS name.
   ```
 
 - Add the following commands to replace Debian with Fusion in key files:
+
   ```bash
   #!/bin/bash
 
@@ -628,6 +625,7 @@ To rebrand the OS, you will need to modify certain files that show the OS name.
   ```
 
 - Make the hook executable:
+
   ```bash
   chmod +x config/hooks/live/02-change-os-name.hook.chroot
   ```
@@ -637,12 +635,14 @@ To rebrand the OS, you will need to modify certain files that show the OS name.
 To automatically start the Calamares installer when the live system boots, you can configure an autostart file or a systemd service.
 
 - Create a file to handle Calamares autostart:
+
   ```bash
   mkdir -p config/includes.chroot/etc/xdg/autostart/
   nano config/includes.chroot/etc/xdg/autostart/calamares.desktop
   ```
 
 - Add the following content to auto-start Calamares:
+
   ```bash
   [Desktop Entry]
   Type=Application
@@ -659,11 +659,13 @@ To automatically start the Calamares installer when the live system boots, you c
 Once the OS is installed, you will want to remove Calamares from the target system (the installed system). You can create a post-installation script for this purpose.
 
 - Create a new hook to remove Calamares after installation:
+
   ```bash
   nano config/hooks/post/03-remove-calamares.hook.postinst
   ```
 
 - Add the following content to the hook to remove Calamares after the installation process:
+
   ```bash
   #!/bin/bash
 
