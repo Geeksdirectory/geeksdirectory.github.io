@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/fusion flux.md",
+                "file": "DSA/Binary Search Algo Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fusion flux"
-            }
-          },
-          {
-            "id": "e63f29e3d74cf37d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Projects/Drawing 2024-12-16 15.56.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-16 15.56.23.excalidraw"
+              "title": "Binary Search Algo Questions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "359bd74976945535",
@@ -203,8 +189,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e63f29e3d74cf37d",
+  "active": "676e2d29381c8f35",
   "lastOpenFiles": [
+    "DSA/0. DSA Index.md",
     "Projects/fusion flux.md",
     "Projects/Drawing 2024-12-16 15.56.23.excalidraw.md",
     "AZ-104/Drawing.excalidraw.md",
@@ -241,7 +228,6 @@
     "DevOps - Cloud/1. DevOps Index.md",
     "DevOps - Cloud/Docker/Docker Index.md",
     "DevOps - Cloud/Untitled.md",
-    "DSA/0. DSA Index.md",
     "DSA/Pasted image 20241215174002.png",
     "DSA/Binary search Algorithm.md",
     "1.myvault/ToDO list.md",
