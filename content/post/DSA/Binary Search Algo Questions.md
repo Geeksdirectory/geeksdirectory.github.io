@@ -139,5 +139,16 @@ start ele > mid - element
 ![[Pasted image 20241216194556.png]] 
 ![[Pasted image 20241216201207.png]]
 
+#### Code : (duplicate value rotation code is also included)
+![[Pasted image 20241217225135.png]]
+![[Pasted image 20241217225200.png]]
+![[Pasted image 20241217225216.png]]
+![[Pasted image 20241217225237.png]]
 
-## Q.9 Search in  
+## Q.9 rotation count
+
+![[Pasted image 20241217232449.png]]
+
+ans = pivot +1
+
+code : https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/lectures/10-binary%20search/code/src/com/kunal/RotationCount.java
