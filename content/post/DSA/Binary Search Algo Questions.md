@@ -139,3 +139,5 @@ start ele > mid - element
 ![[Pasted image 20241216194556.png]] 
 ![[Pasted image 20241216201207.png]]
 
+
+## Q.9 Search in  

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/1.Off-campus Companies to apply.md",
+                "file": "DSA/Binary Search Algo Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Off-campus Companies to apply"
+              "title": "Binary Search Algo Questions"
             }
           },
           {
@@ -205,8 +205,10 @@
   },
   "active": "bcbc120585277f77",
   "lastOpenFiles": [
-    "interview/zoho.md",
+    "DSA/0. DSA Index.md",
+    "0. Index.md",
     "interview/1.Off-campus Companies to apply.md",
+    "interview/zoho.md",
     "DevOps - Cloud/Linux/Linux Index.md",
     "DevOps - Cloud/Docker/Docker Index.md",
     "1.myvault/Untitled.md",
@@ -236,7 +238,6 @@
     "DSA/Pasted image 20241216191913.png",
     "DevOps - Cloud/git/git branch commands.md",
     "DevOps - Cloud/git/gitconfigurepasswordinlinux.md",
-    "DSA/0. DSA Index.md",
     "Projects/fusion flux.md",
     "Projects/Drawing 2024-12-16 15.56.23.excalidraw.md",
     "AZ-104/Drawing.excalidraw.md",
@@ -244,7 +245,6 @@
     "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Excalidraw/Drawing 2024-12-16 12.49.40.excalidraw.md",
     "Excalidraw/Untitled.canvas",
     "Excalidraw",
     "1.myvault",
