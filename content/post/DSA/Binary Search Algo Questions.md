@@ -16,6 +16,7 @@ ceiling(arr,target=15) = 16
 
 ![[Pasted image 20241203070828.png]]
 
+---
 ### Q.2 Floor of a number
 
 ![[WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg]]
@@ -24,7 +25,7 @@ ceiling(arr,target=15) = 16
 
 ![[Pasted image 20241203070809.png]]
 
-
+---
 ### Q.3 Find Smallest letter greater than target [ leetcode : 744 ]
 
 
@@ -35,8 +36,7 @@ ceiling(arr,target=15) = 16
 
 ![[Pasted image 20241204144936.png]]
 
-
-
+---
 ### 4. Find First and Last Position of Element in Sorted Array
 
 **Example 1:**
@@ -72,6 +72,8 @@ Doubling the size of chuck
 ![[Pasted image 20241215123745.png]]
 
 ![[Pasted image 20241215124827.png]]
+
+---
 ### 6. leetcode 852 peak index in a mountain Array
 
 also known as biotonic arrray = {1,2,3,4,3,2,1}
@@ -84,4 +86,56 @@ try to solve this question with linear search
 #### but here i am using binary search to solve this
 
 it is the sorted array it is sorted in 3 halfs (first asending 2nd decenting)
+
+![[Pasted image 20241216190242.png]]
+
+---
+## 7. leetcode 1095 find in mountain array
+### Search in mountain
+
+![[Pasted image 20241216190713.png]]
+
+code for this will try later
+
+---
+## 8. Search in a Rotated Sorted Array (LeetCode 33)
+
+distinct value (no dublicates)
+
+2 approaches 
+
+#### case 1:
+![[Pasted image 20241216191656.png]]
+
+![[Pasted image 20241216191704.png]]
+
+![[Pasted image 20241216191913.png]]
+
+> remember pivot is the largest number 
+
+
+1. find pivot 
+2. search in first half (simple binary search) [o,pivot]
+3. otherwise, search in second half [pivot + 1, end ]
+
+![[Pasted image 20241216192508.png]]
+
+#### case 2:
+
+if mid ele  < (mid - 1) ele , so my ans is (mid - 1)
+
+#### case 3: 
+
+start ele > mid - element
+
+![[Pasted image 20241216193255.png]]
+
+![[Pasted image 20241216193417.png]]
+
+
+
+#### case 4
+
+![[Pasted image 20241216194556.png]] 
+![[Pasted image 20241216201207.png]]
 
