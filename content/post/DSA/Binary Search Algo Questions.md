@@ -1,4 +1,4 @@
-	
+
 
 > [!NOTE]
 > we use binary search in sorted arrays.
