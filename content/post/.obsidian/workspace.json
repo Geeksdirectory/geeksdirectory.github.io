@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "1.HTML"
             }
+          },
+          {
+            "id": "d4ce3d78d491aced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AZ-104/1. Azure Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Azure Index"
+            }
+          },
+          {
+            "id": "d5c973dee21963a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AZ-104/Storage Account.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Storage Account"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5086555480957,
-    "collapsed": true
+    "width": 320.5086555480957
   },
   "right": {
     "id": "359bd74976945535",
@@ -190,10 +218,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "893a12056ea020ac",
+  "active": "d5c973dee21963a2",
   "lastOpenFiles": [
-    "interview/1.Off-campus Companies to apply.md",
+    "AZ-104/1. Azure Index.md",
     "interview/HTML/1.HTML.md",
+    "AZ-104/Storage Account.md",
+    "AZ-104/configure and manage virtual networking.excalidraw.md",
+    "AZ-104/Drawing.excalidraw.md",
+    "AZ-104/Pasted Image 20241218221153_787.png",
+    "AZ-104/Pasted Image 20241218221044_783.png",
+    "AZ-104/Pasted Image 20241218221013_972.png",
+    "AZ-104/Pasted Image 20241218220927_034.png",
+    "AZ-104/Pasted Image 20241218220836_396.png",
+    "AZ-104/Pasted Image 20241218220804_236.png",
+    "AZ-104/Pasted Image 20241218220721_613.png",
+    "AZ-104/Pasted Image 20241218220642_007.png",
+    "AZ-104/Pasted Image 20241218220610_599.png",
+    "interview/1.Off-campus Companies to apply.md",
     "interview/HTML",
     "self learnings and improvements/1.main.md",
     "self learnings and improvements/Drawing 2024-12-18 11.31.58.excalidraw.md",
@@ -204,33 +245,20 @@
     "interview/zoho.md",
     "DSA/Binary Search Algo Questions.md",
     "DSA/Pasted image 20241217232449.png",
-    "DSA/Pasted image 20241217225237.png",
-    "DSA/Pasted image 20241217225216.png",
-    "DSA/Pasted image 20241217225200.png",
-    "DSA/Pasted image 20241217225135.png",
     "DSA/0. DSA Index.md",
     "0. Index.md",
     "DevOps - Cloud/Linux/Linux Index.md",
     "DevOps - Cloud/Docker/Docker Index.md",
     "1.myvault/Untitled.md",
     "1.myvault/Drawing 2024-12-17 16.16.58.excalidraw.md",
-    "1.myvault/Pasted Image 20241217162110_062.png",
-    "1.myvault/Pasted Image 20241217162035_003.png",
-    "1.myvault/Pasted Image 20241217162006_768.png",
-    "1.myvault/Pasted Image 20241217161809_100.png",
     "DevOps - Cloud/1.DevOps_Index.excalidraw.md",
     "viva/Deep learning.md",
     "DevOps - Cloud/Docker/bind mount volume.md",
     "DSA/Binary search Algorithm.md",
     "DSA/Arrays.md",
     "DevOps - Cloud/git/git.md",
-    "DevOps - Cloud/Shell-Scripting/Shell-Scripting Index.md",
-    "DevOps - Cloud/Jenkins/Jenkins Index.md",
-    "AZ-104/1. Azure Index.md",
     "DevOps - Cloud/Linux",
     "DevOps - Cloud/Jenkins",
-    "DevOps - Cloud/git/Git Index.md",
-    "DSA/Pasted image 20241216201207.png",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw/Untitled.canvas",
