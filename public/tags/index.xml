@@ -5,15 +5,6 @@
         <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Tue, 27 Aug 2024 17:17:13 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Azure,cloud,ngnix</title>
-        <link>http://localhost:1313/tags/azurecloudngnix/</link>
-        <pubDate>Tue, 27 Aug 2024 17:17:13 +0530</pubDate>
-        
-        <guid>http://localhost:1313/tags/azurecloudngnix/</guid>
-        <description></description>
-        </item>
-        
+        <language>en</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
