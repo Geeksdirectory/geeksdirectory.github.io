@@ -1,3 +1,7 @@
+---
+title: functions in java
+---
+
 - In java we call functions as method
 - function is nothing but the block of code. 
 

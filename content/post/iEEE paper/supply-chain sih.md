@@ -1,3 +1,6 @@
+---
+title: Supplychain research paper
+---
 
 - our paper is outcome based paper
 - atleast 30 references papers (2021-2024)
