@@ -2,16 +2,140 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>GeeksDirectory</title>
-        <link>https://geeksdirectory.github.io/</link>
+        <link>https://yashbhangale.github.io/mydocs/</link>
         <description>Recent content on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://geeksdirectory.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yashbhangale.github.io/mydocs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linked list</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/1.-linked-list/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/1.-linked-list/</guid>
+        <description>&lt;p&gt;==Linear DS consist of nodes with some sort of data, and a pointer, or link, to the next node.==️
+&lt;strong&gt;data&lt;/strong&gt;: The value stored in the node
+&lt;strong&gt;Pointer/Link&lt;/strong&gt;: a reference to the next node on the sequence&lt;/p&gt;
+&lt;p&gt;A big &lt;strong&gt;benefit&lt;/strong&gt; with using linked lists is that ==nodes are stored wherever there is free space in memory, the nodes do not have to be stored contiguously right after each other like elements are stored in arrays==. Another nice thing with linked lists is that when adding or removing nodes, the r️️️️️est of the nodes in the list do not have to be shifted.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115153608.png]]&lt;/p&gt;
+&lt;h4 id=&#34;types&#34;&gt;Types&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;singly linked list&lt;/strong&gt;: Each node points to the next node&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Doubly Linked List&lt;/strong&gt;: Each node points to both the next and previous nodes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circular Linked List&lt;/strong&gt;: The last node points back to the first node.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;basic-operations-in-linked-lists&#34;&gt;Basic Operations in Linked Lists&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Insertion&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;At the beginning.&lt;/li&gt;
+&lt;li&gt;At the end.&lt;/li&gt;
+&lt;li&gt;At a specific position.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deletion&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;From the beginning.&lt;/li&gt;
+&lt;li&gt;From the end.&lt;/li&gt;
+&lt;li&gt;From a specific position.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Traversal&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Printing all elements.&lt;/li&gt;
+&lt;li&gt;Counting nodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Finding a specific value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reverse the Linked List&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;linked-list-vs-array&#34;&gt;Linked list vs Array&lt;/h4&gt;
+&lt;p&gt;![[Pasted image 20241115153756.png]]&lt;/p&gt;
+&lt;p&gt;In memory, an &lt;strong&gt;array&lt;/strong&gt; is stored in [[contiguous memory locations]], where elements are accessed via direct indexing, making it faster for random access but requiring a fixed size. In contrast, a &lt;strong&gt;linked list&lt;/strong&gt; stores nodes in ==non-contiguous memory==, connected by pointers, allowing ==dynamic resizing== but with ==slower access due to sequential traversal.==&lt;/p&gt;
+&lt;p&gt;The image below shows ==how a linked list can be stored in memory==. The linked list has four nodes with values 3, 5, 13 and 2, and each node has a pointer to the next node in the list.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115192508.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115192550.png]]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unlike with arrays, the nodes in a linked list are not placed right after each other in memory. This means that when inserting or removing a node, shifting of other nodes is not necessary, so that is a good thing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;types-of-linked-list&#34;&gt;Types of linked list&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;singly linked lists&lt;/li&gt;
+&lt;li&gt;Doubly linked lists&lt;/li&gt;
+&lt;li&gt;Circular linked list&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A &lt;strong&gt;singly linked list&lt;/strong&gt; is the ==simplest kind of linked lists==. It takes up ==less space in memory because each node has only one address to the next nod==e, like in the image below.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115193010.png]]
+A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to both the previous and the next node==, like in the image below, and therefore ==takes up more memory==. But doubly linked lists are ==good if you want to be able to move both up and down in the list.==&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115193131.png]]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;circular linked list&lt;/strong&gt; is like a singly or doubly linked list with the first node, the &amp;ldquo;head&amp;rdquo;, and the last node, the &amp;ldquo;tail&amp;rdquo;, connected.&lt;/p&gt;
+&lt;p&gt;Circular linked lists are good for lists you need to cycle through continuously.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115193301.png]]&lt;/p&gt;
+&lt;h3 id=&#34;java-code-for-linked-lists&#34;&gt;Java code for Linked lists&lt;/h3&gt;
+&lt;p&gt;[[Single linked list]]&lt;/p&gt;
+&lt;p&gt;what is linked list&lt;/p&gt;
+&lt;p&gt;Here is a concise summary of what a Linked List is:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A linked list is a data structure consisting of nodes, each containing a value and a reference (or link) to the next node in the sequence. This allows for efficient insertion and deletion of elements at any position in the list, making it suitable for applications that require frequent updates. The order of elements in a linked list can be sorted or unsorted, and it is commonly used in algorithms such as stacks and queues, as well as in databases to manage data storage and retrieval.&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>syllabus for DSA</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/0.-dsa-index/</link>
+        <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/0.-dsa-index/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;a class=&#34;link&#34; href=&#34;1.%20Basic%20Java.md&#34; &gt;1. Basic Java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. Conditions and loops]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Switch Cases and Statements in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[functions in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[3. Time and Space Complexity]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Strings and StringBuilder in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Searching algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Linear Search Algorithm]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary search Algorithm]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary Search Algo Questions]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary search in 2d arrays]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; sorting algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Bubble sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. Selection sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[3. insertion sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[4. Merge sort ]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Quick sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Heap sort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[4. Patterns]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[5. Recursion]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Arrays]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Java recursion problems solved can be asked in interview]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[6. Backtracking]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Linked List]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Stack&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Queue&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Binary Tree&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; BST&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashSet&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashMap&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Trie&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Graph&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>About</title>
-        <link>https://geeksdirectory.github.io/page/about/</link>
+        <link>https://yashbhangale.github.io/mydocs/page/about/</link>
         <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://geeksdirectory.github.io/page/about/</guid>
+        <guid>https://yashbhangale.github.io/mydocs/page/about/</guid>
         <description>&lt;h2 id=&#34;currently-working-on&#34;&gt;currently working on&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -278,18 +402,985 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>https://geeksdirectory.github.io/page/archives/</link>
+        <link>https://yashbhangale.github.io/mydocs/page/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://geeksdirectory.github.io/page/archives/</guid>
+        <guid>https://yashbhangale.github.io/mydocs/page/archives/</guid>
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>https://geeksdirectory.github.io/page/links/</link>
+        <title></title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/drawing-2024-12-20-16.00.34.excalidraw/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://geeksdirectory.github.io/page/links/</guid>
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/drawing-2024-12-20-16.00.34.excalidraw/</guid>
+        <description>&lt;p&gt;==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: &amp;lsquo;Decompress current Excalidraw file&amp;rsquo;. For more info check in plugin settings under &amp;lsquo;Saving&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;excalidraw-data&#34;&gt;Excalidraw Data&lt;/h1&gt;
+&lt;h2 id=&#34;text-elements&#34;&gt;Text Elements&lt;/h2&gt;
+&lt;p&gt;output = false ^KNwDrMnN&lt;/p&gt;
+&lt;h2 id=&#34;embedded-files&#34;&gt;Embedded Files&lt;/h2&gt;
+&lt;p&gt;a8ba5f3e2a552f2d671ab98e0e7eec126446b3f0: [[Pasted Image 20241220161127_990.png]]&lt;/p&gt;
+&lt;p&gt;%%&lt;/p&gt;
+&lt;h2 id=&#34;drawing&#34;&gt;Drawing&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-compressed-json&#34; data-lang=&#34;compressed-json&#34;&gt;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
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;%%&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/single-linked-list/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/single-linked-list/</guid>
+        <description>&lt;p&gt;single linked list every item knows about other item
+head is reference variable which points to next node , and tail is last one&lt;/p&gt;
+&lt;p&gt;last element is connected to &lt;em&gt;&lt;strong&gt;null&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115202536.png]]&lt;/p&gt;
+&lt;h4 id=&#34;code&#34;&gt;Code&lt;/h4&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/strings-and-stringbuilder-in-java/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/strings-and-stringbuilder-in-java/</guid>
+        <description>&lt;p&gt;any thing which start with capital letter is a class
+![[Pasted image 20241220155436.png]]
+![[Pasted image 20241220155403.png]]&lt;/p&gt;
+&lt;h2 id=&#34;string-pool--separate-memory-structure-inside-a-heap&#34;&gt;String pool : separate memory structure inside a heap&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241220155547.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220155653.png]]&lt;/p&gt;
+&lt;p&gt;make a program more optimise&lt;/p&gt;
+&lt;p&gt;Strings are immutable we cannot change it we cannot change object&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220160131.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220160159.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220160250.png]]&lt;/p&gt;
+&lt;h2 id=&#34;comparison-of-string&#34;&gt;comparison of string&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241220160454.png]]&lt;/p&gt;
+&lt;h2 id=&#34;create-diff-objects-of-same-value&#34;&gt;Create diff objects of Same value&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241220160947.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220161134.png]]&lt;/p&gt;
+&lt;h1 id=&#34;pretty-printing-in-java&#34;&gt;pretty printing in java&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241220173230.png]]
+output: 453.16f&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lsquo;%&amp;rsquo; is called placeholder&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pie: %.3f&amp;#34;&lt;/span&gt;, Math.&lt;span style=&#34;color:#a6e22e&#34;&gt;PI&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;output: 3.142&lt;/p&gt;
+&lt;p&gt;Here’s a tabular representation of the commonly used &lt;strong&gt;format specifiers&lt;/strong&gt; in Java. These are used with methods like &lt;code&gt;System.out.printf()&lt;/code&gt; or &lt;code&gt;String.format()&lt;/code&gt; for formatted output:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Specifier&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%d&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Integer (decimal)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%d&amp;quot;, 42);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;42&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Floating-point number&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%.2f&amp;quot;, 3.14);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;3.14&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Scientific notation (lowercase)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%e&amp;quot;, 12345.678);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;1.234568e+04&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%E&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Scientific notation (uppercase)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%E&amp;quot;, 12345.678);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;1.234568E+04&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%c&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Character&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%c&amp;quot;, &#39;A&#39;);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;A&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%s&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%s&amp;quot;, &amp;quot;Java&amp;quot;);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Java&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Boolean&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%b&amp;quot;, true);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%%&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Literal &lt;code&gt;%&lt;/code&gt; symbol&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%%&amp;quot;);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;%&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%o&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Octal integer&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%o&amp;quot;, 10);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;12&lt;/code&gt; (octal)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%x&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Hexadecimal integer (lowercase)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%x&amp;quot;, 255);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;ff&lt;/code&gt; (hex)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%X&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Hexadecimal integer (uppercase)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%X&amp;quot;, 255);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;FF&lt;/code&gt; (hex)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%t&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Date/Time specifier (see below)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%n&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Newline character&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;Hello%nWorld&amp;quot;);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Multi-line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;additional-datetime-specifiers-with-t&#34;&gt;&lt;strong&gt;Additional Date/Time Specifiers (with &lt;code&gt;%t&lt;/code&gt;)&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Specifier&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tH&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Hour (24-hour format)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tH&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;14&lt;/code&gt; (e.g., 2 PM)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tI&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Hour (12-hour format)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tI&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;02&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tM&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Minute&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tM&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;30&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tS&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Second&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tS&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;45&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tp&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;AM/PM marker (lowercase)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tp&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;pm&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tB&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Full month name&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tB&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;December&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tb&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Abbreviated month name&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tb&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Dec&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tA&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Full day name&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tA&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Friday&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%ta&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Abbreviated day name&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%ta&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Fri&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%tY&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Year (4-digit)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%tY&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;2024&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%ty&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Year (last 2 digits)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%ty&amp;quot;, new Date());&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;24&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;formatting-options&#34;&gt;&lt;strong&gt;Formatting Options&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can combine format specifiers with flags for more control:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Flag&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Left-align&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%-10d&amp;quot;, 123);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;123&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;+&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Print sign for numbers&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%+d&amp;quot;, 123);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;+123&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;0&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Pad with zeroes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%05d&amp;quot;, 123);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;00123&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;,&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Use grouping separator&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%,d&amp;quot;, 1234567);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;1,234,567&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;.&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Precision for floating-point&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.out.printf(&amp;quot;%.2f&amp;quot;, 3.14159);&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;3.14&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;example-program&#34;&gt;Example Program&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.Date;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;FormatSpecifierDemo&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Integer: %d%n&amp;#34;&lt;/span&gt;, 42);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Float: %.2f%n&amp;#34;&lt;/span&gt;, 3.&lt;span style=&#34;color:#a6e22e&#34;&gt;14159&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Character: %c%n&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;A&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String: %s%n&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hexadecimal: %x%n&amp;#34;&lt;/span&gt;, 255);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Current Time: %tT%n&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Date());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;operators&#34;&gt;operators&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241220190008.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220190019.png]]&lt;/p&gt;
+&lt;h1 id=&#34;string-builder-only-one-obj-is-made-and-the-changes-is-done-in-that-obj-only&#34;&gt;String builder (only one obj is made and the changes is done in that obj only)\&lt;/h1&gt;
+&lt;p&gt;we can&amp;rsquo;t name class as StringBuilder as it is already a class
+![[Pasted image 20241220195244.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220195252.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220195330.png]]&lt;/p&gt;
+&lt;h4 id=&#34;reverse-a-string-use&#34;&gt;Reverse a string use&lt;/h4&gt;
+&lt;p&gt;string builder reverse (&amp;ldquo;builder.reverse&amp;rdquo;)&lt;/p&gt;
+&lt;h1 id=&#34;string-methods&#34;&gt;String Methods&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241220195601.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241220195958.png]]&lt;/p&gt;
+&lt;h1 id=&#34;palindrome-of-a-string&#34;&gt;Palindrome of a string&lt;/h1&gt;
+&lt;p&gt;![[Pasted image 20241220201924.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/switch-cases-and-statements-in-java/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/switch-cases-and-statements-in-java/</guid>
+        <description>&lt;p&gt;old switch case formate&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118134919.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118135539.png]]&lt;/p&gt;
+&lt;h3 id=&#34;enhanced-switch&#34;&gt;Enhanced switch&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241118140209.png]]
+![[Pasted image 20241118141223.png]]&lt;/p&gt;
+&lt;p&gt;Nested switch case&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118141545.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Arrays</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/arrays/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/arrays/</guid>
+        <description>&lt;p&gt;why we need arrays&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;array is collection of datatypes&lt;/li&gt;
+&lt;li&gt;Arrays are a type of static data structure because their size is predefined and unchangeable.&lt;/li&gt;
+&lt;li&gt;Array indices start from 0.&lt;/li&gt;
+&lt;li&gt;Arrays ==store elements of the same data type==, e.g., all integers, all strings, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Advantages in Java:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple to use for storing fixed-size collections of data.&lt;/li&gt;
+&lt;li&gt;Provides a direct way to manage memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;syntax
+datatype[] variable_name = ==new== datatype[size];&lt;/p&gt;
+&lt;p&gt;here ==new== is a keyword used to create an object&lt;/p&gt;
+&lt;p&gt;ed : int[] numbers = new int[5];&lt;/p&gt;
+&lt;p&gt;int[] rnos = new int[5];
+or
+int[] rnos2 = {12,23,21,34,43};&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119120436.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119120619.png]]&lt;/p&gt;
+&lt;p&gt;here new is a keyword used to create an object&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119120751.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119120813.png]]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In java their is no concept of pointers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;array objects are in heap&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;all objects in java is stored in heap&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;heap object are not continous (memory are one by one allocated)&lt;/p&gt;
+&lt;p&gt;array objects  in java may not be continuous (it depends on jvm)&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119122520.png]]&lt;/p&gt;
+&lt;h3 id=&#34;passing-through-function&#34;&gt;passing through function&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241119122826.png]]&lt;/p&gt;
+&lt;p&gt;strings are immutable and arrays are mutable in java (here mutable means we can change object)&lt;/p&gt;
+&lt;h3 id=&#34;multidimensional-array&#34;&gt;Multidimensional array&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241119123237.png]]&lt;/p&gt;
+&lt;p&gt;multidimensional arrays are array of arrays&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119133407.png]]&lt;/p&gt;
+&lt;p&gt;arr[] &amp;mdash;&amp;ndash;&amp;gt; [4,5,6]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119133500.png]]&lt;/p&gt;
+&lt;p&gt;individual size of an array can vary as well , bcoz  each array itself is a different object&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119133949.png]]&lt;/p&gt;
+&lt;p&gt;input of multidimensional array&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119140517.png]]&lt;/p&gt;
+&lt;p&gt;input and output of multidimensional array&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.Scanner;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MultiDimensionalArray&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Scanner scanner &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Input dimensions of the array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter number of rows: &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; rows &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; scanner.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter number of columns: &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; scanner.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Declare a 2D array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[][]&lt;/span&gt; array &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;rows&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;cols&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Input elements into the array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter the elements of the array:&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; rows; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; j &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; cols; j&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Element [&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;][&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;]: &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                array&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;j&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; scanner.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Output the 2D array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\nThe entered 2D array is:&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; rows; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; j &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; cols; j&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(array&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;j&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Move to the next line for each row&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        scanner.&lt;span style=&#34;color:#a6e22e&#34;&gt;close&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;![[Pasted image 20241119142537.png]]&lt;/p&gt;
+&lt;h3 id=&#34;array-list&#34;&gt;Array list&lt;/h3&gt;
+&lt;p&gt;when we don&amp;rsquo;t know how much size of the array we want&lt;/p&gt;
+&lt;p&gt;// syntax&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ArrayList&amp;lt;Integer&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An ArrayList in Java is a part of the &lt;code&gt;java.util&lt;/code&gt; package and provides a resizable array implementation. Unlike arrays, the size of an ArrayList can grow or shrink dynamically.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically resizes when elements are added or removed.&lt;/li&gt;
+&lt;li&gt;No need to define a fixed size at initialization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;![[Pasted image 20241119143637.png]]&lt;/p&gt;
+&lt;p&gt;internal working of arraylist&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119143937.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119144049.png]]&lt;/p&gt;
+&lt;p&gt;Q1 swap 2 index in an array&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241119151147.png]]&lt;/p&gt;
+&lt;p&gt;Q2. find max value of array&lt;/p&gt;
+&lt;p&gt;Q3. reverse of array&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Binary search algo</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algorithm/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algorithm/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Used for sorted arrays&lt;/li&gt;
+&lt;li&gt;in ascending or descending order&lt;/li&gt;
+&lt;li&gt;It works by repeatedly dividing the search interval in half and comparing the target with the middle element.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;algo&#34;&gt;Algo&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;find the middle element&lt;/li&gt;
+&lt;li&gt;target ele &amp;gt; mid ele =&amp;gt; search in right else search in left&lt;/li&gt;
+&lt;li&gt;if mid ele == target ele =&amp;gt; ans&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;loops-used-in-binary-search&#34;&gt;Loops used in binary search&lt;/h3&gt;
+&lt;p&gt;while
+if
+else if
+else&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;time-complexitypasted-image-20241126204755png&#34;&gt;Time Complexity:![[Pasted image 20241126204755.png]]&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Best Case&lt;/strong&gt;: O(1) (target found at the middle).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Worst Case&lt;/strong&gt;: O(log⁡n)   (array size halved each step).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;space-complexity&#34;&gt;Space Complexity:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;O(1) (iterative approach, no extra memory used).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;while coding
+![[Pasted image 20241128052751.png]]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;![[Pasted image 20241128052907.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;code-for-binary-search-hinglish-explaination-of-code&#34;&gt;code for binary search [[hinglish explaination of code]]&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241128054208.png]]&lt;/p&gt;
+&lt;h3 id=&#34;order-agnostic-binary-search&#34;&gt;Order agnostic binary search&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241128061939.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Binary Search algo questions</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algo-questions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algo-questions/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+we use binary search in sorted arrays.
+if we get problem statement with sorted array try binary search first.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;q1-ceiling-of-a-given-number&#34;&gt;Q.1 ceiling of a given number&lt;/h3&gt;
+&lt;p&gt;ceiling of no is smallest ele in arr greater ot == target
+arr = [2,3,4,5,9,14,16,18], target = 14
+if target = 14 then ceiling = 14
+ceiling(arr,target=15) = 16&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241202175529.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241203070828.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;q2-floor-of-a-number&#34;&gt;Q.2 Floor of a number&lt;/h3&gt;
+&lt;p&gt;![[WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg]]&lt;/p&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241203070809.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;q3-find-smallest-letter-greater-than-target--leetcode--744-&#34;&gt;Q.3 Find Smallest letter greater than target [ leetcode : 744 ]&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exact same approach for cieling of the number&lt;/li&gt;
+&lt;li&gt;ignore the target = what are looking for.&lt;/li&gt;
+&lt;li&gt;wrapping of later eg: arr = [&amp;lsquo;c&amp;rsquo;,&amp;rsquo;d&amp;rsquo;,&amp;lsquo;f&amp;rsquo;,&amp;lsquo;j&amp;rsquo;] , target = &amp;lsquo;j&amp;rsquo; output = c we will use modulo (%)&lt;/li&gt;
+&lt;li&gt;condition violeted : start = end + 1 ==&amp;gt; length of array = N&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;![[Pasted image 20241204144936.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;4-find-first-and-last-position-of-element-in-sorted-array&#34;&gt;4. Find First and Last Position of Element in Sorted Array&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;
+&lt;strong&gt;Input:&lt;/strong&gt; nums = [5,7,7,8,8,10], target = 8
+&lt;strong&gt;Output:&lt;/strong&gt; [3,4]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2:&lt;/strong&gt;
+&lt;strong&gt;Input:&lt;/strong&gt; nums = [5,7,7,8,8,10], target = 6
+&lt;strong&gt;Output:&lt;/strong&gt; [-1,-1]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 3:&lt;/strong&gt;
+&lt;strong&gt;Input:&lt;/strong&gt; nums = [], target = 0
+&lt;strong&gt;Output:&lt;/strong&gt; [-1,-1]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241204114845.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;5-find-position-of-an-element-in-a-sorted-array-of-infiniate-numbers-amazon-interview-question&#34;&gt;5. Find position of an element in a sorted array of infiniate numbers. (amazon interview question)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;try not to use array.length in infinite array&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/W9QJ8HaRvJQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&amp;amp;t=6656&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/W9QJ8HaRvJQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&amp;t=6656&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;traverse through chunks
+![[Pasted image 20241215122615.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241215121554.png]]&lt;/p&gt;
+&lt;p&gt;Doubling the size of chuck&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241215123745.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241215124827.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;6-leetcode-852-peak-index-in-a-mountain-array&#34;&gt;6. leetcode 852 peak index in a mountain Array&lt;/h3&gt;
+&lt;p&gt;also known as biotonic arrray = {1,2,3,4,3,2,1}&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241215174002.png]]&lt;/p&gt;
+&lt;p&gt;find peak in mountain array
+try to solve this question with linear search&lt;/p&gt;
+&lt;h4 id=&#34;but-here-i-am-using-binary-search-to-solve-this&#34;&gt;but here i am using binary search to solve this&lt;/h4&gt;
+&lt;p&gt;it is the sorted array it is sorted in 3 halfs (first asending 2nd decenting)&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241216190242.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;7-leetcode-1095-find-in-mountain-array&#34;&gt;7. leetcode 1095 find in mountain array&lt;/h2&gt;
+&lt;h3 id=&#34;search-in-mountain&#34;&gt;Search in mountain&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241216190713.png]]&lt;/p&gt;
+&lt;p&gt;code for this will try later&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;8-search-in-a-rotated-sorted-array-leetcode-33&#34;&gt;8. Search in a Rotated Sorted Array (LeetCode 33)&lt;/h2&gt;
+&lt;p&gt;distinct value (no dublicates)&lt;/p&gt;
+&lt;p&gt;2 approaches&lt;/p&gt;
+&lt;h4 id=&#34;case-1&#34;&gt;case 1:&lt;/h4&gt;
+&lt;p&gt;![[Pasted image 20241216191656.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241216191704.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241216191913.png]]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;remember pivot is the largest number&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;find pivot&lt;/li&gt;
+&lt;li&gt;search in first half (simple binary search) [o,pivot]&lt;/li&gt;
+&lt;li&gt;otherwise, search in second half [pivot + 1, end ]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;![[Pasted image 20241216192508.png]]&lt;/p&gt;
+&lt;h4 id=&#34;case-2&#34;&gt;case 2:&lt;/h4&gt;
+&lt;p&gt;if mid ele  &amp;lt; (mid - 1) ele , so my ans is (mid - 1)&lt;/p&gt;
+&lt;h4 id=&#34;case-3&#34;&gt;case 3:&lt;/h4&gt;
+&lt;p&gt;start ele &amp;gt; mid - element&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241216193255.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241216193417.png]]&lt;/p&gt;
+&lt;h4 id=&#34;case-4&#34;&gt;case 4&lt;/h4&gt;
+&lt;p&gt;![[Pasted image 20241216194556.png]]
+![[Pasted image 20241216201207.png]]&lt;/p&gt;
+&lt;h4 id=&#34;code--duplicate-value-rotation-code-is-also-included&#34;&gt;Code : (duplicate value rotation code is also included)&lt;/h4&gt;
+&lt;p&gt;![[Pasted image 20241217225135.png]]
+![[Pasted image 20241217225200.png]]
+![[Pasted image 20241217225216.png]]
+![[Pasted image 20241217225237.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q9-rotation-count&#34;&gt;Q.9 rotation count&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241217232449.png]]&lt;/p&gt;
+&lt;p&gt;ans = pivot +1&lt;/p&gt;
+&lt;p&gt;code : &lt;a class=&#34;link&#34; href=&#34;https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/lectures/10-binary%20search/code/src/com/kunal/RotationCount.java&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/lectures/10-binary%20search/code/src/com/kunal/RotationCount.java&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Binary search in 2d arrays</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-in-2d-arrays/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-in-2d-arrays/</guid>
+        <description>&lt;p&gt;Searching in matrices (2d arrays)&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241219073902.png]]&lt;/p&gt;
+&lt;p&gt;we use nested for loop&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241219074213.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Conditions and loops</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/2.-conditions-and-loops/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/2.-conditions-and-loops/</guid>
+        <description>&lt;h4 id=&#34;if---then-condition&#34;&gt;if - then condition&lt;/h4&gt;
+&lt;p&gt;public class Main {
+Public static void main(String[] args) {
+if (boolean expression T or F) {
+//body
+} else {
+// do this
+}
+}
+}&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;![[Pasted image 20241117184729.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;else-if&#34;&gt;Else If&lt;/h3&gt;
+&lt;h2 id=&#34;pasted-image-20241117185831png&#34;&gt;![[Pasted image 20241117185831.png]]&lt;/h2&gt;
+&lt;h3 id=&#34;loops&#34;&gt;loops&lt;/h3&gt;
+&lt;h4 id=&#34;for-loop&#34;&gt;for loop&lt;/h4&gt;
+&lt;p&gt;/*
+Syntax of for loop
+for ( initialization; condition; increment /decrement){
+//body
+}
+*/&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;![[Pasted image 20241117190240.png]]![[Pasted image 20241117190801.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;while-loops&#34;&gt;While Loops&lt;/h3&gt;
+&lt;p&gt;/*
+Syntax:
+while (condition) {
+//body
+}
+*/&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241117191323.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;when-to-use-which-loop&#34;&gt;When to use which loop&lt;/h3&gt;
+&lt;p&gt;use while loop when we don&amp;rsquo;t know how many time loop run
+and use for loop when we know how many time does loop run&lt;/p&gt;
+&lt;h3 id=&#34;do-while-loop&#34;&gt;do while loop&lt;/h3&gt;
+&lt;p&gt;do {&lt;/p&gt;
+&lt;p&gt;} while (condition);&lt;/p&gt;
+&lt;p&gt;do while loop executes atleast ones and after that it will check condition&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241117192619.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Q1 Check if the char is at lowercase or uppercase&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241117193411.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Q2. Fibonacci no.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241117194111.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Q3 count repeated numbers&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241117195655.png]]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Q4. reverse a number&lt;/p&gt;
+&lt;h2 id=&#34;pasted-image-20241117195810png&#34;&gt;![[Pasted image 20241117195810.png]]&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241117195929.png]]&lt;/p&gt;
+&lt;hr /&gt;
+</description>
+        </item>
+        <item>
+        <title>Contiguous memory locations</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/contiguous-memory-locations/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/contiguous-memory-locations/</guid>
+        <description>&lt;p&gt;each element is stored right after the previous element&lt;/p&gt;
+&lt;p&gt;The image below shows how an array of integers myArray = [3,5,13,2] is stored in memory. We use a simple kind of memory here with two bytes for each integer, like in the previous example, just to get the idea.
+![[Pasted image 20241115192344.png]]&lt;/p&gt;
+&lt;p&gt;image below shows how elements are shifted when an array element is removed.
+![[Pasted image 20241115192415.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>dump</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/dump/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/dump/</guid>
+        <description>&lt;p&gt;linked list not continous mem alloc tray to break boxes into seperate boxes (array reference)&lt;/p&gt;
+&lt;p&gt;for every block we put it in random mem&lt;/p&gt;
+&lt;p&gt;they are connected with arrows pointer&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241115201811.png]]&lt;/p&gt;
+&lt;p&gt;pointer is reference variable&lt;/p&gt;
+&lt;p&gt;how linked list works internally&lt;/p&gt;
+&lt;p&gt;node&lt;/p&gt;
+&lt;p&gt;single linked list eveery item knows about other item&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>functions in java</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/functions-in-java/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/functions-in-java/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;In java we call functions as method&lt;/li&gt;
+&lt;li&gt;function is nothing but the block of code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;/*
+return_type name (arguments) {
+//body
+return statement
+}
+*/&lt;/p&gt;
+&lt;p&gt;In coding world the word &amp;ldquo;dry&amp;rdquo; means don&amp;rsquo;t repeat yourself&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118150649.png]]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;return&lt;/strong&gt; is the value of the function call&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118150856.png]]&lt;/p&gt;
+&lt;h3 id=&#34;pass-the-value-of-numbers-when-you-are-calling-the-method-in-main&#34;&gt;pass the value of numbers when you are calling the method in main()&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241118154907.png]]&lt;/p&gt;
+&lt;p&gt;no pass-by reference in java only pass-by value&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;primitive: int , short,char,byte &amp;hellip;.  &amp;mdash;&amp;ndash;&amp;gt; just passing value
+object and stuff &amp;mdash;&amp;ndash;&amp;gt; passing value of the reference&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;![[Pasted image 20241118175747.png]]&lt;/p&gt;
+&lt;h3 id=&#34;scoping-in-java&#34;&gt;scoping in java&lt;/h3&gt;
+&lt;p&gt;function scope
+&lt;strong&gt;if you define any thing in function then you will only access those things inside the function&lt;/strong&gt;
+&lt;strong&gt;this is also applicable to args&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Scoping in Java refers to the visibility and lifecycle of variables, methods, and classes within different parts of a program. Proper scoping ensures that variables and methods are accessible only where they are needed, reducing potential errors and improving code readability and maintainability.&lt;/p&gt;
+&lt;h4 id=&#34;1-class-scope&#34;&gt;&lt;strong&gt;1. Class Scope&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it is&lt;/strong&gt;: Variables and methods declared at the class level.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visibility&lt;/strong&gt;: These are accessible throughout the class. Access can be controlled using access modifiers (&lt;code&gt;public&lt;/code&gt;, &lt;code&gt;protected&lt;/code&gt;, &lt;code&gt;private&lt;/code&gt;, or package-private).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; count; &lt;span style=&#34;color:#75715e&#34;&gt;// Class scope (accessible throughout the class)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;increment&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        count&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Accessible here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getCount&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; count; &lt;span style=&#34;color:#75715e&#34;&gt;// Accessible here too&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-block-scope&#34;&gt;&lt;strong&gt;2. Block Scope&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it is&lt;/strong&gt;: Variables declared within a block (e.g., loops, conditionals).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visibility&lt;/strong&gt;: These are only accessible within the block where they are declared.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;printEvenNumbers&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// `i` has block scope&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; 2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; 0) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// System.out.println(i); // Error: `i` is not accessible here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-loop-scope&#34;&gt;&lt;strong&gt;3. Loop Scope&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Loop variables are scoped to the loop they are declared in:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(i); &lt;span style=&#34;color:#75715e&#34;&gt;// `i` is accessible here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// System.out.println(i); // Error: `i` is out of scope&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;anything that is initialize outside the block can be used inside the block, anything that is initialize inside cannot use outside&lt;/p&gt;
+&lt;h3 id=&#34;shadowing-in-java&#34;&gt;Shadowing in java&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241118183209.png]]&lt;/p&gt;
+&lt;p&gt;Shadowing happens when a variable in an inner scope (e.g., a method or block) has the same name as a variable in an outer scope (e.g., a class or enclosing block). The inner variable takes precedence, &amp;ldquo;hiding&amp;rdquo; the outer variable.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;key-points&#34;&gt;&lt;strong&gt;Key Points:&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Occurs in Nested Scopes&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local variables, method parameters, or block variables can shadow instance or class variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Accessing Shadowed Variables&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;this&lt;/code&gt; to access instance variables.&lt;/li&gt;
+&lt;li&gt;Use the class name to access &lt;code&gt;static&lt;/code&gt; variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instance Variable Shadowed&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10; &lt;span style=&#34;color:#75715e&#34;&gt;// Instance variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setX&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x) { &lt;span style=&#34;color:#75715e&#34;&gt;// Parameter shadows instance variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x; &lt;span style=&#34;color:#75715e&#34;&gt;// `this.x` refers to the instance variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Static Variable Shadowed&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 100; &lt;span style=&#34;color:#75715e&#34;&gt;// Static variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;displayX&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 200; &lt;span style=&#34;color:#75715e&#34;&gt;// Local variable shadows static variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x); &lt;span style=&#34;color:#75715e&#34;&gt;// Local (200)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(Example.&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// Static (100)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid reusing variable names unnecessarily.&lt;/li&gt;
+&lt;li&gt;Use explicit qualifiers like &lt;code&gt;this&lt;/code&gt; or the class name to clarify which variable you’re referencing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;variable-arguments&#34;&gt;Variable Arguments&lt;/h3&gt;
+&lt;p&gt;![[Pasted image 20241118183745.png]]&lt;/p&gt;
+&lt;h3 id=&#34;function-overloading&#34;&gt;Function overloading&lt;/h3&gt;
+&lt;p&gt;occurs at compiletime&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241118184020.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>linear search algo</title>
+        <link>https://yashbhangale.github.io/mydocs/post/dsa/linear-search-algorithm/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/post/dsa/linear-search-algorithm/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/_HRA37X8N_Q?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/_HRA37X8N_Q?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A simple algorithm that checks each element in the array until the target element is found or the end of the array is reached.&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121133906.png]]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;start searching from the first element till the element which we are finding&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;we use for loop in linear searching&lt;/p&gt;
+&lt;p&gt;time complexity :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best Case: O(1)    // constant&lt;/li&gt;
+&lt;li&gt;Worst Case: O(n)  // here n is the size of the array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;![[Pasted image 20241121134313.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121134405.png]]
+linear time complexity (above image)&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121134446.png]]
+best case time complexity (above image)&lt;/p&gt;
+&lt;p&gt;O(n) (upper bound time complexity) means it will never go worst then linear, it is always better than linear&lt;/p&gt;
+&lt;p&gt;space complexity means are you taking extra space (extra space taken)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Search&lt;/span&gt; { &lt;span style=&#34;color:#75715e&#34;&gt;// Class name should start with an uppercase letter for convention&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Define an array of integers to search from&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; nums &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {1, 2, 3, 4, 2, 1, 3, 5, 6};
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// The target value we want to find in the array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; target &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Call the linearSearch method to search for the target in the array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; ans &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; linearSearch(nums, target);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Print the result: If found, it will print the index; otherwise, -1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(ans);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;     * Perform a linear search in the array.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;     * @param arr The array to search in
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;     * @param target The value to search for
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;     * @return The index of the target if found, otherwise -1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;     */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;linearSearch&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; arr, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; target) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// If the array is empty, return -1 as there is nothing to search&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (arr.&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; 0) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;1;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Iterate through each element in the array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; index &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; index &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; arr.&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;; index&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// Get the current element at the index&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; element &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; arr&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;index&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// Check if the current element matches the target&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (element &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; target) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; index; &lt;span style=&#34;color:#75715e&#34;&gt;// Return the index of the target if found&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// If the loop completes and the target is not found, return -1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;1;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;![[Pasted image 20241121140431.png]]
+![[Pasted image 20241121140448.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q-is-a-char-present-in-the-string&#34;&gt;Q. Is a char present in the string&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241122234332.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q-search-in-range&#34;&gt;Q. Search in Range&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241121141646.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121142520.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q-find-minimum-element-in-the-array&#34;&gt;Q. find minimum element in the ARRAY&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241121142733.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121142851.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121142913.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q-searching-in-2d-arrays&#34;&gt;Q. Searching in 2d arrays&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241124002356.png]]&lt;/p&gt;
+&lt;h2 id=&#34;q-search-and-print-maximum-value-in-2d-array&#34;&gt;Q. Search and print maximum value in 2D array&lt;/h2&gt;
+&lt;p&gt;![[Pasted image 20241124003045.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121153028.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241125185619.png]]&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/vwa9vgYz5ZE?t=35&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/vwa9vgYz5ZE?t=35&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241125190847.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121153519.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241121154417.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241125193442.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://yashbhangale.github.io/mydocs/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/page/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
@@ -306,10 +1397,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://geeksdirectory.github.io/page/search/</link>
+        <link>https://yashbhangale.github.io/mydocs/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://geeksdirectory.github.io/page/search/</guid>
+        <guid>https://yashbhangale.github.io/mydocs/page/search/</guid>
         <description></description>
         </item>
         

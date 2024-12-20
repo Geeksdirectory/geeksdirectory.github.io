@@ -2,9 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on GeeksDirectory</title>
-        <link>https://geeksdirectory.github.io/tags/</link>
+        <link>https://yashbhangale.github.io/mydocs/tags/</link>
         <description>Recent content in Tags on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://geeksdirectory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en</language>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yashbhangale.github.io/mydocs/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Dsa</title>
+        <link>https://yashbhangale.github.io/mydocs/tags/dsa/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/tags/dsa/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Excalidraw</title>
+        <link>https://yashbhangale.github.io/mydocs/tags/excalidraw/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yashbhangale.github.io/mydocs/tags/excalidraw/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

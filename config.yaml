@@ -183,3 +183,12 @@ markup:
       unsafe: true
       xhtml: true
       
+
+ignoreFiles:
+  - "\\.DS_Store$"
+  - "drafts/"
+  - "private-notes/"
+  - "content/postprivate"
+
+  
+

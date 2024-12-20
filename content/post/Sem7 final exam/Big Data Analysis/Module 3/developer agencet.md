@@ -1,0 +1,1 @@
+Offers more flexibility in design and coding, as developers don’t need to structure data around a strict schema.

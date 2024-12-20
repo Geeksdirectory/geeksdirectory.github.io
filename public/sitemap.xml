@@ -2,26 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://geeksdirectory.github.io/page/about/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/tags/dsa/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/1.-linked-list/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/tags/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/categories/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/categories/dsa/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/categories/syllabus/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/0.-dsa-index/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/page/about/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://geeksdirectory.github.io/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/page/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://geeksdirectory.github.io/page/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://geeksdirectory.github.io/page/archives/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://geeksdirectory.github.io/categories/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/drawing-2024-12-20-16.00.34.excalidraw/</loc>
   </url><url>
-    <loc>https://geeksdirectory.github.io/page/links/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/single-linked-list/</loc>
   </url><url>
-    <loc>https://geeksdirectory.github.io/page/search/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/strings-and-stringbuilder-in-java/</loc>
   </url><url>
-    <loc>https://geeksdirectory.github.io/tags/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/switch-cases-and-statements-in-java/</loc>
   </url><url>
-    <loc>https://geeksdirectory.github.io/categories/test/</loc>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/arrays/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algorithm/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-algo-questions/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/binary-search-in-2d-arrays/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/2.-conditions-and-loops/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/contiguous-memory-locations/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/dump/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/tags/excalidraw/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/functions-in-java/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/post/dsa/linear-search-algorithm/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/page/links/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/page/search/</loc>
+  </url><url>
+    <loc>https://yashbhangale.github.io/mydocs/categories/test/</loc>
   </url>
 </urlset>
