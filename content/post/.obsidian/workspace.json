@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/IBM Coding Questions.md",
+                "file": "AZ-104/1. Azure Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IBM Coding Questions"
+              "title": "1. Azure Index"
             }
           },
           {
@@ -260,6 +260,9 @@
   },
   "active": "a1bb7742e79151f7",
   "lastOpenFiles": [
+    "AZ-104/Azure Bastion.md",
+    "AZ-104/1. Azure Index.md",
+    "interview/IBM Coding Questions.md",
     "interview/Pasted image 20241220201956.png",
     "DSA/Strings and StringBuilder in java.md",
     "DSA/Pasted image 20241220201924.png",
@@ -271,17 +274,14 @@
     "DSA/Pasted image 20241220190019.png",
     "DSA/Pasted image 20241220190008.png",
     "DSA/0. DSA Index.md",
-    "interview/IBM Coding Questions.md",
     "interview/Pasted image 20241220173803.png",
     "Salary chart comparison/salary in hand and monthly.md",
-    "Salary chart comparison/Pasted image 20241220173656.png",
     "Salary chart comparison",
     "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
     "Java Learning/Java Index.md",
     "interview/Ibm.md",
     "interview/1.Off-campus Companies to apply.md",
     "interview/HTML,CSS,JS/2.CSS.md",
-    "AZ-104/1. Azure Index.md",
     "interview/HTML,CSS,JS/1.HTML.md",
     "iEEE paper/supply-chain sih.md",
     "DSA/Binary search in 2d arrays.md",
