@@ -1,3 +1,6 @@
+
+# [[IBM Coding Questions]]
+
 # 1st Step :
 
  - [x] ibm coding assessment 
@@ -15,3 +18,36 @@ test question is on hacker Rank
 # 3rd step:
 
 ![[Pasted image 20241219190357.png]]
+
+
+## Top Coding Questions and Answers 2024
+
+While preparing for the IBM coding assessment round, candidates should familiarize themselves with these common topics. These include:
+
+**Data Structures**
+
+- Arrays
+- Linked lists
+- Stacks
+- Queues
+- Trees
+- Graphs
+
+**Algorithms**
+
+- Sorting
+- Searching
+- Dynamic programming
+- Backtracking
+
+**Mathematical Problems**
+
+- Basic arithmetic
+- Number theory
+- Combinatorics
+
+**String Manipulation**
+
+- String parsing
+- Substring search
+- Regular expressions
