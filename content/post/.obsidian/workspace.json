@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "64a42ade9834fd74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Strings and StringBuilder in java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Strings and StringBuilder in java"
+            }
+          },
+          {
             "id": "6ab897d131b3110f",
             "type": "leaf",
             "state": {
@@ -76,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,26 +258,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ab897d131b3110f",
+  "active": "a1bb7742e79151f7",
   "lastOpenFiles": [
-    "Salary chart comparison/Pasted image 20241220173656.png",
+    "interview/Pasted image 20241220201956.png",
     "DSA/Strings and StringBuilder in java.md",
-    "Salary chart comparison/salary in hand and monthly.md",
-    "Salary chart comparison",
-    "DSA/Pasted image 20241220173230.png",
-    "DSA/Pasted image 20241220161134.png",
-    "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
-    "DSA/Pasted Image 20241220161127_990.png",
-    "DSA/Pasted image 20241220160947.png",
-    "DSA/Pasted image 20241220160936.png",
-    "DSA/Pasted Image 20241220160927_753.png",
-    "DSA/Pasted Image 20241220160836_885.png",
-    "DSA/Pasted image 20241220160708.png",
-    "DSA/Pasted image 20241220160454.png",
-    "DSA/Pasted image 20241220160250.png",
+    "DSA/Pasted image 20241220201924.png",
+    "DSA/Pasted image 20241220195958.png",
+    "DSA/Pasted image 20241220195601.png",
+    "DSA/Pasted image 20241220195330.png",
+    "DSA/Pasted image 20241220195252.png",
+    "DSA/Pasted image 20241220195244.png",
+    "DSA/Pasted image 20241220190019.png",
+    "DSA/Pasted image 20241220190008.png",
     "DSA/0. DSA Index.md",
-    "Java Learning/Java Index.md",
     "interview/IBM Coding Questions.md",
+    "interview/Pasted image 20241220173803.png",
+    "Salary chart comparison/salary in hand and monthly.md",
+    "Salary chart comparison/Pasted image 20241220173656.png",
+    "Salary chart comparison",
+    "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
+    "Java Learning/Java Index.md",
     "interview/Ibm.md",
     "interview/1.Off-campus Companies to apply.md",
     "interview/HTML,CSS,JS/2.CSS.md",
