@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/1.Off-campus Companies to apply.md",
+                "file": "interview/React js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Off-campus Companies to apply"
+              "title": "React js"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,10 +226,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dbef9e757e1aff42",
+  "active": "9920ba39aed7621e",
   "lastOpenFiles": [
     "interview/Interview Index.md",
     "0. Index.md",
+    "interview/React js.md",
+    "interview/1.Off-campus Companies to apply.md",
     "String Questions.md",
     "DSA/0. DSA Index.md",
     "Pasted image 20241221134403.png",
@@ -254,8 +256,6 @@
     "DSA/contiguous memory locations.md",
     "DSA/Binary search in 2d arrays.md",
     "DSA/Binary search Algorithm.md",
-    "DSA/Binary Search Algo Questions.md",
-    "DSA/Arrays.md",
-    "DSA/2. Conditions and loops.md"
+    "DSA/Binary Search Algo Questions.md"
   ]
 }
