@@ -1,4 +1,4 @@
-Bilkul bhai! Java mein `String` ek kaafi important topic hai. Main tujhe step-by-step `String` ke basics se lekar advanced concepts tak revise karwata hoon.
+qBilkul bhai! Java mein `String` ek kaafi important topic hai. Main tujhe step-by-step `String` ke basics se lekar advanced concepts tak revise karwata hoon.
 
 ---
 
@@ -194,7 +194,7 @@ while (st.hasMoreTokens()) {
     System.out.println(s); // Output: Name: Ali, Age: 25
     ```
     
-3. **StringBuilder vs StringBuffer**:
+3. **[[StringBuilder]] vs [[StringBuffer]]**:
     
     - `StringBuilder` fast hai but thread-safe nahi hai.
     - `StringBuffer` slow hai but thread-safe hai.
