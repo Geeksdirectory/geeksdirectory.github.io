@@ -1,3 +1,6 @@
+
+### [[String revision in HINGLISH]]
+
 any thing which start with capital letter is a class
 ![[Pasted image 20241220155436.png]]
 ![[Pasted image 20241220155403.png]]
