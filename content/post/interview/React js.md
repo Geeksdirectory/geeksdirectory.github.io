@@ -18,7 +18,7 @@
 ### **3. React Basics**
 
 - JSX Syntax (JavaScript XML)
-- React Components
+- [[React Components]]
     - Functional Components
     - Class Components (briefly understand, mostly outdated now)
 - Props (Properties)
