@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "c098905688af4585",
+        "id": "815c988a7622d149",
         "type": "tabs",
         "children": [
           {
-            "id": "120b32b20c29cf06",
+            "id": "6de122c94a43869c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/Ibm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ibm"
+            }
+          },
+          {
+            "id": "c12a132b3b8f7e47",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +36,35 @@
             }
           },
           {
-            "id": "b9427a88471948b4",
+            "id": "ff5c0faa7928ec0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/main.md",
+                "file": "DSA/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "main"
+              "title": "Arrays"
             }
           },
           {
-            "id": "c25c9a6a2a03c010",
+            "id": "7a6a8255767c02c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "String Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "String Questions"
+            }
+          },
+          {
+            "id": "1f3c49efec760a88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,63 +78,63 @@
             }
           },
           {
-            "id": "2b556e232bb7b50c",
+            "id": "4bd685418cb5e883",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "String revision in HINGLISH.md",
+                "file": "DSA/0. DSA Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String revision in HINGLISH"
+              "title": "0. DSA Index"
             }
           },
           {
-            "id": "61fe09a4c7e1cfec",
+            "id": "6f489ff435709f9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StringBuilder.md",
+                "file": "interview/IBM Coding Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StringBuilder"
+              "title": "IBM Coding Questions"
             }
           },
           {
-            "id": "00cd1f6cca35f879",
+            "id": "9c660dd929cf28b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StringBuffer.md",
+                "file": "interview/Ibm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StringBuffer"
+              "title": "Ibm"
             }
           },
           {
-            "id": "772b69ff1e7755a6",
+            "id": "bf0ed69a981dc496",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Interview Index.md",
+                "file": "0. Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Index"
+              "title": "0. Index"
             }
           },
           {
-            "id": "dbef9e757e1aff42",
+            "id": "fd54a69798990aea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -268,38 +296,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b9427a88471948b4",
+  "active": "1f3c49efec760a88",
   "lastOpenFiles": [
+    "String Questions.md",
+    "0. Index.md",
+    "2024-11-30.md",
+    "Pasted image 20241221134403.png",
+    "rough work.md",
+    "String revision in HINGLISH.md",
+    "StringBuffer.md",
+    "StringBuilder.md",
+    "techgium.md",
+    "Time table.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "certifications/Github foundation.md",
+    "interview/Interview tips.md",
+    "interview/React js.md",
     "interview/plan for fu.md",
+    "interview/Ibm.md",
+    "interview/IBM Coding Questions.md",
+    "DSA/Strings and StringBuilder in java.md",
+    "DSA/Arrays.md",
+    "DSA/0. DSA Index.md",
+    "interview/Interview Index.md",
+    "Java Learning/4. Patterns.md",
+    "Java Learning/1. Basic Java.md",
+    "Java Learning/2. oops in java.md",
+    "Java Learning/Java Index.md",
     "todo/main.md",
     "todo",
-    "interview/Interview tips.md",
-    "interview/Interview Index.md",
-    "interview/1.Off-campus Companies to apply.md",
-    "free certifications/main.md",
-    "main.md",
-    "String Questions.md",
-    "Untitled 1.md",
     "free certifications",
-    "DSA/0. DSA Index.md",
-    "DSA/Strings and StringBuilder in java.md",
-    "String revision in HINGLISH.md",
-    "StringBuilder.md",
-    "StringBuffer.md",
-    "0. Index.md",
-    "interview/React js.md",
-    "Pasted image 20241221134403.png",
-    "DSA/1. Linked List.md",
     "DevOps - Cloud/devops roadmap 1.pdf",
-    "DevOps - Cloud/devops roadmap.pdf",
-    "DevOps - Cloud/DevOps Roadmap.md",
-    "DevOps - Cloud/1.DevOps_Index.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "certifications/Azure/AI-900.md",
-    "certifications/Github foundation.md",
-    "AZ-104/Azure Bastion.md",
-    "AZ-104/1. Azure Index.md",
-    "AZ-104/AZ-CLI.md",
-    "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md"
+    "DevOps - Cloud/devops roadmap.pdf"
   ]
 }
