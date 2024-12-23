@@ -60,6 +60,9 @@ class Main {
 }
 ```
 
+![[Pasted image 20241223214923.png]]
+
+---
 ## 2. Check if string is Palindrome or not
 
 input: madam
@@ -92,4 +95,30 @@ class Main {
     }
 }
 ```
+
+---
+## 3. Find the first Non-Repeating Character [[hash map ]] ka concept aayega
+
+input: "swiss"
+output: 'w'
+
+```java
+
+```
+
+---
+## 4. Remove special character in a string
+
+![[Pasted image 20241223215059.png]]
+
+---
+## 5. Program to remove White spaces in the string
+
+![[Pasted image 20241223215351.png]]
+
+---
+
+## 6. Remove Duplicate characters in Given string
+
+
 
