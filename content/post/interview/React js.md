@@ -21,18 +21,18 @@
 - [[React Components]]
     - Functional Components
     - Class Components (briefly understand, mostly outdated now)
-- Props (Properties)
+- [[Props (Properties)]]
     - Passing props to components
     - Props drilling
 
-### **4. State Management**
+### **4. [[State Management]]
 
 - What is State?
 - Using `useState` Hook
 - Updating state and re-rendering
 - Difference between Props and State
 
-### **5. Event Handling**
+### **5. [[Event Handling]]
 
 - Handling Events in React (e.g., `onClick`, `onChange`)
 - Passing functions as props for event handling

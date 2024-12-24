@@ -3,6 +3,12 @@ title: custom linux distro
 date: 2024-10-01
 ---
 
+# latest to run container
+
+```
+sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash
+```
+
 # Run container
 
 ```
