@@ -119,3 +119,82 @@ public class Main {
 ```
 
 ## 5. **Find the Second Largest Element**
+
+![[Pasted image 20241225185154.png]]
+![[Pasted image 20241225185202.png]]
+![[Pasted image 20241225185211.png]]
+
+---
+## 6. **Find the Intersection of Two Arrays**
+
+brute force method 
+
+![[Pasted image 20241225190605.png]]
+
+optimal solution
+
+![[Pasted image 20241225191041.png]]
+
+
+```java
+public class Main {
+	public static ArrayList<Integer> intersectionOfArrays(int[] A, int[] B){
+	ArrayList<Integer> ans = new ArrayList<>();
+	int i = 0; j = 0;
+	while (i< A.length && j < B.length) {
+		if(A[i] < B[j]) {
+			i++;
+		} else if (B[j]< A[i]) {
+			j++;
+		} else {
+			ans.add(A[i]);
+			i++;
+			j++;
+		}
+	}
+	return ans;
+	}
+	public static void main(String args[])
+	{
+		int A[] = {1,2,3,3,4,5,6,7};
+		int B[] = {3,3,4,4,5,8};
+
+		ArrayList<Integer> ans = intersectionOfArrays(A,B);
+		for( int i = 0; i <ans.size(); i++) {
+			System.out.print(ans.get(i)+" ");
+		}
+	}
+}
+```
+
+---
+## 7. **Rotate an Array**
+
+![[Pasted image 20241225192533.png]]
+
+![[Pasted image 20241225192711.png]]
+![[Pasted image 20241225192855.png]]
+
+final formula = arr[(i + k) % n ] = arr [ i ]
+
+```java
+class Solution {
+    public void rotate(int[] nums, int k) {
+        // Step 1: Create a temporary array
+        int[] temp = new int[nums.length];
+        
+        // Step 2: Place rotated elements into the temporary array
+        for (int i = 0; i < nums.length; i++) {
+            temp[(i + k) % nums.length] = nums[i];
+        }
+
+        // Step 3: Copy temp array back into the original nums array
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = temp[i];
+        }
+    }
+}
+```
+
+---
+
