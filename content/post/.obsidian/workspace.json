@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Java revision udemy ajink wala"
             }
+          },
+          {
+            "id": "aee623b14b95f51a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/java oops in hinglish.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "java oops in hinglish"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,8 +198,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a23153ec1172006f",
+  "active": "aee623b14b95f51a",
   "lastOpenFiles": [
+    "interview/Java revision udemy ajink wala.md",
+    "interview/java oops in hinglish.md",
     "interview/Pasted image 20241227154648.png",
     "interview/Pasted image 20241227154541.png",
     "interview/Pasted image 20241227154425.png",
@@ -193,7 +209,6 @@
     "interview/Pasted image 20241227153636.png",
     "interview/Pasted image 20241227153317.png",
     "DSA/1. Linked List.md",
-    "interview/Java revision udemy ajink wala.md",
     "interview/Untitled",
     "DSA/Pasted image 20241227143546.png",
     "DSA/Pasted image 20241227142526.png",
@@ -202,7 +217,6 @@
     "DSA/Stack.md",
     "interview/HTML,CSS,JS/3. Javascript.md",
     "interview/HTML,CSS,JS/Pasted image 20241226164741.png",
-    "interview/HTML,CSS,JS/Pasted image 20241226161947.png",
     "interview/HTML,CSS,JS/1. HTML.md",
     "interview/HTML,CSS,JS/2. CSS.md",
     "DSA/Array Questions.md",
