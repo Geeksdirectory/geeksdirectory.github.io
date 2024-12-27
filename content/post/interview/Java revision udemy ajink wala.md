@@ -1,10 +1,22 @@
 
+
+refer this:
+# https://drive.google.com/drive/u/0/folders/1rSqEniErpnkADlyJYcF9s1a0ao3GkhPM
+
+
+# [[java oops in hinglish]]
+
+
 1. ide vscode
 2. jdk (java development kit)
 3. java is compiled and interpreted
 
 in java 9  java introduced repel i.e jshell
 
+
+## Enhance for loop
+
+![[Pasted image 20241227174236.png]]
 
 ![[Pasted image 20241227153317.png]]
 
@@ -29,3 +41,8 @@ Switch
 
 
 # [[java oops in hinglish]]
+
+
+
+## String
+
