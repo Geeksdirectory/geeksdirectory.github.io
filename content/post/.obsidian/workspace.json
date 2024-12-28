@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/1. Linked List.md",
+                "file": "Java Learning/4. Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Linked List"
+              "title": "4. Patterns"
             }
           }
         ],
@@ -187,8 +187,8 @@
   "active": "a23153ec1172006f",
   "lastOpenFiles": [
     "DSA/0. DSA Index.md",
-    "DSA/Stack.md",
     "DSA/1. Linked List.md",
+    "DSA/Stack.md",
     "interview/zoho.md",
     "interview/State Management.md",
     "interview/State Management**.md",
