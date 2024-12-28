@@ -29,13 +29,25 @@
               "state": {
                 "file": "DSA/Linked list code.canvas",
                 "viewState": {
-                  "x": -1234.945167998999,
-                  "y": -268.27803919320036,
-                  "zoom": -1.6290682003039918
+                  "x": -477.2832505312646,
+                  "y": -389.2934962348407,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Linked list code"
+            }
+          },
+          {
+            "id": "e55a3428e2e9e0a6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-28 23.42.13.excalidraw"
             }
           },
           {
@@ -70,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -218,10 +231,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e62ab32cc4849561",
+  "active": "e55a3428e2e9e0a6",
   "lastOpenFiles": [
-    "DSA/0. DSA Index.md",
     "DSA/Linked list code.canvas",
+    "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
+    "DSA/0. DSA Index.md",
     "DSA/Linked list.excalidraw.md",
     "DSA/Pasted Image 20241228190644_538.png",
     "DSA/Pasted Image 20241228190542_455.png",
@@ -256,7 +270,6 @@
     "Projects/fusion flux.md",
     "DevOps - Cloud/Docker/Docker Index.md",
     "DevOps - Cloud/Docker/bind mount volume.md",
-    "interview/React js.md",
     "hackathons",
     "todo",
     "free certifications",
