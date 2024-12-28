@@ -42,12 +42,14 @@
             "id": "e55a3428e2e9e0a6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md"
+                "file": "fusion/Work done till now.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-28 23.42.13.excalidraw"
+              "icon": "lucide-file",
+              "title": "Work done till now"
             }
           },
           {
@@ -138,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -233,8 +234,8 @@
   },
   "active": "e55a3428e2e9e0a6",
   "lastOpenFiles": [
-    "DSA/Linked list code.canvas",
     "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
+    "DSA/Linked list code.canvas",
     "DSA/0. DSA Index.md",
     "DSA/Linked list.excalidraw.md",
     "DSA/Pasted Image 20241228190644_538.png",
