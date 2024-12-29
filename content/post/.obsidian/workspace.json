@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL handwritten notes.md",
+                "file": "fusion/Work done till now.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL handwritten notes"
+              "title": "Work done till now"
             }
           },
           {
@@ -248,8 +248,8 @@
   },
   "active": "0ad19d3c14b0eb4f",
   "lastOpenFiles": [
-    "SQL/SQL Index.md",
     "SQL/SQL handwritten notes.md",
+    "SQL/SQL Index.md",
     "fusion/Work done till now.md",
     "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
     "DSA/Linked list code.canvas",
