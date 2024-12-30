@@ -56,14 +56,12 @@
             "id": "aed67e8cb9f22235",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "interview/Untitled/OOPS in Java/2. Introduction.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Drawing 2024-12-16 15.56.23.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "2. Introduction"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-16 15.56.23.excalidraw"
             }
           },
           {
@@ -248,16 +246,17 @@
   },
   "active": "aed67e8cb9f22235",
   "lastOpenFiles": [
+    "Projects/fusion flux.md",
+    "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
+    "fusion/Work done till now.md",
+    "interview/Untitled/OOPS in Java/2. Introduction.md",
     "interview/Untitled/OOPS in Java/Pasted image 20241230122915.png",
     "interview/Untitled/OOPS in Java/Pasted image 20241230121304.png",
     "interview/Untitled/OOPS in Java/1. Index.md",
-    "interview/Untitled/OOPS in Java/2. Introduction.md",
     "SQL/SQL Index.md",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled.md",
-    "fusion/Work done till now.md",
     "SQL/SQL handwritten notes.md",
-    "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
     "DSA/Linked list code.canvas",
     "DSA/0. DSA Index.md",
     "DSA/Linked list.excalidraw.md",
@@ -280,7 +279,6 @@
     "interview/Pasted image 20241227154648.png",
     "interview/Pasted image 20241227154541.png",
     "interview/Pasted image 20241227154425.png",
-    "interview/Pasted image 20241227153941.png",
     "interview/Untitled",
     "interview/HTML,CSS,JS/2. CSS.md",
     "DSA/Array Questions.md",
