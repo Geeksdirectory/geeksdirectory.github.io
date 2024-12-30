@@ -44,26 +44,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL Index.md",
+                "file": "interview/Untitled/OOPS in Java/1. Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Index"
+              "title": "1. Index"
             }
           },
           {
-            "id": "0ad19d3c14b0eb4f",
+            "id": "aed67e8cb9f22235",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fusion/Work done till now.md",
+                "file": "interview/Untitled/OOPS in Java/2. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Work done till now"
+              "title": "2. Introduction"
             }
           },
           {
@@ -246,11 +246,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ad19d3c14b0eb4f",
+  "active": "aed67e8cb9f22235",
   "lastOpenFiles": [
-    "SQL/SQL handwritten notes.md",
+    "interview/Untitled/OOPS in Java/Pasted image 20241230122915.png",
+    "interview/Untitled/OOPS in Java/Pasted image 20241230121304.png",
+    "interview/Untitled/OOPS in Java/1. Index.md",
+    "interview/Untitled/OOPS in Java/2. Introduction.md",
     "SQL/SQL Index.md",
+    "interview/Untitled/OOPS in Java",
+    "interview/Untitled.md",
     "fusion/Work done till now.md",
+    "SQL/SQL handwritten notes.md",
     "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
     "DSA/Linked list code.canvas",
     "DSA/0. DSA Index.md",
@@ -275,17 +281,12 @@
     "interview/Pasted image 20241227154541.png",
     "interview/Pasted image 20241227154425.png",
     "interview/Pasted image 20241227153941.png",
-    "interview/Pasted image 20241227153636.png",
     "interview/Untitled",
     "interview/HTML,CSS,JS/2. CSS.md",
     "DSA/Array Questions.md",
     "DSA/Arrays.md",
     "resume/FullStack Dev.md",
     "hackathons/information flow.excalidraw.md",
-    "hackathons/Gujarat.md",
-    "DevOps - Cloud/1.DevOps_Index.excalidraw.md",
-    "hackathons/diagrams.excalidraw.md",
-    "Projects/fusion flux.md",
     "hackathons",
     "todo",
     "free certifications",
