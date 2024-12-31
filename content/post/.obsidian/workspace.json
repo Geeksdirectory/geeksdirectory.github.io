@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps - Cloud/Jenkins/Jenkins Index.md",
+                "file": "Projects/fusion flux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jenkins Index"
+              "title": "fusion flux"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,6 +173,7 @@
   },
   "active": "4d0862c071b06a8a",
   "lastOpenFiles": [
+    "DevOps - Cloud/Jenkins/Jenkins Index.md",
     "DevOps - Cloud/Jenkins/Pasted image 20241231124027.png",
     "DSA/Linked list code.canvas",
     "DSA/0. DSA Index.md",
@@ -206,7 +208,6 @@
     "interview/java oops in hinglish.md",
     "interview/Pasted image 20241227154648.png",
     "interview/Pasted image 20241227154541.png",
-    "interview/Pasted image 20241227154425.png",
     "interview/Untitled",
     "interview/HTML,CSS,JS/2. CSS.md",
     "DSA/Array Questions.md",
