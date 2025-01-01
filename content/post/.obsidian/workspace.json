@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aa7a2a20b43480d5",
+        "id": "c52494980e5d60fd",
         "type": "tabs",
         "children": [
           {
-            "id": "4d0862c071b06a8a",
+            "id": "562a567a112ed565",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/fusion flux.md",
+                "file": "Java Learning/2. oops in java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fusion flux"
+              "title": "2. oops in java"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fusion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,13 +73,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -171,15 +169,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d0862c071b06a8a",
+  "active": "27306c4d5ba7e6e9",
   "lastOpenFiles": [
+    "Java Learning/1. Basic Java.md",
+    "Java Learning/HandWritten.md",
+    "Java Learning/2. oops in java.md",
+    "DSA/0. DSA Index.md",
+    "Projects/1. Project Index.md",
+    "Projects/GeeksDirectroy.md",
+    "Projects/Ecomm django.md",
+    "Projects/My Distro Builder.md",
+    "Projects/fusion flux.md",
+    "Projects/Portfolio.md",
     "DevOps - Cloud/Jenkins/Jenkins Index.md",
     "DevOps - Cloud/Jenkins/Pasted image 20241231124027.png",
     "DSA/Linked list code.canvas",
-    "DSA/0. DSA Index.md",
     "interview/Untitled/OOPS in Java/1. Index.md",
     "Projects/Drawing 2024-12-16 15.56.23.excalidraw.md",
-    "Projects/fusion flux.md",
     "fusion/Drawing 2024-12-28 23.42.13.excalidraw.md",
     "fusion/Work done till now.md",
     "interview/Untitled/OOPS in Java/2. Introduction.md",
@@ -200,18 +206,10 @@
     "DSA/Stack.md",
     "interview/zoho.md",
     "interview/State Management.md",
-    "interview/State Management**.md",
-    "interview/HTML,CSS,JS/1. HTML.md",
-    "interview/HTML,CSS,JS/3. Javascript.md",
-    "interview/Java revision udemy ajink wala.md",
     "interview/Pasted image 20241227174236.png",
-    "interview/java oops in hinglish.md",
     "interview/Pasted image 20241227154648.png",
     "interview/Pasted image 20241227154541.png",
     "interview/Untitled",
-    "interview/HTML,CSS,JS/2. CSS.md",
-    "DSA/Array Questions.md",
-    "DSA/Arrays.md",
     "hackathons",
     "todo",
     "free certifications",
