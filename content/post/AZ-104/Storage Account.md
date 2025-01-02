@@ -1,4 +1,4 @@
-An **Azure Storage Account** is a fundamental service in Azure that provides cloud-based storage solutions for data. It supports a variety of storage types, including blobs, files, queues, tables, and disks. Below is an explanation of Azure Storage Accounts, their types, and how to use them.
+PAn **Azure Storage Account** is a fundamental service in Azure that provides cloud-based storage solutions for data. It supports a variety of storage types, including blobs, files, queues, tables, and disks. Below is an explanation of Azure Storage Accounts, their types, and how to use them.
 
 ---
 

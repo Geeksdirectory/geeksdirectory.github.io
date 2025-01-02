@@ -9,6 +9,12 @@ date: 2024-10-01
 sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash
 ```
 
+# Pull premade docker image
+
+```shell
+docker pull yashuop/fusionguibuildcontainer:latest
+```
+
 # Run container
 
 ```
