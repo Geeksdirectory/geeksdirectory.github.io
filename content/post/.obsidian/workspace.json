@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Learning/2. oops in java.md",
+                "file": "AZ-104/Storage Account.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. oops in java"
+              "title": "Storage Account"
             }
           }
         ]
@@ -169,11 +169,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27306c4d5ba7e6e9",
+  "active": "562a567a112ed565",
   "lastOpenFiles": [
+    "AZ-104/Pasted image 20250102125315.png",
+    "AZ-104/Pasted image 20250102125250.png",
+    "AZ-104/Pasted image 20250102125209.png",
+    "AZ-104/Pasted image 20250102125149.png",
+    "AZ-104/Pasted image 20250102125140.png",
+    "AZ-104/Pasted image 20250102125117.png",
+    "AZ-104/1. Azure Index.md",
+    "Java Learning/2. oops in java.md",
     "Java Learning/1. Basic Java.md",
     "Java Learning/HandWritten.md",
-    "Java Learning/2. oops in java.md",
     "DSA/0. DSA Index.md",
     "Projects/1. Project Index.md",
     "Projects/GeeksDirectroy.md",
@@ -198,17 +205,10 @@
     "DSA/Linked list.excalidraw.md",
     "DSA/Pasted Image 20241228190644_538.png",
     "DSA/Pasted Image 20241228190542_455.png",
-    "DSA/Pasted Image 20241228190459_692.png",
-    "DSA/Pasted Image 20241228190338_011.png",
     "DSA/Untitled.md",
     "DSA/1. Linked List.md",
     "Java Learning/4. Patterns.md",
     "DSA/Stack.md",
-    "interview/zoho.md",
-    "interview/State Management.md",
-    "interview/Pasted image 20241227174236.png",
-    "interview/Pasted image 20241227154648.png",
-    "interview/Pasted image 20241227154541.png",
     "interview/Untitled",
     "hackathons",
     "todo",

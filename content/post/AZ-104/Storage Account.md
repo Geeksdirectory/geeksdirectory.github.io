@@ -12,6 +12,8 @@ An **Azure Storage Account** is a fundamental service in Azure that provides clo
 
 ---
 
+![[Pasted image 20250102125117.png]]
+
 ### **Types of Azure Storage Services**
 
 1. **Blob Storage**:
@@ -20,16 +22,31 @@ An **Azure Storage Account** is a fundamental service in Azure that provides clo
         - **Block Blob**: For large objects like images and videos.
         - **Append Blob**: For append-only operations, like logging.
         - **Page Blob**: For random access, used in Virtual Machine disks.
-2. **File Storage (Azure Files)**:
+
+![[Pasted image 20250102125149.png]]
+
+
+1. **File Storage (Azure Files)**:
     - Provides fully managed, cloud-based file shares accessible via SMB or NFS protocols.
     - Use cases: File sharing across VMs, on-premises, or cloud.
-3. **Queue Storage**:
+
+
+![[Pasted image 20250102125209.png]]
+
+1. **Queue Storage**:
     - A messaging solution for communication between applications.
     - Useful for decoupling components and processing tasks asynchronously.
-4. **Table Storage**:
+![[Pasted image 20250102125250.png]]
+
+
+1. **Table Storage**:
     - A NoSQL key-value store for semi-structured data.
     - Use cases: Storing logs, metadata, and structured data.
-5. **Disk Storage**:
+
+![[Pasted image 20250102125315.png]]
+
+
+1. **Disk Storage**:
     - Persistent, high-performance block storage for Azure VMs.
     - Types: Managed Disks, Unmanaged Disks.
 
