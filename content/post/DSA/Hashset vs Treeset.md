@@ -25,3 +25,13 @@
 
 ![[Pasted image 20250103153450.png]]
 
+
+# leetcode samajhdaar wala approach
+
+![[Pasted image 20250103175840.png]]
+
+# mandabuddhi wala approach 
+
+![[Pasted image 20250103180318.png]]
+
+
