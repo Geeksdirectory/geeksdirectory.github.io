@@ -21,3 +21,7 @@
     - Maintains elements in **ascending order**.
     - Slightly slower due to sorting.
     - No **null** if a custom comparator is used.
+
+
+![[Pasted image 20250103153450.png]]
+
