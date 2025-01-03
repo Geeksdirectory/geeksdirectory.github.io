@@ -10,3 +10,20 @@
 - **BufferedWriter**: Efficient writing ke liye.
 - **PrintWriter**: Text data write karne ke liye, with better formatting.
 - **FileInputStream/FileOutputStream**: Bytes read/write karne ke liye.
+
+## create a file 
+
+![[Pasted image 20250103213914.png]]
+
+# Write in a file 
+
+![[Pasted image 20250103213936.png]]
+
+# Read a file
+
+![[Pasted image 20250103213952.png]]
+
+# Delete a file
+
+![[Pasted image 20250103214014.png]]
+
