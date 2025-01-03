@@ -26,3 +26,7 @@
 
 - **Use HashMap** when you don’t care about the order of elements, and you want fast access to values by keys.
 - **Use TreeMap** when you need elements sorted in ascending order (or custom order using a comparator), and you are okay with slightly slower performance.
+
+
+![[Pasted image 20250103160242.png]]![[Pasted image 20250103160259.png]]
+
