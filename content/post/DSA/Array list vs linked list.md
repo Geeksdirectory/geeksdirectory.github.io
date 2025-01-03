@@ -18,4 +18,5 @@ Here’s a short and clear tabular comparison of **ArrayList** and **LinkedList*
 ## code for linkedlist
 
 
+![[Pasted image 20250103145602.png]]
 
