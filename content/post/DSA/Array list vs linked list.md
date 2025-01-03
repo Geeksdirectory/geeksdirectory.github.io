@@ -10,3 +10,12 @@ Here’s a short and clear tabular comparison of **ArrayList** and **LinkedList*
 |**Iterating**|Faster with `for` loop.|Slower, requires traversal of nodes.|
 |**Use Case**|Best for read-heavy operations.|Best for insert/delete-heavy operations.|
 |**Resizable**|Automatically resizes when full.|Dynamically grows with new nodes.|
+
+## Code for arraylist:
+
+![[Pasted image 20250103144746.png]]
+
+## code for linkedlist
+
+
+
