@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -243,10 +242,12 @@
   },
   "active": "9b91a0102002386b",
   "lastOpenFiles": [
-    "DSA/Super 30.md",
-    "Java Learning/3. Time and Space Complexity.md",
-    "DSA/Leetcode.md",
+    "Java Learning/Pasted image 20250105153837.png",
     "DSA/File io operations.md",
+    "DSA/Leetcode.md",
+    "Java Learning/3. Time and Space Complexity.md",
+    "Java Learning/sorting in java.md",
+    "DSA/Super 30.md",
     "Java Learning/Best, average, worst cases.md",
     "DSA/0. DSA Index.md",
     "interview/1. Interview Index.md",
@@ -278,8 +279,6 @@
     "Java Learning/1. Basic Java.md",
     "Java Learning/HandWritten.md",
     "Projects/GeeksDirectroy.md",
-    "Projects/Ecomm django.md",
-    "Projects/My Distro Builder.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
