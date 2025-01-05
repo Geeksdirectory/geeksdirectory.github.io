@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Learning/sorting in java.md",
+                "file": "DSA/Binary search Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sorting in java"
+              "title": "Binary search Algorithm"
             }
           },
           {
@@ -242,14 +242,14 @@
   },
   "active": "9b91a0102002386b",
   "lastOpenFiles": [
+    "DSA/0. DSA Index.md",
+    "Java Learning/sorting in java.md",
     "Java Learning/Pasted image 20250105153837.png",
     "DSA/File io operations.md",
     "DSA/Leetcode.md",
     "Java Learning/3. Time and Space Complexity.md",
-    "Java Learning/sorting in java.md",
     "DSA/Super 30.md",
     "Java Learning/Best, average, worst cases.md",
-    "DSA/0. DSA Index.md",
     "interview/1. Interview Index.md",
     "DSA/loops questions for interviews.md",
     "Java Learning/Big O notation.md",
@@ -269,7 +269,6 @@
     "DSA/Pasted image 20250103182451.png",
     "DSA/Pasted image 20250103181102.png",
     "DSA/Pasted image 20250103180318.png",
-    "DSA/Pasted image 20250103175840.png",
     "DSA/Array list vs linked list.md",
     "AZ-104/1. Azure Index.md",
     "AZ-104/Storage Account.md",
