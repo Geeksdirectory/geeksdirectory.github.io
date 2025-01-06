@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fusion/Work done till now.md",
+                "file": "DSA/Binary Search Algo Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Work done till now"
+              "title": "Binary Search Algo Questions"
             }
           },
           {
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -242,8 +243,9 @@
   },
   "active": "9b91a0102002386b",
   "lastOpenFiles": [
-    "DSA/Binary search Algorithm.md",
     "DSA/0. DSA Index.md",
+    "fusion/Work done till now.md",
+    "DSA/Binary search Algorithm.md",
     "Java Learning/sorting in java.md",
     "Java Learning/Pasted image 20250105153837.png",
     "DSA/File io operations.md",
@@ -278,7 +280,6 @@
     "Java Learning/2. oops in java.md",
     "Java Learning/1. Basic Java.md",
     "Java Learning/HandWritten.md",
-    "Projects/GeeksDirectroy.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
