@@ -11,10 +11,14 @@
             "id": "de290c2961190742",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Kubernates/1. Introduction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. Introduction"
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -165,8 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27306c4d5ba7e6e9",
+  "active": "de290c2961190742",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Kubernates/1. Introduction.md",
+    "Kubernates",
     "Sem7 final exam/Deep Learning/Pasted image 20241111202718.png",
     "DSA/Binary Search Algo Questions.md",
     "DSA/0. DSA Index.md",
@@ -197,13 +205,11 @@
     "File I",
     "DSA/Pasted image 20250103182451.png",
     "DSA/Pasted image 20250103181102.png",
-    "DSA/Pasted image 20250103180318.png",
     "DSA/Array list vs linked list.md",
     "AZ-104/1. Azure Index.md",
     "AZ-104/Storage Account.md",
     "Projects/1. Project Index.md",
     "DevOps - Cloud/Linux/Linux Index.md",
-    "Java Learning/2. oops in java.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
