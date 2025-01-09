@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "1. Introduction"
             }
+          },
+          {
+            "id": "66d458ca00db60af",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-09 15.31.34.excalidraw"
+            }
           }
         ]
       }
@@ -77,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -172,6 +183,11 @@
   },
   "active": "de290c2961190742",
   "lastOpenFiles": [
+    "Kubernates/Pasted image 20250109155152.png",
+    "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
+    "Kubernates/1. Introduction.md",
+    "Kubernates/Pasted image 20250109155019.png",
+    "Kubernates/Pasted Image 20250109154252_053.png",
     "Kubernates/Pasted image 20250109123604.png",
     "Kubernates/Pasted image 20250109122736.png",
     "Kubernates/Pasted image 20250109122722.png",
@@ -180,11 +196,7 @@
     "Kubernates/Pasted image 20250109121855.png",
     "Kubernates/Pasted image 20250109121740.png",
     "Kubernates/Pasted image 20250109121353.png",
-    "Kubernates/Pasted image 20250109112451.png",
-    "Kubernates/Pasted image 20250109112156.png",
-    "Kubernates/Pasted image 20250109111819.png",
     "Untitled.md",
-    "Kubernates/1. Introduction.md",
     "Kubernates",
     "DSA/Binary Search Algo Questions.md",
     "DSA/0. DSA Index.md",
@@ -209,7 +221,6 @@
     "DSA/Array list vs linked list.md",
     "AZ-104/1. Azure Index.md",
     "AZ-104/Storage Account.md",
-    "Projects/1. Project Index.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
