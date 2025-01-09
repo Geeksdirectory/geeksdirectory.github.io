@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "1. Introduction"
             }
-          },
-          {
-            "id": "66d458ca00db60af",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-01-09 15.31.34.excalidraw"
-            }
           }
         ]
       }
@@ -183,9 +171,9 @@
   },
   "active": "de290c2961190742",
   "lastOpenFiles": [
-    "Kubernates/Pasted image 20250109155152.png",
     "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
     "Kubernates/1. Introduction.md",
+    "Kubernates/Pasted image 20250109155152.png",
     "Kubernates/Pasted image 20250109155019.png",
     "Kubernates/Pasted Image 20250109154252_053.png",
     "Kubernates/Pasted image 20250109123604.png",
@@ -195,7 +183,6 @@
     "Kubernates/Pasted image 20250109122338.png",
     "Kubernates/Pasted image 20250109121855.png",
     "Kubernates/Pasted image 20250109121740.png",
-    "Kubernates/Pasted image 20250109121353.png",
     "Untitled.md",
     "Kubernates",
     "DSA/Binary Search Algo Questions.md",
