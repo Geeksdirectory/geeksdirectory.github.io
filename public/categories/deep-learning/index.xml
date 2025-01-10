@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Deep Learning on GeeksDirectory</title>
-        <link>http://localhost:1313/categories/deep-learning/</link>
+        <link>http://localhost:41007/categories/deep-learning/</link>
         <description>Recent content in Deep Learning on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:41007/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deep Learning For IA</title>
-        <link>http://localhost:1313/post/sem7-final-exam/deep-learning/module-4-to-6/</link>
+        <link>http://localhost:41007/post/sem7-final-exam/deep-learning/module-4-to-6/</link>
         <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/sem7-final-exam/deep-learning/module-4-to-6/</guid>
+        <guid>http://localhost:41007/post/sem7-final-exam/deep-learning/module-4-to-6/</guid>
         <description>&lt;h1 id=&#34;assignment&#34;&gt;Assignment&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/xerXeZT.png&#34;
 	
@@ -40,7 +40,7 @@
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;module-4&#34;&gt;module 4&lt;/h1&gt;
 &lt;h2 id=&#34;autoencoders&#34;&gt;[[AutoEncoders]]&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241008064112.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:41007/Pastedimage20241008064112.png&#34;
 	
 	
 	
@@ -50,7 +50,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pastedimage20241008064151.png&#34;
+&lt;img src=&#34;http://localhost:41007/Pastedimage20241008064151.png&#34;
 	
 	
 	
@@ -60,7 +60,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pastedimage20241008064249.png&#34;
+&lt;img src=&#34;http://localhost:41007/Pastedimage20241008064249.png&#34;
 	
 	
 	
@@ -339,7 +339,7 @@ Here&amp;rsquo;s an expanded comparison with more details about each type of aut
 &lt;h3 id=&#34;conclusion-1&#34;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Sequence learning is essential for tasks where the order of data points matters, such as language processing, time-series forecasting, and speech recognition. Models like RNNs, LSTMs, and GRUs are used to handle these problems by learning patterns and relationships within sequential data. Despite some challenges, sequence learning opens the door to powerful applications in various domains.&lt;/p&gt;
 &lt;p&gt;In deep learning, sequence learning involves training models to recognize patterns in sequences of data, such as time-series, text, or audio. These types of models (such as Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformers) can handle various types of input-output relationships. These relationships are categorized into several types based on the structure of the input and output sequences. Here are the main types of sequence learning:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241008075601.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:41007/Pastedimage20241008075601.png&#34;
 	
 	
 	
@@ -380,7 +380,7 @@ Here&amp;rsquo;s an expanded comparison with more details about each type of aut
 &lt;li&gt;&lt;strong&gt;Model Type&lt;/strong&gt;: Sequence-to-sequence (Seq2Seq) models, usually with an encoder-decoder architecture using LSTMs or Transformers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241008075515.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:41007/Pastedimage20241008075515.png&#34;
 	
 	
 	

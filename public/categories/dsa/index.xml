@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dsa on GeeksDirectory</title>
-        <link>http://localhost:1313/categories/dsa/</link>
+        <link>http://localhost:41007/categories/dsa/</link>
         <description>Recent content in Dsa on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:41007/categories/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>syllabus for DSA</title>
-        <link>http://localhost:1313/post/dsa/0.-dsa-index/</link>
+        <link>http://localhost:41007/post/dsa/0.-dsa-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/dsa/0.-dsa-index/</guid>
+        <guid>http://localhost:41007/post/dsa/0.-dsa-index/</guid>
         <description>&lt;p&gt;[[Super 30]]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>syllabus for DSA</title>
-        <link>http://localhost:1313/post/java-learning/java-index/</link>
+        <link>http://localhost:41007/post/java-learning/java-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/java-learning/java-index/</guid>
+        <guid>http://localhost:41007/post/java-learning/java-index/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
@@ -100,10 +100,10 @@
         </item>
         <item>
         <title>Recursion in java</title>
-        <link>http://localhost:1313/post/java-learning/java-recursion/</link>
+        <link>http://localhost:41007/post/java-learning/java-recursion/</link>
         <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/java-learning/java-recursion/</guid>
+        <guid>http://localhost:41007/post/java-learning/java-recursion/</guid>
         <description>&lt;h1 id=&#34;java-recursion&#34;&gt;Java Recursion&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Recursion is the technique of making a function call itself&lt;/li&gt;
@@ -143,10 +143,10 @@
         </item>
         <item>
         <title>bit manipulation in java</title>
-        <link>http://localhost:1313/post/java-learning/bit-manipulation-in-java/</link>
+        <link>http://localhost:41007/post/java-learning/bit-manipulation-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/java-learning/bit-manipulation-in-java/</guid>
+        <guid>http://localhost:41007/post/java-learning/bit-manipulation-in-java/</guid>
         <description>&lt;p&gt;Bit manipulation is a powerful tool in programming that involves directly operating on bits (0s and 1s) of data.
 often used to optimize code for speed and memory usage in performance-critical applications.
 Java provides a set of bitwise operators that allow manipulation of individual bits.&lt;/p&gt;
@@ -293,10 +293,10 @@ You can toggle the &lt;code&gt;n&lt;/code&gt;-th bit (flip it) using the bitwise
         </item>
         <item>
         <title>operators in java</title>
-        <link>http://localhost:1313/post/java-learning/operators-in-java/</link>
+        <link>http://localhost:41007/post/java-learning/operators-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/java-learning/operators-in-java/</guid>
+        <guid>http://localhost:41007/post/java-learning/operators-in-java/</guid>
         <description>&lt;h2 id=&#34;operators-in-java&#34;&gt;Operators in Java&lt;/h2&gt;
 &lt;p&gt;classified into different types, such as arithmetic, relational, logical, bitwise, assignment, and more.&lt;/p&gt;
 &lt;h3 id=&#34;arithmetic-operators&#34;&gt;Arithmetic Operators&lt;/h3&gt;
@@ -386,10 +386,10 @@ System.out.println(a);  // Output: 15
         </item>
         <item>
         <title>sorting in java</title>
-        <link>http://localhost:1313/post/java-learning/sorting-in-java/</link>
+        <link>http://localhost:41007/post/java-learning/sorting-in-java/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/java-learning/sorting-in-java/</guid>
+        <guid>http://localhost:41007/post/java-learning/sorting-in-java/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; bubble Sort ✅ 2024-09-22&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; selection sort ✅ 2024-09-22&lt;/li&gt;
@@ -663,7 +663,7 @@ runs loop n - 1  times&lt;/li&gt;
 &lt;h1 id=&#34;merge-sort&#34;&gt;Merge Sort&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;divide and conquer algorithm
-&lt;img src=&#34;http://localhost:1313/Pastedimage20250105153837.png&#34;
+&lt;img src=&#34;http://localhost:41007/Pastedimage20250105153837.png&#34;
 	
 	
 	
