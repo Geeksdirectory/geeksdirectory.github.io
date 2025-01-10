@@ -11,12 +11,14 @@
             "id": "de290c2961190742",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Kubernates/Pastedimage20250108220716.png"
+                "file": "IA 2 Exam/BDA Assignment.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pastedimage20250108220716"
+              "icon": "lucide-file",
+              "title": "BDA Assignment"
             }
           }
         ]
@@ -170,6 +172,8 @@
   "active": "de290c2961190742",
   "lastOpenFiles": [
     "Kubernates/1. Introduction.md",
+    "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
+    "Kubernates/Pastedimage20250108220716.png",
     "hackathons/PastedImage20241224130059_801.png",
     "hackathons/PastedImage20241224163007_469.png",
     "hackathons/PastedImage20241224125949_518.png",
@@ -179,10 +183,8 @@
     "hackathons/PastedImage20241224154925_916.png",
     "iEEE paper/Pastedimage20241219132608.png",
     "iEEE paper/Pastedimage20241219132632.png",
-    "iEEE paper/Pastedimage20241219132619.png",
     "spaceremover.py",
     "Kubernates/Pasted.md",
-    "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
     "linkconverter.py",
     "Untitled.md",
     "Kubernates",
