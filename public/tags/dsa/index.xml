@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dsa on GeeksDirectory</title>
-        <link>http://localhost:1313/mydocs/tags/dsa/</link>
+        <link>https://geeksdirectory.github.io/tags/dsa/</link>
         <description>Recent content in Dsa on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/tags/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://geeksdirectory.github.io/tags/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linked list</title>
-        <link>http://localhost:1313/mydocs/post/dsa/1.-linked-list/</link>
+        <link>https://geeksdirectory.github.io/post/dsa/1.-linked-list/</link>
         <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/dsa/1.-linked-list/</guid>
+        <guid>https://geeksdirectory.github.io/post/dsa/1.-linked-list/</guid>
         <description>&lt;p&gt;==Linear DS consist of nodes with some sort of data, and a pointer, or link, to the next node.==️
 &lt;strong&gt;data&lt;/strong&gt;: The value stored in the node
 &lt;strong&gt;Pointer/Link&lt;/strong&gt;: a reference to the next node on the sequence&lt;/p&gt;
 &lt;p&gt;A big &lt;strong&gt;benefit&lt;/strong&gt; with using linked lists is that ==nodes are stored wherever there is free space in memory, the nodes do not have to be stored contiguously right after each other like elements are stored in arrays==. Another nice thing with linked lists is that when adding or removing nodes, the r️️️️️est of the nodes in the list do not have to be shifted.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115153608.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115153608.png&#34;
 	
 	
 	
@@ -62,7 +62,7 @@
 &lt;li&gt;&lt;strong&gt;Reverse the Linked List&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;linked-list-vs-array&#34;&gt;Linked list vs Array&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115153756.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115153756.png&#34;
 	
 	
 	
@@ -74,7 +74,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;In memory, an &lt;strong&gt;array&lt;/strong&gt; is stored in [[contiguous memory locations]], where elements are accessed via direct indexing, making it faster for random access but requiring a fixed size. In contrast, a &lt;strong&gt;linked list&lt;/strong&gt; stores nodes in ==non-contiguous memory==, connected by pointers, allowing ==dynamic resizing== but with ==slower access due to sequential traversal.==&lt;/p&gt;
 &lt;p&gt;The image below shows ==how a linked list can be stored in memory==. The linked list has four nodes with values 3, 5, 13 and 2, and each node has a pointer to the next node in the list.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115192508.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115192508.png&#34;
 	
 	
 	
@@ -84,7 +84,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115192550.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115192550.png&#34;
 	
 	
 	
@@ -104,7 +104,7 @@
 &lt;li&gt;Circular linked list&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;A &lt;strong&gt;singly linked list&lt;/strong&gt; is the ==simplest kind of linked lists==. It takes up ==less space in memory because each node has only one address to the next nod==e, like in the image below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115193010.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115193010.png&#34;
 	
 	
 	
@@ -115,7 +115,7 @@
 	
 &gt;
 A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to both the previous and the next node==, like in the image below, and therefore ==takes up more memory==. But doubly linked lists are ==good if you want to be able to move both up and down in the list.==&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115193131.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115193131.png&#34;
 	
 	
 	
@@ -127,7 +127,7 @@ A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to 
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;circular linked list&lt;/strong&gt; is like a singly or doubly linked list with the first node, the &amp;ldquo;head&amp;rdquo;, and the last node, the &amp;ldquo;tail&amp;rdquo;, connected.&lt;/p&gt;
 &lt;p&gt;Circular linked lists are good for lists you need to cycle through continuously.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241115193301.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241115193301.png&#34;
 	
 	
 	
@@ -142,7 +142,7 @@ A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to 
 &lt;p&gt;what is linked list&lt;/p&gt;
 &lt;p&gt;Here is a concise summary of what a Linked List is:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;A linked list is a data structure consisting of nodes, each containing a value and a reference (or link) to the next node in the sequence. This allows for efficient insertion and deletion of elements at any position in the list, making it suitable for applications that require frequent updates. The order of elements in a linked list can be sorted or unsorted, and it is commonly used in algorithms such as stacks and queues, as well as in databases to manage data storage and retrieval.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241227141858.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241227141858.png&#34;
 	
 	
 	
@@ -152,7 +152,7 @@ A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to 
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241227142526.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241227142526.png&#34;
 	
 	
 	
@@ -162,7 +162,7 @@ A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to 
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241227143546.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241227143546.png&#34;
 	
 	
 	
@@ -285,10 +285,10 @@ A &lt;strong&gt;doubly linked list&lt;/strong&gt; has nodes with ==addresses to 
         </item>
         <item>
         <title>Backtracking</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/6.-backtracking/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/6.-backtracking/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/6.-backtracking/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/6.-backtracking/</guid>
         <description>&lt;p&gt;find all possible solution and use the one you want
 (pehale isstamal kare fir vishwas kare)&lt;/p&gt;
 &lt;p&gt;[[5. Recursion]] tree (for complex problem)
@@ -297,10 +297,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>insertion sort</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/sorting-algorithms/3.-insertion-sort/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/sorting-algorithms/3.-insertion-sort/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/sorting-algorithms/3.-insertion-sort/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/sorting-algorithms/3.-insertion-sort/</guid>
         <description>&lt;h2 id=&#34;insertion-sort&#34;&gt;Insertion Sort:&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Insertion Sort&lt;/strong&gt; is a simple, comparison-based sorting algorithm that builds the final sorted array one element at a time. It works by dividing the array into a &amp;ldquo;sorted&amp;rdquo; and &amp;ldquo;unsorted&amp;rdquo; section. The sorted section is built from left to right, and each new element is inserted into its correct position in the sorted section.&lt;/p&gt;
 &lt;h4 id=&#34;how-insertion-sort-works&#34;&gt;How Insertion Sort Works:&lt;/h4&gt;
@@ -372,10 +372,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Patterns in Java</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/4.-patterns/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/4.-patterns/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/4.-patterns/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/4.-patterns/</guid>
         <description>&lt;h1 id=&#34;1-code-to-print-simple-rectangle&#34;&gt;1. code to print simple rectangle&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;patterns&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
@@ -696,10 +696,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Recursion in java</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/5.-recursion/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/5.-recursion/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/5.-recursion/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/5.-recursion/</guid>
         <description>&lt;h1 id=&#34;java-recursion&#34;&gt;Java Recursion&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Recursion is the technique of making a function call itself&lt;/li&gt;
@@ -739,15 +739,15 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Selection Sort</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/sorting-algorithms/2.-selection-sort/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/sorting-algorithms/2.-selection-sort/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/sorting-algorithms/2.-selection-sort/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/sorting-algorithms/2.-selection-sort/</guid>
         <description>&lt;p&gt;one swap per iteration&lt;/p&gt;
 &lt;p&gt;Selection sort main, har pass pe array ka sabse chhota element dhundho aur usko unsorted part ke starting element ke sath swap kar do, yeh process repeat hoti rehti hai jab tak array sorted na ho jaye.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Selection Sort&lt;/strong&gt;&lt;/em&gt;  is a comparison-based sorting algorithm.&lt;/p&gt;
 &lt;p&gt;It sorts an array by repeatedly selecting the &lt;strong&gt;smallest (or largest)&lt;/strong&gt;* element from the unsorted portion and swapping it with the first unsorted element.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031161316.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031161316.png&#34;
 	
 	
 	
@@ -829,7 +829,7 @@ solutions are in branches&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;time-and-space-complexity&#34;&gt;Time and space complexity&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031162049.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031162049.png&#34;
 	
 	
 	
@@ -843,15 +843,15 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Time and Space Complexity</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/3.-time-and-space-complexity/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/3.-time-and-space-complexity/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/3.-time-and-space-complexity/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/3.-time-and-space-complexity/</guid>
         <description>&lt;h3 id=&#34;big-o-notation&#34;&gt;[[Big O notation]]&lt;/h3&gt;
 &lt;h3 id=&#34;best-average-worst-cases&#34;&gt;[[Best, average, worst cases]]&lt;/h3&gt;
 &lt;p&gt;Time and space complexity are used to evaluate the efficiency of algorithms in terms of performance (time) and memory usage (space).&lt;/p&gt;
 &lt;h4 id=&#34;1-common-time-complexities&#34;&gt;1. &lt;strong&gt;Common Time Complexities:&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241030185440.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241030185440.png&#34;
 	
 	
 	

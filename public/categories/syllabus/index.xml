@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Syllabus on GeeksDirectory</title>
-        <link>http://localhost:1313/mydocs/categories/syllabus/</link>
+        <link>https://geeksdirectory.github.io/categories/syllabus/</link>
         <description>Recent content in Syllabus on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://geeksdirectory.github.io/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>syllabus for DSA</title>
-        <link>http://localhost:1313/mydocs/post/dsa/0.-dsa-index/</link>
+        <link>https://geeksdirectory.github.io/post/dsa/0.-dsa-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/dsa/0.-dsa-index/</guid>
+        <guid>https://geeksdirectory.github.io/post/dsa/0.-dsa-index/</guid>
         <description>&lt;p&gt;[[Super 30]]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>syllabus for DSA</title>
-        <link>http://localhost:1313/mydocs/post/java-learning/java-index/</link>
+        <link>https://geeksdirectory.github.io/post/java-learning/java-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/java-learning/java-index/</guid>
+        <guid>https://geeksdirectory.github.io/post/java-learning/java-index/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
@@ -100,12 +100,12 @@
         </item>
         <item>
         <title>syllabus for sem7</title>
-        <link>http://localhost:1313/mydocs/post/syllabus/syllabus/</link>
+        <link>https://geeksdirectory.github.io/post/syllabus/syllabus/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/syllabus/syllabus/</guid>
+        <guid>https://geeksdirectory.github.io/post/syllabus/syllabus/</guid>
         <description>&lt;h1 id=&#34;deep-learning&#34;&gt;[[Deep Learning]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114251.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114251.png&#34;
 	
 	
 	
@@ -115,7 +115,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114303.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114303.png&#34;
 	
 	
 	
@@ -126,7 +126,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;bda&#34;&gt;[[BDA]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114311.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114311.png&#34;
 	
 	
 	
@@ -136,7 +136,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114317.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114317.png&#34;
 	
 	
 	
@@ -147,7 +147,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;nlp&#34;&gt;[[NlP]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114357.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114357.png&#34;
 	
 	
 	
@@ -157,7 +157,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114414.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241018114414.png&#34;
 	
 	
 	

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Learning/Best, average, worst cases.md",
+                "file": "DSA/Binary Search Algo Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Best, average, worst cases"
+              "title": "Binary Search Algo Questions"
             }
           }
         ]
@@ -171,11 +171,11 @@
   },
   "active": "de290c2961190742",
   "lastOpenFiles": [
-    "Java Learning/Big O notation.md",
+    "DSA/Binary search Algorithm.md",
     "Java Learning/Best, average, worst cases.md",
+    "Java Learning/Big O notation.md",
     "DSA/Binary search in 2d arrays.md",
     "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
-    "DSA/Binary search Algorithm.md",
     "DSA/Binary Search Algo Questions.md",
     "DSA/Arrays.md",
     "DSA/Array list vs linked list.md",

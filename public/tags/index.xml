@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on GeeksDirectory</title>
-        <link>http://localhost:1313/mydocs/tags/</link>
+        <link>https://geeksdirectory.github.io/tags/</link>
         <description>Recent content in Tags on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://geeksdirectory.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Azure</title>
-        <link>http://localhost:1313/mydocs/tags/azure/</link>
+        <link>https://geeksdirectory.github.io/tags/azure/</link>
         <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/azure/</guid>
+        <guid>https://geeksdirectory.github.io/tags/azure/</guid>
         <description></description>
         </item>
         <item>
         <title>Dsa</title>
-        <link>http://localhost:1313/mydocs/tags/dsa/</link>
+        <link>https://geeksdirectory.github.io/tags/dsa/</link>
         <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/dsa/</guid>
+        <guid>https://geeksdirectory.github.io/tags/dsa/</guid>
         <description></description>
         </item>
         <item>
         <title>GSOC</title>
-        <link>http://localhost:1313/mydocs/tags/gsoc/</link>
+        <link>https://geeksdirectory.github.io/tags/gsoc/</link>
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/gsoc/</guid>
+        <guid>https://geeksdirectory.github.io/tags/gsoc/</guid>
         <description></description>
         </item>
         <item>
         <title>Excalidraw</title>
-        <link>http://localhost:1313/mydocs/tags/excalidraw/</link>
+        <link>https://geeksdirectory.github.io/tags/excalidraw/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/excalidraw/</guid>
+        <guid>https://geeksdirectory.github.io/tags/excalidraw/</guid>
         <description></description>
         </item>
         <item>
         <title>Java</title>
-        <link>http://localhost:1313/mydocs/tags/java/</link>
+        <link>https://geeksdirectory.github.io/tags/java/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/java/</guid>
+        <guid>https://geeksdirectory.github.io/tags/java/</guid>
         <description></description>
         </item>
         <item>
         <title>Placements</title>
-        <link>http://localhost:1313/mydocs/tags/placements/</link>
+        <link>https://geeksdirectory.github.io/tags/placements/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/placements/</guid>
+        <guid>https://geeksdirectory.github.io/tags/placements/</guid>
         <description></description>
         </item>
         <item>
         <title>Sorting</title>
-        <link>http://localhost:1313/mydocs/tags/sorting/</link>
+        <link>https://geeksdirectory.github.io/tags/sorting/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/tags/sorting/</guid>
+        <guid>https://geeksdirectory.github.io/tags/sorting/</guid>
         <description></description>
         </item>
         

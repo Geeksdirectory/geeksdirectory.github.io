@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Sem7 on GeeksDirectory</title>
-        <link>http://localhost:1313/mydocs/categories/sem7/</link>
+        <link>https://geeksdirectory.github.io/categories/sem7/</link>
         <description>Recent content in Sem7 on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://localhost:1313/mydocs/categories/sem7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="https://geeksdirectory.github.io/categories/sem7/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Blockchain technologies</title>
-        <link>http://localhost:1313/mydocs/post/sem7-final-exam/blockchain-technology/1.-main/</link>
+        <link>https://geeksdirectory.github.io/post/sem7-final-exam/blockchain-technology/1.-main/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/blockchain-technology/1.-main/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224102.png&#34;
+        <guid>https://geeksdirectory.github.io/post/sem7-final-exam/blockchain-technology/1.-main/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031224102.png&#34;
 	
 	
 	
@@ -21,7 +21,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224120.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031224120.png&#34;
 	
 	
 	
@@ -31,7 +31,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224136.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031224136.png&#34;
 	
 	
 	
@@ -79,11 +79,11 @@
         </item>
         <item>
         <title>Deep Learning</title>
-        <link>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</link>
+        <link>https://geeksdirectory.github.io/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223620.png&#34;
+        <guid>https://geeksdirectory.github.io/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031223620.png&#34;
 	
 	
 	
@@ -93,7 +93,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101092507.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101092507.png&#34;
 	
 	
 	
@@ -267,7 +267,7 @@
 &lt;p&gt;Neurons have biases, added to the weighted sum before applying the activation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101092853.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101092853.png&#34;
 	
 	
 	
@@ -281,7 +281,7 @@
 &lt;li&gt;Every node in the multi-layer perception uses a [[Activation Functions]] function&lt;/li&gt;
 &lt;li&gt;The sigmoid activation function takes real values as input and converts them to numbers between 0 and 1 using the sigmoid formula.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101093133.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101093133.png&#34;
 	
 	
 	
@@ -301,7 +301,7 @@
 &lt;li&gt;MLPs are used for tasks like classification, regression, and function approximation.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;q-design-and-implement-and-gate-using--perceptron&#34;&gt;Q. Design and implement AND Gate using  perceptron&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101121517.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101121517.png&#34;
 	
 	
 	
@@ -312,7 +312,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;truth table
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101121535.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101121535.png&#34;
 	
 	
 	
@@ -322,7 +322,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101124702.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101124702.png&#34;
 	
 	
 	
@@ -332,7 +332,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101124709.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101124709.png&#34;
 	
 	
 	
@@ -343,7 +343,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;linear-separability&#34;&gt;Linear Separability&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101163557.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101163557.png&#34;
 	
 	
 	
@@ -420,7 +420,7 @@ $$
 &lt;p&gt;&lt;strong&gt;Typical Applications&lt;/strong&gt;: - Image classification (in simple cases), spam detection, and basic fraud detection.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;2-convolutional-neural-networks-cnns&#34;&gt;2. &lt;strong&gt;Convolutional Neural Networks (CNNs)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101181314.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101181314.png&#34;
 	
 	
 	
@@ -445,7 +445,7 @@ $$
 &lt;p&gt;&lt;strong&gt;Typical Applications&lt;/strong&gt;: - Computer vision tasks: image classification (e.g., CIFAR-10, ImageNet), object detection (e.g., self-driving cars), facial recognition.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;3-recurrent-neural-networks-rnns&#34;&gt;3. &lt;strong&gt;Recurrent Neural Networks (RNNs)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101181340.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241101181340.png&#34;
 	
 	
 	
@@ -471,12 +471,12 @@ $$
         </item>
         <item>
         <title>MIS</title>
-        <link>http://localhost:1313/mydocs/post/sem7-final-exam/mis/1.-mis/</link>
+        <link>https://geeksdirectory.github.io/post/sem7-final-exam/mis/1.-mis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/mis/1.-mis/</guid>
+        <guid>https://geeksdirectory.github.io/post/sem7-final-exam/mis/1.-mis/</guid>
         <description>&lt;p&gt;7
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224258.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031224258.png&#34;
 	
 	
 	
@@ -497,12 +497,12 @@ $$
         </item>
         <item>
         <title>Natural language processing</title>
-        <link>http://localhost:1313/mydocs/post/sem7-final-exam/nlp/1.-main/</link>
+        <link>https://geeksdirectory.github.io/post/sem7-final-exam/nlp/1.-main/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/nlp/1.-main/</guid>
+        <guid>https://geeksdirectory.github.io/post/sem7-final-exam/nlp/1.-main/</guid>
         <description>&lt;p&gt;[[NLP Techknowledge.pdf]]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223812.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031223812.png&#34;
 	
 	
 	
@@ -512,7 +512,7 @@ $$
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223852.png&#34;
+&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241031223852.png&#34;
 	
 	
 	
@@ -525,7 +525,7 @@ $$
 &lt;h3 id=&#34;natural-language-processing&#34;&gt;[[Natural language processing]]&lt;/h3&gt;
 &lt;h3 id=&#34;knowledge-in-language-processing&#34;&gt;[[Knowledge in Language Processing]]&lt;/h3&gt;
 &lt;h3 id=&#34;ambiguities-in-natural-language&#34;&gt;[[Ambiguities in Natural Language]]&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241126013446.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241126013446.png&#34;
 	
 	
 	
@@ -536,7 +536,7 @@ $$
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;challenges-of-nlp&#34;&gt;[[Challenges of NLP]]&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241126015357.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241126015357.png&#34;
 	
 	
 	
