@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>GSOC on GeeksDirectory</title>
-        <link>https://geeksdirectory.github.io/tags/gsoc/</link>
+        <link>http://localhost:1313/tags/gsoc/</link>
         <description>Recent content in GSOC on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://geeksdirectory.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gsoc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>GSOC - Google Summer Of Code</title>
-        <link>https://geeksdirectory.github.io/post/gsoc/gsoc-google-summer-of-code/</link>
+        <link>http://localhost:1313/post/gsoc/gsoc-google-summer-of-code/</link>
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://geeksdirectory.github.io/post/gsoc/gsoc-google-summer-of-code/</guid>
+        <guid>http://localhost:1313/post/gsoc/gsoc-google-summer-of-code/</guid>
         <description>&lt;p&gt;watch this video&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=nq82V5OpapE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.youtube.com/watch?v=nq82V5OpapE&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241106200021.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241106200021.png&#34;
 	
 	
 	
@@ -25,7 +25,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://geeksdirectory.github.io/Pastedimage20241106200522.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241106200522.png&#34;
 	
 	
 	
