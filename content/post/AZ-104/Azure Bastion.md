@@ -3,7 +3,7 @@ title: AZ-104 Azure Bastion
 date: 2025-01-10
 ---
 
-![alt text](Pastedimage20241119223914.png)
+![alt text](static/img/Pastedimage20241119223914.png)
 
 ![alt text](Pastedimage20241119222255.png)
 
