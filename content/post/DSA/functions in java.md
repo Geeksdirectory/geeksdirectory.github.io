@@ -18,11 +18,11 @@ return_type name (arguments) {
 
 In coding world the word "dry" means don't repeat yourself
 
-![[Pasted image 20241118150649.png]]
+![alt text](Pastedimage20241118150649.png)
 
 **return** is the value of the function call  
 
-![[Pasted image 20241118150856.png]]
+![alt text](Pastedimage20241118150856.png)
 
 
 
@@ -30,7 +30,7 @@ In coding world the word "dry" means don't repeat yourself
 
 ### pass the value of numbers when you are calling the method in main()
 
-![[Pasted image 20241118154907.png]]
+![alt text](Pastedimage20241118154907.png)
 
 
 no pass-by reference in java only pass-by value
@@ -38,7 +38,7 @@ no pass-by reference in java only pass-by value
 > primitive: int , short,char,byte ....  -----> just passing value
    object and stuff -----> passing value of the reference
 
-![[Pasted image 20241118175747.png]]
+![alt text](Pastedimage20241118175747.png)
 
 
 
@@ -109,7 +109,7 @@ anything that is initialize outside the block can be used inside the block, anyt
 
 ### Shadowing in java
 
-![[Pasted image 20241118183209.png]]
+![alt text](Pastedimage20241118183209.png)
 
 Shadowing happens when a variable in an inner scope (e.g., a method or block) has the same name as a variable in an outer scope (e.g., a class or enclosing block). The inner variable takes precedence, "hiding" the outer variable.
 
@@ -148,7 +148,7 @@ Shadowing happens when a variable in an inner scope (e.g., a method or block) ha
 
 ### Variable Arguments 
 
-![[Pasted image 20241118183745.png]]
+![alt text](Pastedimage20241118183745.png)
 
 
 
@@ -156,7 +156,7 @@ Shadowing happens when a variable in an inner scope (e.g., a method or block) ha
 
 occurs at compiletime
 
-![[Pasted image 20241118184020.png]]
+![alt text](Pastedimage20241118184020.png)
  
 
 

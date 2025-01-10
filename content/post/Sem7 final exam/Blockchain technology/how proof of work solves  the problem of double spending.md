@@ -1,7 +1,7 @@
 
 # [[Hinglish Double spending]]
 
-![[Pasted image 20241205183243.png]]
+![alt text](Pasted image 20241205183243.png)
 
 ==Double-spending is the fraudulent act of spending the same digital currency more than once==. In a decentralized blockchain network, such as Bitcoin, where there is no central authority to validate transactions, the **Proof of Work (PoW)** consensus mechanism plays a crucial role in preventing double-spending. Here’s how it works:
 

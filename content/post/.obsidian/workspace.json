@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 444.5026054382324
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -171,18 +171,22 @@
   },
   "active": "de290c2961190742",
   "lastOpenFiles": [
-    "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
+    "hackathons/PastedImage20241224130059_801.png",
+    "hackathons/PastedImage20241224163007_469.png",
+    "hackathons/PastedImage20241224125949_518.png",
+    "hackathons/PastedImage20241224155201_905.png",
+    "hackathons/PastedImage20241224162835_172.png",
+    "hackathons/Pastedimage20241224130002.png",
+    "hackathons/PastedImage20241224154925_916.png",
+    "iEEE paper/Pastedimage20241219132608.png",
+    "iEEE paper/Pastedimage20241219132632.png",
+    "iEEE paper/Pastedimage20241219132619.png",
+    "iEEE paper/Pastedimage20241219132659.png",
+    "spaceremover.py",
     "Kubernates/1. Introduction.md",
-    "Kubernates/Pasted image 20250109155152.png",
-    "Kubernates/Pasted image 20250109155019.png",
-    "Kubernates/Pasted Image 20250109154252_053.png",
-    "Kubernates/Pasted image 20250109123604.png",
-    "Kubernates/Pasted image 20250109122736.png",
-    "Kubernates/Pasted image 20250109122722.png",
-    "Kubernates/Pasted image 20250109122606.png",
-    "Kubernates/Pasted image 20250109122338.png",
-    "Kubernates/Pasted image 20250109121855.png",
-    "Kubernates/Pasted image 20250109121740.png",
+    "Kubernates/Pasted.md",
+    "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
+    "linkconverter.py",
     "Untitled.md",
     "Kubernates",
     "DSA/Binary Search Algo Questions.md",
@@ -207,14 +211,12 @@
     "File I",
     "DSA/Array list vs linked list.md",
     "AZ-104/1. Azure Index.md",
-    "AZ-104/Storage Account.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
     "hackathons",
     "todo",
     "free certifications",
-    "DevOps - Cloud/devops roadmap 1.pdf",
-    "DevOps - Cloud/devops roadmap.pdf"
+    "DevOps - Cloud/devops roadmap 1.pdf"
   ]
 }

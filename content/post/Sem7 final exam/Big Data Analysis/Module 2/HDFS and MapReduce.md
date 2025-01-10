@@ -1,4 +1,4 @@
-![[Pasted image 20241106170212.png]]
+![alt text](Pasted image 20241106170212.png)
 
 
 
@@ -19,7 +19,7 @@
 ---
 
 #### **HDFS Architecture**
-![[Pasted image 20241106175519.png]]
+![alt text](Pasted image 20241106175519.png)
 HDFS has a ==master-slave architecture== with two main components:
 
 ##### 1. **NameNode** master node

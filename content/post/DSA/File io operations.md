@@ -13,17 +13,17 @@
 
 ## create a file 
 
-![[Pasted image 20250103213914.png]]
+![alt text](Pastedimage20250103213914.png)
 
 # Write in a file 
 
-![[Pasted image 20250103213936.png]]
+![alt text](Pastedimage20250103213936.png)
 
 # Read a file
 
-![[Pasted image 20250103213952.png]]
+![alt text](Pastedimage20250103213952.png)
 
 # Delete a file
 
-![[Pasted image 20250103214014.png]]
+![alt text](Pastedimage20250103214014.png)
 

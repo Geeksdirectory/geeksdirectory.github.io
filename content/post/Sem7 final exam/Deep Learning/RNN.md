@@ -10,7 +10,7 @@
 ### 3. **Working Mechanism of RNNs**
    - **Input Sequence**: RNNs take sequential data as input (e.g., a series of words or time steps).
    - **Time Steps**: For each time step \( t \), the RNN receives the current input \( x_t \) and updates its hidden state \( h_t \) based on both \( x_t \) and the previous hidden state \( h_{t-1} \).
-   ![[Pasted image 20241111142928.png]]
+   ![alt text](Pasted image 20241111142928.png)
 
 ### 4. **Types of RNNs**
    - **Vanilla RNN**: Basic form where each output depends on the current input and previous hidden state.

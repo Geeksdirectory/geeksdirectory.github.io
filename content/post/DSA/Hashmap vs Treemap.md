@@ -28,5 +28,5 @@
 - **Use TreeMap** when you need elements sorted in ascending order (or custom order using a comparator), and you are okay with slightly slower performance.
 
 
-![[Pasted image 20250103160242.png]]![[Pasted image 20250103160259.png]]
+![alt text](Pastedimage20250103160242.png)![alt text](Pastedimage20250103160259.png)
 

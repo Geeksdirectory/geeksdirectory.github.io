@@ -2,9 +2,9 @@
 
 #### Connection troubleshoot tool
 
-![[Pasted image 20241120115712.png]]
+![alt text](Pasted image 20241120115712.png)
 
-![[Pasted image 20241120112716.png]]
+![alt text](Pasted image 20241120112716.png)
 
 
 Azure Network Watcher is a monitoring and diagnostic service that provides tools to troubleshoot and gain insights into your Azure network resources. It helps ensure your Azure virtual networks operate efficiently by identifying connectivity issues, diagnosing performance problems, and monitoring network traffic.

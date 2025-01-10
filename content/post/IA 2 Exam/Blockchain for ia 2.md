@@ -5,11 +5,11 @@ title: Blockchain for ia
 # Syllabus
 
 
-![[Pasted image 20241012161705.png]]![[Pasted image 20241012161713.png]]
+![alt text](Pasted image 20241012161705.png)![alt text](Pasted image 20241012161713.png)
 
 # Question bank given by mam
 
-![[Pasted image 20241012161918.png]]
+![alt text](Pasted image 20241012161918.png)
 
 
 
@@ -80,7 +80,7 @@ Blockchains can be categorized into several types based on their architecture an
 
 These blockchain types serve different use cases, and the choice depends on factors like decentralization, privacy, scalability, and the specific goals of the project or organization.
 
-![[Pasted image 20241012183147.png]]
+![alt text](Pasted image 20241012183147.png)
 
 ## Q.2 Explain PAXOS consensus Algorithm for Private Blockchain.
 

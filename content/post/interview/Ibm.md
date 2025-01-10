@@ -17,7 +17,7 @@ test question is on hacker Rank
 
 # 3rd step:
 
-![[Pasted image 20241219190357.png]]
+![alt text](Pasted image 20241219190357.png)
 
 
 ## Top Coding Questions and Answers 2024

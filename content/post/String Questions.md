@@ -1,4 +1,4 @@
-![[Pasted image 20241221134403.png]]
+![alt text](Pastedimage20241221134403.png)
 
 here we have to find two substring ( left ) a ( right )
 and modify smallest substring beside "a".
@@ -60,7 +60,7 @@ class Main {
 }
 ```
 
-![[Pasted image 20241223214923.png]]
+![alt text](Pastedimage20241223214923.png)
 
 ---
 ## 2. Check if string is Palindrome or not
@@ -109,12 +109,12 @@ output: 'w'
 ---
 ## 4. Remove special character in a string
 
-![[Pasted image 20241223215059.png]]
+![alt text](Pastedimage20241223215059.png)
 
 ---
 ## 5. Program to remove White spaces in the string
 
-![[Pasted image 20241223215351.png]]
+![alt text](Pastedimage20241223215351.png)
 
 ---
 

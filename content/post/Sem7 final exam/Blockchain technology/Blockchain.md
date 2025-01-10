@@ -1,4 +1,4 @@
-![[Pasted image 20241205114948.png]]
+![alt text](Pasted image 20241205114948.png)
 ### **Blockchain Architecture and Main Components**
 
 Blockchain architecture is the foundational design that ==enables the functioning of a decentralized and secure system for data storage and transactions==. It is a ==combination of multiple layers and components that work together to achieve transparency, security, and immutability.==
@@ -128,7 +128,7 @@ The blockchain system has several key components that ensure its functionality:
 The **architecture** of blockchain ensures decentralization, transparency, and security. It relies on components like blocks, transactions, nodes, cryptography, and smart contracts, all integrated through a layered structure. This design underpins its versatility across industries like finance, healthcare, and supply chains.
 
 ---
-![[Pasted image 20241205115002.png]]
+![alt text](Pasted image 20241205115002.png)
 
 ---
-![[Pasted image 20241205115023.png]]
+![alt text](Pasted image 20241205115023.png)

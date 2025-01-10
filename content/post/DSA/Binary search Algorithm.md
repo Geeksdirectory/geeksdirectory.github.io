@@ -20,7 +20,7 @@ while
 		 else 
 
 ---
-### Time Complexity:![[Pasted image 20241126204755.png]]
+### Time Complexity:![alt text](Pastedimage20241126204755.png)
 
 
 - **Best Case**: O(1) (target found at the middle).
@@ -33,18 +33,18 @@ while
 
 ---
 > while coding
-![[Pasted image 20241128052751.png]]
+![alt text](Pastedimage20241128052751.png)
 
-![[Pasted image 20241128052907.png]]
+![alt text](Pastedimage20241128052907.png)
 
 ---
 ### code for binary search [[hinglish explaination of code]]
 
-![[Pasted image 20241128054208.png]]
+![alt text](Pastedimage20241128054208.png)
 
 ### Order agnostic binary search
 
-![[Pasted image 20241128061939.png]]
+![alt text](Pastedimage20241128061939.png)
 
 
 

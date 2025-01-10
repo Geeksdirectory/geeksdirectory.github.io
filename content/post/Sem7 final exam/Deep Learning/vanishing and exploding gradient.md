@@ -1,6 +1,6 @@
-![[Pasted image 20241111170126.png]]
+![alt text](Pasted image 20241111170126.png)
 
-![[Pasted image 20241111170149.png]]
+![alt text](Pasted image 20241111170149.png)
 
 The **vanishing gradient** and **exploding gradient** problems are issues encountered in training deep neural networks, especially Recurrent Neural Networks (RNNs), that involve long sequences. These problems can make it difficult for RNNs to learn long-term dependencies and effectively propagate information through time steps. Here’s a detailed explanation of each:
 

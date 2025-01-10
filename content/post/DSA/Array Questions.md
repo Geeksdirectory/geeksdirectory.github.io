@@ -120,20 +120,20 @@ public class Main {
 
 ## 5. **Find the Second Largest Element**
 
-![[Pasted image 20241225185154.png]]
-![[Pasted image 20241225185202.png]]
-![[Pasted image 20241225185211.png]]
+![alt text](Pastedimage20241225185154.png)
+![alt text](Pastedimage20241225185202.png)
+![alt text](Pastedimage20241225185211.png)
 
 ---
 ## 6. **Find the Intersection of Two Arrays**
 
 brute force method 
 
-![[Pasted image 20241225190605.png]]
+![alt text](Pastedimage20241225190605.png)
 
 optimal solution
 
-![[Pasted image 20241225191041.png]]
+![alt text](Pastedimage20241225191041.png)
 
 
 ```java
@@ -170,10 +170,10 @@ public class Main {
 ---
 ## 7. **Rotate an Array**
 
-![[Pasted image 20241225192533.png]]
+![alt text](Pastedimage20241225192533.png)
 
-![[Pasted image 20241225192711.png]]
-![[Pasted image 20241225192855.png]]
+![alt text](Pastedimage20241225192711.png)
+![alt text](Pastedimage20241225192855.png)
 
 final formula = arr[(i + k) % n ] = arr [ i ]
 

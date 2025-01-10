@@ -95,4 +95,4 @@ The algorithm works in **five sequential steps**, each targeting specific types 
 4. **Document Clustering**:
     - Identifies related words for grouping similar documents.
 ---
-![[Pasted image 20241127140535.png]]
+![alt text](Pasted image 20241127140535.png)

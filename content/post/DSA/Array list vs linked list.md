@@ -13,10 +13,10 @@ Here’s a short and clear tabular comparison of **ArrayList** and **LinkedList*
 
 ## Code for arraylist:
 
-![[Pasted image 20250103144746.png]]
+![alt text](Pastedimage20250103144746.png)
 
 ## code for linkedlist
 
 
-![[Pasted image 20250103145602.png]]
+![alt text](Pastedimage20250103145602.png)
 

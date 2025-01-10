@@ -4,7 +4,7 @@ https://youtu.be/_HRA37X8N_Q?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ
 
 A simple algorithm that checks each element in the array until the target element is found or the end of the array is reached.
 
-![[Pasted image 20241121133906.png]]
+![alt text](Pastedimage20241121133906.png)
 
 > start searching from the first element till the element which we are finding 
 
@@ -15,13 +15,13 @@ time complexity :
 - Best Case: O(1)    // constant
 - Worst Case: O(n)  // here n is the size of the array
 
-![[Pasted image 20241121134313.png]]
+![alt text](Pastedimage20241121134313.png)
 
-![[Pasted image 20241121134405.png]]
+![alt text](Pastedimage20241121134405.png)
  linear time complexity (above image)
 
 
-![[Pasted image 20241121134446.png]]
+![alt text](Pastedimage20241121134446.png)
 best case time complexity (above image)
 
 
@@ -80,54 +80,54 @@ public class Search { // Class name should start with an uppercase letter for co
 ```
 
 
-![[Pasted image 20241121140431.png]]
-![[Pasted image 20241121140448.png]]
+![alt text](Pastedimage20241121140431.png)
+![alt text](Pastedimage20241121140448.png)
 
 
 
 ## Q. Is a char present in the string 
 
-![[Pasted image 20241122234332.png]]
+![alt text](Pastedimage20241122234332.png)
 
 ## Q. Search in Range
 
 
-![[Pasted image 20241121141646.png]]
+![alt text](Pastedimage20241121141646.png)
 
 
-![[Pasted image 20241121142520.png]]
+![alt text](Pastedimage20241121142520.png)
 
 ## Q. find minimum element in the ARRAY
 
-![[Pasted image 20241121142733.png]]
+![alt text](Pastedimage20241121142733.png)
 
-![[Pasted image 20241121142851.png]]
+![alt text](Pastedimage20241121142851.png)
 
-![[Pasted image 20241121142913.png]]
+![alt text](Pastedimage20241121142913.png)
 
 
 ## Q. Searching in 2d arrays
-![[Pasted image 20241124002356.png]]
+![alt text](Pastedimage20241124002356.png)
 
 ## Q. Search and print maximum value in 2D array
 
 
-![[Pasted image 20241124003045.png]]
+![alt text](Pastedimage20241124003045.png)
 
- ![[Pasted image 20241121153028.png]]
+ ![alt text](Pastedimage20241121153028.png)
 
-![[Pasted image 20241125185619.png]]
+![alt text](Pastedimage20241125185619.png)
 
 https://youtu.be/vwa9vgYz5ZE?t=35
 
-![[Pasted image 20241125190847.png]]
+![alt text](Pastedimage20241125190847.png)
 
 
-![[Pasted image 20241121153519.png]]
+![alt text](Pastedimage20241121153519.png)
 
 
-![[Pasted image 20241121154417.png]]
+![alt text](Pastedimage20241121154417.png)
 
 
 
-![[Pasted image 20241125193442.png]]
+![alt text](Pastedimage20241125193442.png)

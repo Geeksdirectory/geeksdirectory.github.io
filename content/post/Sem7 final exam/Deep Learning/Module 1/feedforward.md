@@ -2,7 +2,7 @@
 - In a **feedforward neural network**, data moves forward from the input layer through hidden layers to the output layer.
 - Each layer transforms the input data using weights, biases, and activation functions.
 
-![[Pasted image 20241101100717.png]]
+![alt text](Pasted image 20241101100717.png)
 
 
 A Feedforward Neural Network (FNN) is a type of artificial neural network where connections between the nodes do not form cycles. This characteristic differentiates it from recurrent neural networks (RNNs). The network consists of an input layer, one or more hidden layers, and an output layer. Information flows in one direction—from input to output—hence the name "feedforward."

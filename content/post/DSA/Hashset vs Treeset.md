@@ -23,15 +23,15 @@
     - No **null** if a custom comparator is used.
 
 
-![[Pasted image 20250103153450.png]]
+![alt text](Pastedimage20250103153450.png)
 
 
 # leetcode samajhdaar wala approach
 
-![[Pasted image 20250103175840.png]]
+![alt text](Pastedimage20250103175840.png)
 
 # mandabuddhi wala approach 
 
-![[Pasted image 20250103180318.png]]
+![alt text](Pastedimage20250103180318.png)
 
 

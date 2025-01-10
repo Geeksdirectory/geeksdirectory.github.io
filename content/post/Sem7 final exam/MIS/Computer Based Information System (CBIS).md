@@ -3,7 +3,7 @@ CBIS are those that ==make use of computer technology== to perform some dedicate
 ### The essential elements / components of a CBIS are:
 
 ---
-![[Pasted image 20241117003029.png]]
+![alt text](Pasted image 20241117003029.png)
 ##### **1. Hardware**
 - The physical devices and equipment used in the system.
 - Includes:
@@ -74,9 +74,9 @@ Each of these components plays a critical role in ensuring the effectiveness and
 
 ### Types of Computer based Information System
 
-![[Pasted image 20241117003803.png]]
+![alt text](Pasted image 20241117003803.png)
 
-![[Pasted image 20241117003818.png]]
+![alt text](Pasted image 20241117003818.png)
 
 **Types of Computer-Based Information Systems (CBIS)** can be categorized based on their ==purpose, users, and the types of decisions they support==. Here are the key types:
 
@@ -186,4 +186,4 @@ Each of these components plays a critical role in ensuring the effectiveness and
 
 These systems collectively support various levels of an organization's operations, decision-making, and strategic planning.
 
-![[Pasted image 20241117004042.png]]
+![alt text](Pasted image 20241117004042.png)

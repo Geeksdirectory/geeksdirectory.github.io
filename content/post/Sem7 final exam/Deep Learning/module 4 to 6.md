@@ -18,9 +18,9 @@ categories:
 
 ## [[AutoEncoders]]
 
-![[Pasted image 20241008064112.png]]
-![[Pasted image 20241008064151.png]]
-![[Pasted image 20241008064249.png]]
+![alt text](Pasted image 20241008064112.png)
+![alt text](Pasted image 20241008064151.png)
+![alt text](Pasted image 20241008064249.png)
 Here's an expanded comparison with more details about each type of autoencoder, covering additional aspects like training challenges, implementation considerations, and real-world use cases:
 
 | **Type of Autoencoder**        | **Description**                                                                 | **Loss Function**                                           | **Key Features**                                                    | **Applications**                       | **Training Challenges**                               | **Implementation Considerations**                   |
@@ -211,7 +211,7 @@ Sequence learning is essential for tasks where the order of data points matters,
 In deep learning, sequence learning involves training models to recognize patterns in sequences of data, such as time-series, text, or audio. These types of models (such as Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformers) can handle various types of input-output relationships. These relationships are categorized into several types based on the structure of the input and output sequences. Here are the main types of sequence learning:
 
 
-![[Pasted image 20241008075601.png]]
+![alt text](Pasted image 20241008075601.png)
 
 ### 1. **One-to-One (Single Input to Single Output)**
 - **Description**: This is the most basic type of mapping, where a single input is mapped to a single output. It doesn't involve any sequential data.
@@ -247,7 +247,7 @@ In deep learning, sequence learning involves training models to recognize patter
 
 
 ---
-![[Pasted image 20241008075515.png]]
+![alt text](Pasted image 20241008075515.png)
 
 
 ## LSTM

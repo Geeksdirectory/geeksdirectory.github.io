@@ -1,11 +1,11 @@
 	### Syllabus
-![[Pasted image 20241104202357.png]]
+![alt text](Pasted image 20241104202357.png)
 
 
 
 ### What is Autoencoders 
 
-![[Pasted image 20241104202837.png]]
+![alt text](Pasted image 20241104202837.png)
 
 Autoencoders are a ==type of neural network architecture== used primarily for **==unsupervised learning==** tasks, where the goal is to learn a compressed, efficient representation of input data. They are often used for ==**dimensionality reduction**, **feature learning**, **denoising**, and **data generation**.==
 

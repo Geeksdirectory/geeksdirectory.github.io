@@ -1,6 +1,6 @@
 
 ### Syllabus
-![[Pasted image 20241106140819.png]]
+![alt text](Pasted image 20241106140819.png)
 
 ### Big data and its characteristics
 
@@ -9,7 +9,7 @@
 
 #### Characteristics of Big Data (The 5 Vs)
 
-![[Pasted image 20241106141732.png]]
+![alt text](Pasted image 20241106141732.png)
 
 Big Data is generally defined by five main characteristics, often referred to as the **5 Vs**:
 
@@ -88,11 +88,11 @@ Big Data is generally defined by five main characteristics, often referred to as
 
 ### Traditional VS Big Data
 
-![[Pasted image 20241106144517.png]]
+![alt text](Pasted image 20241106144517.png)
 
 ### Hadoop Ecosystem
 
-![[Pasted image 20241106165309.png]]
+![alt text](Pasted image 20241106165309.png)
 
 Hadoop is an **open-source, distributed computing framework** designed for processing and storing vast amounts of **data across multiple servers**
 
@@ -103,8 +103,8 @@ It’s commonly used for Big Data processing and analytics due to its ability to
 #### Core Components of Hadoop
 ##### 1. **Hadoop Distributed File System (HDFS)**
 
-![[Pasted image 20241106165353.png]]
-![[Pasted image 20241106165405.png]]
+![alt text](Pasted image 20241106165353.png)
+![alt text](Pasted image 20241106165405.png)
 
 
 - **Purpose**: ==HDFS is the primary storage system of Hadoop==, designed to store and manage large datasets across distributed machines.
@@ -118,9 +118,9 @@ It’s commonly used for Big Data processing and analytics due to its ability to
 
 ##### 2. MapReduce
 
-![[Pasted image 20241106165323.png]]
+![alt text](Pasted image 20241106165323.png)
 
-![[Pasted image 20241106165337.png]]
+![alt text](Pasted image 20241106165337.png)
 
 - Purpose: MapReduce is Hadoop’s processing model, allowing ==parallel processing of large datasets across clusters==.
 - Key Features:
@@ -149,7 +149,7 @@ Architecture:
     - ==Utilities: Supports Hadoop’s core operations and configuration==.
 
 #### Hadoop Ecosystem
-![[Pasted image 20241106172506.png]]
+![alt text](Pasted image 20241106172506.png)
 
 The Hadoop ecosystem consists of a variety of tools and technologies that complement the core Hadoop components to provide a more comprehensive data processing and analytics solution.
 
@@ -167,4 +167,4 @@ The Hadoop ecosystem consists of a variety of tools and technologies that comple
 
 **Data Access and Querying Tools**
 - **Apache HCatalog**: A ==metadata management service== that integrates with Hive and allows for a centralized view of data across different Hadoop tools.
-![[Pasted image 20241106165045.png]]
+![alt text](Pasted image 20241106165045.png)

@@ -6,7 +6,7 @@ for every block we put it in random mem
 
 they are connected with arrows pointer 
 
-![[Pasted image 20241115201811.png]]
+![alt text](Pastedimage20241115201811.png)
 
 
 

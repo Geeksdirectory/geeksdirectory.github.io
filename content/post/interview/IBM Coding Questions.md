@@ -164,8 +164,8 @@ public class StringCompression {
 }
 ```
 
-![[Pasted image 20241220173803.png]]
+![alt text](Pasted image 20241220173803.png)
 
 # 4. palindrome of a string
 
-![[Pasted image 20241220201956.png]]
+![alt text](Pasted image 20241220201956.png)

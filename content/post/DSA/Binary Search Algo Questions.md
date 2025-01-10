@@ -11,19 +11,19 @@ arr = [2,3,4,5,9,14,16,18], target = 14
 if target = 14 then ceiling = 14
 ceiling(arr,target=15) = 16 
 
-![[Pasted image 20241202175529.png]]
+![alt text](Pastedimage20241202175529.png)
 
 
-![[Pasted image 20241203070828.png]]
+![alt text](Pastedimage20241203070828.png)
 
 ---
 ### Q.2 Floor of a number
 
-![[WhatsApp Image 2024-12-03 at 06.47.31_98d7e648.jpg]]
+![alt text](WhatsAppImage2024-12-03at06.47.31_98d7e648.jpg)
 
 ### Code 
 
-![[Pasted image 20241203070809.png]]
+![alt text](Pastedimage20241203070809.png)
 
 ---
 ### Q.3 Find Smallest letter greater than target [ leetcode : 744 ]
@@ -34,7 +34,7 @@ ceiling(arr,target=15) = 16
 3. wrapping of later eg: arr = ['c','d','f','j'] , target = 'j' output = c we will use modulo (%) 
 4. condition violeted : start = end + 1 ==> length of array = N   
 
-![[Pasted image 20241204144936.png]]
+![alt text](Pastedimage20241204144936.png)
 
 ---
 ### 4. Find First and Last Position of Element in Sorted Array
@@ -51,7 +51,7 @@ ceiling(arr,target=15) = 16
 **Input:** nums = [], target = 0
 **Output:** [-1,-1]
 
-![[Pasted image 20241204114845.png]]
+![alt text](Pastedimage20241204114845.png)
 
 ---
 
@@ -62,23 +62,23 @@ ceiling(arr,target=15) = 16
 https://youtu.be/W9QJ8HaRvJQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=6656
 
 traverse through chunks
-![[Pasted image 20241215122615.png]]
+![alt text](Pastedimage20241215122615.png)
 
-![[Pasted image 20241215121554.png]]
+![alt text](Pastedimage20241215121554.png)
 
 
 Doubling the size of chuck 
 
-![[Pasted image 20241215123745.png]]
+![alt text](Pastedimage20241215123745.png)
 
-![[Pasted image 20241215124827.png]]
+![alt text](Pastedimage20241215124827.png)
 
 ---
 ### 6. leetcode 852 peak index in a mountain Array
 
 also known as biotonic arrray = {1,2,3,4,3,2,1}
 
-![[Pasted image 20241215174002.png]]
+![alt text](Pastedimage20241215174002.png)
 
 
 find peak in mountain array
@@ -87,13 +87,13 @@ try to solve this question with linear search
 
 it is the sorted array it is sorted in 3 halfs (first asending 2nd decenting)
 
-![[Pasted image 20241216190242.png]]
+![alt text](Pastedimage20241216190242.png)
 
 ---
 ## 7. leetcode 1095 find in mountain array
 ### Search in mountain
 
-![[Pasted image 20241216190713.png]]
+![alt text](Pastedimage20241216190713.png)
 
 code for this will try later
 
@@ -105,11 +105,11 @@ distinct value (no dublicates)
 2 approaches 
 
 #### case 1:
-![[Pasted image 20241216191656.png]]
+![alt text](Pastedimage20241216191656.png)
 
-![[Pasted image 20241216191704.png]]
+![alt text](Pastedimage20241216191704.png)
 
-![[Pasted image 20241216191913.png]]
+![alt text](Pastedimage20241216191913.png)
 
 > remember pivot is the largest number 
 
@@ -118,7 +118,7 @@ distinct value (no dublicates)
 2. search in first half (simple binary search) [o,pivot]
 3. otherwise, search in second half [pivot + 1, end ]
 
-![[Pasted image 20241216192508.png]]
+![alt text](Pastedimage20241216192508.png)
 
 #### case 2:
 
@@ -128,26 +128,26 @@ if mid ele  < (mid - 1) ele , so my ans is (mid - 1)
 
 start ele > mid - element
 
-![[Pasted image 20241216193255.png]]
+![alt text](Pastedimage20241216193255.png)
 
-![[Pasted image 20241216193417.png]]
+![alt text](Pastedimage20241216193417.png)
 
 
 
 #### case 4
 
-![[Pasted image 20241216194556.png]] 
-![[Pasted image 20241216201207.png]]
+![alt text](Pastedimage20241216194556.png) 
+![alt text](Pastedimage20241216201207.png)
 
 #### Code : (duplicate value rotation code is also included)
-![[Pasted image 20241217225135.png]]
-![[Pasted image 20241217225200.png]]
-![[Pasted image 20241217225216.png]]
-![[Pasted image 20241217225237.png]]
+![alt text](Pastedimage20241217225135.png)
+![alt text](Pastedimage20241217225200.png)
+![alt text](Pastedimage20241217225216.png)
+![alt text](Pastedimage20241217225237.png)
 
 ## Q.9 rotation count
 
-![[Pasted image 20241217232449.png]]
+![alt text](Pastedimage20241217232449.png)
 
 ans = pivot +1
 

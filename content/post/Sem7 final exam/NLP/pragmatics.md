@@ -16,7 +16,7 @@ Pragmatics in natural language processing (NLP) ==refers to the study and interp
 
 ---
 
-![[Pasted image 20241129054105.png]]
+![alt text](Pasted image 20241129054105.png)
 
 **Politeness and Social Norms**:
 

@@ -24,15 +24,15 @@ int[] rnos = new int[5];
 or
 int[] rnos2 = {12,23,21,34,43};
 
-![[Pasted image 20241119120436.png]]
+![alt text](Pastedimage20241119120436.png)
 
-![[Pasted image 20241119120619.png]]
+![alt text](Pastedimage20241119120619.png)
 
 here new is a keyword used to create an object
 
-![[Pasted image 20241119120751.png]]
+![alt text](Pastedimage20241119120751.png)
 
-![[Pasted image 20241119120813.png]]
+![alt text](Pastedimage20241119120813.png)
 
 > In java their is no concept of pointers 
 
@@ -45,38 +45,38 @@ heap object are not continous (memory are one by one allocated)
 array objects  in java may not be continuous (it depends on jvm)
 
 
-![[Pasted image 20241119122520.png]]
+![alt text](Pastedimage20241119122520.png)
 
 
 ### passing through function
 
-![[Pasted image 20241119122826.png]]
+![alt text](Pastedimage20241119122826.png)
  
 strings are immutable and arrays are mutable in java (here mutable means we can change object) 
 
 ### Multidimensional array
 
- ![[Pasted image 20241119123237.png]]
+ ![alt text](Pastedimage20241119123237.png)
 
 multidimensional arrays are array of arrays 
 
 
-![[Pasted image 20241119133407.png]]
+![alt text](Pastedimage20241119133407.png)
 
 arr[] -----> [4,5,6]
 
-![[Pasted image 20241119133500.png]]
+![alt text](Pastedimage20241119133500.png)
 
 
 
 individual size of an array can vary as well , bcoz  each array itself is a different object 
 
 
-![[Pasted image 20241119133949.png]] 
+![alt text](Pastedimage20241119133949.png) 
 
 input of multidimensional array
 
-![[Pasted image 20241119140517.png]]
+![alt text](Pastedimage20241119140517.png)
 
 
 input and output of multidimensional array
@@ -123,7 +123,7 @@ public class MultiDimensionalArray {
 
 
 
-![[Pasted image 20241119142537.png]]
+![alt text](Pastedimage20241119142537.png)
 
 ### Array list
 
@@ -141,21 +141,21 @@ An ArrayList in Java is a part of the `java.util` package and provides a resizab
 - Automatically resizes when elements are added or removed.
 - No need to define a fixed size at initialization.
 
-![[Pasted image 20241119143637.png]]
+![alt text](Pastedimage20241119143637.png)
 
 
 internal working of arraylist
 
-![[Pasted image 20241119143937.png]]
+![alt text](Pastedimage20241119143937.png)
 
 
-![[Pasted image 20241119144049.png]]
+![alt text](Pastedimage20241119144049.png)
 
 
 
 Q1 swap 2 index in an array
 
-![[Pasted image 20241119151147.png]]
+![alt text](Pastedimage20241119151147.png)
 
 
 Q2. find max value of array

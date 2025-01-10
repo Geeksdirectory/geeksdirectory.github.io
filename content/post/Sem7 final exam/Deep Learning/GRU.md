@@ -1,7 +1,7 @@
 GRU, or ==Gated Recurrent Unit==, is a type of Recurrent Neural Network (RNN) architecture similar to Long Short-Term Memory (LSTM) networks but simpler in structure. It was introduced by Kyunghyun Cho et al. in 2014 as a way to address some of the same issues with standard RNNs (like vanishing gradients) but with a more streamlined design. Here’s a detailed, pointwise breakdown of GRUs:
 
 ---
-![[Pasted image 20241111151704.png]]
+![alt text](Pasted image 20241111151704.png)
 ### 1. **Introduction to GRU**
    - **Definition**: GRU is an RNN variant designed to handle long-term dependencies in sequential data by using gating mechanisms, similar to LSTMs, but with fewer parameters.
    - **Motivation**: GRUs were created to simplify the LSTM structure while retaining the ability to learn long-range dependencies, which standard RNNs struggle with.

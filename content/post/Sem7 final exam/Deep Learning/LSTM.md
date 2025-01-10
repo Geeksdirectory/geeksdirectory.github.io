@@ -1,7 +1,7 @@
 LSTM, or ==Long Short-Term Memory==, is a ==type of Recurrent Neural Network== (RNN) architecture ==designed to address the limitations of traditional RNNs==, ==particularly with long-term dependencies and the vanishing gradient problem==. LSTMs were introduced by Sepp Hochreiter and Jürgen Schmidhuber in ==1997== and have since become widely used in ==sequence-based tasks== like language modeling, machine translation, and time series analysis. Here’s a detailed breakdown of how LSTMs work and their components:
 
 ---
-![[Pasted image 20241111151637.png]]
+![alt text](Pasted image 20241111151637.png)
 ### 1. **Why LSTM?**
    - **Challenge in Standard RNNs**: Basic RNNs ==struggle to remember information over long sequences due to issues with vanishing and exploding gradients,== which occur during backpropagation.
    - **Solution**: LSTMs ==overcome== this by ==introducing a structure of gates== and ==memory cells that allow the network to maintain and update information over longer time periods==.

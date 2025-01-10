@@ -7,4 +7,4 @@ categories:
 ---
 
 
-![[devops roadmap.pdf]]
+![alt text](devops roadmap.pdf)

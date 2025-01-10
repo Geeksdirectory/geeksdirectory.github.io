@@ -90,5 +90,5 @@ _"The dog barks loudly."_
     - _"He barks"_ → _barks_ = Verb (VBZ).
     - _"The barks of the tree"_ → _barks_ = Noun (NNS).
 
-![[Pasted image 20241127190545.png]]
+![alt text](Pasted image 20241127190545.png)
 

@@ -288,7 +288,7 @@ public class QuickSortExample {
 # Merge Sort
 
 - divide and conquer algorithm
-![[Pasted image 20250105153837.png]]
+![alt text](Pasted image 20250105153837.png)
 ##### **Steps to Perform Merge Sort**
 1. **Divide**: Array ko midpoint pe split karo.
 2. **Sort**: Recursively left aur right parts ko sort karo.

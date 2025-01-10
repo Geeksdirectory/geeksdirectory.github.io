@@ -2,43 +2,43 @@
 ### [[String revision in HINGLISH]]
 
 any thing which start with capital letter is a class
-![[Pasted image 20241220155436.png]]
-![[Pasted image 20241220155403.png]]
+![alt text](Pastedimage20241220155436.png)
+![alt text](Pastedimage20241220155403.png)
 
 
 ## String pool : separate memory structure inside a heap
 
 
-![[Pasted image 20241220155547.png]]
+![alt text](Pastedimage20241220155547.png)
 
-![[Pasted image 20241220155653.png]]
+![alt text](Pastedimage20241220155653.png)
 
 make a program more optimise
 
 Strings are immutable we cannot change it we cannot change object
 
 
-![[Pasted image 20241220160131.png]]
+![alt text](Pastedimage20241220160131.png)
 
 
-![[Pasted image 20241220160159.png]]
+![alt text](Pastedimage20241220160159.png)
 
 
-![[Pasted image 20241220160250.png]]
+![alt text](Pastedimage20241220160250.png)
 
 ## comparison of string 
 
-![[Pasted image 20241220160454.png]]
+![alt text](Pastedimage20241220160454.png)
 
 ## Create diff objects of Same value
 
-![[Pasted image 20241220160947.png]]
+![alt text](Pastedimage20241220160947.png)
 
-![[Pasted image 20241220161134.png]]
+![alt text](Pastedimage20241220161134.png)
 
 # pretty printing in java
 
-![[Pasted image 20241220173230.png]]
+![alt text](Pastedimage20241220173230.png)
 output: 453.16f
 
 > '%' is called placeholder
@@ -121,20 +121,20 @@ public class FormatSpecifierDemo {
 
 # operators
 
-![[Pasted image 20241220190008.png]]
+![alt text](Pastedimage20241220190008.png)
 
-![[Pasted image 20241220190019.png]]
+![alt text](Pastedimage20241220190019.png)
 
 
 # String builder (only one obj is made and the changes is done in that obj only)\
 
 we can't name class as StringBuilder as it is already a class
-![[Pasted image 20241220195244.png]]
+![alt text](Pastedimage20241220195244.png)
 
-![[Pasted image 20241220195252.png]]
+![alt text](Pastedimage20241220195252.png)
 
 
-![[Pasted image 20241220195330.png]]
+![alt text](Pastedimage20241220195330.png)
 
 
 
@@ -144,10 +144,10 @@ string builder reverse ("builder.reverse")
 
 # String Methods
 
-![[Pasted image 20241220195601.png]]
+![alt text](Pastedimage20241220195601.png)
 
 
-![[Pasted image 20241220195958.png]]
+![alt text](Pastedimage20241220195958.png)
 
 ---
 # Palindrome of a string
@@ -158,6 +158,6 @@ algorithm:
 - i = 0; i = <= str.length()/2 ; i++
 
 
-![[Pasted image 20241220201924.png]]
+![alt text](Pastedimage20241220201924.png)
 																
 																

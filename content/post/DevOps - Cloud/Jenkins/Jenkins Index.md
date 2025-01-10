@@ -36,7 +36,7 @@ docker logs jenkins
 
 copy log password and add to http://localhost:8080
 
-![[Pasted image 20241231124027.png]]
+![alt text](Pasted image 20241231124027.png)
 
 ### Configure jenkins
 
