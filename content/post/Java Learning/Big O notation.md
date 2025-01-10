@@ -1,3 +1,8 @@
+---
+title: Java Learning Big O notation
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20250104143854.png)
 
 Bhai, **Big O Notation** samajhna ekdum zaruri hai agar tumhe DSA (Data Structures and Algorithms) mein master banna hai. Ye ==algorithm ki performance aur efficiency ko samajhne ka ek standard tareeka hai==. Chal basic aur examples ke saath samajhte hain:

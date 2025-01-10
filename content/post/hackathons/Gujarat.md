@@ -1,3 +1,8 @@
+---
+title: hackathons Gujarat
+date: 2024-12-24
+---
+
 **Project Overview: GUI-Based Custom Linux Distribution Builder**
 
 ---

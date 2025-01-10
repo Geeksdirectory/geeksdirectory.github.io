@@ -2,30 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Syllabus on GeeksDirectory</title>
-        <link>https://yashbhangale.github.io/mydocs/categories/syllabus/</link>
+        <link>http://localhost:1313/mydocs/categories/syllabus/</link>
         <description>Recent content in Syllabus on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yashbhangale.github.io/mydocs/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>syllabus for DSA</title>
-        <link>https://yashbhangale.github.io/mydocs/post/dsa/0.-dsa-index/</link>
+        <link>http://localhost:1313/mydocs/post/dsa/0.-dsa-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://yashbhangale.github.io/mydocs/post/dsa/0.-dsa-index/</guid>
-        <description>&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;a class=&#34;link&#34; href=&#34;1.%20Basic%20Java.md&#34; &gt;1. Basic Java&lt;/a&gt;&lt;/li&gt;
+        <guid>http://localhost:1313/mydocs/post/dsa/0.-dsa-index/</guid>
+        <description>&lt;p&gt;[[Super 30]]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. Conditions and loops]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[loops questions for interviews]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Switch Cases and Statements in java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[functions in java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[3. Time and Space Complexity]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Strings and StringBuilder in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[string questions]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Mathematics for DSA]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Searching algorithms
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Linear Search Algorithm]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary search Algorithm]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary Search Algo Questions]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Binary search in 2d arrays]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[String Questions]]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; sorting algorithms
@@ -41,9 +46,47 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[4. Patterns]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[5. Recursion]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Arrays]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Array Questions]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Java recursion problems solved can be asked in interview]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[6. Backtracking]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Linked List]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Linked list code.canvas|Linked list code]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Stack]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Queue&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Binary Tree&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; BST&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashSet&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; HashMap&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Trie&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Graph&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>syllabus for DSA</title>
+        <link>http://localhost:1313/mydocs/post/java-learning/java-index/</link>
+        <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/java-learning/java-index/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[3. Time and Space Complexity]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; sorting algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Bubble sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. Selection sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[3. insertion sort]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[4. Merge sort ]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Quick sort&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Heap sort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[4. Patterns]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[5. Recursion]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Java recursion problems solved can be asked in interview]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[6. Backtracking]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Linked List&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Stack&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Queue&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Binary Tree&lt;/li&gt;
@@ -53,6 +96,77 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Trie&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Graph&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>syllabus for sem7</title>
+        <link>http://localhost:1313/mydocs/post/syllabus/syllabus/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/syllabus/syllabus/</guid>
+        <description>&lt;h1 id=&#34;deep-learning&#34;&gt;[[Deep Learning]]&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114251.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114303.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;bda&#34;&gt;[[BDA]]&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114311.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114317.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;nlp&#34;&gt;[[NlP]]&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114357.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241018114414.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         

@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Difference between types of Blockchain
+date: 2024-12-20
+---
+
 ### **Differences Between Types of Blockchain**
 
 |**Aspect**|**Public Blockchain**|**Private Blockchain**|**Consortium Blockchain**|**Hybrid Blockchain**|

@@ -1,3 +1,8 @@
+---
+title: AZ-104 DNS
+date: 2024-12-20
+---
+
 **DNS (Domain Name System)** is the internet's system for translating human-friendly domain names (like `www.example.com`) into machine-readable IP addresses (like `192.0.2.1`) that computers use to communicate with each other.
 
 ---

@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Blockchain 2 0
+date: 2024-12-20
+---
+
 ### **Difference Between Blockchain 1.0 and Blockchain 2.0**
 
 |**Aspect**|**Blockchain 1.0**|**Blockchain 2.0**|

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>IA 2 Exam on GeeksDirectory</title>
-        <link>http://localhost:1313/categories/ia-2-exam/</link>
+        <link>http://localhost:1313/mydocs/categories/ia-2-exam/</link>
         <description>Recent content in IA 2 Exam on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/ia-2-exam/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/categories/ia-2-exam/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deep Learning For IA</title>
-        <link>http://localhost:1313/post/ia-2-exam/deep-learning-for-ia-2/</link>
+        <link>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-4-to-6/</link>
         <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/ia-2-exam/deep-learning-for-ia-2/</guid>
+        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-4-to-6/</guid>
         <description>&lt;h1 id=&#34;assignment&#34;&gt;Assignment&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/xerXeZT.png&#34;
 	
@@ -39,10 +39,37 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;module-4&#34;&gt;module 4&lt;/h1&gt;
-&lt;h2 id=&#34;autoencoders&#34;&gt;Autoencoders&lt;/h2&gt;
-&lt;p&gt;![[Pasted image 20241008064112.png]]
-![[Pasted image 20241008064151.png]]
-![[Pasted image 20241008064249.png]]
+&lt;h2 id=&#34;autoencoders&#34;&gt;[[AutoEncoders]]&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241008064112.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241008064151.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241008064249.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
 Here&amp;rsquo;s an expanded comparison with more details about each type of autoencoder, covering additional aspects like training challenges, implementation considerations, and real-world use cases:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -312,7 +339,16 @@ Here&amp;rsquo;s an expanded comparison with more details about each type of aut
 &lt;h3 id=&#34;conclusion-1&#34;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Sequence learning is essential for tasks where the order of data points matters, such as language processing, time-series forecasting, and speech recognition. Models like RNNs, LSTMs, and GRUs are used to handle these problems by learning patterns and relationships within sequential data. Despite some challenges, sequence learning opens the door to powerful applications in various domains.&lt;/p&gt;
 &lt;p&gt;In deep learning, sequence learning involves training models to recognize patterns in sequences of data, such as time-series, text, or audio. These types of models (such as Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformers) can handle various types of input-output relationships. These relationships are categorized into several types based on the structure of the input and output sequences. Here are the main types of sequence learning:&lt;/p&gt;
-&lt;p&gt;![[Pasted image 20241008075601.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241008075601.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h3 id=&#34;1-one-to-one-single-input-to-single-output&#34;&gt;1. &lt;strong&gt;One-to-One (Single Input to Single Output)&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: This is the most basic type of mapping, where a single input is mapped to a single output. It doesn&amp;rsquo;t involve any sequential data.&lt;/li&gt;
@@ -344,7 +380,16 @@ Here&amp;rsquo;s an expanded comparison with more details about each type of aut
 &lt;li&gt;&lt;strong&gt;Model Type&lt;/strong&gt;: Sequence-to-sequence (Seq2Seq) models, usually with an encoder-decoder architecture using LSTMs or Transformers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;p&gt;![[Pasted image 20241008075515.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241008075515.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lstm&#34;&gt;LSTM&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/kJothTO.png&#34;
 	
@@ -728,6 +773,99 @@ Beyond images, GANs have been used to generate videos and even music, allowing f
 &lt;hr /&gt;
 &lt;h3 id=&#34;conclusion-2&#34;&gt;Conclusion:&lt;/h3&gt;
 &lt;p&gt;Generative Adversarial Networks (GANs) represent one of the most exciting advances in machine learning, particularly in unsupervised and generative modeling. By leveraging the competition between a generator and a discriminator, GANs can generate new data that closely mimics the original dataset. Despite challenges like training instability, GANs have found significant applications in image generation, data augmentation, super-resolution, and beyond. Through advanced variants like DCGAN, WGAN, and CycleGAN, the potential of GANs continues to grow, making them a central tool in generative AI.&lt;/p&gt;
+&lt;p&gt;Here’s a tabular comparison of &lt;strong&gt;LeNet&lt;/strong&gt; and &lt;strong&gt;AlexNet&lt;/strong&gt;, two pioneering Convolutional Neural Network (CNN) architectures with distinct designs and purposes:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;LeNet&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;AlexNet&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Introduced By&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Yann LeCun et al.&lt;/td&gt;
+&lt;td&gt;Alex Krizhevsky et al.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Year&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;1998&lt;/td&gt;
+&lt;td&gt;2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Primary Use&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Handwritten digit recognition (MNIST)&lt;/td&gt;
+&lt;td&gt;Large-scale image classification (ImageNet)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dataset Size&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Small (MNIST dataset, 60,000 images)&lt;/td&gt;
+&lt;td&gt;Large (ImageNet, 1.2 million images)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Input Size&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;28 x 28 (grayscale images)&lt;/td&gt;
+&lt;td&gt;227 x 227 (color images)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Number of Layers&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5 layers (3 convolutional, 2 fully connected)&lt;/td&gt;
+&lt;td&gt;8 layers (5 convolutional, 3 fully connected)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Activation Function&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Sigmoid&lt;/td&gt;
+&lt;td&gt;ReLU (Rectified Linear Unit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dropout&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes (to reduce overfitting)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pooling Type&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Average pooling&lt;/td&gt;
+&lt;td&gt;Max pooling&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Normalization&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Local Response Normalization (LRN)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stride&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Small stride (1)&lt;/td&gt;
+&lt;td&gt;Larger stride (2 in some layers)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Computational Cost&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Low&lt;/td&gt;
+&lt;td&gt;High&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Framework&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Custom, early implementation&lt;/td&gt;
+&lt;td&gt;Implemented in CUDA for GPUs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Top-1 Accuracy&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~99% on MNIST&lt;/td&gt;
+&lt;td&gt;~63% on ImageNet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Key Innovations&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Introduced basic CNN layers and structure&lt;/td&gt;
+&lt;td&gt;Deeper CNN with ReLU, dropout, and GPU usage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LeNet&lt;/strong&gt;: Simple, small network aimed at handwritten digit classification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AlexNet&lt;/strong&gt;: Deeper, larger network designed for large-scale image classification, a breakthrough in computer vision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This comparison highlights the evolution of CNNs from simpler, smaller-scale applications to powerful, complex models for large-scale tasks.&lt;/p&gt;
 </description>
         </item>
         

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Azure on GeeksDirectory</title>
+        <link>http://localhost:1313/mydocs/tags/azure/</link>
+        <description>Recent content in Azure on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/tags/azure/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Azure Index</title>
+        <link>http://localhost:1313/mydocs/post/az-104/1.-azure-index/</link>
+        <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/az-104/1.-azure-index/</guid>
+        <description>&lt;h1 id=&#34;azure-bastionazure20bastionmd&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;Azure%20Bastion.md&#34; &gt;Azure Bastion&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;user-defined-routes&#34;&gt;[[User defined routes]]&lt;/h1&gt;
+&lt;h1 id=&#34;network-watcher-service&#34;&gt;[[Network watcher service]]&lt;/h1&gt;
+&lt;h1 id=&#34;azure-loadbalancer&#34;&gt;[[Azure loadbalancer]]&lt;/h1&gt;
+&lt;h1 id=&#34;azure-application-gateway&#34;&gt;[[AZure application gateway]]&lt;/h1&gt;
+&lt;h1 id=&#34;dns&#34;&gt;[[DNS]]&lt;/h1&gt;
+&lt;h1 id=&#34;az-cli&#34;&gt;[[AZ-CLI]]&lt;/h1&gt;
+&lt;h1 id=&#34;configure-and-manage-virtual-networkingexcalidraw&#34;&gt;[[configure and manage virtual networking.excalidraw]]&lt;/h1&gt;
+&lt;h1 id=&#34;storage-account&#34;&gt;[[Storage Account]]&lt;/h1&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

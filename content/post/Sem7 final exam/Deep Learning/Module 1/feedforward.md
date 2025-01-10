@@ -1,3 +1,8 @@
+---
+title: Module 1 feedforward
+date: 2025-01-10
+---
+
 
 - In a **feedforward neural network**, data moves forward from the input layer through hidden layers to the output layer.
 - Each layer transforms the input data using weights, biases, and activation functions.

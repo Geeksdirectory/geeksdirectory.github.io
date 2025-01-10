@@ -1,3 +1,8 @@
+---
+title: DSA hinglish explaination of code
+date: 2024-12-20
+---
+
 
 Samajh bhai, ye code ekdum simple aur clean hai. Main step by step toda toda samjhata hoon:
 

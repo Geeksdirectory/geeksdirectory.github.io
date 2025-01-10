@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='### Syllabus What is Autoencoders Autoencoders are a ==type of neural network architecture== used primarily for ==unsupervised learning== tasks, where the goal is to learn a compressed, efficient representation of input data. They are often used for ==dimensionality reduction, feature learning, denoising, and data generation.==
+Encoder: Maps the input data to a lower-dimensional, compressed representation called a latent space or bottleneck.
+Latent Representation: The most crucial characteristics of the input data are captured by the latent representation.'>
+<title>module 3 AutoEncoders</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-3/autoencoders/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='module 3 AutoEncoders'>
+<meta property='og:description' content='### Syllabus What is Autoencoders Autoencoders are a ==type of neural network architecture== used primarily for ==unsupervised learning== tasks, where the goal is to learn a compressed, efficient representation of input data. They are often used for ==dimensionality reduction, feature learning, denoising, and data generation.==
+Encoder: Maps the input data to a lower-dimensional, compressed representation called a latent space or bottleneck.
+Latent Representation: The most crucial characteristics of the input data are captured by the latent representation.'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-3/autoencoders/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-10T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="module 3 AutoEncoders">
+<meta name="twitter:description" content="### Syllabus What is Autoencoders Autoencoders are a ==type of neural network architecture== used primarily for ==unsupervised learning== tasks, where the goal is to learn a compressed, efficient representation of input data. They are often used for ==dimensionality reduction, feature learning, denoising, and data generation.==
+Encoder: Maps the input data to a lower-dimensional, compressed representation called a latent space or bottleneck.
+Latent Representation: The most crucial characteristics of the input data are captured by the latent representation.">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-is-autoencoders">What is Autoencoders</a></li>
+        <li><a href="#1-linear-autoencoder">1. Linear Autoencoder</a></li>
+        <li><a href="#2-undercomplete-autoencoder">2. Undercomplete Autoencoder</a></li>
+        <li><a href="#3-overcomplete-autoencoder">3. Overcomplete Autoencoder</a></li>
+        <li><a href="#4-denoising-autoencoder">4. Denoising Autoencoder</a></li>
+        <li><a href="#5-sparse-autoencoder">5. Sparse Autoencoder</a></li>
+        <li><a href="#6-contractive-autoencoder">6. Contractive Autoencoder</a></li>
+        <li><a href="#regularization-in-autoencoders">Regularization in Autoencoders</a></li>
+        <li><a href="#applications-of-autoencoder">Applications of Autoencoder</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/sem7-final-exam/deep-learning/module-3/autoencoders/">module 3 AutoEncoders</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 10, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    8 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <pre><code>### Syllabus
+</code></pre>
+<p><img src="/mydocs/Pastedimage20241104202357.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="what-is-autoencoders">What is Autoencoders</h3>
+<p><img src="/mydocs/Pastedimage20241104202837.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>Autoencoders are a ==type of neural network architecture== used primarily for <strong>==unsupervised learning==</strong> tasks, where the goal is to learn a compressed, efficient representation of input data. They are often used for ==<strong>dimensionality reduction</strong>, <strong>feature learning</strong>, <strong>denoising</strong>, and <strong>data generation</strong>.==</p>
+<p><strong>Encoder</strong>: Maps the input data to a lower-dimensional, compressed representation called a <strong>latent space</strong> or <strong>bottleneck</strong>.</p>
+<p><strong>Latent Representation:</strong> The most crucial characteristics of the input data are captured by the latent representation. It is a compact, concentrated depiction that ideally retains the most important information.</p>
+<p><strong>Decoder</strong>: Reconstructs the input data from the compressed representation.</p>
+<p>The network’s goal is to minimize the difference between the original input and its reconstruction, often measured with a ==loss function== (e.g., mean squared error for images).</p>
+<p><strong>Working:</strong></p>
+<ul>
+<li>The encoder ==reduces the dimensionality of the data==, capturing essential features.</li>
+<li>The ==decoder tries to rebuild the original data== from this compressed form, learning important patterns and structures in the data.</li>
+</ul>
+<p><strong>Applications:</strong></p>
+<ul>
+<li><strong>Dimensionality Reduction</strong>: Used as an alternative to PCA for compressing high-dimensional data.</li>
+<li><strong>Anomaly Detection</strong>: Detect outliers by identifying inputs with high reconstruction errors.</li>
+<li><strong>Denoising</strong>: Removes noise from corrupted data, especially in image and audio processing.</li>
+<li><strong>Image Generation</strong>: Variational Autoencoders can generate new, realistic images based on learned data distributions.</li>
+</ul>
+<p><strong>Limitations of Autoencoders:</strong></p>
+<ul>
+<li><strong>Need for Large Datasets</strong>: Require substantial data to learn useful representations.</li>
+<li><strong>Non-Generalizable</strong>: Trained on specific data distributions and may not generalize well to unfamiliar data.</li>
+</ul>
+<p>Here’s a breakdown of each type of autoencoder with key points for each:</p>
+<hr />
+<h3 id="1-linear-autoencoder">1. Linear Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Primarily used for ==dimensionality reduction==, similar to Principal Component Analysis ==(PCA).==</li>
+<li><strong>Structure</strong>: ==Uses linear activation functions ==(instead of nonlinear ones like ReLU or Sigmoid) in both the encoder and decoder.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>==Performs similarly to PCA== when the encoder and decoder are linear.</li>
+<li>Learns a lower-dimensional representation by projecting data onto a linear subspace.</li>
+<li>Not widely used in practice because nonlinear autoencoders generally perform better in capturing complex patterns.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Useful as a conceptual== bridge between autoencoders and PCA==.</li>
+</ul>
+<hr />
+<h3 id="2-undercomplete-autoencoder">2. Undercomplete Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Designed to learn a compressed representation by ==creating a bottleneck with fewer neurons than the input dimensions.==</li>
+<li><strong>Structure</strong>: The ==latent space (bottleneck) is smaller than the input==, forcing the network to learn the most important features.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Helps in removing redundant information and focusing on essential features.</li>
+<li>Works well for dimensionality reduction and feature extraction.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Effective for applications where the goal is to learn a compact representation of the data.</li>
+</ul>
+<hr />
+<h3 id="3-overcomplete-autoencoder">3. Overcomplete Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Has a ==latent space larger than the input dimension==, creating an overcomplete representation.</li>
+<li><strong>Structure</strong>: More neurons in the bottleneck layer than in the input, which can lead to high capacity for storing data.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Risk of learning a near-perfect identity mapping, which may lead to overfitting if regularization is not applied.</li>
+<li>To avoid learning trivial mappings, additional constraints (e.g., sparsity) are often added.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Can be useful with added regularization (like sparsity or noise) to learn richer features.</li>
+</ul>
+<hr />
+<h3 id="4-denoising-autoencoder">4. Denoising Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Designed to <strong>remove noise</strong> from data ==by learning to reconstruct the original input from a noisy version.==</li>
+<li><strong>Structure</strong>: The input data is deliberately corrupted (e.g., adding Gaussian noise), and the autoencoder is trained to reconstruct the clean version.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Encourages the model to learn robust features that are invariant to noise.</li>
+<li>Forces the autoencoder to learn general patterns instead of memorizing data.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Commonly used in image and audio processing for noise reduction and in scenarios where robust representations are needed.</li>
+</ul>
+<hr />
+<h3 id="5-sparse-autoencoder">5. Sparse Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Learns features with ==sparse activations== by encouraging the majority of neurons to be inactive ==(close to zero)== for a given input.</li>
+<li><strong>Structure</strong>: Often has an ==overcomplete architecture with additional regularization (e.g., L1 regularization)== to enforce sparsity in the bottleneck layer.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Allows the network to learn interpretable features, as each neuron in the bottleneck becomes sensitive to specific patterns.</li>
+<li>Reduces overfitting by making the network focus on a smaller subset of the neurons for each input.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Effective in feature learning, especially in cases where sparse representations are beneficial (e.g., image recognition, natural language processing).</li>
+</ul>
+<hr />
+<h3 id="6-contractive-autoencoder">6. Contractive Autoencoder</h3>
+<ul>
+<li><strong>Purpose</strong>: Designed to make the model robust to small input variations by ==penalizing the sensitivity== of the bottleneck representation.</li>
+<li><strong>Structure</strong>: Adds a regularization term to the loss function, penalizing the gradient of the encoder’s output with respect to the input, which minimizes changes in the representation for small input changes.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Encourages the model to ==learn smooth mappings== and to be ==invariant to minor input variations.==</li>
+<li>==Enhances robustness and generalization==.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Commonly used when input data may have slight variations, such as in ==image recognition or sensor data, and robustness is critical==.</li>
+</ul>
+<hr />
+<h3 id="regularization-in-autoencoders">Regularization in Autoencoders</h3>
+<p>Regularization in autoencoders refers to techniques that help improve the model&rsquo;s generalization and prevent it from learning trivial solutions (like copying the input directly). Regularization in autoencoders is especially important because autoencoders can easily learn to memorize the input without extracting meaningful features, which makes them less useful for tasks like dimensionality reduction, anomaly detection, and feature learning. Here are some common regularization methods used in autoencoders:</p>
+<hr />
+<h4 id="1-sparse-regularization">1. <strong>Sparse Regularization</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Encourages only a subset of neurons in the hidden layer to activate for each input, leading to a sparse representation.</li>
+<li><strong>Method</strong>: Adds a penalty (like L1 regularization) to force some of the activations in the bottleneck layer to be close to zero.</li>
+<li><strong>Benefit</strong>: Helps the autoencoder learn interpretable and compact representations by focusing on the most important features.</li>
+<li><strong>Application</strong>: Sparse autoencoders are commonly used in feature learning and image processing.</li>
+</ul>
+<h4 id="2-denoising-regularization">2. <strong>Denoising Regularization</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Makes the model robust to noise by adding random noise to the input and training the autoencoder to reconstruct the original, clean input.</li>
+<li><strong>Method</strong>: Applies noise (e.g., Gaussian noise, masking noise, or dropout) to the input before feeding it into the encoder.</li>
+<li><strong>Benefit</strong>: Forces the autoencoder to learn stable, noise-invariant representations and prevents it from simply copying the input.</li>
+<li><strong>Application</strong>: Denoising autoencoders are often used for image denoising, anomaly detection, and pretraining for downstream tasks.</li>
+</ul>
+<h4 id="3-contractive-regularization">3. <strong>Contractive Regularization</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Reduces sensitivity to small changes in the input, making the representation smoother and more robust to small variations.</li>
+<li><strong>Method</strong>: Adds a penalty on the Frobenius norm of the Jacobian matrix of the encoder’s activations with respect to the input, encouraging minimal variation in the representation.</li>
+<li><strong>Benefit</strong>: Encourages the model to learn features that are robust to slight changes, making it useful for feature extraction.</li>
+<li><strong>Application</strong>: Often used in applications where robustness to small changes in input is important, like image and signal processing.</li>
+</ul>
+<h4 id="4-dropout-regularization">4. <strong>Dropout Regularization</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Prevents overfitting by randomly dropping neurons during training, encouraging the network to learn redundant representations.</li>
+<li><strong>Method</strong>: Randomly drops a subset of neurons (both in encoder and decoder layers) during training, which forces the model to distribute the learned features across multiple neurons.</li>
+<li><strong>Benefit</strong>: Reduces over-reliance on any single neuron, improving generalization and preventing the autoencoder from memorizing the data.</li>
+<li><strong>Application</strong>: Commonly used in deep autoencoders for large datasets to ensure robust learning.</li>
+</ul>
+<h4 id="5-variational-regularization-for-variational-autoencoders">5. <strong>Variational Regularization (for Variational Autoencoders)</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Forces the latent space to follow a specified distribution, allowing the autoencoder to generate new data samples.</li>
+<li><strong>Method</strong>: Adds a Kullback-Leibler (KL) divergence loss to ensure the latent representation approximates a standard normal distribution.</li>
+<li><strong>Benefit</strong>: Useful for generating new data (like synthetic images or text), and smooths the latent space so similar inputs produce similar encodings.</li>
+<li><strong>Application</strong>: Used in Variational Autoencoders (VAEs) for tasks like data generation, anomaly detection, and representation learning.</li>
+</ul>
+<h4 id="6-early-stopping">6. <strong>Early Stopping</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Prevents overfitting by stopping training when performance on a validation set stops improving.</li>
+<li><strong>Method</strong>: Monitors validation loss; if there is no improvement after a set number of epochs (patience), training is halted.</li>
+<li><strong>Benefit</strong>: Reduces overfitting, ensures the model doesn’t memorize data, and saves computational resources.</li>
+<li><strong>Application</strong>: Widely used in any training process where generalization is important, including autoencoder training.</li>
+</ul>
+<h4 id="7-weight-regularization-l1-and-l2-regularization">7. <strong>Weight Regularization (L1 and L2 Regularization)</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Reduces the complexity of the model by penalizing large weights, which can prevent overfitting.</li>
+<li><strong>Method</strong>: Adds a penalty term to the loss function—L1 regularization penalizes the absolute value of weights (making some weights zero), while L2 regularization penalizes the square of weights (encouraging smaller weights).</li>
+<li><strong>Benefit</strong>: Encourages simpler models with smaller weights that generalize better.</li>
+<li><strong>Application</strong>: Useful for controlling complexity in overcomplete autoencoders, where the latent space is larger than the input.</li>
+</ul>
+<hr />
+<h3 id="applications-of-autoencoder">Applications of Autoencoder</h3>
+<p><strong>Image and Audio Compression:</strong> Autoencoders can compress huge images or audio files while  maintaining most of the vital information. An autoencoder is trained to recover the original picture or audio file from a compressed representation.</p>
+<p><strong>Anomaly Detection:</strong> One can detect anomalies or outliers in datasets using autoencoders. Training the autoencoder on a dataset of normal data and any input that the autoencoder cannot accurately reconstruct is called an anomaly.</p>
+<p><strong>Dimensionality Reduction:</strong> Autoencoders can lower the dimensionality of high-dimensional datasets. We can accomplish this by teaching an autoencoder a lower-dimensional data representation that captures the most relevant features.</p>
+<p><strong>Data Generation:</strong> Employ autoencoders to generate new data similar to the training data. One can accomplish this by sampling from the autoencoder’s compressed representation and then utilizing the decoder to create new data.</p>
+<p><strong>Denoising:</strong> One can utilize autoencoders to reduce noise from data. We can accomplish this by teaching<br />
+an autoencoder to recover the original data from a noisy version.</p>
+<p><strong>Recommender System: Using autoencoders, we can us</strong>e users’ preferences to generate personalized suggestions. We can accomplish this by training an autoencoder to learn a compressed representation of the user’s history of system interactions and then utilizing this representation to forecast the user’s preferences for new items.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

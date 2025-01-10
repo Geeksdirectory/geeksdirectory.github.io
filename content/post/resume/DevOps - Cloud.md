@@ -1,3 +1,8 @@
+---
+title: resume DevOps - Cloud
+date: 2024-12-20
+---
+
 Docker ( Containerization )
 Jenkins ( CICD )
 Azure

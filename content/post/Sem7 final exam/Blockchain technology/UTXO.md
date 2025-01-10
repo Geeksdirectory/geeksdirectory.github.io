@@ -1,3 +1,8 @@
+---
+title: Blockchain technology UTXO
+date: 2024-12-20
+---
+
 ### **What is UTXO?**
 
 **UTXO** stands for ==**Unspent Transaction Output**==. It is a fundamental concept in blockchain technology, particularly used in ==**Bitcoin**== and other cryptocurrencies like ==**Litecoin**==.

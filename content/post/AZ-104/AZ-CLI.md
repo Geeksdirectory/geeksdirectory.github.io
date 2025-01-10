@@ -1,3 +1,8 @@
+---
+title: AZ-104 AZ-CLI
+date: 2024-12-20
+---
+
 
 
 # Start the vm

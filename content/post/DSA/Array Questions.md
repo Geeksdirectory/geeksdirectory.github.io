@@ -1,3 +1,8 @@
+---
+title: DSA Array Questions
+date: 2025-01-10
+---
+
 ## 1. Find the largest and smallest element in an array
 
 ```java

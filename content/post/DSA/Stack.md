@@ -1,3 +1,8 @@
+---
+title: DSA Stack
+date: 2024-12-25
+---
+
 Sure, let’s start preparing the **Stack** topic in DSA. Here’s a structured explanation of stacks, including their theory, operations, and applications. We'll also go through implementation details step-by-step.
 
 ---

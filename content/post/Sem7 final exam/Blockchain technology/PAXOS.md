@@ -1,3 +1,8 @@
+---
+title: Blockchain technology PAXOS
+date: 2025-01-10
+---
+
 **Paxos** is a consensus algorithm primarily used in distributed systems to ensure that a group of nodes (or machines) agree on a single value, even in the presence of failures. While Paxos itself is not inherently a part of blockchain systems, its principles inspire some blockchain consensus mechanisms. Let's break it down and relate it to blockchain:
 
 ![alt text](Pastedimage20241208144220.png)

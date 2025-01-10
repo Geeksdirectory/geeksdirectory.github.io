@@ -1,3 +1,8 @@
+---
+title: NLP Part-of-Speech (POS) Tagging
+date: 2025-01-10
+---
+
 **Part-of-Speech (POS) Tagging** is a fundamental task in Natural Language Processing (NLP) ==where each word in a given text is assigned a corresponding **part of speech** (e.g., noun, verb, adjective) based on its definition and context==. It helps in ==understanding the grammatical structure of sentences== and is a key step in many NLP pipelines.
 
 ---

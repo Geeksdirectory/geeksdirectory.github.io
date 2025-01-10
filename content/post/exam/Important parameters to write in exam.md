@@ -1,3 +1,8 @@
+---
+title: exam Important parameters to write in exam
+date: 2024-12-20
+---
+
 
 
 1. Definition/Introduction

@@ -1,3 +1,8 @@
+---
+title: Blockchain technology features of blockchain
+date: 2024-12-20
+---
+
 Here’s a comprehensive breakdown of all the requested aspects of blockchain:
 
 ---

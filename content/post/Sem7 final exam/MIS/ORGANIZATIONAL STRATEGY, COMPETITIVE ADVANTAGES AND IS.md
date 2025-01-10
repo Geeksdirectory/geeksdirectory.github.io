@@ -1,3 +1,8 @@
+---
+title: MIS ORGANIZATIONAL STRATEGY, COMPETITIVE ADVANTAGES AND IS
+date: 2024-12-20
+---
+
 
 **Organizational Strategy** refers to the long-term goals and plans that guide how an organization achieves its objectives. Information Systems (IS) play a critical role in shaping and supporting these strategies by enabling competitive advantages.
 

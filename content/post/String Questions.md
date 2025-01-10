@@ -1,3 +1,8 @@
+---
+title: post String Questions
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241221134403.png)
 
 here we have to find two substring ( left ) a ( right )

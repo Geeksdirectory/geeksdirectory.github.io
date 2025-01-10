@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='latest to run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash Pull premade docker image docker pull yashuop/fusionguibuildcontainer:latest Run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion fusionbuild1 /bin/bash i want to make a custom linux distribution based on debain bookworm with live build tool please help me with that distribution usecase : for ai, ml /ds engineers based on : debain 12 bookworm installer : Calamares
+desktop environment : no desktop environment i want i3 window manager preinstalled features : usb persisteance when boot through usb (that is memory must not loose after rebooting it) every where it should replace debain as Fusion flux as an Distribution name iso : 64bit amd64 iso'>
+<title>custom linux distro</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/projects/fusion-flux/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='custom linux distro'>
+<meta property='og:description' content='latest to run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash Pull premade docker image docker pull yashuop/fusionguibuildcontainer:latest Run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion fusionbuild1 /bin/bash i want to make a custom linux distribution based on debain bookworm with live build tool please help me with that distribution usecase : for ai, ml /ds engineers based on : debain 12 bookworm installer : Calamares
+desktop environment : no desktop environment i want i3 window manager preinstalled features : usb persisteance when boot through usb (that is memory must not loose after rebooting it) every where it should replace debain as Fusion flux as an Distribution name iso : 64bit amd64 iso'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/projects/fusion-flux/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-01T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="custom linux distro">
+<meta name="twitter:description" content="latest to run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash Pull premade docker image docker pull yashuop/fusionguibuildcontainer:latest Run container sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion fusionbuild1 /bin/bash i want to make a custom linux distribution based on debain bookworm with live build tool please help me with that distribution usecase : for ai, ml /ds engineers based on : debain 12 bookworm installer : Calamares
+desktop environment : no desktop environment i want i3 window manager preinstalled features : usb persisteance when boot through usb (that is memory must not loose after rebooting it) every where it should replace debain as Fusion flux as an Distribution name iso : 64bit amd64 iso">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#prerequisites-for-using-live-build">Prerequisites for Using <code>live-build</code>:</a></li>
+        <li><a href="#key-files-and-directories">Key Files and Directories:</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-choose-a-base-debian-version">1. <strong>Choose a Base (Debian) Version</strong></a></li>
+        <li><a href="#2-debian-live-build-system">2. <strong>Debian Live Build System</strong></a></li>
+        <li><a href="#3-configure-the-live-boot">3. <strong>Configure the Live Boot</strong></a></li>
+        <li><a href="#4-include-a-debian-installer">4. <strong>Include a Debian Installer</strong></a></li>
+        <li><a href="#5-custom-packages-and-pre-installed-software">5. <strong>Custom Packages and Pre-installed Software</strong></a></li>
+        <li><a href="#6-custom-branding-optional">6. <strong>Custom Branding (Optional)</strong></a></li>
+        <li><a href="#7-bios-compatibility">7. <strong>BIOS Compatibility</strong></a></li>
+        <li><a href="#8-persistent-storage-optional">8. <strong>Persistent Storage (Optional)</strong></a></li>
+        <li><a href="#9-testing-and-debugging">9. <strong>Testing and Debugging</strong></a></li>
+        <li><a href="#10-optional-tools-for-simplified-building">10. <strong>Optional Tools for Simplified Building</strong></a></li>
+        <li><a href="#11-iso-testing-and-finalization">11. <strong>ISO Testing and Finalization</strong></a></li>
+        <li><a href="#additional-considerations">Additional Considerations:</a></li>
+        <li><a href="#example-of-a-customized-command-for-building">Example of a Customized Command for Building:</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-install-required-tools">1. <strong>Install Required Tools</strong></a></li>
+    <li><a href="#2-set-up-the-build-directory">2. <strong>Set Up the Build Directory</strong></a></li>
+    <li><a href="#3-configure-live-build">3. <strong>Configure Live Build</strong></a>
+      <ul>
+        <li><a href="#base-configuration-command"><strong>Base Configuration Command:</strong></a></li>
+        <li><a href="#customizing-the-build"><strong>Customizing the Build:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#4-build-the-iso">4. <strong>Build the ISO</strong></a></li>
+    <li><a href="#5-test-your-iso">5. <strong>Test Your ISO</strong></a>
+      <ul>
+        <li><a href="#test-the-iso-in-virtualbox-or-qemu">Test the ISO in VirtualBox or QEMU:</a></li>
+        <li><a href="#create-a-bootable-usb-with-persistence">Create a Bootable USB with Persistence:</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-final-touches">6. <strong>Final Touches</strong></a></li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#steps-to-use-chroot-with-live-build">Steps to Use <code>chroot</code> with Live-build</a></li>
+        <li><a href="#additional-notes">Additional Notes:</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-add-default-username-fusion-and-password-fusion-and-make-fusion-user-a-sudoer">1. <strong>Add default username (<code>fusion</code>) and password (<code>fusion</code>), and make <code>fusion</code> user a sudoer</strong></a></li>
+        <li><a href="#2-add-root-user-and-set-the-password-to-root">2. <strong>Add root user and set the password to <code>root</code></strong></a></li>
+        <li><a href="#3-change-os-name-to-fusion-instead-of-debian">3. <strong>Change OS name to <code>fusion</code> instead of Debian</strong></a></li>
+        <li><a href="#4-auto-start-calamares-installer-on-booting-the-live-os">4. <strong>Auto-start Calamares installer on booting the live OS</strong></a></li>
+        <li><a href="#5-remove-calamares-installer-after-installing-the-distribution">5. <strong>Remove Calamares installer after installing the distribution</strong></a></li>
+        <li><a href="#building-the-live-iso">Building the Live ISO</a></li>
+        <li><a href="#summary-of-changes">Summary of Changes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/projects/fusion-flux/">custom linux distro</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 01, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    17 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="latest-to-run-container">latest to run container</h1>
+<pre tabindex="0"><code>sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion debian /bin/bash
+</code></pre><h1 id="pull-premade-docker-image">Pull premade docker image</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker pull yashuop/fusionguibuildcontainer:latest
+</span></span></code></pre></div><h1 id="run-container">Run container</h1>
+<pre tabindex="0"><code>sudo docker run --privileged -it -v /var/lib/docker/volumes/fusiondata/_data:/home/fusion fusionbuild1 /bin/bash
+</code></pre><p>i want to make a custom linux distribution based on debain bookworm with live build tool please help me with that
+distribution usecase : for ai, ml /ds engineers
+based on : debain 12 bookworm
+installer : Calamares</p>
+<p>desktop environment : no desktop environment i want i3 window manager preinstalled
+features : usb persisteance when boot through usb (that is memory must not loose after rebooting it)
+every where it should replace debain as Fusion flux as an Distribution name
+iso : 64bit amd64 iso</p>
+<h1 id="prerequisites">prerequisites</h1>
+<p>To create a custom Linux distribution using the <strong>Live Build</strong> tool (commonly used for Debian-based distributions like Debian, Ubuntu, and their derivatives), you need to install several prerequisite packages. Here&rsquo;s a list of essential packages and a basic step-by-step guide for setting up the environment.</p>
+<h3 id="prerequisites-for-using-live-build">Prerequisites for Using <code>live-build</code>:</h3>
+<ol>
+<li>
+<p><strong>Debian/Ubuntu-based System:</strong>
+Ensure you are working on a Debian or Ubuntu system, as <code>live-build</code> is designed for these distributions.</p>
+</li>
+<li>
+<p><strong>Install Required Packages:</strong></p>
+<p>Open a terminal and run the following command to install the required tools:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get update
+</span></span><span style="display:flex;"><span>sudo apt-get install live-build debootstrap curl wget xorriso syslinux squashfs-tools genisoimage
+</span></span></code></pre></div><ul>
+<li><strong>live-build</strong>: The core tool to create live images.</li>
+<li><strong>debootstrap</strong>: Helps in creating a minimal base system (required for bootstrapping a Debian system).</li>
+<li><strong>curl/wget</strong>: For downloading additional files or packages during the build process.</li>
+<li><strong>xorriso</strong>: A command-line ISO 9660 editor and CD image creation tool, needed for making ISO files.</li>
+<li><strong>syslinux</strong>: For booting the system; used to configure boot loaders like ISOLINUX.</li>
+<li><strong>squashfs-tools</strong>: Tools to create a compressed filesystem, which is commonly used in live images.</li>
+<li><strong>genisoimage</strong>: Tool for creating the actual ISO image.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional Packages:</strong>
+Depending on the complexity of the custom distribution, you may need additional packages:</p>
+<ul>
+<li>
+<p><strong>apt-cacher-ng</strong>: If you plan to cache packages during repeated builds.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install apt-cacher-ng
+</span></span></code></pre></div></li>
+<li>
+<p><strong>git</strong>: To manage repositories or pull specific configuration files.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install git
+</span></span></code></pre></div></li>
+<li>
+<p><strong>locales</strong>: To manage system locales if you want to customize them.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install locales
+</span></span></code></pre></div></li>
+<li>
+<p><strong>schroot</strong>: To manage chroots if you are building in an isolated environment.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install schroot
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Configure Live Build Environment:</strong></p>
+<p>After the necessary packages are installed, you can configure the build environment. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb config
+</span></span></code></pre></div><p>This command sets up the default configuration for <code>live-build</code>. You can further customize it by adding options, such as specifying the distribution (Debian or Ubuntu version) or desktop environment.</p>
+</li>
+<li>
+<p><strong>Build the Image:</strong></p>
+<p>Once the environment is configured, you can start building the ISO by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo lb build
+</span></span></code></pre></div></li>
+</ol>
+<p>This process will generate a live ISO image that you can customize further by editing configuration files or adding packages as per your requirements.</p>
+<h3 id="key-files-and-directories">Key Files and Directories:</h3>
+<ul>
+<li><strong>config/package-lists/</strong>: You can place custom package lists here to include specific software in the build.</li>
+<li><strong>config/includes.chroot/</strong>: You can add custom files or scripts to be included in the final system.</li>
+</ul>
+<p>By ensuring these prerequisites are installed and following the steps above, you&rsquo;ll be able to create a custom Linux distribution using <code>live-build</code>.</p>
+<h1 id="0th-config-file">0th Config file</h1>
+<pre tabindex="0"><code>#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --distribution bookworm \
+    --architecture amd64 \
+    --debian-installer false \
+    --debian-installer-gui false \
+    --bootappend-live &#34;boot=live components persistence&#34; \
+    --linux-flavours amd64 \
+    --iso-publisher &#34;Fusion Flux&#34; \
+    --iso-volume &#34;Fusion Flux Live&#34; \
+    --iso-application &#34;Fusion Flux AI/ML Distribution&#34; \
+    --apt-indices false \
+    --firmware-binary true \
+    --firmware-chroot true \
+    --archive-areas &#34;main contrib non-free non-free-firmware&#34; \
+    &#34;${@}&#34;
+</code></pre><h1 id="1st-build-basic">1st build (basic)</h1>
+<p>Creating a custom Linux distribution based on Debian, with the ability to boot from a USB (using tools like Rufus or Ventoy) and install directly from the BIOS like other popular distributions (such as Kali), involves several steps and key configurations. Here’s a breakdown of the major components and steps you&rsquo;ll need to follow:</p>
+<h3 id="1-choose-a-base-debian-version">1. <strong>Choose a Base (Debian) Version</strong></h3>
+<ul>
+<li>Select the correct <strong>Debian base version</strong> (e.g., Debian 11 &ldquo;Bullseye&rdquo; or 12 &ldquo;Bookworm&rdquo;).</li>
+<li>Make sure to use the <strong>amd64 architecture</strong> as you mentioned.</li>
+</ul>
+<h3 id="2-debian-live-build-system">2. <strong>Debian Live Build System</strong></h3>
+<ul>
+<li>Use <strong>Debian live-build</strong> tools, which are designed for creating live systems and installing them.
+<ul>
+<li>Install the <code>live-build</code> tool to generate the ISO:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install live-build
+</span></span></code></pre></div></li>
+<li>Live-build allows customization of the system, including packages, scripts, and configurations, which you need for the live boot and installation.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-configure-the-live-boot">3. <strong>Configure the Live Boot</strong></h3>
+<ul>
+<li>The live boot system is essential for creating an image that can be tested in live mode (before installation).</li>
+<li>Steps:
+<ol>
+<li>Create a working directory:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir custom-linux
+</span></span><span style="display:flex;"><span>cd custom-linux
+</span></span></code></pre></div></li>
+<li>Start the live build process with a minimal Debian system template:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb config --architecture amd64
+</span></span></code></pre></div></li>
+<li>Customize configurations:
+<ul>
+<li>Set up <strong>live boot</strong> settings (optional configurations can be added in the <code>auto/config</code> file):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb config <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--distribution bullseye <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--architecture amd64 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--debian-installer true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--bootappend-live <span style="color:#e6db74">&#34;boot=live components&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-publisher <span style="color:#e6db74">&#34;YourLinux v1.0&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-volume <span style="color:#e6db74">&#34;YourLinux&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-application <span style="color:#e6db74">&#34;YourLinux Live Installer&#34;</span>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>Generate the live image:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo lb build
+</span></span></code></pre></div></li>
+</ol>
+This will create an <code>.iso</code> file, which you can use with Rufus or Ventoy to boot into a live session.</li>
+</ul>
+<h3 id="4-include-a-debian-installer">4. <strong>Include a Debian Installer</strong></h3>
+<ul>
+<li>To install the OS from the BIOS directly (as is done with Kali Linux), you need to enable the <strong>Debian installer</strong>.
+<ul>
+<li>You can enable the Debian installer using the <code>--debian-installer true</code> option in live-build as shown above.</li>
+<li>This ensures that your custom OS includes a full installation option alongside the live boot.</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-custom-packages-and-pre-installed-software">5. <strong>Custom Packages and Pre-installed Software</strong></h3>
+<ul>
+<li>Use the <code>packages.chroot</code> file to specify the software you want installed in the live system (and also installed post-install).</li>
+<li>Example: Add specific software packages to the live system like this:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;kali-linux-default&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;gnome-core&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;curl&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="6-custom-branding-optional">6. <strong>Custom Branding (Optional)</strong></h3>
+<ul>
+<li>Add custom logos, backgrounds, and boot menus.</li>
+<li>Modify the boot menu using GRUB configuration in <code>/config/bootloaders/grub</code> or the <code>grub-pc</code> package for BIOS compatibility.</li>
+</ul>
+<h3 id="7-bios-compatibility">7. <strong>BIOS Compatibility</strong></h3>
+<ul>
+<li>Make sure your ISO is <strong>hybrid</strong> (so it works for both BIOS and UEFI systems). You can achieve this by ensuring your <code>lb config</code> command uses the <code>--debian-installer true</code> option.</li>
+<li>Hybrid ISO configurations will make the boot media compatible across different systems, including BIOS and UEFI boot modes.</li>
+<li>Verify the ISO can be booted using Rufus and Ventoy in both <strong>MBR and GPT</strong> partition schemes.</li>
+</ul>
+<h3 id="8-persistent-storage-optional">8. <strong>Persistent Storage (Optional)</strong></h3>
+<ul>
+<li>If you want the live boot environment to support <strong>persistence</strong> (i.e., save changes to the USB), enable persistence via custom configurations:
+<ul>
+<li>Modify the boot command line (in <code>syslinux</code> or <code>grub</code>):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>boot<span style="color:#f92672">=</span>live components persistence
+</span></span></code></pre></div></li>
+<li>The persistence file or partition needs to be named properly (e.g., <code>persistence.conf</code> in the root of the USB drive).</li>
+</ul>
+</li>
+</ul>
+<h3 id="9-testing-and-debugging">9. <strong>Testing and Debugging</strong></h3>
+<ul>
+<li>Test your custom live image on <strong>virtual machines</strong> like VirtualBox or QEMU.</li>
+<li>Boot the ISO with tools like Rufus, Ventoy, or BalenaEtcher to verify it works both in <strong>live mode</strong> and <strong>installation mode</strong>.</li>
+<li>Ensure that the system installs correctly and that custom packages/software are properly configured post-installation.</li>
+</ul>
+<h3 id="10-optional-tools-for-simplified-building">10. <strong>Optional Tools for Simplified Building</strong></h3>
+<ul>
+<li>
+<p><strong>Refracta Tools</strong>: If live-build feels complex, you can use <strong>Refracta</strong> tools. They simplify the process of creating a live system and installer. These tools can create a live ISO and provide an easy-to-use graphical installer.</p>
+<p>Install Refracta Tools:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install refractasnapshot refractainstaller refractainstaller-base
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="11-iso-testing-and-finalization">11. <strong>ISO Testing and Finalization</strong></h3>
+<ul>
+<li>Ensure the ISO is well-tested on multiple devices with different BIOS and UEFI settings.</li>
+<li>Verify boot compatibility on different systems (BIOS/UEFI) using tools like Rufus or Ventoy for creating bootable USBs.</li>
+</ul>
+<h3 id="additional-considerations">Additional Considerations:</h3>
+<ul>
+<li><strong>File system support</strong>: Ensure the system supports ext4, Btrfs, or other file systems commonly used on Linux.</li>
+<li><strong>Secure Boot support</strong>: If needed, configure secure boot support for UEFI systems.</li>
+<li><strong>Kernel options</strong>: Customize the kernel if specific features or drivers are needed.</li>
+<li><strong>Documentation</strong>: Provide good documentation for users who will install your custom distro, especially if it has unique tools or configurations.</li>
+</ul>
+<h3 id="example-of-a-customized-command-for-building">Example of a Customized Command for Building:</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb config <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--architecture amd64 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--debian-installer true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--distribution bullseye <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--bootappend-live <span style="color:#e6db74">&#34;boot=live components persistence&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-application <span style="color:#e6db74">&#34;Custom Linux OS&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-publisher <span style="color:#e6db74">&#34;YourOS Publisher&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-volume <span style="color:#e6db74">&#34;YourOS Installer&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--debian-installer true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--mirror-bootstrap <span style="color:#e6db74">&#34;http://deb.debian.org/debian/&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--archive-areas <span style="color:#e6db74">&#34;main contrib non-free&#34;</span>
+</span></span></code></pre></div><p>This process will create a Debian-based custom ISO with live boot and installation options, BIOS/UEFI compatibility, and custom software configurations.</p>
+<h1 id="2nd-via-prompt">2nd via prompt</h1>
+<p>To create a custom Linux distribution based on <strong>Debian 12 &ldquo;Bookworm&rdquo;</strong> using the <strong>live-build tool</strong>, tailored for AI, ML/DS engineers, and using the <strong>i3 window manager</strong> without a desktop environment, here’s how you can go about it. You also want the installer to be <strong>Calamares</strong>, with <strong>USB persistence</strong> support and custom branding replacing <strong>Debian</strong> with the name <strong>Fusion Flux</strong>.</p>
+<p>Below are the detailed steps to guide you through the process:</p>
+<hr />
+<h2 id="1-install-required-tools">1. <strong>Install Required Tools</strong></h2>
+<p>First, you need to install the necessary tools on your build machine (which should ideally be a Debian 12 &ldquo;Bookworm&rdquo; system):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install live-build calamares git
+</span></span></code></pre></div><ul>
+<li><code>live-build</code>: Tool for building live systems (ISO images).</li>
+<li><code>calamares</code>: A modular installer framework.</li>
+</ul>
+<h2 id="2-set-up-the-build-directory">2. <strong>Set Up the Build Directory</strong></h2>
+<p>Create a new directory for your custom distribution:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir fusion-flux
+</span></span><span style="display:flex;"><span>cd fusion-flux
+</span></span></code></pre></div><h2 id="3-configure-live-build">3. <strong>Configure Live Build</strong></h2>
+<p>You&rsquo;ll need to configure <code>live-build</code> to create your base system with i3, custom branding, persistence, and other features.</p>
+<h3 id="base-configuration-command"><strong>Base Configuration Command:</strong></h3>
+<p>Run the following command to set the basic options for the live-build system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb config <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--distribution bookworm <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--architecture amd64 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--debian-installer false <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--debian-installer-gui false <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--bootappend-live <span style="color:#e6db74">&#34;boot=live components persistence&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--linux-flavours amd64 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-publisher <span style="color:#e6db74">&#34;Fusion Flux&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-volume <span style="color:#e6db74">&#34;Fusion Flux Live&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--iso-application <span style="color:#e6db74">&#34;Fusion Flux AI/ML Distribution&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--apt-indices false <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--firmware-binary true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--firmware-chroot true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--archive-areas <span style="color:#e6db74">&#34;main contrib non-free&#34;</span>
+</span></span></code></pre></div><p>Here’s what each option does:</p>
+<ul>
+<li><strong><code>--distribution bookworm</code></strong>: Specifies the Debian 12 Bookworm base.</li>
+<li><strong><code>--architecture amd64</code></strong>: Sets 64-bit architecture.</li>
+<li><strong><code>--bootappend-live &quot;boot=live components persistence&quot;</code></strong>: Enables persistence.</li>
+<li><strong><code>--debian-installer false</code></strong>: Disables the default Debian installer (you&rsquo;ll be using Calamares instead).</li>
+<li><strong><code>--firmware-binary</code> and <code>--firmware-chroot</code></strong>: Ensures firmware is available for hardware support.</li>
+<li><strong><code>--archive-areas &quot;main contrib non-free&quot;</code></strong>: Enables access to additional repositories for non-free and contrib software.</li>
+</ul>
+<h3 id="customizing-the-build"><strong>Customizing the Build:</strong></h3>
+<ol>
+<li>
+<p><strong>Window Manager Configuration (i3)</strong>
+Create a <code>config/package-lists/custom.list.chroot</code> file and add the packages you want preinstalled in the system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/package-lists
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;i3&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;lightdm&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot  <span style="color:#75715e"># For a lightweight display manager</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;xterm&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;git&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;python3&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;python3-pip&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;python3-venv&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;jupyterlab&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;neovim&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;scikit-learn&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;tensorflow&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;pytorch&#34;</span> &gt;&gt; config/package-lists/custom.list.chroot
+</span></span></code></pre></div><p>This list ensures that the <strong>i3 window manager</strong> is installed, alongside AI/ML-related tools (e.g., <code>scikit-learn</code>, <code>tensorflow</code>, <code>pytorch</code>, and Jupyter).</p>
+</li>
+<li>
+<p><strong>Add Calamares Installer</strong>
+Calamares is a modular and customizable installer used by various Linux distributions.</p>
+<ul>
+<li>
+<p>In your <code>config/package-lists/</code>, create a list for Calamares:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;calamares&#34;</span> &gt;&gt; config/package-lists/installer.list.chroot
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;calamares-settings-debian&#34;</span> &gt;&gt; config/package-lists/installer.list.chroot
+</span></span></code></pre></div></li>
+<li>
+<p>To configure Calamares, you need to create custom settings. Create the following directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/includes.chroot/etc/calamares/modules
+</span></span></code></pre></div></li>
+<li>
+<p>You can find default configurations for Calamares modules in the Debian repository. Customize the installer for your distribution’s needs. For example, place the following configuration in the <code>netinstall.conf</code> for Calamares:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">---
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">name: netinstall
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">welcome: true
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pre_install:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    - initramfs-update
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">installation:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    - install
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    - configure-base
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">post_install:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    - initramfs-update
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;</span> &gt;&gt; config/includes.chroot/etc/calamares/modules/netinstall.conf
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Custom Branding (Replace &ldquo;Debian&rdquo; with &ldquo;Fusion Flux&rdquo;)</strong></p>
+<ul>
+<li>Replace any <strong>Debian</strong> branding with <strong>Fusion Flux</strong>. This involves replacing logos, system messages, and installer text.</li>
+<li>Update the GRUB menu and any logos found in <code>/boot/grub/themes</code> and <code>/usr/share/plymouth/themes</code> to reflect your distribution’s branding.</li>
+<li>You can customize <code>/etc/lsb-release</code> to define the release version:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;DISTRIB_ID=FusionFlux&#34;</span> &gt; config/includes.chroot/etc/lsb-release
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;DISTRIB_DESCRIPTION=&#39;Fusion Flux AI/ML Distribution&#39;&#34;</span> &gt;&gt; config/includes.chroot/etc/lsb-release
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Persistence Configuration</strong>
+To ensure USB persistence, ensure the <strong>boot command</strong> includes the persistence option (already included in <code>--bootappend-live</code>). Additionally, when users create a live USB with persistence, they need to set up a persistence partition named <code>persistence</code>.</p>
+<ul>
+<li>Modify the live boot files to include support for persistence:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;/ union&#34;</span> &gt; config/includes.binary/persistence.conf
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
+<h2 id="4-build-the-iso">4. <strong>Build the ISO</strong></h2>
+<p>Once the configuration is ready, build the ISO using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo lb build
+</span></span></code></pre></div><p>This will create a 64-bit <code>amd64</code> ISO image in the current directory.</p>
+<ul>
+<li>The build process can take some time depending on the size of the packages you’ve included.</li>
+<li>Check for any errors or missing packages and modify <code>config/package-lists/custom.list.chroot</code> as needed.</li>
+</ul>
+<h2 id="5-test-your-iso">5. <strong>Test Your ISO</strong></h2>
+<p>After the build process is complete, you will have a <code>.iso</code> file ready for testing.</p>
+<h3 id="test-the-iso-in-virtualbox-or-qemu">Test the ISO in VirtualBox or QEMU:</h3>
+<p>You can test the live boot and installation process using a virtual machine before trying it on real hardware. If everything works, you can create a bootable USB.</p>
+<h3 id="create-a-bootable-usb-with-persistence">Create a Bootable USB with Persistence:</h3>
+<p>Use <strong>Rufus</strong>, <strong>Ventoy</strong>, or <strong>BalenaEtcher</strong> to create a bootable USB from the ISO.</p>
+<p>If you are using persistence, make sure to create a second partition on the USB labeled <code>persistence</code> and a file named <code>persistence.conf</code> with the following content:</p>
+<pre tabindex="0"><code>/ union
+</code></pre><p>This will ensure that changes made in the live session (e.g., saved files or installed packages) are persistent.</p>
+<h2 id="6-final-touches">6. <strong>Final Touches</strong></h2>
+<p>Once your ISO is fully functional, you may want to:</p>
+<ul>
+<li>Further tweak configurations for the installer.</li>
+<li>Add more advanced AI/ML tools based on feedback from users or your own preferences.</li>
+<li>Ensure all branding elements (logos, texts, etc.) reflect the <strong>Fusion Flux</strong> identity.</li>
+</ul>
+<hr />
+<p>By following these steps, you will have created a custom <strong>Debian Bookworm</strong>-based Linux distribution named <strong>Fusion Flux</strong>, with i3 preinstalled, <strong>Calamares</strong> as the installer, and <strong>USB persistence</strong>. This distribution will be optimized for AI, ML, and Data Science workflows, and should work smoothly when booted from a USB or installed on a system.</p>
+<h1 id="3rd-firmware-error">3rd firmware error</h1>
+<p>I understand you&rsquo;re encountering an error while building your Fusion Linux distribution. The error message indicates that the package &lsquo;firmware-linux&rsquo; is not available. This is a common issue when working with Debian-based distributions, especially when dealing with non-free firmware. Let&rsquo;s troubleshoot this step by step:</p>
+<ol>
+<li>
+<p>First, ensure that you have the non-free and contrib repositories enabled. In your lb config command, add the following if you haven&rsquo;t already:</p>
+<pre tabindex="0"><code>lb config --distribution bookworm --archive-areas &#34;main contrib non-free non-free-firmware&#34;
+</code></pre></li>
+<li>
+<p>The package &lsquo;firmware-linux&rsquo; has been replaced by more specific packages in recent Debian versions. Instead of &lsquo;firmware-linux&rsquo;, you should use &lsquo;firmware-linux-free&rsquo; and possibly &lsquo;firmware-linux-nonfree&rsquo;. Update your package list to include these:</p>
+<p>Edit your <code>config/package-lists/live.list.chroot</code> file and replace &lsquo;firmware-linux&rsquo; with:</p>
+<pre tabindex="0"><code>firmware-linux-free
+firmware-misc-nonfree
+</code></pre></li>
+<li>
+<p>Make sure your system is up to date:</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt upgrade
+</code></pre></li>
+<li>
+<p>Clean your build environment before rebuilding:</p>
+<pre tabindex="0"><code>sudo lb clean
+</code></pre></li>
+<li>
+<p>Rebuild your live system:</p>
+<pre tabindex="0"><code>sudo lb build
+</code></pre></li>
+</ol>
+<p>If you&rsquo;re still encountering issues, here are a few more things to try:</p>
+<ol start="6">
+<li>
+<p>Check if you have the correct sources list. Create or edit the file <code>config/archives/debian.list.chroot</code>:</p>
+<pre tabindex="0"><code>deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+</code></pre></li>
+<li>
+<p>If you&rsquo;re behind a proxy, make sure it&rsquo;s correctly configured in your build environment.</p>
+</li>
+<li>
+<p>If the issue persists, you might want to try using a newer version of live-build:</p>
+<pre tabindex="0"><code>sudo apt install live-build/bookworm-backports
+</code></pre></li>
+</ol>
+<p>After making these changes, clean and rebuild your system. If you&rsquo;re still facing issues, please provide the full output of the build process, and I&rsquo;ll be happy to help you troubleshoot further.</p>
+<h1 id="test-with-qemu">test with qemu</h1>
+<pre tabindex="0"><code>qemu-system-x86_64 -cdrom &#39;/home/yash/Desktop/live-image-amd64.hybrid.iso&#39; -boot d -m 3000
+</code></pre><h1 id="building-and-modififing-chroot">building and modififing chroot</h1>
+<p>Using <code>chroot</code> allows you to enter a filesystem environment (in this case, the filesystem of your live-build) and interact with it as if it were the root of your system. This is very useful for testing changes like adding or removing programs without having to rebuild the entire ISO.</p>
+<p>Here&rsquo;s a step-by-step guide on how to use <code>chroot</code> in the context of a live-build:</p>
+<h3 id="steps-to-use-chroot-with-live-build">Steps to Use <code>chroot</code> with Live-build</h3>
+<ol>
+<li>
+<p><strong>Prepare the Build Environment</strong>
+Make sure you have your live-build setup ready, and you have at least done the <code>lb build</code> command once to create the base filesystem. If you haven&rsquo;t built the image yet, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb build
+</span></span></code></pre></div><p>This will create a <code>chroot/</code> directory in your live-build project where the root filesystem resides.</p>
+</li>
+<li>
+<p><strong>Entering the <code>chroot</code> Environment</strong>
+Once the <code>chroot</code> directory is ready, you can enter it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chroot path/to/chroot/
+</span></span></code></pre></div><p>For example, if you&rsquo;re in your live-build directory, it might be:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chroot chroot/
+</span></span></code></pre></div><p>Now you&rsquo;re inside the filesystem as if it&rsquo;s the root of your system.</p>
+</li>
+<li>
+<p><strong>Update Package Lists</strong>
+Inside the <code>chroot</code>, you’ll want to update the package list to make sure it has access to the latest repositories:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get update
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Installing Packages</strong>
+You can now install any packages you want to add to the final ISO. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get install your-package
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Removing Packages</strong>
+Similarly, you can remove packages:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get remove your-package
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Testing and Configuring</strong>
+You can also modify and test configurations inside the <code>chroot</code> environment. You are working within the actual environment that will be part of your live system, so this allows you to test changes immediately.</p>
+</li>
+<li>
+<p><strong>Exiting the <code>chroot</code></strong>
+Once you&rsquo;re done making changes, you can simply exit the <code>chroot</code> environment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>exit
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Repack the ISO (if needed)</strong>
+If you are satisfied with the changes made in the <code>chroot</code>, you can rebuild the binary part of the ISO (not the full rebuild) to integrate the changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lb clean --binary
+</span></span><span style="display:flex;"><span>lb build
+</span></span></code></pre></div><p>This will regenerate the ISO but keep the same base environment, making it faster.</p>
+</li>
+</ol>
+<h3 id="additional-notes">Additional Notes:</h3>
+<ul>
+<li><strong>Mount proc, sys, and dev</strong>: Some services or scripts inside <code>chroot</code> may require access to <code>/proc</code>, <code>/sys</code>, or <code>/dev</code>. You can mount these as follows before entering <code>chroot</code>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mount -o bind /proc chroot/proc
+</span></span><span style="display:flex;"><span>sudo mount -o bind /sys chroot/sys
+</span></span><span style="display:flex;"><span>sudo mount -o bind /dev chroot/dev
+</span></span></code></pre></div>After you&rsquo;re done, unmount them:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo umount chroot/proc
+</span></span><span style="display:flex;"><span>sudo umount chroot/sys
+</span></span><span style="display:flex;"><span>sudo umount chroot/dev
+</span></span></code></pre></div></li>
+</ul>
+<p>Using <code>chroot</code> allows you to make changes quickly without needing to rebuild the entire image. This can save a lot of time when testing packages or configurations.</p>
+<h1 id="add-set-users-change-os-name--and-configure-calamares">add set users, change os name , and configure calamares</h1>
+<h3 id="1-add-default-username-fusion-and-password-fusion-and-make-fusion-user-a-sudoer">1. <strong>Add default username (<code>fusion</code>) and password (<code>fusion</code>), and make <code>fusion</code> user a sudoer</strong></h3>
+<p>You can achieve this by editing the configuration of <code>live-build</code> to create a user with the required credentials. You&rsquo;ll modify the hooks to add the user and set up sudo permissions.</p>
+<ul>
+<li>
+<p>Create a <code>chroot</code> hook file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/hooks/live
+</span></span><span style="display:flex;"><span>nano config/hooks/live/01-create-user.hook.chroot
+</span></span></code></pre></div></li>
+<li>
+<p>Add the following content to create the <code>fusion</code> user, set the password, and add it to the <code>sudo</code> group:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add &#39;fusion&#39; user with password &#39;fusion&#39;</span>
+</span></span><span style="display:flex;"><span>useradd -m -s /bin/bash fusion
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;fusion:fusion&#39;</span> | chpasswd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add &#39;fusion&#39; to sudoers</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;fusion ALL=(ALL) NOPASSWD:ALL&#39;</span> &gt; /etc/sudoers.d/fusion
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">0440</span> /etc/sudoers.d/fusion
+</span></span></code></pre></div></li>
+<li>
+<p>Make the hook executable:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x config/hooks/live/01-create-user.hook.chroot
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="2-add-root-user-and-set-the-password-to-root">2. <strong>Add root user and set the password to <code>root</code></strong></h3>
+<p>You can add the <code>root</code> password within the same hook created in Step 1 or in a separate hook file.</p>
+<ul>
+<li>In the same hook file (<code>01-create-user.hook.chroot</code>), add the following line:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Set root password to &#39;root&#39;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;root:root&#39;</span> | chpasswd
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="3-change-os-name-to-fusion-instead-of-debian">3. <strong>Change OS name to <code>fusion</code> instead of Debian</strong></h3>
+<p>To rebrand the OS, you will need to modify certain files that show the OS name.</p>
+<ul>
+<li>
+<p>Create another hook to replace all occurrences of <code>Debian</code> with <code>fusion</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano config/hooks/live/02-change-os-name.hook.chroot
+</span></span></code></pre></div></li>
+<li>
+<p>Add the following commands to replace Debian with Fusion in key files:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Change OS name from Debian to fusion</span>
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/Debian/fusion/g&#39;</span> /etc/issue
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/Debian/fusion/g&#39;</span> /etc/os-release
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/Debian/fusion/g&#39;</span> /etc/motd
+</span></span></code></pre></div></li>
+<li>
+<p>Make the hook executable:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x config/hooks/live/02-change-os-name.hook.chroot
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="4-auto-start-calamares-installer-on-booting-the-live-os">4. <strong>Auto-start Calamares installer on booting the live OS</strong></h3>
+<p>To automatically start the Calamares installer when the live system boots, you can configure an autostart file or a systemd service.</p>
+<ul>
+<li>
+<p>Create a file to handle Calamares autostart:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/includes.chroot/etc/xdg/autostart/
+</span></span><span style="display:flex;"><span>nano config/includes.chroot/etc/xdg/autostart/calamares.desktop
+</span></span></code></pre></div></li>
+<li>
+<p>Add the following content to auto-start Calamares:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>Desktop Entry<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>Type<span style="color:#f92672">=</span>Application
+</span></span><span style="display:flex;"><span>Exec<span style="color:#f92672">=</span>calamares
+</span></span><span style="display:flex;"><span>Hidden<span style="color:#f92672">=</span>false
+</span></span><span style="display:flex;"><span>NoDisplay<span style="color:#f92672">=</span>false
+</span></span><span style="display:flex;"><span>X-GNOME-Autostart-enabled<span style="color:#f92672">=</span>true
+</span></span><span style="display:flex;"><span>Name<span style="color:#f92672">=</span>Calamares Installer
+</span></span><span style="display:flex;"><span>Comment<span style="color:#f92672">=</span>Start Calamares Installer
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="5-remove-calamares-installer-after-installing-the-distribution">5. <strong>Remove Calamares installer after installing the distribution</strong></h3>
+<p>Once the OS is installed, you will want to remove Calamares from the target system (the installed system). You can create a post-installation script for this purpose.</p>
+<ul>
+<li>
+<p>Create a new hook to remove Calamares after installation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano config/hooks/post/03-remove-calamares.hook.postinst
+</span></span></code></pre></div></li>
+<li>
+<p>Add the following content to the hook to remove Calamares after the installation process:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Remove Calamares after installation</span>
+</span></span><span style="display:flex;"><span>apt-get purge --yes calamares
+</span></span></code></pre></div></li>
+<li>
+<p>Make the hook executable:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x config/hooks/post/03-remove-calamares.hook.postinst
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="building-the-live-iso">Building the Live ISO</h3>
+<p>Once you have completed all these customizations, you can build your custom Linux distribution using the <code>live-build</code> tool.</p>
+<ul>
+<li>First, ensure everything is set up correctly, then start the build process:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo lb build
+</span></span></code></pre></div></li>
+</ul>
+<p>This will generate the ISO for your custom Linux distribution with all the changes.</p>
+<hr />
+<h3 id="summary-of-changes">Summary of Changes</h3>
+<ol>
+<li>
+<p><strong>User Setup:</strong></p>
+<ul>
+<li><code>fusion</code> user is created with sudo privileges.</li>
+<li><code>root</code> user is set up with the password <code>root</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>OS Branding:</strong></p>
+<ul>
+<li>OS name is changed from <code>Debian</code> to <code>fusion</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Installer Autostart:</strong></p>
+<ul>
+<li>Calamares installer is set to autostart when the live system boots.</li>
+</ul>
+</li>
+<li>
+<p><strong>Post-Installation Cleanup:</strong></p>
+<ul>
+<li>Calamares is removed from the system after installation to prevent it from being present in the installed system.</li>
+</ul>
+</li>
+</ol>
+<p>This setup allows you to fully customize the live distribution as per your requirements!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

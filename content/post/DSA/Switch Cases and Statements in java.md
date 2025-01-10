@@ -1,3 +1,8 @@
+---
+title: DSA Switch Cases and Statements in java
+date: 2025-01-10
+---
+
 
 
 old switch case formate

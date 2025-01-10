@@ -1,3 +1,8 @@
+---
+title: post StringBuilder
+date: 2024-12-22
+---
+
 Bhai, samjhata hoon StringBuilder ka concept step-by-step, aram se! Video waale heavy explanation ko side rakhte hain aur simple example se clear karte hain.
 
 ---

@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Types of blockchain
+date: 2024-12-20
+---
+
 
 
 Blockchain technology can be classified into four main types based on how the network is structured, the level of access it provides, and its use cases. These types include **Public Blockchain**, **Private Blockchain**, **Consortium Blockchain**, and **Hybrid Blockchain**.

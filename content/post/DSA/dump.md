@@ -1,3 +1,8 @@
+---
+title: DSA dump
+date: 2025-01-10
+---
+
 
 linked list not continous mem alloc tray to break boxes into seperate boxes (array reference)
 

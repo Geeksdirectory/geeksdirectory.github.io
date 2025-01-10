@@ -1,3 +1,8 @@
+---
+title: Blockchain technology ERC721 and ERC20
+date: 2024-12-20
+---
+
 ### **Difference Between ERC-20 and ERC-721 Tokens**
 
 |**Aspect**|**ERC-20 Token**|**ERC-721 Token**|

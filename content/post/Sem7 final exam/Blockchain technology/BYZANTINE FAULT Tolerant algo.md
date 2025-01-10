@@ -1,3 +1,8 @@
+---
+title: Blockchain technology BYZANTINE FAULT Tolerant algo
+date: 2024-12-20
+---
+
 ### **Byzantine Fault Tolerant Algorithm (BFT)**
 
 Byzantine Fault Tolerance (BFT) is a property of a distributed system that allows it to function correctly and reach consensus even if some nodes behave maliciously or unpredictably. The term "Byzantine" comes from the **Byzantine Generals Problem**, a metaphor used to describe the challenges of achieving agreement in a distributed system where some components might fail or act maliciously.

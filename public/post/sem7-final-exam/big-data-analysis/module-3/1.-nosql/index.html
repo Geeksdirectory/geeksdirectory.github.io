@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='NoSQL databases are a category of database management systems (DBMS) that provide an alternative to traditional relational databases (RDBMS).
+designed to ==handle large volumes== of diverse and complex data, ==support high scalability, and enable flexible data modeling.==
+NoSQL databases ==are ideal for big data, real-time web applications,== and other use cases where the rigid schemas and transactional consistency of relational databases are not necessary or practical.
+Defination : &amp;ldquo;NoSQL&amp;rdquo; stands for &amp;ldquo;Not Only SQL,&amp;rdquo; highlighting that these databases do not strictly adhere to the traditional relational model'>
+<title>Module 3 1  NoSQL</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/sem7-final-exam/big-data-analysis/module-3/1.-nosql/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='Module 3 1  NoSQL'>
+<meta property='og:description' content='NoSQL databases are a category of database management systems (DBMS) that provide an alternative to traditional relational databases (RDBMS).
+designed to ==handle large volumes== of diverse and complex data, ==support high scalability, and enable flexible data modeling.==
+NoSQL databases ==are ideal for big data, real-time web applications,== and other use cases where the rigid schemas and transactional consistency of relational databases are not necessary or practical.
+Defination : &amp;ldquo;NoSQL&amp;rdquo; stands for &amp;ldquo;Not Only SQL,&amp;rdquo; highlighting that these databases do not strictly adhere to the traditional relational model'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/sem7-final-exam/big-data-analysis/module-3/1.-nosql/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-10T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Module 3 1  NoSQL">
+<meta name="twitter:description" content="NoSQL databases are a category of database management systems (DBMS) that provide an alternative to traditional relational databases (RDBMS).
+designed to ==handle large volumes== of diverse and complex data, ==support high scalability, and enable flexible data modeling.==
+NoSQL databases ==are ideal for big data, real-time web applications,== and other use cases where the rigid schemas and transactional consistency of relational databases are not necessary or practical.
+Defination : &amp;ldquo;NoSQL&amp;rdquo; stands for &amp;ldquo;Not Only SQL,&amp;rdquo; highlighting that these databases do not strictly adhere to the traditional relational model">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#1-key-value-store">1. <strong>Key-Value Store</strong></a></li>
+        <li><a href="#2-document-store">2. <strong>Document Store</strong></a></li>
+        <li><a href="#3-column-family-store-column-oriented-database">3. <strong>Column Family Store (Column-Oriented Database)</strong></a></li>
+        <li><a href="#4-graph-store">4. <strong>Graph Store</strong></a></li>
+        <li><a href="#summary-of-use-cases-by-database-type">Summary of Use Cases by Database Type</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/sem7-final-exam/big-data-analysis/module-3/1.-nosql/">Module 3 1  NoSQL</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 10, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><img src="/mydocs/Pastedimage20241106204355.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>NoSQL</strong> databases are a category of database management systems (DBMS) that provide an alternative to traditional relational databases (RDBMS).</p>
+<p>designed to ==handle large volumes== of diverse and complex data, ==support high scalability, and enable flexible data modeling.==</p>
+<p>NoSQL databases ==are ideal for big data, real-time web applications,== and other use cases where the rigid schemas and transactional consistency of relational databases are not necessary or practical.</p>
+<p><strong>Defination</strong> : &ldquo;NoSQL&rdquo; stands for &ldquo;Not Only SQL,&rdquo; highlighting that these databases do not strictly adhere to the traditional relational model</p>
+<p>NoSQL databases offer flexible data models and ==can handle unstructured, semi-structured, and structured data.==</p>
+<p><strong>Scalability</strong>: Designed for ==horizontal scalability==, NoSQL databases can handle growing volumes of data by ==adding more servers rather than increasing the capacity of a single server.==</p>
+<h4 id="characteristics-of-nosql">Characteristics of NOSQL</h4>
+<ul>
+<li>schema flexibility</li>
+<li>scalability</li>
+<li>high performance</li>
+<li>Distribution : often ==distributed across clusters==, which helps in ==balancing load ==and enhancing fault tolerance.</li>
+<li>Data Structure Flexibility: support various data formats, ==including JSON, XML, BSON, and binary formats==, making it easier to handle diverse data types.</li>
+</ul>
+<h4 id="types-of-nosql-databases">Types of NoSQL Databases</h4>
+<h5 id="1-key-value-stores">1. <strong>Key-Value Stores</strong></h5>
+<ul>
+<li><strong>Structure</strong>: ==Data== is ==stored== as ==simple key-value pairs==, where each key is unique, and values can be any type of data, such as ==strings, JSON, or binary data.==</li>
+<li><strong>Performance</strong>: ==Highly efficient== for retrieving data by key, making them suitable for caching and session management.</li>
+<li><strong>Examples</strong>: ==Redis, DynamoDB, Memcached, Riak==,azuretables.</li>
+<li><strong>Use Cases</strong>: ==Caching, user profiles, session management, real-time recommendations.==</li>
+</ul>
+<h5 id="2-document-stores">2. <strong>Document Stores</strong></h5>
+<ul>
+<li><strong>Structure</strong>: Data is stored as documents in ==formats like JSON or BSON==, which ==allows a flexible schema and hierarchical data storage.==</li>
+<li><strong>Document Model</strong>: Each document can have ==different fields, and fields can be nested, making it ideal for semi-structured data.==</li>
+<li><strong>Examples</strong>: ==MongoDB, CouchDB, Amazon DocumentDB==.</li>
+<li><strong>Use Cases</strong>: Content management, ==product catalogs==, user profiles, ==e-commerce data==, and any application requiring hierarchical or complex data.</li>
+</ul>
+<h5 id="3-column-family-stores">3. <strong>Column-Family Stores</strong></h5>
+<p><img src="/mydocs/Pastedimage20241110125245.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<ul>
+<li><strong>Structure</strong>: Data is ==organized in rows and columns== but ==differs from relational databases in its storage structure, as columns are grouped into &ldquo;column families.&quot;==</li>
+<li><strong>Column Families</strong>: ==A column family is a container for rows, where each row can contain different columns within the same family. This model is optimized for reading and writing large datasets across distributed systems==.</li>
+<li><strong>Examples</strong>: ==Apache Cassandra, HBase, ScyllaDB.==</li>
+<li><strong>Use Cases</strong>: ==Real-time analytics, time-series data, recommendation engines, IoT data.==</li>
+</ul>
+<h5 id="4-graph-databases">4. <strong>Graph Databases</strong></h5>
+<ul>
+<li><strong>Structure</strong>: ==Data is stored in nodes, edges, and properties, representing entities, relationships, and attributes, respectively.==</li>
+<li><strong>Graph Model</strong>: Graph databases are ==optimized for complex relationships and connected data, making it easier to traverse relationships without complex joins.==</li>
+<li><strong>Examples</strong>: ==Neo4j, Amazon Neptune, ArangoDB,hygraph==.</li>
+<li><strong>Use Cases</strong>: ==Social networks, recommendation systems, fraud detection, network and supply chain analysis==.</li>
+</ul>
+<h4 id="core-concepts-in-nosql-databases"><strong>Core Concepts in NoSQL Databases</strong></h4>
+<h5 id="1-cap-theorem">1. <strong>CAP Theorem</strong></h5>
+<p><img src="/mydocs/Pastedimage20241107141853.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<ul>
+<li><strong>Definition</strong>: CAP Theorem states that a distributed data store ==cannot simultaneously guarantee <strong>Consistency</strong>, <strong>Availability</strong>, and <strong>Partition Tolerance</strong>==.</li>
+<li><strong>Choices in NoSQL</strong>: NoSQL databases often prioritize availability and partition tolerance, favoring eventual consistency over strict consistency.
+<ul>
+<li><strong>Consistency</strong>: All nodes have the same data at the same time.</li>
+<li><strong>Availability</strong>: The system is always available for read and write operations.</li>
+<li><strong>Partition Tolerance</strong>: The system continues to function even if there’s a network partition or communication breakdown.</li>
+</ul>
+</li>
+</ul>
+<h5 id="2-eventual-consistency-vs-strong-consistency">2. <strong>Eventual Consistency vs. Strong Consistency</strong></h5>
+<ul>
+<li><strong>Eventual Consistency</strong>: ==Data updates may not immediately reflect on all nodes==, but they eventually converge to a consistent state.</li>
+<li><strong>Strong Consistency</strong>: Ensures that once an update is made, ==all nodes see the latest value immediately.==</li>
+<li><strong>Trade-Off</strong>: Many NoSQL databases choose eventual consistency to optimize for availability and partition tolerance.</li>
+</ul>
+<h5 id="3-sharding">3. <strong>Sharding</strong></h5>
+<ul>
+<li><strong>Definition</strong>: Sharding is a technique ==used to partition data across multiple servers or nodes, improving scalability and performance==.</li>
+<li><strong>Horizontal Scaling</strong>: Sharding ==allows NoSQL databases to distribute data and load across multiple nodes==, enabling horizontal scaling.</li>
+<li><strong>Implementation</strong>: NoSQL databases like ==MongoDB and Cassandra== ==use sharding== to balance data across clusters.</li>
+</ul>
+<h5 id="4-replication">4. <strong>Replication</strong></h5>
+<ul>
+<li><strong>Definition</strong>: Replication involves ==creating multiple copies of data== on different nodes or data centers for fault tolerance.</li>
+<li><strong>High Availability</strong>: Replication ensures that if one node fails, other copies can still be accessed, making the system highly available.</li>
+<li><strong>Consistency Models</strong>: Replication strategies can affect consistency; some databases offer tunable consistency to balance speed and reliability.</li>
+</ul>
+<h4 id="advantages-and-disadvantages-of-nosql">Advantages and disadvantages of nosql</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Schema Flexibility</td>
+<td>Lack of ACID Transactions</td>
+</tr>
+<tr>
+<td>Horizontal Scalability</td>
+<td>Limited Query Capabilities</td>
+</tr>
+<tr>
+<td>Performance and speed</td>
+<td>[[Consistency trade-offs]]</td>
+</tr>
+<tr>
+<td>[[developer agencet]]</td>
+<td>[[Standardization Challenges]]</td>
+</tr>
+<tr>
+<td>High Availability</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="use-cases-for-nosql-databases"><strong>Use Cases for NoSQL Databases</strong></h4>
+<h5 id="1-big-data-applications">1. <strong>Big Data Applications</strong></h5>
+<ul>
+<li><strong>Description</strong>: NoSQL databases are ==ideal for handling large and diverse data==, ==such as logs, clickstream data, or IoT sensor data==.</li>
+<li><strong>Examples</strong>: Hadoop with ==HBase or Cassandra ==for ==high-throughput data storage and analysis.==</li>
+</ul>
+<h5 id="2-content-management-systems-cms">2. <strong>Content Management Systems (CMS)</strong></h5>
+<ul>
+<li><strong>Description</strong>: ==Document stores like MongoDB or Couchbase== are well-suited for CMS applications due to their schema flexibility.</li>
+<li><strong>Examples</strong>: ==Storing articles, product descriptions, images, and media assets.==</li>
+</ul>
+<h5 id="3-social-networking-and-graph-based-applications">3. <strong>Social Networking and Graph-Based Applications</strong></h5>
+<ul>
+<li><strong>Description</strong>: ==Graph databases like Neo4j== are optimized for storing and traversing complex relationships, which is essential for social networks.</li>
+<li><strong>Examples</strong>: Friend connections, recommendations, and influencer analysis.</li>
+</ul>
+<h5 id="4-e-commerce-applications">4. <strong>E-Commerce Applications</strong></h5>
+<ul>
+<li><strong>Description</strong>: NoSQL databases can handle product catalogs, inventory systems, and personalized recommendations, which need fast, flexible data access.</li>
+<li><strong>Examples</strong>: Redis or DynamoDB for shopping carts, product recommendations, and session storage.</li>
+</ul>
+<h5 id="5-real-time-analytics-and-monitoring">5. <strong>Real-Time Analytics and Monitoring</strong></h5>
+<ul>
+<li><strong>Description</strong>: In applications where real-time processing is critical, ==NoSQL databases like Cassandra or Redis provide high-performance, low-latency access.==</li>
+<li><strong>Examples</strong>: Monitoring dashboards, financial tick data, and sensor readings for IoT.</li>
+</ul>
+<h4 id="popular-nosql-databases-and-their-specializations"><strong>Popular NoSQL Databases and Their Specializations</strong></h4>
+<ol>
+<li><strong>MongoDB</strong>: Document-oriented, schema-less, JSON-like storage, ideal for flexible data.</li>
+<li><strong>Cassandra</strong>: Column-family store designed for high availability, used in real-time data applications.</li>
+<li><strong>Redis</strong>: In-memory key-value store, used for caching and real-time applications.</li>
+<li><strong>Neo4j</strong>: Graph database optimized for relationship-based data and queries.</li>
+<li><strong>DynamoDB</strong>: Amazon&rsquo;s managed key-value and document database, known for high scalability.</li>
+</ol>
+<h4 id="rdbms-vs-nosql">RDBMS VS NoSQL</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>RDBMS</th>
+<th>NoSQL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>==Relational== (tables with rows and columns)</td>
+<td>==Non-relational== (document, key-value, graph, or column family)</td>
+</tr>
+<tr>
+<td>==Fixed schema== (predefined structure)</td>
+<td>==Flexible schema== (dynamic and schema-less)</td>
+</tr>
+<tr>
+<td>==Enforces ACID properties== (Atomicity, Consistency, Isolation, Durability)</td>
+<td>Can support ACID in some cases but often relaxes consistency for scalability (BASE model)</td>
+</tr>
+<tr>
+<td>==Vertical scaling== (adding more power to a single server)</td>
+<td>==Horizontal scaling== (adding more servers)</td>
+</tr>
+<tr>
+<td>==Uses normalization== to reduce redundancy</td>
+<td>Often ==denormalized== for faster access</td>
+</tr>
+<tr>
+<td>SQL (==Structured Query Language==)</td>
+<td>==Varies by database== (e.g., MongoDB uses JSON-like query language)</td>
+</tr>
+<tr>
+<td>==Complex transactions and multi-row queries, consistency-critical applications==</td>
+<td>==Large-scale data, rapid development, unstructured or semi-structured data, real-time applications==</td>
+</tr>
+<tr>
+<td>==MySQL, PostgreSQL, Oracle, SQL Server==</td>
+<td>==MongoDB, Cassandra, Redis, Couchbase==</td>
+</tr>
+<tr>
+<td>==Stores data in tables== with relationships</td>
+<td>==Stores data as documents==, ==key-value pairs, graphs, or columns==</td>
+</tr>
+<tr>
+<td>May be ==slower== with very ==large== datasets</td>
+<td>Optimized for ==high-speed transactions== and large volumes of data</td>
+</tr>
+<tr>
+<td>==Supports JOIN operations== to relate data across tables</td>
+<td>Generally ==avoids JOINs==, uses embedded or linked data models instead</td>
+</tr>
+<tr>
+<td>==Strong transaction support== (multi-step transactions with rollback)</td>
+<td>Varies, ==typically lightweight transactions==, limited multi-document transactions</td>
+</tr>
+<tr>
+<td>==Strong consistency== by default</td>
+<td>==Often eventual consistency==, though some support strong consistency</td>
+</tr>
+<tr>
+<td>==Financial applications==, e-commerce, CRM</td>
+<td>==Social media, IoT, content management, big data applications==</td>
+</tr>
+<tr>
+<td>==Good at complex queries with multiple joins and aggregations==</td>
+<td>==Limited support for complex querying, may require custom code==</td>
+</tr>
+<tr>
+<td>==Row-based storage==</td>
+<td>==Document, key-value, graph, or column-based storage==</td>
+</tr>
+<tr>
+<td>==Established, mature technology with widespread use==</td>
+<td>==Newer, with rapid innovation and varied adoption==</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="nosql-solution-for-big-data">NoSQL Solution for big data</h4>
+<ul>
+<li>Bulk Image Processing</li>
+<li>Public web page Data</li>
+<li>Remote Sensor Data</li>
+<li>Event Log Data</li>
+<li>Mobile Phone Dhata</li>
+<li>Social Media Data</li>
+<li>Game Data</li>
+<li>Open Linked Data</li>
+</ul>
+<h4 id="explain-column-family-store-and-graph-store-nosql-architectural-pattern-with-example">Explain Column family store and Graph Store NoSQL architectural pattern with example.</h4>
+<p><img src="/mydocs/Pastedimage20241107165021.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>NoSQL databases are categorized based on their underlying data models and are optimized for specific use cases. The four primary types of NoSQL databases are:</p>
+<ol>
+<li><strong>Key-Value Store</strong></li>
+<li><strong>Document Store</strong></li>
+<li><strong>Column Family Store</strong></li>
+<li><strong>Graph Store</strong></li>
+</ol>
+<p>Let’s explore each in detail.</p>
+<hr />
+<h3 id="1-key-value-store">1. <strong>Key-Value Store</strong></h3>
+<p>Key-value stores are the simplest type of NoSQL database, designed to store data as a collection of ==key-value pairs==, ==similar to a dictionary or hash table==. Each key is unique and directly points to a single data value, making these stores efficient for read and write operations.</p>
+<ul>
+<li>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li>==Data is stored in a large hash table where each entry consists of a unique key and its associated value.==</li>
+<li>Values are usually ==opaque to the database==, meaning the database doesn’t interpret or structure them; they can be strings, binary data, JSON objects, or other formats.</li>
+<li>The database retrieves values using the keys directly, allowing for extremely fast lookups.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advantages</strong>:</p>
+<ul>
+<li>==Fast data access== and retrieval due to direct key lookups.</li>
+<li>==Simple structure, easy to scale horizontally==.</li>
+</ul>
+</li>
+<li>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>==Limited querying capabilities==; the database only supports key-based access.</li>
+<li>==Not ideal for complex queries or data relationships.
+==</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><strong>Redis</strong> and <strong>DynamoDB</strong> are popular key-value stores.</li>
+<li><strong>Use Case</strong>: Session management, caching, real-time analytics, and user profile storage.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="2-document-store">2. <strong>Document Store</strong></h3>
+<p>Document stores manage ==semi-structured data in a flexible format==, typically using documents encoded in ==JSON, BSON, XML==, or similar formats. Each document is a self-contained unit that can hold nested structures, arrays, and key-value pairs, allowing for flexible schema designs.</p>
+<ul>
+<li>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li>==Data is stored in &ldquo;documents&rdquo;== within &ldquo;collections&rdquo; instead of rows and tables.</li>
+<li>Each ==document is identified by a unique key== and can contain various fields, sub-documents, and arrays.</li>
+<li>Document databases ==support flexible schemas==, meaning documents in the same collection can have different structures.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advantages</strong>:</p>
+<ul>
+<li>==Flexibility== in handling varied data structures.</li>
+<li>Ideal for applications with complex data models or evolving requirements, as schema changes don’t disrupt existing data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>==Not suitable for applications that require strict ACID compliance.==</li>
+<li>==Joins and complex relationships== can be ==challenging== to implement.</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><strong>MongoDB</strong>, <strong>Couchbase</strong>, and <strong>Amazon DocumentDB</strong>.</li>
+<li><strong>Use Case</strong>: Content management systems, e-commerce catalogs, and applications requiring high flexibility in data storage.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="3-column-family-store-column-oriented-database">3. <strong>Column Family Store (Column-Oriented Database)</strong></h3>
+<p>Column family stores, or column-oriented databases, ==organize data into column families instead of rows==. This approach allows for ==highly optimized storage== and retrieval of data, especially for read-heavy applications with specific columns frequently accessed together.</p>
+<ul>
+<li>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li>==Data is grouped by column families==, which are collections of related columns.</li>
+<li>Each row can contain different columns, allowing flexible data storage.</li>
+<li>Rows are typically distributed across nodes, allowing for horizontal scaling and data redundancy.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advantages</strong>:</p>
+<ul>
+<li>==Optimized for fast retrieval of specific columns==, making it suitable for analytical workloads.</li>
+<li>Allows for efficient data compression due to columnar storage.</li>
+</ul>
+</li>
+<li>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>Limited support for complex querying; ==JOIN operations are generally not supported.==</li>
+<li>Requires knowledge of access patterns for effective data modeling.</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><strong>Apache Cassandra</strong>, <strong>HBase</strong>, and <strong>ScyllaDB</strong>.</li>
+<li><strong>Use Case</strong>: Time-series data, real-time analytics, logging systems, and recommendation engines.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="4-graph-store">4. <strong>Graph Store</strong></h3>
+<p>Graph stores focus on representing data as ==interconnected nodes and edges==, ideal for applications where ==relationships between data points are essential==. These databases are optimized for traversing and querying connections, such as finding the ==shortest path between nodes or identifying relationship patterns==.</p>
+<ul>
+<li>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li>Data is represented as nodes (entities) and edges (relationships) with properties (attributes) attached to both nodes and edges.</li>
+<li>Graph databases are designed to handle and optimize graph traversal operations, enabling efficient execution of relationship-based queries.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advantages</strong>:</p>
+<ul>
+<li>Provides high performance for queries involving relationships and connections between data.</li>
+<li>Supports complex relationship models that are difficult to represent in traditional databases.</li>
+</ul>
+</li>
+<li>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>Not ideal for applications where data is not inherently graph-like.</li>
+<li>Can be more complex to scale horizontally compared to other NoSQL types.</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><strong>Neo4j</strong>, <strong>Amazon Neptune</strong>, and <strong>ArangoDB</strong>.</li>
+<li><strong>Use Case</strong>: Social networks, recommendation engines, fraud detection, and network analysis.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="summary-of-use-cases-by-database-type">Summary of Use Cases by Database Type</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>NoSQL Type</th>
+<th>Ideal Use Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Key-Value Store</strong></td>
+<td>Session storage, caching, real-time analytics</td>
+</tr>
+<tr>
+<td><strong>Document Store</strong></td>
+<td>Content management, e-commerce, catalogs</td>
+</tr>
+<tr>
+<td><strong>Column Family Store</strong></td>
+<td>Time-series data, logging, recommendation engines</td>
+</tr>
+<tr>
+<td><strong>Graph Store</strong></td>
+<td>Social networks, fraud detection, network analysis</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each type of NoSQL database is optimized for different types of data and use cases, providing flexibility and performance for specific application needs.</p>
+<p><img src="/mydocs/Pastedimage20241107172721.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+>
+Distribute query to all the data node</p>
+<p>Letting the database distribute queries evenly to data nodes</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

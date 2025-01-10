@@ -1,3 +1,8 @@
+---
+title: viva Deep learning
+date: 2024-12-20
+---
+
 
 ### 1. **Definition**:
    - Deep learning is a subset of machine learning that uses neural networks with multiple layers to model complex patterns.

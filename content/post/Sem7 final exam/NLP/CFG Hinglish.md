@@ -1,3 +1,8 @@
+---
+title: NLP CFG Hinglish
+date: 2024-12-20
+---
+
 Bhai, CFG ka full form hai **Context-Free Grammar**, aur yeh ek **set of rules** hai jo kisi bhi language (jaise English, Python code, ya ek chatbot ka syntax) ka structure define karta hai. Agar tu sentence ko "legally" banana chahta hai, toh CFG ke rules ko follow karna zaroori hai. Chhote chhote rules ko mila ke bade sentences bante hain. Chal, isko ekdum chill way mein samajhte hain!
 
 ---

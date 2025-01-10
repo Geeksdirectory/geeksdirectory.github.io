@@ -1,3 +1,8 @@
+---
+title: interview Ibm
+date: 2025-01-10
+---
+
 
 # [[IBM Coding Questions]]
 

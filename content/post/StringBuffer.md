@@ -1,3 +1,8 @@
+---
+title: post StringBuffer
+date: 2024-12-22
+---
+
 Bilkul bhai, **StringBuffer** ko bhi simple example aur clear explanation ke saath samjhata hoon. Agar tu StringBuilder samajh gaya hai, to StringBuffer samajhna aur bhi easy ho jayega, kyunki dono kaafi similar hain.
 
 ---

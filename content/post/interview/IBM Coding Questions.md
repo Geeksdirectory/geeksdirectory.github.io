@@ -1,3 +1,8 @@
+---
+title: interview IBM Coding Questions
+date: 2025-01-10
+---
+
 ### 1.  program to find the HCF/GCD of 2 numbers without using recursion.
 
 ```java

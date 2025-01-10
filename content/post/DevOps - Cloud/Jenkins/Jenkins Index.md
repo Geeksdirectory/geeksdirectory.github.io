@@ -1,3 +1,8 @@
+---
+title: Jenkins Jenkins Index
+date: 2025-01-10
+---
+
 
 ## Setting up jenkins using Docker
 

@@ -1,3 +1,8 @@
+---
+title: AZ-104 User defined routes
+date: 2025-01-10
+---
+
 
 In **Microsoft Azure**, a **User-Defined Route (UDR)** ==allows users to customize how network traffic is routed within their virtual networks.== Azure automatically creates default system routes for traffic, but in some scenarios, you may need more control over the traffic flow. A UDR gives you this control.
 

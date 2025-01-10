@@ -1,3 +1,8 @@
+---
+title: NLP n-gram
+date: 2025-01-10
+---
+
 
 **N-Grams** are a fundamental concept in Natural Language Processing (NLP), ==representing contiguous sequences of N items (words, characters, or other tokens) from a given text or speech==. They are commonly used for tasks like text analysis, predictive modeling, and language modeling.
 

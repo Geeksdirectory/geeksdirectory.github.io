@@ -1,3 +1,8 @@
+---
+title: DSA Binary search Algorithm
+date: 2025-01-10
+---
+
 https://youtu.be/f6UU7V3szVw?si=26WxPdb9UAUEqpAx
 
 - Used for sorted arrays

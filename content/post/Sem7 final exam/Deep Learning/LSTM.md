@@ -1,3 +1,8 @@
+---
+title: Deep Learning LSTM
+date: 2025-01-10
+---
+
 LSTM, or ==Long Short-Term Memory==, is a ==type of Recurrent Neural Network== (RNN) architecture ==designed to address the limitations of traditional RNNs==, ==particularly with long-term dependencies and the vanishing gradient problem==. LSTMs were introduced by Sepp Hochreiter and Jürgen Schmidhuber in ==1997== and have since become widely used in ==sequence-based tasks== like language modeling, machine translation, and time series analysis. Here’s a detailed breakdown of how LSTMs work and their components:
 
 ---

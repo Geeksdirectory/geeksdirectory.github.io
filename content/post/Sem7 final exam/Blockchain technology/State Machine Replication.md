@@ -1,3 +1,8 @@
+---
+title: Blockchain technology State Machine Replication
+date: 2024-12-20
+---
+
 ### **State Machine Replication (SMR) in Detail** [[Hinglish smr]]
 
 **State Machine Replication (SMR)** is a distributed computing technique that ensures fault tolerance and consistency across a network of nodes by maintaining multiple ==replicas== ==of a **state machine**==. Each replica processes the same sequence of operations (or transactions) in the same order, ensuring they all stay in sync with one another.

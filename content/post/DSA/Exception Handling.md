@@ -1,3 +1,8 @@
+---
+title: DSA Exception Handling
+date: 2025-01-03
+---
+
 - **Exception**: An event that disrupts the normal flow of a program (e.g., divide by zero, accessing an invalid array index, etc.).
 - **Exception Handling**: Process of handling runtime errors gracefully without crashing the program.
 

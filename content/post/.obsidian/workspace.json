@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IA 2 Exam/BDA Assignment.md",
+                "file": "Java Learning/Best, average, worst cases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BDA Assignment"
+              "title": "Best, average, worst cases"
             }
           }
         ]
@@ -171,7 +171,21 @@
   },
   "active": "de290c2961190742",
   "lastOpenFiles": [
+    "Java Learning/Big O notation.md",
+    "Java Learning/Best, average, worst cases.md",
+    "DSA/Binary search in 2d arrays.md",
+    "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
+    "DSA/Binary search Algorithm.md",
+    "DSA/Binary Search Algo Questions.md",
+    "DSA/Arrays.md",
+    "DSA/Array list vs linked list.md",
+    "DSA/2. Conditions and loops.md",
+    "DSA/1. Linked List.md",
+    "certifications/Github foundation.md",
+    "0. Index.md",
     "Kubernates/1. Introduction.md",
+    "IA 2 Exam/BDA Assignment.md",
+    "titleformater.py",
     "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
     "Kubernates/Pastedimage20250108220716.png",
     "hackathons/PastedImage20241224130059_801.png",
@@ -188,34 +202,21 @@
     "linkconverter.py",
     "Untitled.md",
     "Kubernates",
-    "DSA/Binary Search Algo Questions.md",
     "DSA/0. DSA Index.md",
     "fusion/Work done till now.md",
-    "DSA/Binary search Algorithm.md",
     "Java Learning/sorting in java.md",
     "DSA/File io operations.md",
     "DSA/Leetcode.md",
     "Java Learning/3. Time and Space Complexity.md",
     "DSA/Super 30.md",
-    "Java Learning/Best, average, worst cases.md",
     "interview/1. Interview Index.md",
     "DSA/loops questions for interviews.md",
-    "Java Learning/Big O notation.md",
-    "Projects/fusion flux.md",
-    "DSA/Arrays.md",
-    "DSA/Hashset vs Treeset.md",
-    "DSA/Hashmap vs Treemap.md",
-    "DSA/Exception Handling.md",
-    "File I/O Operations.md",
     "File I",
-    "DSA/Array list vs linked list.md",
-    "AZ-104/1. Azure Index.md",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
     "interview/Untitled",
     "hackathons",
     "todo",
-    "free certifications",
-    "DevOps - Cloud/devops roadmap 1.pdf"
+    "free certifications"
   ]
 }

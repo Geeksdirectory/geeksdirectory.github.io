@@ -1,3 +1,8 @@
+---
+title: NLP Rule-Based Tagging
+date: 2025-01-10
+---
+
 **Rule-Based POS Tagging** is a traditional approach in Natural Language Processing (NLP) that assigns part-of-speech tags to words based on a set of handcrafted linguistic rules. These rules are created using grammatical patterns and word properties, such as word endings, prefixes, and surrounding context.
 
 ---

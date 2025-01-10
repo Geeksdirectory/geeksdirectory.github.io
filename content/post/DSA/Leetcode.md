@@ -1,3 +1,8 @@
+---
+title: DSA Leetcode
+date: 2025-01-10
+---
+
 # mandabuddhi approach
 
 ![alt text](Pastedimage20250103181102.png)

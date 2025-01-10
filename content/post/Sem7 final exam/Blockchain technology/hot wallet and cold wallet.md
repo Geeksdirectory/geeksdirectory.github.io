@@ -1,3 +1,8 @@
+---
+title: Blockchain technology hot wallet and cold wallet
+date: 2024-12-20
+---
+
 ### **Difference Between Hot Wallet and Cold Wallet**
 
 |**Aspect**|**Hot Wallet**|**Cold Wallet**|

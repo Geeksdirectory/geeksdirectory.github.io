@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Architecture of Ethereum
+date: 2025-01-10
+---
+
 
 
 ![alt text](Pastedimage20241208115210.png)

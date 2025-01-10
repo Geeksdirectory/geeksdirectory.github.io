@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Blockchain
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241205114948.png)
 ### **Blockchain Architecture and Main Components**
 

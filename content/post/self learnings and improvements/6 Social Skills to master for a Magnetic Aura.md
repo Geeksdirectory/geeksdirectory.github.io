@@ -1,3 +1,8 @@
+---
+title: self learnings and improvements 6 Social Skills to master for a Magnetic Aura
+date: 2024-12-20
+---
+
 
 ### understanding the social dynamics
 

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Arrray on GeeksDirectory</title>
-        <link>http://localhost:1313/categories/arrray/</link>
+        <link>http://localhost:1313/mydocs/categories/arrray/</link>
         <description>Recent content in Arrray on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/arrray/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/categories/arrray/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Array question placement java</title>
-        <link>http://localhost:1313/post/array-question-placement-java/</link>
+        <link>http://localhost:1313/mydocs/post/java-learning/array-question-placement-java/</link>
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/array-question-placement-java/</guid>
+        <guid>http://localhost:1313/mydocs/post/java-learning/array-question-placement-java/</guid>
         <description>&lt;h2 id=&#34;1--compare-two-arrays-in-java&#34;&gt;1.  Compare Two Arrays in Java&lt;/h2&gt;
 &lt;p&gt;While comparing two arrays we can not use “ == ” operator as it will compare the addresses of the memory block to which both the arrays are pointing.&lt;/p&gt;
 &lt;p&gt;A simple way is to run a loop and compare elements one by one. Java provides a direct method &lt;em&gt;Arrays.equals()&lt;/em&gt; to compare two arrays. Actually, there is a list of equals() methods in the Arrays class for different primitive types (int, char, ..etc) and one for Object type (which is the base of all classes in Java).&lt;/p&gt;

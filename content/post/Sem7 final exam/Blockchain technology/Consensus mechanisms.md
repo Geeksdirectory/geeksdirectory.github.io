@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Consensus mechanisms
+date: 2025-01-10
+---
+
 Consensus mechanisms are protocols that ==ensure all participants (or nodes) in a distributed blockchain network agree on the validity of transactions and the state of the ledger.== They ensure trust and prevent issues like **double spending** or malicious actions without a central authority.
 
 Here are the three most common consensus mechanisms explained in detail:

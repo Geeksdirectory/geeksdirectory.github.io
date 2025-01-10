@@ -1,3 +1,8 @@
+---
+title: DSA Linear Search Algorithm
+date: 2025-01-10
+---
+
 
 https://youtu.be/_HRA37X8N_Q?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ
 

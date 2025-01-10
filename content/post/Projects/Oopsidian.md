@@ -1,3 +1,8 @@
+---
+title: Projects Oopsidian
+date: 2024-12-20
+---
+
 ## code of app.tsx with tailwind css
 
 ```typescript

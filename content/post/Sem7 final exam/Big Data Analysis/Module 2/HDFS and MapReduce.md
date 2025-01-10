@@ -1,3 +1,8 @@
+---
+title: Module 2 HDFS and MapReduce
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241106170212.png)
 
 

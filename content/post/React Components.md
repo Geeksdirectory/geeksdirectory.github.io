@@ -1,3 +1,8 @@
+---
+title: post React Components
+date: 2024-12-24
+---
+
 [[react components hinglsih]]
 
 ### **What Are React Components?**

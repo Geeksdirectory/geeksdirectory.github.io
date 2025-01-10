@@ -1,3 +1,8 @@
+---
+title: Blockchain technology how proof of work solves  the problem of double spending
+date: 2025-01-10
+---
+
 
 # [[Hinglish Double spending]]
 

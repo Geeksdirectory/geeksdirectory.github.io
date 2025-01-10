@@ -1,3 +1,8 @@
+---
+title: Linux Linux Index
+date: 2025-01-03
+---
+
 
 git all permissions to perticular dir
 

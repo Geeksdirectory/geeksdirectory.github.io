@@ -1,3 +1,8 @@
+---
+title: self learnings and improvements Greatest Comeback
+date: 2024-12-20
+---
+
 1. fix a ==goal== || be excellent || practical achievable goals
 2. Disappearing (==sacrifice every bad thing==, that i like)
 3. ==never discuss any of the goal with anybody==  { don't tell -- just do it }

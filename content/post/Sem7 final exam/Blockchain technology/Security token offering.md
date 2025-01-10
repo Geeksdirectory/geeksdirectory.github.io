@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Security token offering
+date: 2024-12-20
+---
+
 ### **What is a Security Token Offering (STO)?**
 
 A **Security Token Offering (STO)** is a fundraising method in which companies issue **security tokens** to investors. Unlike **Initial Coin Offerings (ICOs)**, which typically involve utility tokens, **STOs** are backed by real-world assets, such as equity, real estate, or debt. Security tokens represent ownership or a stake in a project, making them subject to securities regulations. They provide investors with rights and claims to the underlying assets, such as dividends, voting rights, or profit-sharing.

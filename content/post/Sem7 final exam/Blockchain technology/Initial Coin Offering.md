@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Initial Coin Offering
+date: 2024-12-20
+---
+
 ### **What is an Initial Coin Offering (ICO)?**
 
 An **Initial Coin Offering (ICO)** is a fundraising mechanism used by cryptocurrency startups to raise capital. It allows developers to sell a portion of their cryptocurrency or tokens to early investors in exchange for capital, typically in the form of Bitcoin (BTC), Ethereum (ETH), or fiat currency.

@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Components of Blocks in blockchain
+date: 2024-12-20
+---
+
 A **block** in a blockchain is a container for ==storing a batch of transactions or data==, along with ==metadata== that links it to other blocks in the chain. Here are the key components of a block in a blockchain:
 
 ---

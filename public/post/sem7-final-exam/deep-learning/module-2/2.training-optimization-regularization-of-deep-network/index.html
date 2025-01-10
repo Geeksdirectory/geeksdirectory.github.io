@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='MUlti Layered Feed forward network = [[feedforward]] Learning factor In deep learning, the learning factor, commonly called the ==learning rate==, controls ==how much the model&amp;rsquo;s weights are adjusted in response to the estimated error for each iteration.== It is a crucial ==hyperparameter== that determines the size of steps taken towards minimizing the loss function.
+High learning rate: Faster training but risks ==overshooting== the optimal solution, potentially missing out on accuracy.'>
+<title>Module 2 2 Training, optimization, Regularization of Deep network</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-2/2.training-optimization-regularization-of-deep-network/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='Module 2 2 Training, optimization, Regularization of Deep network'>
+<meta property='og:description' content='MUlti Layered Feed forward network = [[feedforward]] Learning factor In deep learning, the learning factor, commonly called the ==learning rate==, controls ==how much the model&amp;rsquo;s weights are adjusted in response to the estimated error for each iteration.== It is a crucial ==hyperparameter== that determines the size of steps taken towards minimizing the loss function.
+High learning rate: Faster training but risks ==overshooting== the optimal solution, potentially missing out on accuracy.'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-2/2.training-optimization-regularization-of-deep-network/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-10T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Module 2 2 Training, optimization, Regularization of Deep network">
+<meta name="twitter:description" content="MUlti Layered Feed forward network = [[feedforward]] Learning factor In deep learning, the learning factor, commonly called the ==learning rate==, controls ==how much the model&amp;rsquo;s weights are adjusted in response to the estimated error for each iteration.== It is a crucial ==hyperparameter== that determines the size of steps taken towards minimizing the loss function.
+High learning rate: Faster training but risks ==overshooting== the optimal solution, potentially missing out on accuracy.">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#multi-layered-feed-forward-network---feedforward">MUlti Layered Feed forward network =  [[feedforward]]</a></li>
+        <li><a href="#learning-factor">Learning factor</a></li>
+        <li><a href="#activation-functions">[[Activation Functions]]</a></li>
+        <li><a href="#loss-function">Loss Function</a></li>
+        <li><a href="#optimization-techniques">Optimization techniques</a></li>
+        <li><a href="#_1-gradient-descent_"><strong><em>1. Gradient Descent</em></strong></a></li>
+        <li><a href="#2-stochastic-gradient-descent-sgd">2. Stochastic Gradient Descent (SGD)</a></li>
+        <li><a href="#3-mini-batch--stochastic-gradient-descent">3. Mini Batch — Stochastic Gradient Descent</a></li>
+        <li><a href="#4adagrad">4.AdaGrad</a></li>
+        <li><a href="#5-rmsprop-root-mean-square-propagation">5. RMSprop (Root Mean Square Propagation)</a></li>
+        <li><a href="#adam-adaptive-moment-estimation">Adam (Adaptive Moment Estimation)</a></li>
+        <li><a href="#overfitting">overfitting:</a></li>
+        <li><a href="#bias">Bias</a></li>
+        <li><a href="#variance">Variance</a></li>
+        <li><a href="#the-bias-variance-tradeoff">The Bias-Variance Tradeoff</a></li>
+        <li><a href="#regularization-in-dl">Regularization in DL</a></li>
+        <li><a href="#why-use-regularization">Why Use Regularization?</a></li>
+        <li><a href="#l1-and-l2-regularization">L1 and L2 Regularization</a></li>
+        <li><a href="#parameter-sharing">Parameter sharing</a></li>
+        <li><a href="#dropout-in-deeplearning">Dropout in Deeplearning</a></li>
+        <li><a href="#weight-decay--l2-regularization-">Weight Decay ( L2 regularization )</a></li>
+        <li><a href="#batch-normalization">Batch Normalization</a></li>
+        <li><a href="#early-stopping">Early Stopping</a></li>
+        <li><a href="#data-augmentation">Data augmentation</a></li>
+        <li><a href="#adding-noise-to-input--gaussian-noise">Adding Noise to Input  (Gaussian noise)</a></li>
+        <li><a href="#adding-noise-to-output-label-smoothing">Adding Noise to Output (Label Smoothing)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/sem7-final-exam/deep-learning/module-2/2.training-optimization-regularization-of-deep-network/">Module 2 2 Training, optimization, Regularization of Deep network</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 10, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    18 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><img src="/mydocs/Pastedimage20241101183551.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="multi-layered-feed-forward-network---feedforward">MUlti Layered Feed forward network =  [[feedforward]]</h3>
+<hr />
+<h3 id="learning-factor">Learning factor</h3>
+<p>In deep learning, the learning factor, commonly called the ==learning rate==, controls ==how much the model&rsquo;s weights are adjusted in response to the estimated error for each iteration.== It is a crucial ==hyperparameter== that determines the size of steps taken towards minimizing the loss function.</p>
+<ul>
+<li><strong>High learning rate</strong>: Faster training but risks ==overshooting== the optimal solution, potentially missing out on accuracy.</li>
+<li><strong>Low learning rate</strong>: ==More precise convergence== but ==slower training== and risk of getting ==stuck in local minima==.</li>
+</ul>
+<p>The factors that improve the convergence of EBPTA (error backprapogation Through Activation ) are called as learning factors</p>
+<p>The factors are as follows:</p>
+<ol>
+<li>Initial weights</li>
+<li>Steepness of activation function</li>
+<li>Learing constant</li>
+<li>Momentum</li>
+<li>Network architecture</li>
+<li>Necessary number of hidden neurons</li>
+</ol>
+<p>1. Initial weights:</p>
+<ul>
+<li>The weights of the network to be trained are typically initialized at small random values.</li>
+<li>The initialization strongly affects the ultimate solution</li>
+</ul>
+<p>2. Steepness of activation function</p>
+<ul>
+<li>The neuron’s continuous activation function is characterized by its steepness factor</li>
+<li>Also the derivatice of the activation function serves as a multiplying factor in building components of the error signal vectors.</li>
+</ul>
+<p>3. Learing constant:</p>
+<ul>
+<li>The effectiveness and convergence of the error back propagation learning algorithm depen significantly on the value of the learning constant.</li>
+</ul>
+<p>4. Momentum:</p>
+<ul>
+<li>The purpose of the momentum method is ti ==accelerate the convergence== of the error back propagation learning algorithm.</li>
+<li>The method involves supplementing the current weight adjustment with a fraction of the most recent weight adjustment.</li>
+</ul>
+<p>5. Network architecture:</p>
+<ul>
+<li>One of the most important attributes if a layerd neural network design is choosing the architecture</li>
+<li>The number of input nodes is simply determined by the dimension or size of the input vector to be classified. The input vector size usually corresponds to the total number of distinct features of the input patterns.</li>
+</ul>
+<p>6. Necessary number of hidden neurons:</p>
+<ul>
+<li>This problem of choice of size of the hidden layer is under intensive study with no conclusive answers available.</li>
+<li>One formula can be used to find out how many hidden layer neurons need to be used to achieve classification into M classes in x dimensional patterns space.</li>
+</ul>
+<hr />
+<h3 id="activation-functions">[[Activation Functions]]</h3>
+<hr />
+<h3 id="loss-function">Loss Function</h3>
+<p>a <em>loss function</em> ==quantifies the difference between a model&rsquo;s predictions and the actual target values==. It guides the training process by providing a ==feedback signal== that allows the model to ==adjust its weights to minimize error==. Choosing an appropriate loss function is crucial and often depends on the type of problem ==(e.g., regression vs. classification)== and the output layer&rsquo;s activation function.</p>
+<p><img src="/mydocs/Pastedimage20241102190302.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><img src="/mydocs/Pastedimage20241102192122.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+>
+<strong>Output Activation</strong>:</p>
+<ul>
+<li><strong>Binary Classification</strong>: Use a ==<em>sigmoid</em> activation== function in the output layer, which outputs values ==between 0 and 1==, making it suitable for binary cross-entropy.</li>
+<li><strong>Multi-Class Classification</strong>: Use ==<em>softmax</em> activation== in the output layer to produce a probability distribution over classes, suitable for categorical cross-entropy.</li>
+</ul>
+<h4 id="choosing-the-right-output-function-and-loss-function">Choosing the Right Output Function and Loss Function</h4>
+<p>The choice of output layer activation and loss function combination depends on the task type:</p>
+<ul>
+<li>
+<p><strong>Regression</strong>:</p>
+<ul>
+<li><strong>Output Activation</strong>: None (linear output layer).</li>
+<li><strong>Loss Function</strong>: Mean Squared Error (MSE) or Mean Absolute Error (MAE).</li>
+</ul>
+</li>
+<li>
+<p><strong>Binary Classification</strong>:</p>
+<ul>
+<li><strong>Output Activation</strong>: Sigmoid function, which outputs probabilities between 0 and 1.</li>
+<li><strong>Loss Function</strong>: Binary Cross-Entropy Loss.</li>
+</ul>
+</li>
+<li>
+<p><strong>Multi-Class Classification</strong>:</p>
+<ul>
+<li><strong>Output Activation</strong>: Softmax function, which outputs a probability distribution across multiple classes.</li>
+<li><strong>Loss Function</strong>: Categorical Cross-Entropy Loss.</li>
+</ul>
+</li>
+</ul>
+<h4 id="why-matching-the-output-activation-and-loss-function-matters">Why Matching the Output Activation and Loss Function Matters</h4>
+<p>The correct pairing ensures that the model outputs match the range and interpretation needed by the loss function. For example, if a sigmoid activation is paired with binary cross-entropy, the loss function expects outputs between 0 and 1, ==which aligns with the sigmoid’s output range==. Similarly, ==softmax aligns well with categorical cross-entropy, as both deal with probabilistic outputs over multiple classes.==</p>
+<h3 id="optimization-techniques">Optimization techniques</h3>
+<p>In deep learning, <em>optimization techniques</em> are ==crucial for adjusting a model&rsquo;s weights to minimize the loss function==, ==helping the model to learn effectively and generalize well==. These techniques ==focus on optimizing gradient descent==, the core algorithm for training neural networks.</p>
+<blockquote>
+<p>In simple words, Optimization algorithms are responsible for reducing losses and provide most accurate results possible. The weight is initialized using some initialization strategies and is updated with each epoch according to the equation. The best results are achieved using some optimization strategies or algorithms called Optimizer.</p>
+</blockquote>
+<p><img src="/mydocs/Pastedimage20241102195443.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="_1-gradient-descent_"><strong><em>1. Gradient Descent</em></strong></h3>
+<p><img src="/mydocs/Pastedimage20241102195512.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h6 id="iterative-algorithm-starts-from-a-random-point-on-the-function-and-traverses-down-its-slope-in-steps-until-it-reaches-lowest-point-of-that-function">==Iterative algorithm==, ==starts from a random point on the function== and ==traverses down its slope in steps until it reaches lowest point of that function.</h6>
+<p>==
+<img src="/mydocs/Pastedimage20241102195947.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>This algorithm is ==apt for cases== where ==optimal points cannot be found by equating the slope of the function to 0==. For the function to reach minimum value, the weights should be altered. ==With the help of back propagation, loss is transferred from one layer to another and “weights” parameter are also modified depending on loss so that loss can be minimized==.</p>
+<p><img src="/mydocs/Pastedimage20241102195632.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><img src="/mydocs/Pastedimage20241102200107.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>Drawbacks of GD</p>
+<ul>
+<li>As for Gradient Descent algorithm, the entire data set is loaded at a time. This makes it ==computationally intensive==</li>
+<li>there are chances the iteration values may get ==stuck at local minima== or saddle point and never converge to minima. To obtain the best solution, ==the must reach global minima.==</li>
+</ul>
+<h3 id="2-stochastic-gradient-descent-sgd">2. Stochastic Gradient Descent (SGD)</h3>
+<p>==Extension of GD== , overcomes disadvantages of GD</p>
+<p>SGD tries to overcome the disadvantage of ==computationally intensive by computing the derivative of one point at a time==
+Due to this fact, SGD takes more number of iterations compared to GD to reach minimum and also contains some noise when compared to Gradient Descent
+As SGD computes derivatives of only 1 point at a time, the time taken to complete one epoch is large compared to Gradient Descent algorithm.</p>
+<p><img src="/mydocs/Pastedimage20241102195928.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="3-mini-batch--stochastic-gradient-descent">3. Mini Batch — Stochastic Gradient Descent</h3>
+<p>==MB-SGD is an extension of SGD algorithm==. It overcomes the time-consuming complexity of SGD by taking a batch of points / subset of points from dataset to compute derivative.</p>
+<blockquote>
+<p>[!NOTE]
+It is observed that the derivative of loss function of MB-SGD is similar to the loss function of GD after some iterations. But the number iterations to achieve minima in MB-SGD is large compared to GD and is computationally expensive. The update of weights in much noisier because the derivative is not always towards minima.</p>
+</blockquote>
+<h3 id="4adagrad">4.AdaGrad</h3>
+<p>AdaGrad is an effective algorithm for specific cases with ==sparse data or high-dimensional feature spaces==, but its dim==inishing learning rate can be a drawbac==k for ==general-purpose deep learning tasks.==</p>
+<p><strong>AdaGrad</strong> (Adaptive Gradient Algorithm) is an optimization algorithm in deep learning that ==adapts the learning rate for each parameter individually== based on the ==historical gradients for that parameter==</p>
+<p><strong>Adaptive Learning Rate</strong>: Unlike standard gradient descent, ==AdaGrad modifies the learning rate for each parameter based on how frequently that parameter has been updated in the past.==</p>
+<p><img src="/mydocs/Pastedimage20241102202415.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Gradient Accumulation</strong>: $G_t​$ is an accumulated sum of squared gradients over all previous steps, meaning parameters with high gradients slow down due to larger denominators, while parameters with lower gradients can speed up</p>
+<p>==<strong>Good for Sparse Data</strong>:== AdaGrad performs well in situations with sparse features, such as natural language processing, where certain parameters (like rare words) may update infrequently. The adaptive nature of AdaGrad allows these rarely updated parameters to take larger steps.</p>
+<h4 id="limitations">Limitations:</h4>
+<ul>
+<li>Learning Rate Decay</li>
+<li>diminishing learning rate problem</li>
+</ul>
+<p><strong>Applications</strong>: AdaGrad is commonly used in scenarios with sparse data or where certain parameters require significantly different learning rates. However, because of its diminishing learning rate, it is less commonly used in deep networks without modification.</p>
+<h3 id="5-rmsprop-root-mean-square-propagation">5. RMSprop (Root Mean Square Propagation)</h3>
+<p>optimization technique designed to address AdaGrad&rsquo;s diminishing learning rate problem, especially useful in deep learning tasks like training recurrent neural networks.</p>
+<p>RMSprop uses an exponentially decaying average of past squared gradients to adjust the learning rate, preventing it from decaying too fast.</p>
+<p>formula
+$$
+E[g2]t​=γE[g2]t−1​+(1−γ)⋅gt2​ θt+1=θt−ηE[g2]t+ϵ⋅gt\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{E[g^2]_t + \epsilon}} \cdot g_tθt+1​=θt​−E[g2]t​+ϵ
+$$</p>
+<p>where:</p>
+<ul>
+<li>E[g2]tE[g^2]_tE[g2]t​ is the exponentially decaying average of past squared gradients,</li>
+<li>gtg_tgt​ is the gradient at step ttt,</li>
+<li>γ\gammaγ (decay rate) is typically set around 0.9,</li>
+<li>η\etaη is the learning rate,</li>
+<li>ϵ\epsilonϵ is a small constant for numerical stability.</li>
+</ul>
+<p>The exponential decay keeps the learning rate from becoming too small over time, making RMSprop ==suitable for non-stationary objectives==</p>
+<p><strong>Applications</strong>: RMSprop is widely used for tasks like training recurrent neural networks (RNNs) and other deep models that benefit from adaptive learning rates.</p>
+<h3 id="adam-adaptive-moment-estimation">Adam (Adaptive Moment Estimation)</h3>
+<p><strong>Adam</strong> combines the ideas of both momentum and RMSprop, making it one of the most popular and effective optimization algorithms in deep learning.</p>
+<p>Adam maintains two moving averages: one for the gradient ==(momentum)== and one for the squared gradient ==(adaptive learning rate).==</p>
+<p>==<strong>Bias Correction</strong>:== The bias correction ensures stable updates, especially in the early training stages when the moment estimates may be biased toward zero.</p>
+<p>==<strong>Combines RMSprop and Momentum</strong>==: Adam combines the per-parameter adaptive learning rate from RMSprop and the momentum concept, ==making it very effective for complex, noisy, and sparse data.==</p>
+<p><strong>Applications</strong>: Adam is widely used across various deep learning tasks, including ==CNNs, RNNs==, and large networks. Its robustness and ease of tuning make it a go-to optimizer.</p>
+<p><img src="/mydocs/Pastedimage20241102203543.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+>
+<img src="/mydocs/Pastedimage20241102203535.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="overfitting">overfitting:</h3>
+<p><strong>Overfitting</strong> in deep learning (and machine learning) occurs when a ==model learns the training data too well, capturing noise and random fluctuations==rather than the underlying pattern. This results in excellent performance on the training data but ==poor generalization to new, unseen data==, as the model has essentially &ldquo;memorized&rdquo; the training examples rather than learning general rules.</p>
+<ul>
+<li>
+<p><strong>Symptoms</strong>:</p>
+<ul>
+<li>High accuracy on training data but low accuracy on validation/test data.</li>
+<li>Increasing gap between training and validation error over epochs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Causes</strong>:</p>
+<ul>
+<li><strong>Complex Model</strong>: Using a model that has too many parameters relative to the amount of training data (e.g., very deep networks on small datasets).</li>
+<li><strong>Insufficient Data</strong>: A small or non-representative training dataset can lead to a model that only works well on specific examples.</li>
+<li><strong>Too Many Training Epochs</strong>: Training for too long can cause the model to start fitting to noise in the data rather than general patterns.</li>
+</ul>
+</li>
+</ul>
+<h4 id="solutions-to-overfitting"><strong>Solutions to Overfitting</strong>:</h4>
+<ul>
+<li><strong>==Regularization==</strong>: Techniques like L1/L2 regularization (penalizing large weights), Dropout (randomly turning off neurons during training), or ==Batch Normalization.==</li>
+<li><strong>Data Augmentation</strong>: Expanding the dataset by applying transformations like rotation, scaling, or flipping to make the model more robust.</li>
+<li>==<strong>Early Stopping</strong>:== Monitoring the validation loss and stopping training when it begins to increase.</li>
+<li><strong>Cross-Validation</strong>: Using cross-validation to check if the model’s performance generalizes well across different subsets of the data.</li>
+<li><strong>Simplifying the Model</strong>: Reducing the number of layers or neurons to prevent the model from fitting every detail of the training data.</li>
+</ul>
+<h3 id="bias">Bias</h3>
+<p>Bias is the ==error introduced by approximating== a real-world problem (which may be complex) with a simplified model. In essence, it represents the assumptions made by a model to learn the target function.</p>
+<p><strong>High Bias</strong>: A model with high bias ==makes strong assumptions about the data==, usually leading to ==underfitting==. It may oversimplify the data structure, failing to capture important patterns.</p>
+<p>A low-bias model is ==flexible== and ==can fit the data closely==, with fewer simplifying assumptions.</p>
+<p><strong>Characteristics of High-Bias Models</strong>:</p>
+<ul>
+<li>Poor fit to the training data and test data (==underfitting==).</li>
+<li>==Large error== in both the ==training and test sets==.</li>
+<li>==High training error==.</li>
+</ul>
+<h3 id="variance">Variance</h3>
+<p>Variance is the ==model’s sensitivity to small fluctuations== in the training data. High-variance models ==capture a lot of noise from the training data==, which makes them more ==complex and prone to overfitting==.</p>
+<p><strong>High Variance</strong>: A model with high variance is overly complex, capturing noise as if it were a signal, leading to overfitting. This means the model performs well on the training data but poorly on new, unseen data.
+<strong>Low Variance</strong>: Low-variance models are less sensitive to fluctuations in the training data and are generally simpler.</p>
+<p><strong>Characteristics of High-Variance Models</strong>:</p>
+<ul>
+<li>Good fit to the training data but poor fit to the test data (overfitting).</li>
+<li>High variance in model predictions across different datasets or samples.</li>
+<li>High test error.</li>
+</ul>
+<p><img src="/mydocs/Pastedimage20241102233444.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="the-bias-variance-tradeoff">The Bias-Variance Tradeoff</h3>
+<p><img src="/mydocs/Pastedimage20241102233429.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>The <strong>bias-variance tradeoff</strong> is about finding a balance between bias and variance to minimize the total error, allowing a model to generalize well to new data.</p>
+<p><img src="/mydocs/Pastedimage20241102233214.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<ul>
+<li>
+<p><strong>Bias Squared</strong> $(\text{Bias}^2):$</p>
+<ul>
+<li>Represents errors due to incorrect assumptions in the model (e.g., assuming linearity when the relationship is nonlinear).</li>
+<li>High bias leads to underfitting, which increases training and test errors.</li>
+</ul>
+</li>
+<li>
+<p><strong>Variance</strong>:</p>
+<ul>
+<li>Represents errors due to the model’s sensitivity to small changes in the training set.</li>
+<li>High variance leads to overfitting, where the model captures noise as if it were an actual pattern, reducing generalizability.</li>
+</ul>
+</li>
+<li>
+<p><strong>Irreducible Error</strong>:</p>
+<ul>
+<li>Represents noise inherent in the data that no model can capture, such as random error from measurement or unmodeled influences.</li>
+<li>This error is inherent to the problem and cannot be reduced by the model.</li>
+</ul>
+</li>
+</ul>
+<h4 id="visual-representation-of-bias-variance-tradeoff">Visual Representation of Bias-Variance Tradeoff</h4>
+<ul>
+<li><strong>High Bias</strong>: Error from bias is high, but error from variance is low. Total error is high due to underfitting.</li>
+<li><strong>High Variance</strong>: Error from variance is high, but error from bias is low. Total error is high due to overfitting.</li>
+<li><strong>Optimal Point</strong>: The sweet spot is where both bias and variance are balanced, resulting in the lowest possible error.</li>
+</ul>
+<h3 id="regularization-in-dl">Regularization in DL</h3>
+<p>Regularization in deep learning refers to techniques that prevent a model from overfitting by adding a penalty to the loss function. This penalty discourages the model from learning overly complex patterns that may capture noise instead of meaningful structures in the data. The two most common forms of regularization in deep learning are <strong>L1</strong> and <strong>L2 regularization</strong>.</p>
+<h3 id="why-use-regularization">Why Use Regularization?</h3>
+<p>Regularization helps improve the generalization of a model by:</p>
+<ul>
+<li>Controlling the complexity of the model.</li>
+<li>Preventing it from assigning excessive importance to any single feature.</li>
+<li>Encouraging the model to rely on simpler patterns, which are more likely to generalize well.</li>
+</ul>
+<h3 id="l1-and-l2-regularization">L1 and L2 Regularization</h3>
+<h4 id="1-l2-regularization-ridge-regularization">1. <strong>L2 Regularization</strong> (Ridge Regularization)</h4>
+<ul>
+<li>
+<p><strong>Definition</strong>: L2 regularization adds a penalty term that is proportional to the sum of the squared values of the weights.</p>
+</li>
+<li>
+<p><strong>Formula</strong>: In L2 regularization, the regularized loss function is:</p>
+<p><img src="/mydocs/Pastedimage20241102233735.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>where:</p>
+<ul>
+<li>LLL is the original loss function (e.g., mean squared error or cross-entropy),</li>
+<li>λ\lambdaλ is the regularization parameter (also called the penalty term), which controls the strength of the regularization,</li>
+<li>wiw_iwi​ represents each individual weight in the model.</li>
+</ul>
+</li>
+<li>
+<p><strong>Effect on Weights</strong>:</p>
+<ul>
+<li>The L2 term encourages weights to become smaller but does not drive them exactly to zero.</li>
+<li>By penalizing large weights, L2 regularization leads to models that are more distributed across multiple features rather than focusing heavily on any one feature.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gradient Update with L2</strong>:</p>
+<ul>
+<li>During training, L2 regularization adjusts the weight update as: wi=wi−η⋅(∂L∂wi+λ⋅wi)w_i = w_i - \eta \cdot \left( \frac{\partial L}{\partial w_i} + \lambda \cdot w_i \right)wi​=wi​−η⋅(∂wi​∂L​+λ⋅wi​) where η\etaη is the learning rate.</li>
+<li>This causes a &ldquo;shrinkage&rdquo; effect, where weights are scaled down in addition to the regular gradient update.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use Cases</strong>: L2 regularization is commonly used in regression problems and deep learning models where we want to avoid overly large weights but still retain small contributions from multiple features.</p>
+</li>
+</ul>
+<hr />
+<h4 id="2-l1-regularization-lasso-regularization">2. <strong>L1 Regularization</strong> (Lasso Regularization)</h4>
+<ul>
+<li>
+<p><strong>Definition</strong>: L1 regularization adds a penalty that is proportional to the sum of the absolute values of the weights.</p>
+</li>
+<li>
+<p><strong>Formula</strong>: In L1 regularization, the regularized loss function LregL_{\text{reg}}Lreg​ is:</p>
+<p><img src="/mydocs/Pastedimage20241102233750.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>where:</p>
+<ul>
+<li>LLL is the original loss function,</li>
+<li>λ\lambdaλ is the regularization parameter,</li>
+<li>∣wi∣|w_i|∣wi​∣ denotes the absolute value of each weight.</li>
+</ul>
+</li>
+<li>
+<p><strong>Effect on Weights</strong>:</p>
+<ul>
+<li>L1 regularization promotes sparsity, meaning it encourages some weights to become exactly zero. This effectively removes certain features from the model, making it simpler and focusing only on the most significant features.</li>
+<li>This can lead to sparse models that are easier to interpret, as irrelevant features are &ldquo;zeroed out.&rdquo;</li>
+<li></li>
+</ul>
+</li>
+<li>
+<p><strong>Use Cases</strong>: L1 regularization is used when feature selection is desired, such as in sparse data scenarios where some features are irrelevant. It is often applied in fields like natural language processing and computer vision.</p>
+</li>
+</ul>
+<h4 id="choosing-between-l1-and-l2-regularization">Choosing Between L1 and L2 Regularization</h4>
+<ul>
+<li>
+<p><strong>L2 Regularization</strong>:</p>
+<ul>
+<li>Useful when you want all features to contribute a bit and don’t necessarily want to remove any entirely.</li>
+<li>Effective for situations where features are dense, and feature selection is not required.</li>
+</ul>
+</li>
+<li>
+<p><strong>L1 Regularization</strong>:</p>
+<ul>
+<li>Preferable if you suspect only a few features are important and you want the model to ignore irrelevant features.</li>
+<li>Helps create sparse models, especially useful in high-dimensional data where certain features are redundant.</li>
+</ul>
+</li>
+</ul>
+<h3 id="parameter-sharing">Parameter sharing</h3>
+<p><img src="/mydocs/Pastedimage20241103173422.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Parameter sharing</strong> in deep learning refers to the ==practice of reusing the same set of parameters (weights) across multiple parts of a model==, rather than having separate parameters for each connection or node. This approach is especially ==beneficial for reducing the number of parameters in the model==, saving memory, improving computational efficiency, and ==enhancing generalization==.</p>
+<p>most commonly used in CNN ( convolutional Neural Networks ) and RNN ( Recurrent Neural Network )</p>
+<h4 id="advantages">Advantages</h4>
+<ul>
+<li>Reduces the number of parameter</li>
+<li>improve generalization</li>
+<li>Enable translation and time Invarience</li>
+</ul>
+<h3 id="dropout-in-deeplearning">Dropout in Deeplearning</h3>
+<p><img src="/mydocs/Pastedimage20241103174438.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Dropout</strong> is a ==regularization technique== used in deep learning to ==prevent overfitting==, particularly in large neural networks. It involves ==randomly== &ldquo;dropping out&rdquo; (i.e., ==setting to zero==) a subset of neurons during training. ==This means that each neuron has a fixed probability of being temporarily ignored, or deactivated, on each training iteration.==</p>
+<p><strong>Randomly Deactivating Neurons</strong></p>
+<ul>
+<li>For example, with a ==dropout rate of 0.5==, approximately 50% of the neurons are dropped out in each training iteration.
+<strong>Effect on Forward Pass and Backward Pass</strong></li>
+<li>During the forward pass, the deactivated neurons do not contribute to the output.</li>
+<li>In the backward pass, no gradient is computed for these deactivated neurons, effectively treating them as if they don’t exist for that iteration.</li>
+</ul>
+<h4 id="why-dropout-helps-prevent-overfitting">Why Dropout Helps Prevent Overfitting</h4>
+<ol>
+<li>
+<p><strong>Creates Redundant Representations</strong>:</p>
+<ul>
+<li>Dropout forces the network to avoid relying too heavily on any single neuron or subset of neurons.</li>
+<li>This ==encourages the network to learn more distributed and redundant representations of features==, making it more ==robust== to small variations in input.</li>
+</ul>
+</li>
+<li>
+<p><strong>Prevents Co-adaptation of Neurons</strong>:</p>
+<ul>
+<li>When neurons are &ldquo;dropped out&rdquo; randomly, they cannot co-adapt (i.e., form dependencies on each other’s outputs) because they might not be active together in any given forward pass.</li>
+<li>This prevents the network from &ldquo;==memorizing==&rdquo; the training data and helps it ==generalize better to unseen data==.</li>
+</ul>
+</li>
+<li>
+<p><strong>Acts as an Ensemble of Networks</strong>:</p>
+<ul>
+<li>Dropout can be thought of as training a collection of different &ldquo;sub-networks&rdquo; within the original network.</li>
+<li>Each sub-network is trained on a different random selection of active neurons, so the final network during inference represents an average of multiple smaller networks, which enhances generalization.</li>
+</ul>
+</li>
+</ol>
+<h4 id="choosing-the-dropout-rate">Choosing the Dropout Rate</h4>
+<ul>
+<li>Common ==dropout rates range from 0.2 to 0.5==, but the optimal rate depends on the architecture and dataset.
+==- Lower dropout rates (e.g., 0.2) are often used in the early layers, where features are more general, while higher rates (e.g., 0.5) may be used in later layers to encourage feature diversity.==</li>
+</ul>
+<h4 id="advantages-of-dropout">Advantages of Dropout</h4>
+<ul>
+<li><strong>Reduces Overfitting</strong>: By preventing neurons from co-adapting, dropout reduces the likelihood of overfitting, especially in deep networks with many parameters.</li>
+<li><strong>Improves Generalization</strong>: Dropout encourages the model to learn distributed representations, which improves generalization to unseen data.</li>
+</ul>
+<h4 id="limitations-of-dropout">Limitations of Dropout</h4>
+<ul>
+<li><strong>Training Time</strong>: Dropout increases the training time since each neuron needs to learn without relying on specific neurons being active every time.</li>
+<li><strong>Not Always Effective</strong>: In some networks (e.g., recurrent neural networks), dropout can lead to reduced performance if not applied carefully.</li>
+</ul>
+<h3 id="weight-decay--l2-regularization-">Weight Decay ( L2 regularization )</h3>
+<p>Weight decay is a regularization technique used in deep learning to prevent overfitting of neural networks by adding a penalty on the size of weights in the model.</p>
+<p><img src="/mydocs/Pastedimage20241104190320.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Weight Decay</strong>, or L2 <strong>Regularization</strong>, is a regularization technique applied to the weights of a neural network. We minimize a loss function compromising both the primary loss function and a penalty on the L2 Norm of the weights:</p>
+<p><img src="/mydocs/Pastedimage20241104194745.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>where ( lambda ) is a value determining the strength of the penalty (encouraging smaller weights).</p>
+<p>The term &ldquo;weight decay&rdquo; is commonly used to refer to a specific form of regularization called <strong>L2 regularization</strong></p>
+<pre><code>Weight decay help to Conquire overfitting problem 
+</code></pre>
+<blockquote>
+<p>Weight decay is implemented by adding a penalty term to the loss function.</p>
+</blockquote>
+<p>The penalty term discourages large weights, making the model simpler and improving generalization on new data.
+<img src="/mydocs/Pastedimage20241104201331.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li><strong>Prevents overfitting</strong> by reducing model sensitivity.</li>
+<li><strong>Encourages smoother predictions</strong> and simpler models.</li>
+</ul>
+<h3 id="batch-normalization">Batch Normalization</h3>
+<p><img src="/mydocs/Pastedimage20241104201642.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>Batch normalization (BN) stabilizes and accelerates training in deep neural networks by normalizing the inputs to each layer.</p>
+<p><img src="/mydocs/Pastedimage20241104201527.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li><strong>Faster Training</strong>: Reduces the internal covariate shift, allowing higher learning rates.</li>
+<li><strong>Improved Stability</strong>: Makes training more stable, reducing the need for careful initialization.</li>
+<li><strong>Reduces Overfitting</strong>: Acts as a regularizer, reducing the need for other forms of regularization (like dropout).</li>
+<li></li>
+</ul>
+<p><strong>Where to Apply</strong>: Typically added before the activation function in each layer, especially in deep networks (e.g., CNNs, RNNs).</p>
+<blockquote>
+<p>Helps models converge faster, reduces sensitivity to initialization, and can improve model generalization.</p>
+</blockquote>
+<h3 id="early-stopping">Early Stopping</h3>
+<p><img src="/mydocs/Pastedimage20241104201750.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<blockquote>
+<p>Early stopping is a form of regularization used to prevent overfitting in machine learning and deep learning models. It involves stopping the training process before the model starts to overfit. The idea is to monitor the model’s performance on a validation set during the training process and stop training when the performance starts to degrade, which is an indication that the model is beginning to overfit the training data.</p>
+</blockquote>
+<p>Stops training when performance on a validation set stops improving, preventing overfitting</p>
+<p><strong>Working</strong>: Monitors validation loss; if it doesn’t improve for a set number of epochs (patience), training halts.</p>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li><strong>Prevents Overfitting</strong>: Stops before the model starts fitting noise in the training data.</li>
+<li><strong>Saves Resources</strong>: Reduces training time by stopping early.</li>
+</ul>
+<p><strong>Where to Use</strong>: Common in any iterative training process, especially for deep networks.</p>
+<h3 id="data-augmentation">Data augmentation</h3>
+<p><img src="/mydocs/Pastedimage20241104202004.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<blockquote>
+<p>Expands training data by creating modified versions of existing samples to improve model generalization.</p>
+</blockquote>
+<p><strong>Techniques</strong>:</p>
+<ul>
+<li>
+<p><strong>Image</strong>: Random rotations, flips, crops, brightness adjustments.</p>
+</li>
+<li>
+<p><strong>Text</strong>: Synonym replacement, random insertion/deletion of words.</p>
+</li>
+<li>
+<p><strong>Audio</strong>: Pitch shift, time stretch, noise addition</p>
+</li>
+<li>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li><strong>Reduces Overfitting</strong>: Increases data diversity, helping models generalize better.</li>
+<li><strong>Improves Robustness</strong>: Trains the model on more varied inputs, making it more resilient.</li>
+</ul>
+</li>
+<li>
+<p><strong>Where to Use</strong>: Common in image, audio, and text data when datasets are limited.</p>
+</li>
+</ul>
+<h3 id="adding-noise-to-input--gaussian-noise">Adding Noise to Input  (Gaussian noise)</h3>
+<ul>
+<li><strong>Purpose</strong>: Makes the model robust by training it on slightly noisy inputs.</li>
+<li><strong>How it Works</strong>: Adds small, random noise to input data during training (e.g., Gaussian noise for images).</li>
+<li><strong>Benefits</strong>:
+<ul>
+<li><strong>Improves Generalization</strong>: Forces the model to focus on essential patterns rather than memorizing exact data points.</li>
+<li><strong>Resilience to Variations</strong>: Helps the model handle noisy real-world data better.</li>
+</ul>
+</li>
+<li><strong>Where to Use</strong>: Common in image and audio data, and applicable to other types where noise is realistic.</li>
+</ul>
+<h3 id="adding-noise-to-output-label-smoothing">Adding Noise to Output (Label Smoothing)</h3>
+<ol>
+<li><strong>Purpose</strong>: Softens the model’s confidence on predictions to avoid overfitting on exact labels.</li>
+<li><strong>How it Works</strong>: Adjusts true labels to be less confident (e.g., 0.9 for correct class, 0.1 for others), reducing sensitivity to label noise.</li>
+<li><strong>Benefits</strong>:
+<ul>
+<li><strong>Prevents Overconfidence</strong>: Makes the model less likely to overfit by preventing extreme confidence.</li>
+<li><strong>Improves Generalization</strong>: Reduces the gap between training and test performance.</li>
+</ul>
+</li>
+<li><strong>Where to Use</strong>: Common in classification tasks where exact class boundaries are less clear.</li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Exam on GeeksDirectory</title>
+        <link>http://localhost:1313/mydocs/categories/exam/</link>
+        <description>Recent content in Exam on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language><atom:link href="http://localhost:1313/mydocs/categories/exam/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blockchain technologies</title>
+        <link>http://localhost:1313/mydocs/post/sem7-final-exam/blockchain-technology/1.-main/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/blockchain-technology/1.-main/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224102.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224120.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224136.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;module-1&#34;&gt;Module 1&lt;/h1&gt;
+&lt;h3 id=&#34;distributed-ledger-technology&#34;&gt;[[Distributed ledger technology]]&lt;/h3&gt;
+&lt;h3 id=&#34;blockchain&#34;&gt;[[Blockchain]]&lt;/h3&gt;
+&lt;h3 id=&#34;features-of-blockchain&#34;&gt;[[features of blockchain]]&lt;/h3&gt;
+&lt;h3 id=&#34;consensus-mechanisms&#34;&gt;[[Consensus mechanisms]]&lt;/h3&gt;
+&lt;h3 id=&#34;merkle-tree&#34;&gt;[[Merkle Tree]]&lt;/h3&gt;
+&lt;h3 id=&#34;components-of-blocks-in-blockchain-&#34;&gt;[[Components of Blocks in blockchain ]]&lt;/h3&gt;
+&lt;h3 id=&#34;types-of-blockchain&#34;&gt;[[Types of blockchain]]&lt;/h3&gt;
+&lt;h3 id=&#34;consensus-protocol&#34;&gt;[[Consensus Protocol]]&lt;/h3&gt;
+&lt;h3 id=&#34;how-proof-of-work-solves--the-problem-of-double-spending&#34;&gt;[[how proof of work solves  the problem of double spending]]&lt;/h3&gt;
+&lt;h3 id=&#34;poapospowlpospbftpobpoet&#34;&gt;[[poa,pos,pow,lpos,pbft,pob,poet]]&lt;/h3&gt;
+&lt;h3 id=&#34;blockchain-20&#34;&gt;[[Blockchain 2.0]]&lt;/h3&gt;
+&lt;h3 id=&#34;blockchain-solution-actors&#34;&gt;[[Blockchain solution actors]]&lt;/h3&gt;
+&lt;h3 id=&#34;transactions-in-bitcoin-network&#34;&gt;[[Transactions in bitcoin network]]&lt;/h3&gt;
+&lt;h3 id=&#34;architecture-of-ethereum&#34;&gt;[[Architecture of Ethereum]]&lt;/h3&gt;
+&lt;h3 id=&#34;smart-contract&#34;&gt;[[Smart Contract]]&lt;/h3&gt;
+&lt;h3 id=&#34;private-blockchain-system&#34;&gt;[[Private Blockchain System]]&lt;/h3&gt;
+&lt;h3 id=&#34;difference-between-types-of-blockchain-&#34;&gt;[[Difference between types of Blockchain ]]&lt;/h3&gt;
+&lt;h3 id=&#34;state-machine-replication-&#34;&gt;[[State Machine Replication ]]&lt;/h3&gt;
+&lt;h3 id=&#34;paxos&#34;&gt;[[PAXOS]]&lt;/h3&gt;
+&lt;h3 id=&#34;raft&#34;&gt;[[RAFT]]&lt;/h3&gt;
+&lt;h3 id=&#34;byzantine-fault-tolerant-algo-&#34;&gt;[[BYZANTINE FAULT Tolerant algo ]]&lt;/h3&gt;
+&lt;h3 id=&#34;hyperledger-platform&#34;&gt;[[Hyperledger Platform]]&lt;/h3&gt;
+&lt;h3 id=&#34;hyperledger-fabric&#34;&gt;[[Hyperledger Fabric]]&lt;/h3&gt;
+&lt;h3 id=&#34;case-study-of-supply-chain-management-using-hyperledger&#34;&gt;[[Case Study of Supply chain management using hyperledger]]&lt;/h3&gt;
+&lt;h3 id=&#34;difference-between-bitcoin-altcoins-and-tokens&#34;&gt;[[Difference Between Bitcoin, Altcoins and Tokens]]&lt;/h3&gt;
+&lt;h3 id=&#34;hot-wallet-and-cold-wallet&#34;&gt;[[hot wallet and cold wallet]]&lt;/h3&gt;
+&lt;h3 id=&#34;erc721-and-erc20&#34;&gt;[[ERC721 and ERC20]]&lt;/h3&gt;
+&lt;h3 id=&#34;defi&#34;&gt;[[DEFI]]&lt;/h3&gt;
+&lt;h3 id=&#34;initial-coin-offering&#34;&gt;[[Initial Coin Offering]]&lt;/h3&gt;
+&lt;h3 id=&#34;security-token-offering&#34;&gt;[[Security token offering]]&lt;/h3&gt;
+&lt;h3 id=&#34;utxo&#34;&gt;[[UTXO]]&lt;/h3&gt;
+&lt;h3 id=&#34;dao&#34;&gt;[[DAO]]&lt;/h3&gt;
+&lt;h3 id=&#34;fungible-tokens-fts-and-non-fungible-tokens-nfts&#34;&gt;[[Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs)]]&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title>Deep Learning</title>
+        <link>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223620.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101092507.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;fundamentals-of-deep-learning&#34;&gt;Fundamentals of Deep Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Def: Deep Learning is a subset of machine learning that mimics the workings of the human brain to process data and create patterns for decision-making.&lt;/li&gt;
+&lt;li&gt;It uses &lt;strong&gt;neural networks&lt;/strong&gt; with multiple layers, hence the term &amp;ldquo;deep.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;neural-networks&#34;&gt;Neural Networks:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Neural networks are the building blocks of deep learning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Artificial Neural Networks (ANN)&lt;/strong&gt; are inspired by biological neural networks and consist of interconnected layers of neurons (nodes).&lt;/li&gt;
+&lt;li&gt;Key components of a neural network include &lt;strong&gt;input layers&lt;/strong&gt;, &lt;strong&gt;hidden layers&lt;/strong&gt;, and &lt;strong&gt;output layers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;layers-in-neural-networks&#34;&gt;Layers in Neural Networks:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Input Layer&lt;/strong&gt;: The first layer that receives input data (e.g., images, text, numerical values).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hidden Layers&lt;/strong&gt;: Intermediate layers between input and output layers, where complex computations and transformations happen. Deep networks typically have multiple hidden layers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Layer&lt;/strong&gt;: Produces the final output (e.g., classification label, predicted value).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;neurons-nodes&#34;&gt;&lt;strong&gt;Neurons (Nodes)&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Neuron&lt;/strong&gt;: The basic unit in a neural network, which computes the weighted sum of inputs, adds a bias term, and passes it through an activation function.&lt;/li&gt;
+&lt;li&gt;Each neuron receives input from the previous layer, processes it, and sends output to the next layer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;weights-and-biases&#34;&gt;Weights and Biases:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Weights&lt;/strong&gt;: The strength of the connection between neurons; these are learned during training.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bias&lt;/strong&gt;: A constant added to the weighted sum, allowing the model to fit the data more flexibly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#Activation function&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;strong&gt;non-linearity&lt;/strong&gt; to the neural network, enabling it to learn complex patterns.&lt;/li&gt;
+&lt;li&gt;Common activation functions:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ReLU (Rectified Linear Unit)&lt;/strong&gt;: f(x)=max(0,x)f(x) = max(0, x)f(x)=max(0,x), used to prevent saturation in deep networks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sigmoid&lt;/strong&gt;: Squashes input values between 0 and 1, useful for binary classification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tanh&lt;/strong&gt;: Squashes input values between -1 and 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Softmax&lt;/strong&gt;: Normalizes output into a probability distribution, used in multi-class classification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;feedforward-process&#34;&gt;Feedforward Process:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;In a &lt;strong&gt;feedforward neural network&lt;/strong&gt;, data moves forward from the input layer through hidden layers to the output layer.&lt;/li&gt;
+&lt;li&gt;Each layer transforms the input data using weights, biases, and activation functions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;loss-function-cost-function&#34;&gt;&lt;strong&gt;Loss Function (Cost Function)&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Measures the difference between the predicted output and the actual target.&lt;/li&gt;
+&lt;li&gt;Common loss functions:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mean Squared Error (MSE)&lt;/strong&gt;: Used for regression tasks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Entropy Loss&lt;/strong&gt;: Used for classification tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The goal is to minimize the loss during training.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;backpropagation&#34;&gt;&lt;strong&gt;Backpropagation&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A method used to update the weights in the network to minimize the loss.&lt;/li&gt;
+&lt;li&gt;Involves two steps:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Forward Pass&lt;/strong&gt;: Compute the output and loss for given input.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backward Pass&lt;/strong&gt;: Compute the gradient of the loss with respect to each weight using the chain rule, and adjust the weights.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;optimization-algorithms&#34;&gt;&lt;strong&gt;Optimization Algorithms&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;These algorithms adjust the weights and biases to minimize the loss.&lt;/li&gt;
+&lt;li&gt;Common optimizers:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stochastic Gradient Descent (SGD)&lt;/strong&gt;: Iteratively updates weights by calculating gradients of the loss function.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adam&lt;/strong&gt;: Adaptive optimization algorithm that uses running averages of gradients and squared gradients, typically faster than SGD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;epochs-batch-size-and-iterations&#34;&gt;Epochs, Batch Size, and Iterations:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Epoch&lt;/strong&gt;: One complete pass of the entire training dataset through the network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Batch Size&lt;/strong&gt;: The number of training examples processed before the model&amp;rsquo;s internal parameters are updated.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Iteration&lt;/strong&gt;: A single update of the model&amp;rsquo;s parameters, often happening after processing one batch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;regularization-techniques&#34;&gt;Regularization Techniques:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Used to prevent &lt;strong&gt;overfitting&lt;/strong&gt; by penalizing overly complex models.&lt;/li&gt;
+&lt;li&gt;Common techniques:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L2 Regularization (Ridge)&lt;/strong&gt;: Adds a penalty proportional to the square of the weights.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropout&lt;/strong&gt;: Randomly drops neurons during training to force the network to learn more robust features.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Early Stopping&lt;/strong&gt;: Stops training when performance on the validation set starts degrading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;convolutional-neural-networks-cnn&#34;&gt;Convolutional Neural Networks (CNN):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Specialized for processing &lt;strong&gt;grid-like data&lt;/strong&gt; such as images.&lt;/li&gt;
+&lt;li&gt;Key components:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Convolutional Layers&lt;/strong&gt;: Extract spatial features using filters.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pooling Layers&lt;/strong&gt;: Reduce the spatial dimensions of the data to prevent overfitting and reduce computation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fully Connected Layers&lt;/strong&gt;: The final layers that aggregate the features and produce the output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;recurrent-neural-networks-rnn&#34;&gt;Recurrent Neural Networks (RNN)**:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed for &lt;strong&gt;sequential data&lt;/strong&gt;, such as time series, text, or speech.&lt;/li&gt;
+&lt;li&gt;They maintain a memory of previous inputs, allowing them to capture temporal dependencies.&lt;/li&gt;
+&lt;li&gt;Variants:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LSTM (Long Short-Term Memory)&lt;/strong&gt;: Tackles the issue of short-term memory in traditional RNNs, effectively learning long-term dependencies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GRU (Gated Recurrent Unit)&lt;/strong&gt;: A simplified version of LSTM with fewer parameters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;autoencoders&#34;&gt;Autoencoders:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A type of unsupervised neural network used for &lt;strong&gt;dimensionality reduction&lt;/strong&gt; or &lt;strong&gt;feature learning&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;It consists of an &lt;strong&gt;encoder&lt;/strong&gt; that compresses the input into a lower-dimensional representation and a &lt;strong&gt;decoder&lt;/strong&gt; that reconstructs the original input.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;generative-models&#34;&gt;Generative Models:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;These models generate new data instances.&lt;/li&gt;
+&lt;li&gt;Examples:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GANs (Generative Adversarial Networks)&lt;/strong&gt;: Two networks (a generator and a discriminator) are trained together; the generator tries to create realistic data while the discriminator tries to distinguish real from fake data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VAEs (Variational Autoencoders)&lt;/strong&gt;: A generative model that learns latent representations of data and generates new instances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multilayered-perceptron--mlps-generative-models&#34;&gt;Multilayered Perceptron ( MLPS )&lt;strong&gt;Generative Models&lt;/strong&gt;:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;These models generate new data instances.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GANs (Generative Adversarial Networks)&lt;/strong&gt;: Two networks (a generator and a discriminator) are trained together; the generator tries to create realistic data while the discriminator tries to distinguish real from fake data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VAEs (Variational Autoencoders)&lt;/strong&gt;: A generative model that learns latent representations of data and generates new instances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A multi-layer perception is a neural network that has multiple layers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MLP is a type of [[feedforward]] artificial neural network.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It consists of at least three layers: an input layer, hidden layer(s), and an output layer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To create a neural network we combine neurons together so that the outputs of some neurons are inputs of other neurons.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It is fully connected dense layers, which transform any input dimension to the desired dimension&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each connection has an associated weight.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neurons have biases, added to the weighted sum before applying the activation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101092853.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every node in the multi-layer perception uses a [[Activation Functions]] function&lt;/li&gt;
+&lt;li&gt;The sigmoid activation function takes real values as input and converts them to numbers between 0 and 1 using the sigmoid formula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101093133.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;learning-process&#34;&gt;Learning process&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Uses backpropagation to update weights based on the error.&lt;/li&gt;
+&lt;li&gt;The goal is to minimize a loss function using gradient descent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;use-cases-of-mlp&#34;&gt;Use cases of MLP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MLPs are used for tasks like classification, regression, and function approximation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;q-design-and-implement-and-gate-using--perceptron&#34;&gt;Q. Design and implement AND Gate using  perceptron&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101121517.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;truth table
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101121535.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101124702.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101124709.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;linear-separability&#34;&gt;Linear Separability&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101163557.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A dataset is said to be &lt;strong&gt;linearly separable&lt;/strong&gt; if there exists a straight line (in 2D) or a hyperplane (in higher dimensions) that can separate the data into distinct classes without any overlap or misclassification.&lt;/p&gt;
+&lt;p&gt;For binary classification, it means you can draw a line (or hyperplane) such that all the points of one class lie on one side of the line, and all the points of the other class lie on the opposite side.&lt;/p&gt;
+&lt;h4 id=&#34;example-of-linear-separability&#34;&gt;Example of Linear Separability:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linearly Separable Data&lt;/strong&gt;: Consider a dataset with two classes of points, Class A and Class B, which can be divided perfectly by a straight line (or plane). All Class A points lie on one side, and all Class B points lie on the other.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Linearly Separable Data&lt;/strong&gt;: A dataset where no straight line can completely separate the two classes. An example is the XOR problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The perceptron, ==one of the simplest neural networks==, can only solve problems that are linearly separable. If the data cannot be separated by a straight line (or hyperplane), the perceptron cannot classify it correctly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;single layer perceptron can only solve problems which are linearly separable&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Single-layer perceptrons fail for non-linearly separable data because they can only create linear decision boundaries.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multilayer Perceptron (MLP) : When moving to multilayer networks (i.e., deep neural networks with hidden layers), the problem of linear separability is no longer a constraint.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!Activation Functions]
+Non-linear activation functions (like ReLU, Sigmoid, or Tanh) in deep networks help create complex decision boundaries, making it possible for the network to learn non-linear relationships between inputs and outputs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For binary classification, the goal is to find a hyperplane that divides two classes, say y = 1 and y = -1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The equation of a hyperplane can be written as:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\mathbf{w}^T \mathbf{x} + b =0
+$$
+- Where w\mathbf{w}w is the weight vector, x\mathbf{x}x is the input vector, and bbb is the bias.
+- If wTx+b&amp;gt;0\mathbf{w}^T \mathbf{x} + b &amp;gt; 0wTx+b&amp;gt;0, the input belongs to one class.
+- If wTx+b&amp;lt;0\mathbf{w}^T \mathbf{x} + b &amp;lt; 0wTx+b&amp;lt;0, the input belongs to the other class.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If there exists such a hyperplane for a dataset, the data is linearly separable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;linear-vs-non-linear-decision-boundaries&#34;&gt;&lt;strong&gt;Linear vs Non-Linear Decision Boundaries&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Linear Boundary: A single hyperplane that separates two classes, achievable by a perceptron or a linear SVM.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Non-Linear Boundary: More complex, curved boundaries created by deep neural networks or SVMs with kernels.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;three-classes-of-deep-learning&#34;&gt;Three classes of Deep learning&lt;/h2&gt;
+&lt;h3 id=&#34;1-feedforward-neural-networks-fnns&#34;&gt;1. &lt;strong&gt;Feedforward Neural Networks (FNNs)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: Data flows in one direction, from the input layer to the output layer through hidden layers, without any loops or cycles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Examples&lt;/strong&gt;: Multilayer Perceptron (MLP), Fully Connected Networks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;: Classification, regression, simple pattern recognition tasks where data does not have sequential or spatial relationships.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Characteristics&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Each neuron in one layer is connected to every neuron in the next layer.&lt;/li&gt;
+&lt;li&gt;No memory or context of past inputs is retained.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Typical Applications&lt;/strong&gt;: - Image classification (in simple cases), spam detection, and basic fraud detection.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;2-convolutional-neural-networks-cnns&#34;&gt;2. &lt;strong&gt;Convolutional Neural Networks (CNNs)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101181314.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: Designed to process data with a grid-like topology, such as images. CNNs use &lt;strong&gt;convolutional layers&lt;/strong&gt; that apply filters to capture spatial hierarchies in the data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Examples&lt;/strong&gt;: VGG, ResNet, LeNet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;: Image and video recognition, object detection, image generation, spatial data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Characteristics&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Convolutional layers&lt;/strong&gt; extract features from the input (e.g., edges, textures in images).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pooling layers&lt;/strong&gt; reduce dimensionality, making computation more efficient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fully connected layers&lt;/strong&gt; towards the end aggregate the extracted features for final predictions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Typical Applications&lt;/strong&gt;: - Computer vision tasks: image classification (e.g., CIFAR-10, ImageNet), object detection (e.g., self-driving cars), facial recognition.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;3-recurrent-neural-networks-rnns&#34;&gt;3. &lt;strong&gt;Recurrent Neural Networks (RNNs)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241101181340.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: These networks are designed for sequential data, where the output depends not only on the current input but also on the previous inputs (i.e., they have memory). They introduce cycles within the network to retain information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Examples&lt;/strong&gt;: Vanilla RNN, Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;: Time-series forecasting, natural language processing (NLP), speech recognition, video sequence analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Characteristics&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Recurrent connections&lt;/strong&gt; allow information to persist, enabling the model to handle sequences and time-dependent data.&lt;/li&gt;
+&lt;li&gt;RNNs can suffer from &lt;strong&gt;vanishing/exploding gradient problems&lt;/strong&gt;, but variants like LSTMs and GRUs mitigate these issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Typical Applications&lt;/strong&gt;: - Language translation, sentiment analysis, speech-to-text, stock price prediction, and chatbots.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MIS</title>
+        <link>http://localhost:1313/mydocs/post/sem7-final-exam/mis/1.-mis/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/mis/1.-mis/</guid>
+        <description>&lt;p&gt;7
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031224258.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;information-system&#34;&gt;[[Information system]]&lt;/h3&gt;
+&lt;h3 id=&#34;computer-based-information-system-cbis--impt&#34;&gt;[[Computer Based Information System (CBIS)]]  impt&lt;/h3&gt;
+&lt;h3 id=&#34;impact-of-information-system-in-organisation-and-society&#34;&gt;[[Impact of Information system in organisation and society]]&lt;/h3&gt;
+&lt;h3 id=&#34;organizational-strategy-competitive-advantages-and-is&#34;&gt;[[ORGANIZATIONAL STRATEGY, COMPETITIVE ADVANTAGES AND IS]]&lt;/h3&gt;
+&lt;h1 id=&#34;crms&#34;&gt;[CRMS]&lt;/h1&gt;
+&lt;h1 id=&#34;data-mart-and-data-warehouse&#34;&gt;[data mart and data warehouse]&lt;/h1&gt;
+&lt;h1 id=&#34;erp&#34;&gt;[ERP]&lt;/h1&gt;
+</description>
+        </item>
+        <item>
+        <title>Natural language processing</title>
+        <link>http://localhost:1313/mydocs/post/sem7-final-exam/nlp/1.-main/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/sem7-final-exam/nlp/1.-main/</guid>
+        <description>&lt;p&gt;[[NLP Techknowledge.pdf]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223812.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241031223852.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;natural-language-processing&#34;&gt;[[Natural language processing]]&lt;/h3&gt;
+&lt;h3 id=&#34;knowledge-in-language-processing&#34;&gt;[[Knowledge in Language Processing]]&lt;/h3&gt;
+&lt;h3 id=&#34;ambiguities-in-natural-language&#34;&gt;[[Ambiguities in Natural Language]]&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241126013446.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;challenges-of-nlp&#34;&gt;[[Challenges of NLP]]&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241126015357.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;module-2&#34;&gt;module 2&lt;/h2&gt;
+&lt;h4 id=&#34;porter-stemmer&#34;&gt;[[Porter Stemmer]]&lt;/h4&gt;
+&lt;h4 id=&#34;n-gram&#34;&gt;[[n-gram]]&lt;/h4&gt;
+&lt;h3 id=&#34;module-3&#34;&gt;module 3&lt;/h3&gt;
+&lt;h4 id=&#34;part-of-speech-pos-tagging&#34;&gt;[[Part-of-Speech (POS) Tagging]]&lt;/h4&gt;
+&lt;h3 id=&#34;cfg-hinglish-&#34;&gt;[[CFG Hinglish ]]&lt;/h3&gt;
+&lt;h3 id=&#34;module-4&#34;&gt;module 4&lt;/h3&gt;
+&lt;h3 id=&#34;semantic-analysis&#34;&gt;[[semantic analysis]]&lt;/h3&gt;
+&lt;h3 id=&#34;difference-betn-semantic--analysis-and-syntactic-analysis&#34;&gt;[[Difference betn semantic  analysis and syntactic analysis]]&lt;/h3&gt;
+&lt;h4 id=&#34;relation-between-words-and-senses&#34;&gt;[[Relation between words and senses]]&lt;/h4&gt;
+&lt;h4 id=&#34;word-sense-disambiguation&#34;&gt;[[Word Sense Disambiguation]]&lt;/h4&gt;
+&lt;h3 id=&#34;module-5&#34;&gt;module 5&lt;/h3&gt;
+&lt;h4 id=&#34;pragmatics&#34;&gt;[[pragmatics]]&lt;/h4&gt;
+&lt;h4 id=&#34;discourse-analysis&#34;&gt;[[Discourse analysis]]&lt;/h4&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

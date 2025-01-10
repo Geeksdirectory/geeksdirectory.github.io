@@ -1,3 +1,8 @@
+---
+title: NLP Relation between words and senses
+date: 2024-12-20
+---
+
 Words and their senses are intricately related in ==linguistics== and ==natural language== ==processing== (NLP). ==A single word can have multiple meanings (polysemy)==, and ==different words can share the same meaning (synonymy).== Understanding these relations is crucial for applications such as machine translation, semantic search, and natural language understanding.
 
 ---

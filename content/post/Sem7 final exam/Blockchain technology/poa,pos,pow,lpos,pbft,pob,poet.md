@@ -1,3 +1,8 @@
+---
+title: Blockchain technology poa,pos,pow,lpos,pbft,pob,poet
+date: 2025-01-10
+---
+
 Here’s a detailed explanation of different consensus mechanisms in blockchain technology, including **PoA, PoET, PoW, PoS, LPoS, PBFT, and PoB**:
 
 ---

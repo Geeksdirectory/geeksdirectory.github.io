@@ -1,3 +1,8 @@
+---
+title: DSA Binary Search Algo Questions
+date: 2025-01-10
+---
+
 
 
 > [!NOTE]

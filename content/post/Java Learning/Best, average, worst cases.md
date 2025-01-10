@@ -1,3 +1,7 @@
+---
+title: Best average and worstcases time complexity
+date: 2025-01-10
+---
 
 
 

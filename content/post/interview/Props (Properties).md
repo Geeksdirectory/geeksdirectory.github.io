@@ -1,3 +1,8 @@
+---
+title: interview Props (Properties)
+date: 2024-12-24
+---
+
 
 ### **What Are Props?**
 

@@ -1,3 +1,8 @@
+---
+title: Module 1 big data and hadoop
+date: 2025-01-10
+---
+
 
 ### Syllabus
 ![alt text](Pastedimage20241106140819.png)

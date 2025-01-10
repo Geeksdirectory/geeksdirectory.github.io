@@ -1,3 +1,8 @@
+---
+title: MIS Computer Based Information System (CBIS)
+date: 2025-01-10
+---
+
 CBIS are those that ==make use of computer technology== to perform some dedicated task
 
 ### The essential elements / components of a CBIS are:

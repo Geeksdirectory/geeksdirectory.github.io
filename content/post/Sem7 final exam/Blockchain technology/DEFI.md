@@ -1,3 +1,8 @@
+---
+title: Blockchain technology DEFI
+date: 2024-12-20
+---
+
 ### **What is DeFi (Decentralized Finance)?**
 
 **DeFi** stands for **Decentralized Finance**, which refers to a set of financial services and applications built on blockchain technology, primarily using **smart contracts** to automate transactions and operations. These services operate without traditional intermediaries such as banks, brokers, or insurance companies, giving users more control over their financial activities.

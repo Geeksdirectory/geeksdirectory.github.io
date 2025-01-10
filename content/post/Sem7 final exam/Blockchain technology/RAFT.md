@@ -1,3 +1,8 @@
+---
+title: Blockchain technology RAFT
+date: 2025-01-10
+---
+
 
 **Raft** is a consensus algorithm designed for managing a replicated log in a distributed system. It is simpler to understand and implement compared to Paxos while achieving similar goals. Raft is widely used in distributed systems to ensure that multiple nodes agree on a single consistent state, even in the presence of failures.
 

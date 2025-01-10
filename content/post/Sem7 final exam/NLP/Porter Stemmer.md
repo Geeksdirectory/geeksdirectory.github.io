@@ -1,3 +1,8 @@
+---
+title: NLP Porter Stemmer
+date: 2025-01-10
+---
+
 
 The **Porter Stemmer** is one of the most commonly used stemming algorithms in Natural Language Processing (NLP). Developed by ==Martin Porter== in 1980, it ==reduces words to their **stem** (root form) by systematically removing suffixes== ==according to a set of predefined rules.==
 

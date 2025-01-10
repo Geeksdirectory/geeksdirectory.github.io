@@ -1,3 +1,8 @@
+---
+title: Downloaded Slideshow
+date: 2024-12-20
+---
+
 /*
 
 # About the slideshow script

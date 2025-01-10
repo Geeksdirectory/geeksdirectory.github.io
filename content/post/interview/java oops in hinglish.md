@@ -1,3 +1,8 @@
+---
+title: interview java oops in hinglish
+date: 2024-12-27
+---
+
 Bhai, Java ka **Object-Oriented Programming (OOPs)** concept ekdum basic aur important hai. Yeh samajhne ke baad programming easy aur logical lagti hai. Main ekdum ground level se, examples ke saath, saari cheezein samjhaunga. Chalo shuru karte hain!
 
 ---

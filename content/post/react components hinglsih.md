@@ -1,3 +1,8 @@
+---
+title: post react components hinglsih
+date: 2024-12-24
+---
+
 components are reusable
 
 React mein **Components** kya hote hain? Samjho ki React ka kaam hai web app banane ka, aur components us app ke **==building blocks==** hote hain. Har ek component ek **chhoti si chiz** ya ek **kaam** ko handle karta hai.

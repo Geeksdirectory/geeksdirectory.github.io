@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Smart Contract
+date: 2024-12-20
+---
+
 
 A **smart contract** is a self-executing piece of code stored on a blockchain, where the contract's terms and conditions are written directly in code. It automates processes and ensures trustless transactions between parties without the need for intermediaries. Below is a detailed pointwise explanation.
 

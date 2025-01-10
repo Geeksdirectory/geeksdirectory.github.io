@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Merkle Tree
+date: 2025-01-10
+---
+
 https://www.geeksforgeeks.org/introduction-to-merkle-tree/
 
 ![alt text](Pastedimage20241208112938.png)

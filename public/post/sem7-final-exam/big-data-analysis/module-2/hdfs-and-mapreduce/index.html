@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='What is HDFS? Hadoop Distributed File System (HDFS) is the ==primary storage system== used by Hadoop to store large datasets in a distributed manner across multiple nodes in a ==cluster==. ==Inspired by Google File System== (GFS), HDFS is ==designed for high fault tolerance, scalability, and support for high-throughput data access==. It handles data storage needs for applications that process vast amounts of structured and unstructured data, making it ideal for Big Data processing.'>
+<title>Module 2 HDFS and MapReduce</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/sem7-final-exam/big-data-analysis/module-2/hdfs-and-mapreduce/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='Module 2 HDFS and MapReduce'>
+<meta property='og:description' content='What is HDFS? Hadoop Distributed File System (HDFS) is the ==primary storage system== used by Hadoop to store large datasets in a distributed manner across multiple nodes in a ==cluster==. ==Inspired by Google File System== (GFS), HDFS is ==designed for high fault tolerance, scalability, and support for high-throughput data access==. It handles data storage needs for applications that process vast amounts of structured and unstructured data, making it ideal for Big Data processing.'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/sem7-final-exam/big-data-analysis/module-2/hdfs-and-mapreduce/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-10T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Module 2 HDFS and MapReduce">
+<meta name="twitter:description" content="What is HDFS? Hadoop Distributed File System (HDFS) is the ==primary storage system== used by Hadoop to store large datasets in a distributed manner across multiple nodes in a ==cluster==. ==Inspired by Google File System== (GFS), HDFS is ==designed for high fault tolerance, scalability, and support for high-throughput data access==. It handles data storage needs for applications that process vast amounts of structured and unstructured data, making it ideal for Big Data processing.">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-is-hdfs">What is HDFS?</a></li>
+        <li><a href="#map-reduce">Map Reduce</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/sem7-final-exam/big-data-analysis/module-2/hdfs-and-mapreduce/">Module 2 HDFS and MapReduce</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 10, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><img src="/mydocs/Pastedimage20241106170212.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<h3 id="what-is-hdfs">What is HDFS?</h3>
+<ul>
+<li><strong>Hadoop Distributed File System (HDFS)</strong> is the ==primary storage system== used by Hadoop to store large datasets in a distributed manner across multiple nodes in a ==cluster==.</li>
+<li>==Inspired by Google File System== (GFS), HDFS is ==designed for high fault tolerance, scalability, and support for high-throughput data access==.</li>
+<li>It handles data storage needs for applications that process vast amounts of structured and unstructured data, making it ideal for Big Data processing.</li>
+</ul>
+<hr />
+<h4 id="key-characteristics-of-hdfs">Key Characteristics of HDFS</h4>
+<ul>
+<li><strong>Distributed Storage</strong>: HDFS splits large files into smaller blocks (default size is 128 MB or 64 MB) and distributes these blocks across multiple nodes.</li>
+<li><strong>Fault Tolerance</strong>: Data blocks are replicated across different nodes to prevent data loss in case of hardware failures.</li>
+<li><strong>High Throughput</strong>: Optimized for large, sequential data reads and batch processing, rather than low-latency access to small data files.</li>
+<li><strong>Scalability</strong>: Scales horizontally across thousands of nodes without requiring major architectural changes.</li>
+<li><strong>Write Once, Read Many</strong>: Files are typically written once and read many times, allowing for efficient and simple data access patterns in analytics.</li>
+</ul>
+<hr />
+<h4 id="hdfs-architecture"><strong>HDFS Architecture</strong></h4>
+<p><img src="/mydocs/Pastedimage20241106175519.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+>
+HDFS has a ==master-slave architecture== with two main components:</p>
+<h5 id="1-namenode-master-node">1. <strong>NameNode</strong> master node</h5>
+<ul>
+<li><strong>Role</strong>: Acts as the ==master node in HDFS==, ==managing== the file system ==metadata==.</li>
+<li><strong>Responsibilities</strong>:
+<ul>
+<li>Keeps track of the <em>file directory structure</em>, such as file names, locations, permissions, and hierarchies.</li>
+<li>Maintains the <em>block locations</em> and <em>replication information</em> for every file stored in HDFS.</li>
+<li>==Does not store actual data blocks==; it only keeps metadata.</li>
+</ul>
+</li>
+<li><strong>Reliability</strong>: ==Single point of failure (SPOF) in Hadoop ==1.x, though Hadoop 2.x introduced High Availability (HA) configurations to prevent downtime by using a standby NameNode.</li>
+</ul>
+<h5 id="2-datanode-slave-node">2. <strong>DataNode</strong> slave node</h5>
+<ul>
+<li><strong>Role</strong>: The ==worker nodes== that store actual data blocks on local storage.</li>
+<li><strong>Responsibilities</strong>:
+<ul>
+<li>Stores, retrieves, and manages the data blocks requested by clients or the NameNode.</li>
+<li>Periodically sends <strong>heartbeat signals</strong> to the NameNode to confirm it is operational.</li>
+<li>Sends <strong>block reports</strong> to the NameNode, which include information on stored data blocks and their health status.</li>
+</ul>
+</li>
+<li><strong>Fault Tolerance</strong>: If a DataNode fails, the NameNode reassigns the data blocks to other nodes based on the replication factor, ensuring no data loss.</li>
+</ul>
+<h5 id="3-secondary-namenode">3. <strong>Secondary NameNode</strong></h5>
+<ul>
+<li><strong>Role</strong>: A helper to the NameNode, though not a true backup. It periodically takes snapshots of the NameNode’s metadata.</li>
+<li><strong>Responsibilities</strong>:
+<ul>
+<li>Merges the <em>edit log</em> with the <em>File System Image</em> (FsImage), which helps reduce the NameNode’s workload and keeps metadata up-to-date.</li>
+<li>If the primary NameNode fails, this metadata snapshot can help reconstruct the system but is not a direct substitute.</li>
+</ul>
+</li>
+<li><strong>Not for Failover</strong>: Hadoop 2.x introduced Standby NameNodes for High Availability rather than relying on the Secondary NameNode.</li>
+</ul>
+<hr />
+<h4 id="key-concepts-in-hdfs">Key Concepts in HDFS</h4>
+<h5 id="1-blocks-and-block-size">1. Blocks and Block Size</h5>
+<ul>
+<li><strong>Block Concept</strong>: Large files are split into smaller, fixed-size blocks, typically 128 MB by default (configurable).</li>
+<li><strong>Advantages</strong>:
+<ul>
+<li>Easier distribution across nodes.</li>
+<li>Optimized read/write throughput since processing can happen in parallel.</li>
+</ul>
+</li>
+<li><strong>Replication</strong>: Blocks are replicated across DataNodes for redundancy (default replication factor is 3).</li>
+</ul>
+<h5 id="2-replication-and-fault-tolerance">2. Replication and Fault Tolerance</h5>
+<ul>
+<li><strong>Replication Factor</strong>: The number of copies of each block stored across different nodes (default is 3).</li>
+<li><strong>Fault Tolerance</strong>: If a DataNode fails, HDFS ensures data availability by replicating the missing blocks on other nodes.</li>
+<li><strong>Rack Awareness</strong>: HDFS is aware of the physical location of nodes and can store data copies across different racks to minimize data loss in case of rack failures.</li>
+</ul>
+<h5 id="3-data-read-and-write-operations-in-hdfs">3. <strong>Data Read and Write Operations in HDFS</strong></h5>
+<ul>
+<li><strong>Write Operation</strong>:
+<ul>
+<li>Data is split into blocks and sent to DataNodes.</li>
+<li>The NameNode assigns which DataNodes to store the replicas.</li>
+<li>Data is stored on the primary DataNode, then replicated to the other DataNodes.</li>
+</ul>
+</li>
+<li><strong>Read Operation</strong>:
+<ul>
+<li>The client requests the file from the NameNode.</li>
+<li>The NameNode provides the block locations, and the client reads data blocks directly from the relevant DataNodes in parallel.</li>
+</ul>
+</li>
+</ul>
+<h5 id="4-heartbeat-and-block-report-mechanism">4. <strong>Heartbeat and Block Report Mechanism</strong></h5>
+<ul>
+<li><strong>Heartbeat</strong>: DataNodes send regular signals to the NameNode indicating they are active.</li>
+<li><strong>Block Report</strong>: Periodic report from each DataNode to the NameNode about all the blocks it stores, helping the NameNode maintain block locations and detect any block-level failures.</li>
+</ul>
+<h5 id="5-rack-awareness">5. <strong>Rack Awareness</strong></h5>
+<ul>
+<li><strong>Definition</strong>: A topology-aware feature in HDFS that understands the physical layout of nodes and racks.</li>
+<li><strong>Purpose</strong>: Data blocks are distributed across racks to minimize data loss risk if an entire rack fails.</li>
+<li><strong>Benefits</strong>: Increases fault tolerance and reduces inter-rack network traffic, as replicas are placed on different racks.</li>
+</ul>
+<hr />
+<h4 id="advantages-of-hdfs"><strong>Advantages of HDFS</strong></h4>
+<ul>
+<li><strong>==Scalability==</strong>: Can handle petabytes or even exabytes of data by scaling horizontally.</li>
+<li><strong>==Cost-Efficiency==</strong>: Runs on commodity hardware, reducing the need for high-cost storage solutions.</li>
+<li>==<strong>High Fault Tolerance==</strong>: Replication and distributed architecture provide strong data reliability.</li>
+<li>==<strong>High Throughput Access==</strong>: Optimized for batch processing and large datasets, which are common in Big Data analytics.</li>
+<li>==<strong>Data Locality</strong>:== Moves computation close to where data is stored, reducing network congestion and increasing processing speed.</li>
+</ul>
+<h4 id="limitations-of-hdfs"><strong>Limitations of HDFS</strong></h4>
+<ul>
+<li><strong>==Latency for Small Files==</strong>: HDFS is inefficient for handling a large number of small files, as each file’s metadata is stored in the NameNode, which can lead to memory overload.</li>
+<li><strong>==Single Point of Failure==</strong> (in Hadoop 1.x): The NameNode failure would bring down the entire system, though HA was introduced in Hadoop 2.x to mitigate this.</li>
+<li><strong>==Limited Random Access==</strong>: HDFS is optimized for high-throughput and large sequential reads, not random reads or updates.</li>
+<li>==<strong>Write Once, Read Many==</strong>: Files in HDFS are immutable after they are written; updating a file requires rewriting it.</li>
+</ul>
+<hr />
+<h4 id="hdfs-and-data-access-patterns"><strong>HDFS and Data Access Patterns</strong></h4>
+<ul>
+<li><strong>Batch Processing</strong>: HDFS excels in scenarios where data access is required in bulk, typically in batch processing jobs, making it suitable for MapReduce and other large-scale data analytics.</li>
+<li><strong>Sequential Data Access</strong>: Optimized for reading large files in a sequential manner, rather than random data access like traditional file systems.</li>
+</ul>
+<hr />
+<h3 id="map-reduce">Map Reduce</h3>
+<p><strong>MapReduce</strong> is a ==programming model and processing technique for distributed computing==, primarily used within the Hadoop ecosystem to process large datasets in parallel across clusters of computers. ==Developed by Google==, MapReduce is the core component that enables Hadoop to perform high-performance and fault-tolerant distributed data processing. Let’s dive into the details of MapReduce, including how it works, its key concepts, and use cases.</p>
+<hr />
+<h4 id="overview-of-map-reduce"><strong>Overview of Map-reduce</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: Map-reduce enables processing of vast amounts of data in a ==parallel, distributed fashion.==</li>
+<li><strong>Components</strong>: It consists of two main phases, the ==<strong>Map phase</strong>== and the <strong>==Reduce phase==</strong>, which split the task into smaller subtasks, execute them in parallel, and then aggregate the results.</li>
+<li><strong>Fault Tolerance</strong>: Automatically handles node failures by redistributing tasks to other nodes in the cluster.</li>
+</ul>
+<hr />
+<h4 id="how-mapreduce-works"><strong>How MapReduce Works</strong></h4>
+<p>MapReduce operates in two main stages:</p>
+<h4 id="1-map-phase">1. <strong>Map Phase</strong></h4>
+<ul>
+<li><strong>Function</strong>: The ==Map phase processes input data and generates== ==a set of intermediate== ==key-value pairs==.</li>
+<li><strong>Process</strong>:
+<ul>
+<li>Each input data file is divided into blocks, which are assigned to different nodes in the cluster.</li>
+<li>Each node executes a <strong>Map function</strong> on its assigned data blocks, which processes records individually.</li>
+<li>The output is in the form of <strong>key-value pairs</strong> (for example, for counting words, the key could be a word, and the value could be the count of occurrences).</li>
+</ul>
+</li>
+<li><strong>Intermediate Data</strong>: This phase generates intermediate data in key-value pairs, which is then sorted and grouped by key for the next phase.</li>
+</ul>
+<h4 id="2-shuffle-and-sort-phase">2. <strong>Shuffle and Sort Phase</strong></h4>
+<ul>
+<li><strong>Function</strong>: The Shuffle and Sort phase sorts all the intermediate data by key and groups it together for the Reduce phase.</li>
+<li><strong>Process</strong>:
+<ul>
+<li>Intermediate data from each Map task is grouped by key, so that all values corresponding to a particular key are together.</li>
+<li>This sorting and grouping make it easier for the Reduce phase to aggregate results for each key.</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-reduce-phase">3. <strong>Reduce Phase</strong></h4>
+<ul>
+<li><strong>Function</strong>: The Reduce phase ==consolidates the intermediate data==, ==applying the logic to combine or aggregate values associated with each key.==</li>
+<li><strong>Process</strong>:
+<ul>
+<li>The Reduce function takes each key and processes the list of values associated with it.</li>
+<li>This aggregation could be a sum, count, average, or any other operation, depending on the analysis required.</li>
+</ul>
+</li>
+<li><strong>Output</strong>: The final output is typically stored in HDFS, representing the result of the entire MapReduce job.</li>
+</ul>
+<hr />
+<h4 id="detailed-steps-of-a-mapreduce-job-execution"><strong>Detailed Steps of a MapReduce Job Execution</strong></h4>
+<h4 id="1-input-splitting">1. <strong>Input Splitting</strong></h4>
+<ul>
+<li><strong>Data Splitting</strong>: Hadoop splits the input data into fixed-size chunks (default 128 MB) called <strong>splits</strong>.</li>
+<li><strong>Assignment to Mappers</strong>: Each split is assigned to a Mapper, which processes one split independently of others.</li>
+</ul>
+<h4 id="2-mapping">2. <strong>Mapping</strong></h4>
+<ul>
+<li><strong>Mapper Execution</strong>: Each Mapper processes the split data line-by-line, applying the user-defined Map function to each record.</li>
+<li><strong>Key-Value Generation</strong>: Mappers produce intermediate key-value pairs as output.</li>
+</ul>
+<h4 id="3-shuffling-and-sorting">3. <strong>Shuffling and Sorting</strong></h4>
+<ul>
+<li><strong>Shuffle</strong>: Intermediate key-value pairs are shuffled to group identical keys together.</li>
+<li><strong>Sort</strong>: The keys are sorted to prepare data for the Reduce phase, allowing efficient aggregation of values by key.</li>
+</ul>
+<h4 id="4-reducing">4. <strong>Reducing</strong></h4>
+<ul>
+<li><strong>Reducer Execution</strong>: Each unique key is sent to a Reducer along with its corresponding list of values.</li>
+<li><strong>Aggregation</strong>: Reducer applies the aggregation or combination logic on the values, producing a consolidated result for each key.</li>
+</ul>
+<h4 id="5-output-writing">5. <strong>Output Writing</strong></h4>
+<ul>
+<li><strong>Final Storage</strong>: The results of the Reduce phase are written back to HDFS or other storage systems, typically as output files (one file per Reducer).</li>
+</ul>
+<hr />
+<h4 id="key-concepts-in-mapreduce"><strong>Key Concepts in MapReduce</strong></h4>
+<h4 id="1-key-value-pairs">1. <strong>Key-Value Pairs</strong></h4>
+<ul>
+<li><strong>Definition</strong>: Data in MapReduce is represented as key-value pairs, both as input and output.</li>
+<li><strong>Flexibility</strong>: This structure allows MapReduce to process different data types in a uniform way.</li>
+</ul>
+<h4 id="2-mappers-and-reducers">2. <strong>Mappers and Reducers</strong></h4>
+<ul>
+<li><strong>Mapper</strong>: Processes data and emits intermediate key-value pairs. Multiple Mappers work in parallel.</li>
+<li><strong>Reducer</strong>: Consolidates data based on keys and applies a final aggregation, such as summing or counting.</li>
+</ul>
+<h4 id="3-combiner-optional">3. <strong>Combiner (Optional)</strong></h4>
+<ul>
+<li><strong>Purpose</strong>: An optional step that acts as a “mini-reducer” to reduce the amount of intermediate data passed to Reducers, minimizing network traffic.</li>
+<li><strong>Usage</strong>: Useful for scenarios where partial aggregation can be done at the Mapper level (e.g., local word counts before sending to Reducer).</li>
+</ul>
+<h4 id="4-partitioner">4. <strong>Partitioner</strong></h4>
+<ul>
+<li><strong>Function</strong>: Determines how key-value pairs are distributed to Reducers by controlling which key-value pairs are sent to which Reducer.</li>
+<li><strong>Example</strong>: A default partitioner might hash the key to decide the Reducer, ensuring an even distribution of workload.</li>
+</ul>
+<h4 id="5-job-tracker-and-task-tracker-hadoop-1x--resource-manager-and-node-manager-hadoop-2x">5. <strong>Job Tracker and Task Tracker (Hadoop 1.x) / Resource Manager and Node Manager (Hadoop 2.x)</strong></h4>
+<ul>
+<li><strong>Job Tracker</strong>: Oversees the job’s execution (assigning tasks and monitoring nodes) in Hadoop 1.x.</li>
+<li><strong>Task Tracker</strong>: Executes individual tasks (Map or Reduce) on worker nodes.</li>
+<li>In Hadoop 2.x, <strong>YARN’s Resource Manager</strong> and <strong>Node Managers</strong> replaced Job Tracker and Task Tracker for better scalability and fault tolerance.</li>
+</ul>
+<hr />
+<h4 id="mapreduce-example-word-count"><strong>MapReduce Example: Word Count</strong></h4>
+<p>This example shows how MapReduce processes a word count job:</p>
+<h4 id="1-input-data"><strong>1. Input Data</strong></h4>
+<pre tabindex="0"><code>&#34;big data and hadoop&#34;
+&#34;hadoop and mapreduce&#34;
+</code></pre><h4 id="2-map-phase"><strong>2. Map Phase</strong></h4>
+<ul>
+<li><strong>Mapper Output</strong>:
+<pre tabindex="0"><code>(&#34;big&#34;, 1), (&#34;data&#34;, 1), (&#34;and&#34;, 1), (&#34;hadoop&#34;, 1)
+(&#34;hadoop&#34;, 1), (&#34;and&#34;, 1), (&#34;mapreduce&#34;, 1)
+</code></pre></li>
+</ul>
+<h4 id="3-shuffle-and-sort-phase"><strong>3. Shuffle and Sort Phase</strong></h4>
+<ul>
+<li><strong>Grouped Data</strong>:
+<pre tabindex="0"><code>(&#34;and&#34;, [1, 1]), (&#34;big&#34;, [1]), (&#34;data&#34;, [1]), (&#34;hadoop&#34;, [1, 1]), (&#34;mapreduce&#34;, [1])
+</code></pre></li>
+</ul>
+<h4 id="4-reduce-phase"><strong>4. Reduce Phase</strong></h4>
+<ul>
+<li><strong>Reducer Output</strong>:
+<pre tabindex="0"><code>(&#34;and&#34;, 2), (&#34;big&#34;, 1), (&#34;data&#34;, 1), (&#34;hadoop&#34;, 2), (&#34;mapreduce&#34;, 1)
+</code></pre></li>
+</ul>
+<h4 id="5-final-output"><strong>5. Final Output</strong></h4>
+<ul>
+<li>The final output is stored in HDFS, providing a count of each word in the input data.</li>
+</ul>
+<hr />
+<h4 id="advantages-of-mapreduce"><strong>Advantages of MapReduce</strong></h4>
+<ul>
+<li><strong>==Scalability==</strong>: Can scale to handle petabytes of data across thousands of nodes.</li>
+<li><strong>==Fault Tolerance==</strong>: Automatic data replication and task re-execution in case of node failures.</li>
+<li>==<strong>Data Locality==</strong>: Tasks are assigned to nodes where data is stored, minimizing network traffic.</li>
+<li><strong>==Parallel Processing==</strong>: Executes tasks in parallel, optimizing processing time for large datasets.</li>
+</ul>
+<h4 id="limitations-of-mapreduce"><strong>Limitations of MapReduce</strong></h4>
+<ul>
+<li><strong>==Inefficient for Small Tasks==</strong>: MapReduce is optimized for large-scale batch processing, and overhead can be high for smaller tasks.</li>
+<li><strong>==High Latency for Real-Time Processing==</strong>: Designed for batch processing, not for real-time analytics. Frameworks like Apache Spark are better suited for low-latency applications.</li>
+<li>==<strong>Single Data Flow</strong>:== MapReduce is not suitable for iterative computations (e.g., machine learning algorithms), as each iteration requires a separate MapReduce job, increasing complexity and time.</li>
+</ul>
+<h4 id="use-cases-for-mapreduce"><strong>Use Cases for MapReduce</strong></h4>
+<ul>
+<li>==<strong>Log Analysis==</strong>: Processing large volumes of logs for insights on server usage, error rates, or web traffic patterns.</li>
+<li><strong>==Search Indexing==</strong>: Building an inverted index for search engines, where documents are mapped to the keywords they contain.</li>
+<li><strong>==Data Aggregation==</strong>: Summing, counting, and averaging large datasets, such as in customer analytics or transaction histories.</li>
+<li><strong>==ETL Operations==</strong>: Transforming and loading data from various sources into data warehouses or storage systems for further analysis.</li>
+</ul>
+<hr />
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

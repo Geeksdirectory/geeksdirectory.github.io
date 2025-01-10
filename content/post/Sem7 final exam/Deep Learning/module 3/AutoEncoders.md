@@ -1,3 +1,8 @@
+---
+title: module 3 AutoEncoders
+date: 2025-01-10
+---
+
 	### Syllabus
 ![alt text](Pastedimage20241104202357.png)
 

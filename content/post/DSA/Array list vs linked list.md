@@ -1,3 +1,8 @@
+---
+title: DSA Array list vs linked list
+date: 2025-01-10
+---
+
 Here’s a short and clear tabular comparison of **ArrayList** and **LinkedList** in English:
 
 |Feature|ArrayList|LinkedList|

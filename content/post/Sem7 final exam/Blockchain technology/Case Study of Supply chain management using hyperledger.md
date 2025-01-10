@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Case Study of Supply chain management using hyperledger
+date: 2024-12-20
+---
+
 
 
 Supply chain management involves coordinating and managing the flow of goods, information, and finances from suppliers to consumers. The process often suffers from inefficiencies such as lack of transparency, fraud, and data silos. Blockchain technology, particularly **Hyperledger Fabric**, offers a solution to these challenges by providing transparency, immutability, and trust in the supply chain.

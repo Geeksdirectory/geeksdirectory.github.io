@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Consensus Protocol
+date: 2024-12-20
+---
+
 ### **What is a Consensus Protocol?**
 
 A **consensus protocol** is a core mechanism in blockchain systems that allows distributed nodes (participants in the network) to agree on a single, consistent state of the blockchain. Since blockchains are decentralized and have no central authority, consensus protocols ensure that all nodes agree on the validity of transactions and blocks without relying on trust.

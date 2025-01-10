@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Hyperledger Platform
+date: 2024-12-20
+---
+
 
 **Hyperledger** is an ==open-source== collaborative effort hosted by the **Linux Foundation** that focuses on developing frameworks, tools, and libraries for enterprise-grade blockchain systems. Unlike public blockchains like Bitcoin or Ethereum, Hyperledger is designed for **permissioned, private blockchain networks** where participants are known and trusted.
 

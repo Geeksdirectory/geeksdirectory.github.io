@@ -1,3 +1,8 @@
+---
+title: NLP semantic analysis
+date: 2024-12-20
+---
+
 focused on understanding the meaning and context of words, sentences, and text. It goes beyond syntax to interpret the relationships between words and their meanings in specific contexts.
 
 ---

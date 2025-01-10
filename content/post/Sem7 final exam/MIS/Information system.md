@@ -1,3 +1,8 @@
+---
+title: MIS Information system
+date: 2024-12-20
+---
+
 ### What is IS and its types ?
 
 An **Information System (IS)** is a structured framework that involves the ==collection, storage, management, and dissemination of data and information.== It co==mbines technology, people, and processes to support decision-making, coordination, control, analysis, and visualization in an organization or setting==.

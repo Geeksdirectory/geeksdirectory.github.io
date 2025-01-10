@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/mydocs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mydocs/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='/*
+About the slideshow script The script will convert your drawing into a slideshow presentation. Presentation options If you select an arrow or line element, the script will use that as the presentation path. If you select nothing, but the file has a hidden presentation path, the script will use that for determining the slide sequence. If there are frames, the script will use the frames for the presentation. Frames are played in alphabetical order of their titles.'>
+<title>Downloaded Slideshow</title>
+
+<link rel='canonical' href='http://localhost:1313/mydocs/post/excalidraw/scripts/downloaded/slideshow/'>
+
+<link rel="stylesheet" href="/mydocs/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='Downloaded Slideshow'>
+<meta property='og:description' content='/*
+About the slideshow script The script will convert your drawing into a slideshow presentation. Presentation options If you select an arrow or line element, the script will use that as the presentation path. If you select nothing, but the file has a hidden presentation path, the script will use that for determining the slide sequence. If there are frames, the script will use the frames for the presentation. Frames are played in alphabetical order of their titles.'>
+<meta property='og:url' content='http://localhost:1313/mydocs/post/excalidraw/scripts/downloaded/slideshow/'>
+<meta property='og:site_name' content='GeeksDirectory'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-20T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Downloaded Slideshow">
+<meta name="twitter:description" content="/*
+About the slideshow script The script will convert your drawing into a slideshow presentation. Presentation options If you select an arrow or line element, the script will use that as the presentation path. If you select nothing, but the file has a hidden presentation path, the script will use that for determining the slide sequence. If there are frames, the script will use the frames for the presentation. Frames are played in alphabetical order of their titles.">
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/mydocs/" class="avatar-link">
+                    
+                        
+                        
+                        
+                            
+                            <img src="/mydocs/img/icon_hu1e9d3d117dee2d509134683706c0cddf_10498_300x0_resize_box_3.png" width="300"
+                                height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        
+                    
+                </a>
+                
+                    <span class="emoji">✌️</span>
+                
+            </figure>
+
+
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/mydocs">GeeksDirectory</a></h1>
+            <h2 class="site-description">moshi moshi</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yashbhangale'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"/><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"/><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"/><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"/><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/__yashhh9'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/yashbhangale/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/archuser69'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com'
+                        target="_blank"
+                        title="YouTube"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/mydocs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/mydocs/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/mydocs/" selected></option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#presentation-options">Presentation options</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mydocs/post/excalidraw/scripts/downloaded/slideshow/">Downloaded Slideshow</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 20, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    12 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>/*</p>
+<h1 id="about-the-slideshow-script">About the slideshow script</h1>
+<p>The script will convert your drawing into a slideshow presentation.
+<img src="https://www.youtube.com/JwgtCrIVeEU"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Slideshow 3.0"
+	
+	
+></p>
+<p><img src="https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-slideshow-2.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="presentation-options">Presentation options</h2>
+<ul>
+<li>If you select an arrow or line element, the script will use that as the presentation path.</li>
+<li>If you select nothing, but the file has a hidden presentation path, the script will use that for determining the slide sequence.</li>
+<li>If there are frames, the script will use the frames for the presentation. Frames are played in alphabetical order of their titles.</li>
+</ul>
+<h1 id="keyboard-shortcuts-and-modifier-keys">Keyboard shortcuts and modifier keys</h1>
+<p><strong>Forward</strong>: Arrow Down, Arrow Right, or SPACE
+<strong>Backward</strong>: Arrow Up, Arrow Left
+<strong>Finish presentation</strong>: Backspace, ESC (I had issues with ESC not working in full screen presentation mode on Mac)</p>
+<p><strong>Run presentation in a window</strong>: Hold down the ALT/OPT modifier key when clicking the presentation script button
+<strong>Continue presentation</strong>: Hold down SHIFT when clicking the presentation script button. (The feature also works in combination with the ALT/OPT modifier to start the presentation in a window). The feature will only resume while you are within the same Obsidian session (i.e. if you restart Obsidian, slideshow will no longer remember where you were). I have two use cases in mind for this feature:</p>
+<ol>
+<li>When you are designing your presentation you may want to test how a slide looks. Using this feature you can get back to where you left off by starting the presentation with SHIFT.</li>
+<li>During presentation you may want to exit presentation mode to show something additional to your audience. You stop the presentation, show the additional thing you wanted, now you want to continue from where you left off. Hold down SHIFT when clicking the slideshow button.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#f92672">*</span><span style="color:#960050;background-color:#1e0010">/</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">verifyMinimumPluginVersion</span> <span style="color:#f92672">||</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">verifyMinimumPluginVersion</span>(<span style="color:#e6db74">&#34;2.1.7&#34;</span>)) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Notice</span>(<span style="color:#e6db74">&#34;This script requires a newer version of Excalidraw. Please install the latest version.&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hostLeaf</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">leaf</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hostView</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hostLeaf</span>.<span style="color:#a6e22e">view</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">statusBarElement</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;div.status-bar&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ctrlKey</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">modifierKeyDown</span>.<span style="color:#a6e22e">ctrlKey</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">modifierKeyDown</span>.<span style="color:#a6e22e">metaKey</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">altKey</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">modifierKeyDown</span>.<span style="color:#a6e22e">altKey</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">ctrlKey</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">shiftKey</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">modifierKeyDown</span>.<span style="color:#a6e22e">shiftKey</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">shouldStartWithLastSlide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">shiftKey</span> <span style="color:#f92672">&amp;&amp;</span> window.<span style="color:#a6e22e">ExcalidrawSlideshow</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>      (window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">script</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">utils</span>.<span style="color:#a6e22e">scriptFile</span>.<span style="color:#a6e22e">path</span>) <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#66d9ef">typeof</span> window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">slide</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;number&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//constants
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TRANSITION_STEP_COUNT</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TRANSITION_DELAY</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>; <span style="color:#75715e">//maximum time for transition between slides in milliseconds
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">FRAME_SLEEP</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#75715e">//milliseconds
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">EDIT_ZOOMOUT</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.7</span>; <span style="color:#75715e">//70% of original slide zoom, set to a value between 1 and 0
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">FADE_LEVEL</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.1</span>; <span style="color:#75715e">//opacity of the slideshow controls after fade delay (value between 0 and 1)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//using outerHTML because the SVG object returned by Obsidin is in the main workspace window
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//but excalidraw might be open in a popout window which has a different document object
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_COG</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-settings&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_FINISH</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-x&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_RIGHT_ARROW</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-arrow-right&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_LEFT_ARROW</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-arrow-left&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_EDIT</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-pencil&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_MAXIMIZE</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-maximize&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_MINIMIZE</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-minimize&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_LASER_ON</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-hand&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">SVG_LASER_OFF</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">getIcon</span>(<span style="color:#e6db74">&#34;lucide-wand&#34;</span>).<span style="color:#a6e22e">outerHTML</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//utility &amp; convenience functions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">shouldStartWithLastSlide</span> <span style="color:#f92672">?</span> window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">slide</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">isFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ownerDocument</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">ownerDocument</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">altKey</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//The plugin and Obsidian App run in the window object
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//When Excalidraw is open in a popout window, the Excalidraw component will run in the ownerWindow
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//and in this case ownerWindow !== window
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//For this reason event handlers are distributed between window and owner window depending on their role
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ownerWindow</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">ownerWindow</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">excalidrawAPI</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getExcalidrawAPI</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">frameRenderingOriginalState</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">getAppState</span>().<span style="color:#a6e22e">frameRendering</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">contentEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">contentEl</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">sleep</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">ms</span>) =&gt; <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">resolve</span>) =&gt; <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">ms</span>));
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">getFrameName</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">name</span>, <span style="color:#a6e22e">index</span>) =&gt; <span style="color:#a6e22e">name</span> <span style="color:#f92672">??</span> <span style="color:#e6db74">`Frame </span><span style="color:#e6db74">${</span>(<span style="color:#a6e22e">index</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>).<span style="color:#a6e22e">toString</span>().<span style="color:#a6e22e">padStart</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;0&#39;</span>)<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//clean up potential clutter from previous run
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>window.<span style="color:#a6e22e">removePresentationEventHandlers</span><span style="color:#f92672">?</span>.();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//1. check if line or arrow is selected, if not check if frames are available, if not inform the user and terminate presentation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">presentationPathLineEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewElements</span>()
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">el</span>=&gt;[<span style="color:#e6db74">&#34;line&#34;</span>,<span style="color:#e6db74">&#34;arrow&#34;</span>].<span style="color:#a6e22e">contains</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">type</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">customData</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">slideshow</span>)[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">frameClones</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewElements</span>().<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">el</span>=&gt;<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">type</span><span style="color:#f92672">===</span><span style="color:#e6db74">&#34;frame&#34;</span>).<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">f</span>=&gt;<span style="color:#a6e22e">frameClones</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">cloneElement</span>(<span style="color:#a6e22e">f</span>)));
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">frameClones</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">frameClones</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getFrameName</span>(<span style="color:#a6e22e">frameClones</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">name</span>,<span style="color:#a6e22e">i</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">frames</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">frameClones</span>
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">sort</span>((<span style="color:#a6e22e">el1</span>,<span style="color:#a6e22e">el2</span>)=&gt; <span style="color:#a6e22e">el1</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">el2</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:-</span><span style="color:#ae81ff">1</span>); 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;line&#34;</span>; <span style="color:#75715e">// &#34;frame&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">selectedEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewSelectedElement</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">shouldHideArrowAfterPresentation</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>; <span style="color:#75715e">//this controls if the hide arrow button is available in settings
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathLineEl</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">selectedEl</span> <span style="color:#f92672">&amp;&amp;</span> [<span style="color:#e6db74">&#34;line&#34;</span>,<span style="color:#e6db74">&#34;arrow&#34;</span>].<span style="color:#a6e22e">contains</span>(<span style="color:#a6e22e">selectedEl</span>.<span style="color:#a6e22e">type</span>)) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setToast</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">message</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;Using selected line instead of hidden line. Note that there is a hidden presentation path for this drawing. Run the slideshow script without selecting any elements to access the hidden presentation path&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5000</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">closable</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">shouldHideArrowAfterPresentation</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">presentationPathLineEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">selectedEl</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">presentationPathLineEl</span>) <span style="color:#a6e22e">presentationPathLineEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">selectedEl</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">presentationPathLineEl</span> <span style="color:#f92672">||</span> <span style="color:#f92672">!</span>[<span style="color:#e6db74">&#34;line&#34;</span>,<span style="color:#e6db74">&#34;arrow&#34;</span>].<span style="color:#a6e22e">contains</span>(<span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">type</span>)) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">frames</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;frame&#34;</span>;
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setToast</span>({
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">message</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;Please select the line or arrow for the presentation path or add frames.&#34;</span>,
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">3000</span>,
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">closable</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>	  })
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// generate slides[] array
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">slides</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;line&#34;</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">getLineSlideRect</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">pointA</span>, <span style="color:#a6e22e">pointB</span>}) =&gt; {
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">x1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">x</span><span style="color:#f92672">+</span><span style="color:#a6e22e">pointA</span>[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">y1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">y</span><span style="color:#f92672">+</span><span style="color:#a6e22e">pointA</span>[<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">x2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">x</span><span style="color:#f92672">+</span><span style="color:#a6e22e">pointB</span>[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">y2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">y</span><span style="color:#f92672">+</span><span style="color:#a6e22e">pointB</span>[<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">x1</span>, <span style="color:#a6e22e">y1</span>, <span style="color:#a6e22e">x2</span>, <span style="color:#a6e22e">y2</span>};
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">slideCount</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">floor</span>(<span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">points</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;=</span><span style="color:#a6e22e">slideCount</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">getLineSlideRect</span>({
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">pointA</span><span style="color:#f92672">:</span><span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">points</span>[<span style="color:#a6e22e">i</span><span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>],
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">pointB</span><span style="color:#f92672">:</span><span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">points</span>[<span style="color:#a6e22e">i</span><span style="color:#f92672">*</span><span style="color:#ae81ff">2</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>	  }))
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;frame&#34;</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#a6e22e">frame</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">frames</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">push</span>({
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">x1</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">x</span>,
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">y1</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">y</span>,
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">x2</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">x</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">width</span>,
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">y2</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">y</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">frame</span>.<span style="color:#a6e22e">height</span>
+</span></span><span style="display:flex;"><span>		});
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">frameRenderingOriginalState</span>.<span style="color:#a6e22e">enabled</span>) {
+</span></span><span style="display:flex;"><span>  	<span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">updateScene</span>({
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">appState</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">frameRendering</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	        ...<span style="color:#a6e22e">frameRenderingOriginalState</span>,
+</span></span><span style="display:flex;"><span>	        <span style="color:#a6e22e">enabled</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>	      }
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Toggle fullscreen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">toggleFullscreenButton</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">controlPanelEl</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">selectSlideDropdown</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">resetControlPanelElPosition</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">controlPanelEl</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">top</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">innerHeight</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">left</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">innerWidth</span><span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">top</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`calc(</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">top</span><span style="color:#e6db74">}</span><span style="color:#e6db74">px - var(--default-button-size)*2)`</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">left</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`calc(</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">left</span><span style="color:#e6db74">}</span><span style="color:#e6db74">px - var(--default-button-size)*5)`</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">slide</span><span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">waitForExcalidrawResize</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">100</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">deltaWidth</span> <span style="color:#f92672">=</span> () =&gt; Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">clientWidth</span><span style="color:#f92672">-</span><span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">getAppState</span>().<span style="color:#a6e22e">width</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">deltaHeight</span> <span style="color:#f92672">=</span> () =&gt; Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">clientHeight</span><span style="color:#f92672">-</span><span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">getAppState</span>().<span style="color:#a6e22e">height</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">watchdog</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> ((<span style="color:#a6e22e">deltaWidth</span>()<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">50</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">deltaHeight</span>()<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">50</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">watchdog</span><span style="color:#f92672">++&lt;</span><span style="color:#ae81ff">20</span>) <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">50</span>); <span style="color:#75715e">//wait for Excalidraw to resize to fullscreen
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">preventFullscreenExit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">gotoFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">isFullscreen</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">preventFullscreenExit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">DEVICE</span>.<span style="color:#a6e22e">isMobile</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">viewToggleFullScreen</span>();
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">webkitRequestFullscreen</span>();
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">waitForExcalidrawResize</span>();
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">layerUIWrapper</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.layer-ui__wrapper&#34;</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">layerUIWrapper</span>.<span style="color:#a6e22e">hasClass</span>(<span style="color:#e6db74">&#34;excalidraw-hidden&#34;</span>)) <span style="color:#a6e22e">layerUIWrapper</span>.<span style="color:#a6e22e">addClass</span>(<span style="color:#e6db74">&#34;excalidraw-hidden&#34;</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">toggleFullscreenButton</span>) <span style="color:#a6e22e">toggleFullscreenButton</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_MINIMIZE</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">resetControlPanelElPosition</span>();
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">isFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">exitFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">isFullscreen</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">preventFullscreenExit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">DEVICE</span>.<span style="color:#a6e22e">isMobile</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">ownerDocument</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">fullscreenElement</span>) <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">ownerDocument</span>.<span style="color:#a6e22e">exitFullscreen</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">DEVICE</span>.<span style="color:#a6e22e">isMobile</span>) <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">viewToggleFullScreen</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">toggleFullscreenButton</span>) <span style="color:#a6e22e">toggleFullscreenButton</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_MAXIMIZE</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">waitForExcalidrawResize</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">resetControlPanelElPosition</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">toggleFullscreen</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">isFullscreen</span>) {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">exitFullscreen</span>();
+</span></span><span style="display:flex;"><span> } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>	 <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">gotoFullscreen</span>();
+</span></span><span style="display:flex;"><span> }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----------------------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// hide the arrow for the duration of the presentation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// and save the arrow color before doing so
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-----------------------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">isHidden</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">originalProps</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">toggleArrowVisibility</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">setToHidden</span>) =&gt; {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">clear</span>();
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">copyViewElementsToEAforEditing</span>(<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewElements</span>().<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">el</span>=&gt;<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">id</span>));
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getElement</span>(<span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">strokeColor</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;transparent&#34;</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">backgroundColor</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;transparent&#34;</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">customData</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">customData</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">setToHidden</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">shouldHideArrowAfterPresentation</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">locked</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">customData</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>			...<span style="color:#a6e22e">customData</span>,
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">slideshow</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">originalProps</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">hidden</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">isHidden</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">customData</span>) <span style="color:#66d9ef">delete</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">customData</span>.<span style="color:#a6e22e">slideshow</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">isHidden</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">addElementsToView</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span><span style="color:#f92672">===</span><span style="color:#e6db74">&#34;line&#34;</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">originalProps</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">customData</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">slideshow</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">hidden</span>
+</span></span><span style="display:flex;"><span>	  <span style="color:#f92672">?</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">customData</span>.<span style="color:#a6e22e">slideshow</span>.<span style="color:#a6e22e">originalProps</span>
+</span></span><span style="display:flex;"><span>	  <span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">strokeColor</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">strokeColor</span>,
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">backgroundColor</span>,
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">locked</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">locked</span>,
+</span></span><span style="display:flex;"><span>	  };
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">isHidden</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">customData</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">slideshow</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">hidden</span> <span style="color:#f92672">??</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// scroll-to-location functions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-----------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">getNavigationRect</span> <span style="color:#f92672">=</span> ({ <span style="color:#a6e22e">x1</span>, <span style="color:#a6e22e">y1</span>, <span style="color:#a6e22e">x2</span>, <span style="color:#a6e22e">y2</span> }) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">width</span>, <span style="color:#a6e22e">height</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">getAppState</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ratioX</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">width</span> <span style="color:#f92672">/</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">x1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">x2</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ratioY</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">height</span> <span style="color:#f92672">/</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">y1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">y2</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">ratio</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">min</span>(Math.<span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">ratioX</span>, <span style="color:#a6e22e">ratioY</span>), <span style="color:#ae81ff">30</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">scaledWidth</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">x1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">x2</span>) <span style="color:#f92672">*</span> <span style="color:#a6e22e">ratio</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">scaledHeight</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">y1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">y2</span>) <span style="color:#f92672">*</span> <span style="color:#a6e22e">ratio</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scaledWidth</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">width</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">scaledHeight</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">height</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ratio</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">width</span> <span style="color:#f92672">/</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">x1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">x2</span>), <span style="color:#a6e22e">height</span> <span style="color:#f92672">/</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">y1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">y2</span>));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">deltaX</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">width</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">ratio</span> <span style="color:#f92672">-</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">x1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">x2</span>)) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">deltaY</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">height</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">ratio</span> <span style="color:#f92672">-</span> Math.<span style="color:#a6e22e">abs</span>(<span style="color:#a6e22e">y1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">y2</span>)) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">x1</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">x2</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">x1</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">x2</span>) <span style="color:#f92672">-</span> <span style="color:#a6e22e">deltaX</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">y1</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">y2</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">y1</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">y2</span>) <span style="color:#f92672">-</span> <span style="color:#a6e22e">deltaY</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">x1</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">x2</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">x2</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">x1</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">deltaX</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">bottom</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">y1</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">y2</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">y2</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">y1</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">deltaY</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">nextZoom</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">ratio</span>,
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">getNextSlideRect</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">forward</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">forward</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">?</span> <span style="color:#a6e22e">slide</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">slide</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>     <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span> <span style="color:#a6e22e">slide</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>            <span style="color:#f92672">?</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">slide</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">getNavigationRect</span>(<span style="color:#a6e22e">slides</span>[<span style="color:#a6e22e">slide</span>]);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">busy</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">scrollToNextRect</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> ({<span style="color:#a6e22e">left</span>,<span style="color:#a6e22e">top</span>,<span style="color:#a6e22e">right</span>,<span style="color:#a6e22e">bottom</span>,<span style="color:#a6e22e">nextZoom</span>},<span style="color:#a6e22e">steps</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">TRANSITION_STEP_COUNT</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startTimer</span> <span style="color:#f92672">=</span> Date.<span style="color:#a6e22e">now</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">watchdog</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span>(<span style="color:#a6e22e">busy</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">watchdog</span><span style="color:#f92672">++&lt;</span><span style="color:#ae81ff">15</span>) <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">100</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">busy</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">watchdog</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">15</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">busy</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">updateScene</span>({<span style="color:#a6e22e">appState</span><span style="color:#f92672">:</span>{<span style="color:#a6e22e">shouldCacheIgnoreZoom</span><span style="color:#f92672">:</span><span style="color:#66d9ef">true</span>}});
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> {<span style="color:#a6e22e">scrollX</span>, <span style="color:#a6e22e">scrollY</span>, <span style="color:#a6e22e">zoom</span>} <span style="color:#f92672">=</span> <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">getAppState</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">zoomStep</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">zoom</span>.<span style="color:#a6e22e">value</span><span style="color:#f92672">-</span><span style="color:#a6e22e">nextZoom</span>)<span style="color:#f92672">/</span><span style="color:#a6e22e">steps</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">xStep</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">left</span><span style="color:#f92672">+</span><span style="color:#a6e22e">scrollX</span>)<span style="color:#f92672">/</span><span style="color:#a6e22e">steps</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">yStep</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">top</span><span style="color:#f92672">+</span><span style="color:#a6e22e">scrollY</span>)<span style="color:#f92672">/</span><span style="color:#a6e22e">steps</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span>(<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;=</span><span style="color:#a6e22e">steps</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">updateScene</span>({
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">appState</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">scrollX</span><span style="color:#f92672">:</span><span style="color:#a6e22e">scrollX</span><span style="color:#f92672">-</span>(<span style="color:#a6e22e">xStep</span><span style="color:#f92672">*</span><span style="color:#a6e22e">i</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">scrollY</span><span style="color:#f92672">:</span><span style="color:#a6e22e">scrollY</span><span style="color:#f92672">-</span>(<span style="color:#a6e22e">yStep</span><span style="color:#f92672">*</span><span style="color:#a6e22e">i</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">zoom</span><span style="color:#f92672">:</span>{<span style="color:#a6e22e">value</span><span style="color:#f92672">:</span><span style="color:#a6e22e">zoom</span>.<span style="color:#a6e22e">value</span><span style="color:#f92672">-</span><span style="color:#a6e22e">zoomStep</span><span style="color:#f92672">*</span><span style="color:#a6e22e">i</span>},
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ellapsed</span> <span style="color:#f92672">=</span> Date.<span style="color:#a6e22e">now</span>()<span style="color:#f92672">-</span><span style="color:#a6e22e">startTimer</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">ellapsed</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">TRANSITION_DELAY</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">steps</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">steps</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">steps</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">timeProgress</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ellapsed</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">TRANSITION_DELAY</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span>Math.<span style="color:#a6e22e">min</span>(Math.<span style="color:#a6e22e">round</span>(<span style="color:#a6e22e">steps</span><span style="color:#f92672">*</span><span style="color:#a6e22e">timeProgress</span>),<span style="color:#a6e22e">steps</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sleep</span>(<span style="color:#a6e22e">FRAME_SLEEP</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">updateScene</span>({<span style="color:#a6e22e">appState</span><span style="color:#f92672">:</span>{<span style="color:#a6e22e">shouldCacheIgnoreZoom</span><span style="color:#f92672">:</span><span style="color:#66d9ef">false</span>}});
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">isLaserOn</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setActiveTool</span>({<span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;laser&#34;</span>});
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">busy</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">navigate</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">dir</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">forward</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">dir</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;fwd&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">prevSlide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slide</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">nextRect</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getNextSlideRect</span>(<span style="color:#a6e22e">forward</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//exit if user navigates from last slide forward or first slide backward
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">shouldExit</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">forward</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">?</span> <span style="color:#a6e22e">slide</span><span style="color:#f92672">&lt;=</span><span style="color:#a6e22e">prevSlide</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span> <span style="color:#a6e22e">slide</span><span style="color:#f92672">&gt;=</span><span style="color:#a6e22e">prevSlide</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">shouldExit</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">exitPresentation</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">selectSlideDropdown</span>) <span style="color:#a6e22e">selectSlideDropdown</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slide</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">scrollToNextRect</span>(<span style="color:#a6e22e">nextRect</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshow</span> <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#66d9ef">typeof</span> window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">slide</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;number&#34;</span>)) {
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slide</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">navigateToSlide</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">slideNumber</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">slideNumber</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span>) <span style="color:#a6e22e">slideNumber</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">slideNumber</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>) <span style="color:#a6e22e">slideNumber</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slideNumber</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Slideshow control panel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">controlPanelFadeTimout</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setFadeTimeout</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">delay</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">delay</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">delay</span> <span style="color:#f92672">??</span> <span style="color:#a6e22e">TRANSITION_DELAY</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelFadeTimeout</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">setTimeout</span>(()=&gt;{
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">controlPanelFadeTimout</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">ownerDocument</span>.<span style="color:#a6e22e">activeElement</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">selectSlideDropdown</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setFadeTimeout</span>(<span style="color:#a6e22e">delay</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">opacity</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">FADE_LEVEL</span>;
+</span></span><span style="display:flex;"><span>  },<span style="color:#a6e22e">delay</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">clearFadeTimeout</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">controlPanelFadeTimeout</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">clearTimeout</span>(<span style="color:#a6e22e">controlPanelFadeTimeout</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelFadeTimeout</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">opacity</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">createPresentationNavigationPanel</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//create slideshow controlpanel container
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">top</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">innerHeight</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">left</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">innerWidth</span><span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.excalidraw&#34;</span>).<span style="color:#a6e22e">createDiv</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cls</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#34;excalidraw-presentation-panel&#34;</span>],
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        width: fit-content;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        z-index:5;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        position: absolute;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        top:calc(</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">top</span><span style="color:#e6db74">}</span><span style="color:#e6db74">px - var(--default-button-size)*2);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        left:calc(</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">left</span><span style="color:#e6db74">}</span><span style="color:#e6db74">px - var(--default-button-size)*5);`</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">setFadeTimeout</span>(<span style="color:#a6e22e">TRANSITION_DELAY</span><span style="color:#f92672">*</span><span style="color:#ae81ff">3</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">panelColumn</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">createDiv</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cls</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;panelColumn&#34;</span>,
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">panelColumn</span>.<span style="color:#a6e22e">createDiv</span>({
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">cls</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#34;Island&#34;</span>, <span style="color:#e6db74">&#34;buttonList&#34;</span>],
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      max-width: unset;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      justify-content: space-between;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      height: calc(var(--default-button-size)*1.5);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      width: 100%;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      background: var(--island-bg-color);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      display: flex;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	      align-items: center;`</span>,
+</span></span><span style="display:flex;"><span>	  }
+</span></span><span style="display:flex;"><span>	}, <span style="color:#a6e22e">el</span>=&gt;{
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;style&#34;</span>, 
+</span></span><span style="display:flex;"><span>	    { <span style="color:#a6e22e">text</span><span style="color:#f92672">:</span> <span style="color:#e6db74">` select:focus { box-shadow: var(--input-shadow);} `</span>});
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        margin-left: calc(var(--default-button-size)*0.25);`</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#e6db74">&#34;aria-label&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Previous slide&#34;</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Previous slide&#34;</span>
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_LEFT_ARROW</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;bkwd&#34;</span>)
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">selectSlideDropdown</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;select&#34;</span>, {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          font-size: inherit;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          background-color: var(--island-bg-color);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          border: none;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          color: var(--color-gray-100);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          cursor: pointer;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        }`</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Navigate to slide&#34;</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }, <span style="color:#a6e22e">selectEl</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>	      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">option</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;option&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">option</span>.<span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;frame&#34;</span>)
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">?</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">frames</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">name</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">:</span> <span style="color:#a6e22e">option</span>.<span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`Slide </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">option</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">selectEl</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">option</span>);
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">selectEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;change&#34;</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>	      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">selectedSlideNumber</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">selectEl</span>.<span style="color:#a6e22e">value</span>);
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">selectEl</span>.<span style="color:#a6e22e">blur</span>();
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">navigateToSlide</span>(<span style="color:#a6e22e">selectedSlideNumber</span>);
+</span></span><span style="display:flex;"><span>	    });
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Next slide&#34;</span>
+</span></span><span style="display:flex;"><span>	    },
+</span></span><span style="display:flex;"><span>	  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_RIGHT_ARROW</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createDiv</span>({
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        width: 1px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        height: var(--default-button-size);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        background-color: var(--default-border-color);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        margin: 0px auto;`</span>
+</span></span><span style="display:flex;"><span>	      }
+</span></span><span style="display:flex;"><span>	    });
+</span></span><span style="display:flex;"><span>	    
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Toggle Laser Pointer and Panning Mode&#34;</span>
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">SVG_LASER_ON</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">SVG_LASER_OFF</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">=</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">isLaserOn</span>;
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setActiveTool</span>({
+</span></span><span style="display:flex;"><span>		      <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;laser&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;selection&#34;</span>
+</span></span><span style="display:flex;"><span>		    })
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">SVG_LASER_ON</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">SVG_LASER_OFF</span>;
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	  
+</span></span><span style="display:flex;"><span> 	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Toggle fullscreen. If you hold ALT/OPT when starting the presentation it will not go fullscreen.&#34;</span>
+</span></span><span style="display:flex;"><span>	    },
+</span></span><span style="display:flex;"><span>	  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">toggleFullscreenButton</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">button</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">isFullscreen</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">SVG_MINIMIZE</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">SVG_MAXIMIZE</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">toggleFullscreen</span>();
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;line&#34;</span>) {
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">shouldHideArrowAfterPresentation</span>) {
+</span></span><span style="display:flex;"><span>		    <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">obsidian</span>.<span style="color:#a6e22e">ToggleComponent</span>(<span style="color:#a6e22e">el</span>)
+</span></span><span style="display:flex;"><span>		      .<span style="color:#a6e22e">setValue</span>(<span style="color:#a6e22e">isHidden</span>)
+</span></span><span style="display:flex;"><span>		      .<span style="color:#a6e22e">onChange</span>(<span style="color:#a6e22e">value</span> =&gt; {
+</span></span><span style="display:flex;"><span>		        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">value</span>) {
+</span></span><span style="display:flex;"><span>		          <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setToast</span>({
+</span></span><span style="display:flex;"><span>						    <span style="color:#a6e22e">message</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;The presentation path remain hidden after the presentation. No need to select the line again. Just click the slideshow button to start the next presentation.&#34;</span>,
+</span></span><span style="display:flex;"><span>						    <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5000</span>,
+</span></span><span style="display:flex;"><span>						    <span style="color:#a6e22e">closable</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>						  })
+</span></span><span style="display:flex;"><span>		        }
+</span></span><span style="display:flex;"><span>		        <span style="color:#a6e22e">toggleArrowVisibility</span>(<span style="color:#a6e22e">value</span>);
+</span></span><span style="display:flex;"><span>		      })
+</span></span><span style="display:flex;"><span>		      .<span style="color:#a6e22e">toggleEl</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#34;title&#34;</span>,<span style="color:#e6db74">&#34;Arrow visibility. ON: hidden after presentation, OFF: visible after presentation&#34;</span>);
+</span></span><span style="display:flex;"><span>		  }
+</span></span><span style="display:flex;"><span>		  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>		      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Edit slide&#34;</span>
+</span></span><span style="display:flex;"><span>		    },
+</span></span><span style="display:flex;"><span>		  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_EDIT</span>;
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>		      <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">shouldHideArrowAfterPresentation</span>) <span style="color:#a6e22e">toggleArrowVisibility</span>(<span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>		      <span style="color:#a6e22e">exitPresentation</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>		    }
+</span></span><span style="display:flex;"><span>		  });
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">createEl</span>(<span style="color:#e6db74">&#34;button&#34;</span>,{
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">attr</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">style</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	        margin-right: calc(var(--default-button-size)*0.25);`</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;End presentation&#34;</span>
+</span></span><span style="display:flex;"><span>	    }
+</span></span><span style="display:flex;"><span>	  }, <span style="color:#a6e22e">button</span> =&gt; {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">SVG_FINISH</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">button</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">exitPresentation</span>()
+</span></span><span style="display:flex;"><span>	  });
+</span></span><span style="display:flex;"><span>	});
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// keyboard navigation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">keydownListener</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">e</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">hostLeaf</span> <span style="color:#f92672">!==</span> <span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">workspace</span>.<span style="color:#a6e22e">activeLeaf</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">hostLeaf</span>.<span style="color:#a6e22e">width</span> <span style="color:#f92672">===</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">hostLeaf</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">===</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">switch</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">key</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Backspace&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Escape&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">exitPresentation</span>();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Space&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;ArrowRight&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;ArrowDown&#34;</span><span style="color:#f92672">:</span> 
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;ArrowLeft&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;ArrowUp&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;bkwd&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;End&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">slides</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Home&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">slide</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;fwd&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;e&#34;</span><span style="color:#f92672">:</span> 
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#34;line&#34;</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">async</span> ()=&gt;{
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">toggleArrowVisibility</span>(<span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">exitPresentation</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>      })()
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// slideshow panel drag
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//---------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">posX1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">posY1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">posX2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">posY2</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">updatePosition</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">deltaY</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">deltaX</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">offsetTop</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">offsetLeft</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">clientWidth</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">width</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">clientHeight</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">height</span>,
+</span></span><span style="display:flex;"><span>   } <span style="color:#f92672">=</span> <span style="color:#a6e22e">controlPanelEl</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">top</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">offsetTop</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">deltaY</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">left</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">offsetLeft</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">deltaX</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">onPointerUp</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;pointermove&#39;</span>, <span style="color:#a6e22e">onDrag</span>, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">onPointerDown</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">e</span>) =&gt; {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">clearFadeTimeout</span>();
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">setFadeTimeout</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">now</span> <span style="color:#f92672">=</span> Date.<span style="color:#a6e22e">now</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posX2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientX</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posY2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientY</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;pointermove&#39;</span>, <span style="color:#a6e22e">onDrag</span>, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">onDrag</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">e</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posX1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">posX2</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientX</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posY1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">posY2</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientY</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posX2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientX</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">posY2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">clientY</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">updatePosition</span>(<span style="color:#a6e22e">posY1</span>, <span style="color:#a6e22e">posX1</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">onMouseEnter</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">clearFadeTimeout</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">onMouseLeave</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">setFadeTimeout</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fullscreenListener</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">e</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">preventFullscreenExit</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">preventFullscreenExit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">exitPresentation</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">initializeEventListners</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;keydown&#39;</span>,<span style="color:#a6e22e">keydownListener</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;pointerdown&#39;</span>, <span style="color:#a6e22e">onPointerDown</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;mouseenter&#39;</span>, <span style="color:#a6e22e">onMouseEnter</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;mouseleave&#39;</span>, <span style="color:#a6e22e">onMouseLeave</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;pointerup&#39;</span>, <span style="color:#a6e22e">onPointerUp</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//event listners for terminating the presentation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	window.<span style="color:#a6e22e">removePresentationEventHandlers</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">onLinkClickHook</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;pointerdown&#39;</span>, <span style="color:#a6e22e">onPointerDown</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;mouseenter&#39;</span>, <span style="color:#a6e22e">onMouseEnter</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;mouseleave&#39;</span>, <span style="color:#a6e22e">onMouseLeave</span>, <span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">controlPanelEl</span>.<span style="color:#a6e22e">parentElement</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">removeChild</span>(<span style="color:#a6e22e">controlPanelEl</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">DEVICE</span>.<span style="color:#a6e22e">isMobile</span>) {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;webkitfullscreenchange&#39;</span>, <span style="color:#a6e22e">fullscreenListener</span>);
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;fullscreenchange&#39;</span>, <span style="color:#a6e22e">fullscreenListener</span>);
+</span></span><span style="display:flex;"><span>	  }
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;keydown&#39;</span>,<span style="color:#a6e22e">keydownListener</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">removeEventListener</span>(<span style="color:#e6db74">&#39;pointerup&#39;</span>,<span style="color:#a6e22e">onPointerUp</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.layer-ui__wrapper&#34;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">removeClass</span>(<span style="color:#e6db74">&#34;excalidraw-hidden&#34;</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">delete</span> window.<span style="color:#a6e22e">removePresentationEventHandlers</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">onLinkClickHook</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">exitPresentation</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">DEVICE</span>.<span style="color:#a6e22e">isMobile</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;webkitfullscreenchange&#39;</span>, <span style="color:#a6e22e">fullscreenListener</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentEl</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;fullscreenchange&#39;</span>, <span style="color:#a6e22e">fullscreenListener</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//----------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Exit presentation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//----------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">exitPresentation</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">openForEdit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//this is a hack, not sure why ea loses target view when other scripts are executed while the presentation is running
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hostView</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isLaserOn</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">statusBarElement</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;inherit&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">openForEdit</span>) <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">preventAutozoom</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">exitFullscreen</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">waitForExcalidrawResize</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">setViewModeEnabled</span>(<span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;line&#34;</span>) {
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">clear</span>();
+</span></span><span style="display:flex;"><span>	  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">copyViewElementsToEAforEditing</span>(<span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewElements</span>().<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">el</span>=&gt;<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">id</span>));
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getElement</span>(<span style="color:#a6e22e">presentationPathLineEl</span>.<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">isHidden</span>) {
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">strokeColor</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">originalProps</span>.<span style="color:#a6e22e">strokeColor</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">backgroundProps</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">originalProps</span>.<span style="color:#a6e22e">backgroundColor</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">locked</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">openForEdit</span> <span style="color:#f92672">?</span> <span style="color:#66d9ef">false</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">originalProps</span>.<span style="color:#a6e22e">locked</span>;
+</span></span><span style="display:flex;"><span>	  }
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">addElementsToView</span>();
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">isHidden</span>) <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">selectElementsInView</span>([<span style="color:#a6e22e">el</span>]);
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">openForEdit</span>) {
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nextRect</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getNextSlideRect</span>(<span style="color:#f92672">--</span><span style="color:#a6e22e">slide</span>);
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">offsetW</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">right</span><span style="color:#f92672">-</span><span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">left</span>)<span style="color:#f92672">*</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">-</span><span style="color:#a6e22e">EDIT_ZOOMOUT</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">offsetH</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">bottom</span><span style="color:#f92672">-</span><span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">top</span>)<span style="color:#f92672">*</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">-</span><span style="color:#a6e22e">EDIT_ZOOMOUT</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">nextRect</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">left</span><span style="color:#f92672">-</span><span style="color:#a6e22e">offsetW</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">right</span><span style="color:#f92672">+</span><span style="color:#a6e22e">offsetW</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">top</span><span style="color:#f92672">-</span><span style="color:#a6e22e">offsetH</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">bottom</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">bottom</span><span style="color:#f92672">+</span><span style="color:#a6e22e">offsetH</span>,
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">nextZoom</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">nextZoom</span><span style="color:#f92672">*</span><span style="color:#a6e22e">EDIT_ZOOMOUT</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.1</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">nextRect</span>.<span style="color:#a6e22e">nextZoom</span><span style="color:#f92672">*</span><span style="color:#a6e22e">EDIT_ZOOMOUT</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0.1</span> <span style="color:#75715e">//0.1 is the minimu zoom value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	    };
+</span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">scrollToNextRect</span>(<span style="color:#a6e22e">nextRect</span>,<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>	    <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">startLineEditor</span>(
+</span></span><span style="display:flex;"><span>	      <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">getViewSelectedElement</span>(),
+</span></span><span style="display:flex;"><span>	      [<span style="color:#a6e22e">slide</span><span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>,<span style="color:#a6e22e">slide</span><span style="color:#f92672">*</span><span style="color:#ae81ff">2</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>	    );
+</span></span><span style="display:flex;"><span>	  }
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>	  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">frameRenderingOriginalState</span>.<span style="color:#a6e22e">enabled</span>) {
+</span></span><span style="display:flex;"><span>	  	<span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">updateScene</span>({
+</span></span><span style="display:flex;"><span>		    <span style="color:#a6e22e">appState</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>		      <span style="color:#a6e22e">frameRendering</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>		        ...<span style="color:#a6e22e">frameRenderingOriginalState</span>,
+</span></span><span style="display:flex;"><span>		        <span style="color:#a6e22e">enabled</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>		      }
+</span></span><span style="display:flex;"><span>		    }
+</span></span><span style="display:flex;"><span>		  });
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>  window.<span style="color:#a6e22e">removePresentationEventHandlers</span><span style="color:#f92672">?</span>.();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ownerWindow</span>.<span style="color:#a6e22e">setTimeout</span>(()=&gt;{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Resets pointer offsets. Ugly solution. 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">//During testing offsets were wrong after presentation, but don&#39;t know why.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">//This should solve it even if they are wrong.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">hostView</span>.<span style="color:#a6e22e">refreshCanvasOffset</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">excalidrawAPI</span>.<span style="color:#a6e22e">setActiveTool</span>({<span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;selection&#34;</span>});
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Start presentation or open presentation settings on double click
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//--------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">start</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">statusBarElement</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;none&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">setViewModeEnabled</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">helpButton</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">excalidrawContainer</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.ToolIcon__icon.help-icon&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">helpButton</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">helpButton</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;none&#34;</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">zoomButton</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ea</span>.<span style="color:#a6e22e">targetView</span>.<span style="color:#a6e22e">excalidrawContainer</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.Stack.Stack_vertical.zoom-actions&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">zoomButton</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">zoomButton</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;none&#34;</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">createPresentationNavigationPanel</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">initializeEventListners</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">startFullscreen</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">gotoFullscreen</span>();
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resetControlPanelElPosition</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">presentationPathType</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;line&#34;</span>) <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">toggleArrowVisibility</span>(<span style="color:#a6e22e">isHidden</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">timestamp</span> <span style="color:#f92672">=</span> Date.<span style="color:#a6e22e">now</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshow</span> <span style="color:#f92672">&amp;&amp;</span> (window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">script</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">utils</span>.<span style="color:#a6e22e">scriptFile</span>.<span style="color:#a6e22e">path</span>) <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#a6e22e">timestamp</span> <span style="color:#f92672">-</span> window.<span style="color:#a6e22e">ExcalidrawSlideshow</span>.<span style="color:#a6e22e">timestamp</span> <span style="color:#f92672">&lt;</span><span style="color:#ae81ff">400</span>) ) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>) {
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">clearTimeout</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">delete</span> window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>) {
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">clearTimeout</span>(window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">delete</span> window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  window.<span style="color:#a6e22e">ExcalidrawSlideshow</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">script</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">utils</span>.<span style="color:#a6e22e">scriptFile</span>.<span style="color:#a6e22e">path</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">timestamp</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">slide</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>  window.<span style="color:#a6e22e">ExcalidrawSlideshowStartTimer</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">start</span>,<span style="color:#ae81ff">500</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="yashbhangale/geeksdirhugo"
+    data-repo-id="R_kgDOLC9X0g"
+    data-category="General"
+    data-category-id="DIC_kwDOLC9X0s4CcUa9"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GeeksDirectory
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+    
+    
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/mydocs/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

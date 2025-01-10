@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>GSOC on GeeksDirectory</title>
+        <link>http://localhost:1313/mydocs/tags/gsoc/</link>
+        <description>Recent content in GSOC on GeeksDirectory</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mydocs/tags/gsoc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>GSOC - Google Summer Of Code</title>
+        <link>http://localhost:1313/mydocs/post/gsoc/gsoc-google-summer-of-code/</link>
+        <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mydocs/post/gsoc/gsoc-google-summer-of-code/</guid>
+        <description>&lt;p&gt;watch this video&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=nq82V5OpapE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=nq82V5OpapE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241106200021.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mydocs/mydocs/Pastedimage20241106200522.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://summerofcode.withgoogle.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://summerofcode.withgoogle.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;organisations which is of devops&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud Native Computing Foundation (CNCF)&lt;/strong&gt;
+&lt;strong&gt;Jenkins&lt;/strong&gt;
+&lt;strong&gt;KubeVirt&lt;/strong&gt;
+&lt;strong&gt;QEMU&lt;/strong&gt;
+&lt;strong&gt;Stratosphere Laboratory&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;i want to contribute to jenkins organisation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;a class=&#34;link&#34; href=&#34;https://summerofcode.withgoogle.com/programs/2024/organizations/jenkins-wp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://summerofcode.withgoogle.com/programs/2024/organizations/jenkins-wp&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.jenkins.io/projects/gsoc/contributors/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.jenkins.io/projects/gsoc/contributors/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

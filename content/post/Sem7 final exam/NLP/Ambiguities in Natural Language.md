@@ -1,3 +1,8 @@
+---
+title: NLP Ambiguities in Natural Language
+date: 2024-12-20
+---
+
 https://www.tutorialspoint.com/all-types-of-ambiguities-in-nlp
 
 

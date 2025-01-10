@@ -1,3 +1,8 @@
+---
+title: DSA Arrays
+date: 2025-01-10
+---
+
 
 why we need arrays
 

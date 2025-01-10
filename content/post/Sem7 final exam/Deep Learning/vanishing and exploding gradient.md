@@ -1,3 +1,8 @@
+---
+title: Deep Learning vanishing and exploding gradient
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241111170126.png)
 
 ![alt text](Pastedimage20241111170149.png)

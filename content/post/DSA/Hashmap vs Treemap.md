@@ -1,3 +1,8 @@
+---
+title: DSA Hashmap vs Treemap
+date: 2025-01-10
+---
+
 
 |**Feature**|**HashMap**|**TreeMap**|
 |---|---|---|

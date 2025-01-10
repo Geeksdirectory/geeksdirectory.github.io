@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Private Blockchain System
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241208132849.png)
 
 ---

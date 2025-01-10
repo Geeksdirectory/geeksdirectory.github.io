@@ -1,3 +1,8 @@
+---
+title: MIS Impact of Information system in organisation and society
+date: 2024-12-20
+---
+
 
 Information systems have profoundly transformed both organizations and society by improving efficiency, communication, and decision-making while introducing new challenges and ethical considerations. Below is a structured analysis of their impact:
 

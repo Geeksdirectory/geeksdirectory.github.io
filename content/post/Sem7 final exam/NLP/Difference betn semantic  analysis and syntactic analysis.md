@@ -1,3 +1,8 @@
+---
+title: NLP Difference betn semantic  analysis and syntactic analysis
+date: 2024-12-20
+---
+
 
 '### **Difference Between Semantic Analysis and Syntactic Analysis**
 

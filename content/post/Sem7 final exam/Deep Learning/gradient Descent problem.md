@@ -1,3 +1,8 @@
+---
+title: Deep Learning gradient Descent problem
+date: 2024-12-20
+---
+
 ==Gradient Descent is an optimization algorithm ==widely used in deep learning to ==minimize a model's loss function==, which ==measures the error between the predicted and actual values==. By ==iteratively adjusting the model’s parameters (weights and biases), gradient descent finds the optimal parameter values that reduce the error and improve model performance==. Here’s a breakdown of gradient descent in detail:
 
 ---

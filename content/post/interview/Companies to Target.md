@@ -1,3 +1,8 @@
+---
+title: interview Companies to Target
+date: 2024-12-23
+---
+
 |                               |                |     |     |     |     |
 | ----------------------------- | -------------- | --- | --- | --- | --- |
 | **Startups**                  | Applied or not |     |     |     |     |

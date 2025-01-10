@@ -1,3 +1,8 @@
+---
+title: interview Interview tips
+date: 2024-12-20
+---
+
 turn on your camera
 
 present using **star method**

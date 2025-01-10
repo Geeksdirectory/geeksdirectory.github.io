@@ -1,3 +1,8 @@
+---
+title: Blockchain technology DAO
+date: 2024-12-20
+---
+
 ### **What is DAO (Decentralized Autonomous Organization)?**
 
 A **Decentralized Autonomous Organization (DAO)** is a blockchain-based organization that operates without centralized leadership, relying on transparent rules encoded in **smart contracts** and governed collectively by its members.

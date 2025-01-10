@@ -1,3 +1,8 @@
+---
+title: Java Learning primitive
+date: 2024-12-20
+---
+
 In Java, **primitive types** are the basic data types that store simple values. They are not objects and are predefined in Java.
 
 ### Primitive Data Types:

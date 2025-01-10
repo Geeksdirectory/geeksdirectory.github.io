@@ -1,3 +1,8 @@
+---
+title: AZ-104 Azure loadbalancer
+date: 2025-01-10
+---
+
 ![alt text](Pastedimage20241125204024.png)
 
 ---

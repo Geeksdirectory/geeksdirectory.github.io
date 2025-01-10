@@ -1,3 +1,8 @@
+---
+title: Deep Learning RNN
+date: 2025-01-10
+---
+
 
 ### 1. **Introduction to RNNs**
    - **Definition**: RNNs (Recurrent Neural Networks) are a class of neural networks ==designed to process sequential data== by ==maintaining a memory of previous inputs.==

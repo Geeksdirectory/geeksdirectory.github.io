@@ -1,3 +1,8 @@
+---
+title: DSA Single linked list
+date: 2025-01-10
+---
+
 single linked list every item knows about other item
 head is reference variable which points to next node , and tail is last one 
 

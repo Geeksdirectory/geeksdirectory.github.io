@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Hinglish smr
+date: 2024-12-20
+---
+
 Haan bhai, [[State Machine Replication]] ko detail mein samjhata hoon hinglish mein. Chill karke padho. 😎
 
 ---

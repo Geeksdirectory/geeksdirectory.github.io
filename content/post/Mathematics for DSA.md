@@ -1,3 +1,8 @@
+---
+title: post Mathematics for DSA
+date: 2024-12-23
+---
+
 ## 1. HCF & GCD of a number
 
 ```java

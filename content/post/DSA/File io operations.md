@@ -1,3 +1,8 @@
+---
+title: DSA File io operations
+date: 2025-01-10
+---
+
 - **File Input**: File se data read karna.
 - **File Output**: File mein data write karna.
 - File handling ke liye **java.io** aur **java.nio** packages use hote hain.

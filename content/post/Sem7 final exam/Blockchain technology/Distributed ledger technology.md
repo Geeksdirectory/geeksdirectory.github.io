@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Distributed ledger technology
+date: 2025-01-10
+---
+
 https://www.investopedia.com/terms/d/distributed-ledger-technology-dlt.asp
 
 ![alt text](Pastedimage20241205114553.png)

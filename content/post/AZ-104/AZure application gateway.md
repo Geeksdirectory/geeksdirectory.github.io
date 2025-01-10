@@ -1,3 +1,8 @@
+---
+title: AZ-104 AZure application gateway
+date: 2024-12-20
+---
+
 
 **Azure Application Gateway** is a web traffic load balancer designed specifically for **HTTP(S) traffic** at the **application layer (OSI Layer 7)**. It enables you to manage and optimize the delivery of web applications by offering advanced features like URL-based routing, SSL termination, session persistence, and a Web Application Firewall (WAF) for security.
 

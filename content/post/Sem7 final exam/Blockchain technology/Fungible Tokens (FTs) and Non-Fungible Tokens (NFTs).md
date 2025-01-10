@@ -1,3 +1,8 @@
+---
+title: Blockchain technology Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs)
+date: 2024-12-20
+---
+
 Here’s a clear comparison between **Fungible Tokens (FTs)** and **Non-Fungible Tokens (NFTs)** in a tabular format:
 
 |**Aspect**|**Fungible Tokens (FTs)**|**Non-Fungible Tokens (NFTs)**|

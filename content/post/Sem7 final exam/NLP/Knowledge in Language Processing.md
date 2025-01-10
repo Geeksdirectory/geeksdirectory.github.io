@@ -1,3 +1,8 @@
+---
+title: NLP Knowledge in Language Processing
+date: 2024-12-20
+---
+
 ### Knowledge in Language Processing
 
 In the context of **Natural Language Processing (NLP)**, knowledge refers to the information and understanding required to process and interpret language accurately. This knowledge can be categorized into different types, reflecting various aspects of language and its use. Here's an overview of the key knowledge areas in language processing:

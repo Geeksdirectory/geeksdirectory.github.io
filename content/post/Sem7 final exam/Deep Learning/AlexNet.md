@@ -1,3 +1,8 @@
+---
+title: Deep Learning AlexNet
+date: 2025-01-10
+---
+
 **AlexNet** is a pioneering convolutional neural network (CNN) architecture in deep learning, known for its groundbreaking success in computer vision. Developed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, AlexNet won the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2012 with a significant improvement in accuracy over previous models. Here’s a breakdown of AlexNet’s components, architecture, and impact on deep learning:
 
 ---
