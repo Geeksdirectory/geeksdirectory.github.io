@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Placements on GeeksDirectory</title>
-        <link>http://localhost:41007/tags/placements/</link>
+        <link>http://localhost:1313/tags/placements/</link>
         <description>Recent content in Placements on GeeksDirectory</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://localhost:41007/tags/placements/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="http://localhost:1313/tags/placements/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Backtracking</title>
-        <link>http://localhost:41007/post/java-learning/6.-backtracking/</link>
+        <link>http://localhost:1313/post/java-learning/6.-backtracking/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:41007/post/java-learning/6.-backtracking/</guid>
+        <guid>http://localhost:1313/post/java-learning/6.-backtracking/</guid>
         <description>&lt;p&gt;find all possible solution and use the one you want
 (pehale isstamal kare fir vishwas kare)&lt;/p&gt;
 &lt;p&gt;[[5. Recursion]] tree (for complex problem)
@@ -19,10 +19,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>insertion sort</title>
-        <link>http://localhost:41007/post/java-learning/sorting-algorithms/3.-insertion-sort/</link>
+        <link>http://localhost:1313/post/java-learning/sorting-algorithms/3.-insertion-sort/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:41007/post/java-learning/sorting-algorithms/3.-insertion-sort/</guid>
+        <guid>http://localhost:1313/post/java-learning/sorting-algorithms/3.-insertion-sort/</guid>
         <description>&lt;h2 id=&#34;insertion-sort&#34;&gt;Insertion Sort:&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Insertion Sort&lt;/strong&gt; is a simple, comparison-based sorting algorithm that builds the final sorted array one element at a time. It works by dividing the array into a &amp;ldquo;sorted&amp;rdquo; and &amp;ldquo;unsorted&amp;rdquo; section. The sorted section is built from left to right, and each new element is inserted into its correct position in the sorted section.&lt;/p&gt;
 &lt;h4 id=&#34;how-insertion-sort-works&#34;&gt;How Insertion Sort Works:&lt;/h4&gt;
@@ -94,10 +94,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Patterns in Java</title>
-        <link>http://localhost:41007/post/java-learning/4.-patterns/</link>
+        <link>http://localhost:1313/post/java-learning/4.-patterns/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:41007/post/java-learning/4.-patterns/</guid>
+        <guid>http://localhost:1313/post/java-learning/4.-patterns/</guid>
         <description>&lt;h1 id=&#34;1-code-to-print-simple-rectangle&#34;&gt;1. code to print simple rectangle&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;patterns&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
@@ -418,10 +418,10 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Recursion in java</title>
-        <link>http://localhost:41007/post/java-learning/5.-recursion/</link>
+        <link>http://localhost:1313/post/java-learning/5.-recursion/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:41007/post/java-learning/5.-recursion/</guid>
+        <guid>http://localhost:1313/post/java-learning/5.-recursion/</guid>
         <description>&lt;h1 id=&#34;java-recursion&#34;&gt;Java Recursion&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Recursion is the technique of making a function call itself&lt;/li&gt;
@@ -461,15 +461,15 @@ solutions are in branches&lt;/p&gt;
         </item>
         <item>
         <title>Selection Sort</title>
-        <link>http://localhost:41007/post/java-learning/sorting-algorithms/2.-selection-sort/</link>
+        <link>http://localhost:1313/post/java-learning/sorting-algorithms/2.-selection-sort/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:41007/post/java-learning/sorting-algorithms/2.-selection-sort/</guid>
+        <guid>http://localhost:1313/post/java-learning/sorting-algorithms/2.-selection-sort/</guid>
         <description>&lt;p&gt;one swap per iteration&lt;/p&gt;
 &lt;p&gt;Selection sort main, har pass pe array ka sabse chhota element dhundho aur usko unsorted part ke starting element ke sath swap kar do, yeh process repeat hoti rehti hai jab tak array sorted na ho jaye.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Selection Sort&lt;/strong&gt;&lt;/em&gt;  is a comparison-based sorting algorithm.&lt;/p&gt;
 &lt;p&gt;It sorts an array by repeatedly selecting the &lt;strong&gt;smallest (or largest)&lt;/strong&gt;* element from the unsorted portion and swapping it with the first unsorted element.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:41007/Pastedimage20241031161316.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241031161316.png&#34;
 	
 	
 	
@@ -551,7 +551,7 @@ solutions are in branches&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;time-and-space-complexity&#34;&gt;Time and space complexity&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:41007/Pastedimage20241031162049.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241031162049.png&#34;
 	
 	
 	

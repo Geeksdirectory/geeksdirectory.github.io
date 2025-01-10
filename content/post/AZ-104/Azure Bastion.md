@@ -3,7 +3,7 @@ title: AZ-104 Azure Bastion
 date: 2025-01-10
 ---
 
-![alt text](static/images/Pastedimage20241119223914.png)
+![alt text](Pastedimage20241119223914%201.png)
 
 ![alt text](Pastedimage20241119222255.png)
 
@@ -16,4 +16,3 @@ date: 2025-01-10
 VNet Peering With azure Bastion Architecture
 
 ![alt text](Pastedimage20241119222504.png)
-              
