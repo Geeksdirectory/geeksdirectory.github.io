@@ -16,27 +16,27 @@ in java 9  java introduced repel i.e jshell
 
 ## Enhance for loop
 
-![alt text](Pasted image 20241227174236.png)
+![alt text](Pastedimage20241227174236.png)
 
-![alt text](Pasted image 20241227153317.png)
-
-
-![alt text](Pasted image 20241227153636.png)
+![alt text](Pastedimage20241227153317.png)
 
 
+![alt text](Pastedimage20241227153636.png)
 
-![alt text](Pasted image 20241227153941.png)
 
 
-![alt text](Pasted image 20241227154425.png)
+![alt text](Pastedimage20241227153941.png)
+
+
+![alt text](Pastedimage20241227154425.png)
 
 ### ternary operator
 
-![alt text](Pasted image 20241227154541.png)
+![alt text](Pastedimage20241227154541.png)
 
 Switch
 
-![alt text](Pasted image 20241227154648.png)
+![alt text](Pastedimage20241227154648.png)
 
 
 

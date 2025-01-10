@@ -5,11 +5,11 @@ title: Blockchain for ia
 # Syllabus
 
 
-![alt text](Pasted image 20241012161705.png)![alt text](Pasted image 20241012161713.png)
+![alt text](Pastedimage20241012161705.png)![alt text](Pastedimage20241012161713.png)
 
 # Question bank given by mam
 
-![alt text](Pasted image 20241012161918.png)
+![alt text](Pastedimage20241012161918.png)
 
 
 

@@ -1,7 +1,7 @@
 Here’s a detailed explanation of different consensus mechanisms in blockchain technology, including **PoA, PoET, PoW, PoS, LPoS, PBFT, and PoB**:
 
 ---
-![alt text](Pasted image 20241208113651.png)
+![alt text](Pastedimage20241208113651.png)
 ### **1. Proof of Authority (PoA)**
 
 - **What is PoA?** Proof of Authority relies on a small group of **pre-approved validators** (or authorities) who are responsible for verifying transactions and adding them to the blockchain.

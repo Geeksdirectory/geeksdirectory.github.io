@@ -1,4 +1,4 @@
-![alt text](Pasted image 20241125204024.png)
+![alt text](Pastedimage20241125204024.png)
 
 ---
 used to distribute the incoming network traffic across a set of backend servers
@@ -7,7 +7,7 @@ used to distribute the incoming network traffic across a set of backend servers
 #### Azure load balancer
 
 
-![alt text](Pasted image 20241125203806.png)
+![alt text](Pastedimage20241125203806.png)
 
 ---
 - You can have an application hosted on a set of machines.
@@ -20,30 +20,30 @@ In azure we have standard load balancer which have SLA (_Service Level Agreement
 
 ---
 
-![alt text](Pasted image 20241125204234.png)
+![alt text](Pastedimage20241125204234.png)
 
 ---
-![alt text](Pasted image 20241125204308.png)
+![alt text](Pastedimage20241125204308.png)
 loadbalancer healthy or not (health probe )
 
 ---
 
-![alt text](Pasted image 20241125204506.png)
+![alt text](Pastedimage20241125204506.png)
 
 ---
 
 To use  loadbalancer it is necessary to make a machines (vms) in availability set or scale set
 
-![alt text](Pasted image 20241125212332.png)
+![alt text](Pastedimage20241125212332.png)
 
 ---
 ### Deployment of basic load balancer in azure
 
-![alt text](Pasted image 20241125215904.png)
+![alt text](Pastedimage20241125215904.png)
 
 ---
 
-![alt text](Pasted image 20241125220040.png)
+![alt text](Pastedimage20241125220040.png)
 
 ---
 
@@ -53,7 +53,7 @@ To use  loadbalancer it is necessary to make a machines (vms) in availability se
 ---
 
 
-![alt text](Pasted image 20241127000727.png)
+![alt text](Pastedimage20241127000727.png)
 
 
 > [!NOTE]

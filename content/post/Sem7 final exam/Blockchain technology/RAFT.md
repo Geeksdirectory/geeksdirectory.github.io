@@ -4,7 +4,7 @@
 Let's dive into the details of Raft:
 
 ---
-![alt text](Pasted image 20241208144729.png)
+![alt text](Pastedimage20241208144729.png)
 
 ---
 

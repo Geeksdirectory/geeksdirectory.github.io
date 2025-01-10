@@ -12,7 +12,7 @@ PAn **Azure Storage Account** is a fundamental service in Azure that provides cl
 
 ---
 
-![alt text](Pasted image 20250102125117.png)
+![alt text](Pastedimage20250102125117.png)
 
 ### **Types of Azure Storage Services**
 
@@ -23,7 +23,7 @@ PAn **Azure Storage Account** is a fundamental service in Azure that provides cl
         - **Append Blob**: For append-only operations, like logging.
         - **Page Blob**: For random access, used in Virtual Machine disks.
 
-![alt text](Pasted image 20250102125149.png)
+![alt text](Pastedimage20250102125149.png)
 
 
 1. **File Storage (Azure Files)**:
@@ -31,19 +31,19 @@ PAn **Azure Storage Account** is a fundamental service in Azure that provides cl
     - Use cases: File sharing across VMs, on-premises, or cloud.
 
 
-![alt text](Pasted image 20250102125209.png)
+![alt text](Pastedimage20250102125209.png)
 
 1. **Queue Storage**:
     - A messaging solution for communication between applications.
     - Useful for decoupling components and processing tasks asynchronously.
-![alt text](Pasted image 20250102125250.png)
+![alt text](Pastedimage20250102125250.png)
 
 
 1. **Table Storage**:
     - A NoSQL key-value store for semi-structured data.
     - Use cases: Storing logs, metadata, and structured data.
 
-![alt text](Pasted image 20250102125315.png)
+![alt text](Pastedimage20250102125315.png)
 
 
 1. **Disk Storage**:

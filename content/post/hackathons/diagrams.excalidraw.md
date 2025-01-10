@@ -66,13 +66,13 @@ Your Custom
 Operating System  ^lXmwy1yv
 
 ## Embedded Files
-cf744400beb6c9cb89b2482af38f39f08b6557a4: [[Pasted Image 20241224154925_916.png]]
+cf744400beb6c9cb89b2482af38f39f08b6557a4: [[PastedImage20241224154925_916.png]]
 
-1b77ab20df4430027a81dc71aec82b66b4257be3: [[Pasted Image 20241224155201_905.png]]
+1b77ab20df4430027a81dc71aec82b66b4257be3: [[PastedImage20241224155201_905.png]]
 
-ce351d7aee1da60352c9a54fdabd8cbf5886ade2: [[Pasted Image 20241224162835_172.png]]
+ce351d7aee1da60352c9a54fdabd8cbf5886ade2: [[PastedImage20241224162835_172.png]]
 
-9857b557d7518c0fd45a007bc5b3f824261a4ff7: [[Pasted Image 20241224163007_469.png]]
+9857b557d7518c0fd45a007bc5b3f824261a4ff7: [[PastedImage20241224163007_469.png]]
 
 %%
 ## Drawing

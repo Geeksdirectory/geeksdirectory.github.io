@@ -1,18 +1,18 @@
 
 
-![alt text](Pasted image 20241208115210.png)
+![alt text](Pastedimage20241208115210.png)
 
 ---
 
-![alt text](Pasted image 20241208120224.png)
+![alt text](Pastedimage20241208120224.png)
 ---
-![alt text](Pasted image 20241208115043.png)
+![alt text](Pastedimage20241208115043.png)
 
 ---
-![alt text](Pasted image 20241208115101.png)
+![alt text](Pastedimage20241208115101.png)
 
 ---
-![alt text](Pasted image 20241208115112.png)
+![alt text](Pastedimage20241208115112.png)
 
 
 ### **Architecture of Ethereum: Detailed Explanation in Pointwise Format**

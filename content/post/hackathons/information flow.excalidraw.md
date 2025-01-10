@@ -41,9 +41,9 @@ Existing Systems
  ^hHMfAh8H
 
 ## Embedded Files
-563cdb681f7467852123f0fe1392d30058f6fea0: [[Pasted Image 20241224125949_518.png]]
+563cdb681f7467852123f0fe1392d30058f6fea0: [[PastedImage20241224125949_518.png]]
 
-76b8e46064aa63ada3a439c0ac3c5dddf58657bc: [[Pasted Image 20241224130059_801.png]]
+76b8e46064aa63ada3a439c0ac3c5dddf58657bc: [[PastedImage20241224130059_801.png]]
 
 %%
 ## Drawing

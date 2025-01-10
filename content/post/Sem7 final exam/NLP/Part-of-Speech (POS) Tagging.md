@@ -13,7 +13,7 @@ POS tagging involves:
 
 ### 2. Common Parts of Speech Tags
 
-![alt text](Pasted image 20241127181611.png)
+![alt text](Pastedimage20241127181611.png)
 
 ---
 

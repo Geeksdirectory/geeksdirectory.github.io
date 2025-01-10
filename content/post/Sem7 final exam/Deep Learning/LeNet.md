@@ -1,7 +1,7 @@
 **LeNet** is one of the earliest convolutional neural network (CNN) architectures, developed by Yann LeCun and his collaborators in the late 1980s. Initially designed for character recognition, such as reading handwritten digits in postal codes, it became a foundational architecture that inspired many modern CNNs. Here’s a detailed look at LeNet:
 
 ---
-![alt text](Pasted image 20241111202413.png)
+![alt text](Pastedimage20241111202413.png)
 ### 1. **Overview of LeNet Architecture**
    - **Name**: LeNet-5, commonly referred to simply as LeNet, is the most well-known version.
    - **Purpose**: Originally designed for **handwritten digit classification**, particularly on the MNIST dataset of 28x28 grayscale images.

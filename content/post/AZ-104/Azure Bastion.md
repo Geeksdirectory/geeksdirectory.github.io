@@ -1,14 +1,14 @@
-![alt text](Pasted image 20241119223914.png)
+![alt text](Pastedimage20241119223914.png)
 
-![alt text](Pasted image 20241119222255.png)
-
-
-![alt text](Pasted image 20241119222316.png)
+![alt text](Pastedimage20241119222255.png)
 
 
-![alt text](Pasted image 20241119222328.png)
+![alt text](Pastedimage20241119222316.png)
+
+
+![alt text](Pastedimage20241119222328.png)
 
 VNet Peering With azure Bastion Architecture
 
-![alt text](Pasted image 20241119222504.png)
+![alt text](Pastedimage20241119222504.png)
               

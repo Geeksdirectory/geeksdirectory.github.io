@@ -1,6 +1,6 @@
 https://www.investopedia.com/terms/d/distributed-ledger-technology-dlt.asp
 
-![alt text](Pasted image 20241205114553.png)
+![alt text](Pastedimage20241205114553.png)
 
 **Distributed Ledger Technology (DLT)** is a ==decentralized system for recording, sharing, and synchronizing data across multiple locations (or nodes) in a network.== In the context of blockchain, DLT refers to a specific implementation of this concept where ==data is organized into blocks that are cryptographically linked to form a chain.==
 
@@ -59,7 +59,7 @@ While blockchain is the most well-known form of DLT, not all distributed ledgers
 
 In summary, **DLT** is the umbrella term for decentralized ledger systems, and **blockchain** is a specific type of DLT that organizes data into linked blocks.
 
-![alt text](Pasted image 20241205114657.png)
+![alt text](Pastedimage20241205114657.png)
 
 **Decentralized**: No single central authority controls the system; decision-making is spread across multiple participants. Example: Blockchain consensus.
 

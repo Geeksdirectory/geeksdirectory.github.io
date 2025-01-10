@@ -1,10 +1,10 @@
-![alt text](Pasted image 20241208150605.png)
+![alt text](Pastedimage20241208150605.png)
 
 ---
-![alt text](Pasted image 20241208150903.png)
+![alt text](Pastedimage20241208150903.png)
 
 ---
-![alt text](Pasted image 20241208150952.png)
+![alt text](Pastedimage20241208150952.png)
 
 ---
 

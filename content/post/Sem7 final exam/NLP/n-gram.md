@@ -32,7 +32,7 @@ An **N-Gram** is a continuous sequence of NNN items extracted from a larger sequ
         - **Trigrams**: [NLP]
 
 ---
-![alt text](Pasted image 20241127141243.png)
+![alt text](Pastedimage20241127141243.png)
 
 ---
 

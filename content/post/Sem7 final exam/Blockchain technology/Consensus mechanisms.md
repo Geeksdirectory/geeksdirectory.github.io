@@ -4,7 +4,7 @@ Here are the three most common consensus mechanisms explained in detail:
 
 ---
 
-![alt text](Pasted image 20241205133712.png)
+![alt text](Pastedimage20241205133712.png)
 ### **1. Proof of Work (PoW)**
 
 **Used by:** Bitcoin, Ethereum (before Ethereum 2.0), Litecoin
@@ -62,7 +62,7 @@ Here are the three most common consensus mechanisms explained in detail:
 - "Nothing at Stake" problem: Validators might validate multiple chains simultaneously, increasing risks of chain splits. Modern PoS systems address this issue through penalties like slashing.
 
 
-![alt text](Pasted image 20241205133743.png)
+![alt text](Pastedimage20241205133743.png)
 
 
-![alt text](Pasted image 20241205133803.png)![alt text](Pasted image 20241208113710.png)
+![alt text](Pastedimage20241205133803.png)![alt text](Pastedimage20241208113710.png)

@@ -33,23 +33,23 @@ https://easychair.org/cfp/LogisticsSCAnalytics2025
 
 ## mujhe video present karna pada so os switch karna pada , iisiliye hand written notes likhe 
 
-![alt text](Pasted image 20241219132608.png)
+![alt text](Pastedimage20241219132608.png)
 
 
 ---
 
-![alt text](Pasted image 20241219132619.png)
+![alt text](Pastedimage20241219132619.png)
 
 ---
 
-![alt text](Pasted image 20241219132632.png)
+![alt text](Pastedimage20241219132632.png)
 
 
 --- 
 
 # last main thoda bore hua iisiliye pehali barr drawing nikal li
 
-![alt text](Pasted image 20241219132659.png)
+![alt text](Pastedimage20241219132659.png)
 
 
 
