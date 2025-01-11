@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernates/PostgresSQL.md",
+                "file": "DevOps - Cloud/Docker/Docker Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PostgresSQL"
+              "title": "Docker Index"
             }
           }
         ],
@@ -214,8 +214,10 @@
   },
   "active": "cf8e89a9461f73be",
   "lastOpenFiles": [
-    "Kubernates/office.md",
+    "DevOps - Cloud/Docker/bind mount volume.md",
+    "DevOps - Cloud/Docker/Docker Index.md",
     "Kubernates/PostgresSQL.md",
+    "Kubernates/office.md",
     "Kubernates/2. Kubernetes Cluster types.md",
     "Kubernates/0. kubernates index.md",
     "Kubernates/Pasted image 20250111125522.png",
@@ -252,8 +254,6 @@
     "linkconverter.py",
     "Untitled.md",
     "Kubernates",
-    "DSA/0. DSA Index.md",
-    "fusion/Work done till now.md",
     "File I",
     "DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java",
