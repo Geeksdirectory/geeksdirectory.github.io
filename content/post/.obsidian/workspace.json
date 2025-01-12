@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernates/2. Kubernetes Cluster types.md",
+                "file": "Kubernates/1. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Kubernetes Cluster types"
+              "title": "1. Introduction"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5026054382324
+    "width": 233.500732421875
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -212,20 +212,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf8e89a9461f73be",
+  "active": "73975ce95441a69d",
   "lastOpenFiles": [
+    "Kubernates/2. Kubernetes Cluster types.md",
+    "Kubernates/Pastedimage20250109121855.png",
+    "Kubernates/Pastedimage20250109122606.png",
+    "Kubernates/Pastedimage20250109122736.png",
+    "Kubernates/1. Introduction.md",
+    "Kubernates/0. kubernates index.md",
     "DevOps - Cloud/Docker/bind mount volume.md",
     "DevOps - Cloud/Docker/Docker Index.md",
     "Kubernates/PostgresSQL.md",
     "Kubernates/office.md",
-    "Kubernates/2. Kubernetes Cluster types.md",
-    "Kubernates/0. kubernates index.md",
     "Kubernates/Pasted image 20250111125522.png",
     "Kubernates/Pasted image 20250110195119.png",
     "Kubernates/Pasted image 20250110193545.png",
     "Kubernates/Pasted image 20250110193315.png",
     "Kubernates/Pasted image 20250110193111.png",
-    "Kubernates/1. Introduction.md",
     "AZ-104/1. Azure Index.md",
     "AZ-104/AZ-CLI.md",
     "AZ-104/Azure Bastion.md",
@@ -246,13 +249,9 @@
     "titleformater.py",
     "Kubernates/Drawing 2025-01-09 15.31.34.excalidraw.md",
     "Kubernates/Pastedimage20250108220716.png",
-    "hackathons/PastedImage20241224130059_801.png",
-    "hackathons/PastedImage20241224163007_469.png",
-    "hackathons/PastedImage20241224125949_518.png",
     "spaceremover.py",
     "Kubernates/Pasted.md",
     "linkconverter.py",
-    "Untitled.md",
     "Kubernates",
     "File I",
     "DSA/Linked list code.canvas",
