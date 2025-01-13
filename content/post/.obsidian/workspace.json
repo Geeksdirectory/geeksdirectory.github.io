@@ -11,24 +11,42 @@
             "id": "b4650734d8c1ea05",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "dfff80af37177578",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernates/office.md",
+                "file": "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "office"
+              "title": "0. kubernates index"
+            }
+          },
+          {
+            "id": "87ea37a756a7daa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.Types of YAML files in k8s"
+            }
+          },
+          {
+            "id": "4cfcf46fe37978c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.Types of YAML files in k8s"
             }
           },
           {
@@ -45,7 +63,8 @@
               "title": "Docker Index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,8 +212,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27306c4d5ba7e6e9",
+  "active": "4cfcf46fe37978c4",
   "lastOpenFiles": [
+    "DevOps - Cloud/Kubernates notes/3. Ideal k8s Deployment.md",
+    "DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
+    "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "DevOps - Cloud/Docker/Docker Index.md",
     "Kubernates/1. Introduction.md",
     "DevOps - Cloud/Kubernates notes/office.md",
     "DevOps - Cloud/Kubernates notes/image.png",
@@ -211,12 +234,10 @@
     "DevOps - Cloud/Kubernates notes/Drawing 2025-01-09 15.31.34.excalidraw.md",
     "DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md",
     "DevOps - Cloud/Kubernates notes/1. Introduction.md",
-    "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "DevOps - Cloud/Kubernates notes",
     "Kubernates/2. Kubernetes Cluster types.md",
     "Kubernates/0. kubernates index.md",
     "DevOps - Cloud/Docker/bind mount volume.md",
-    "DevOps - Cloud/Docker/Docker Index.md",
     "Kubernates/PostgresSQL.md",
     "Kubernates/office.md",
     "AZ-104/1. Azure Index.md",
@@ -230,8 +251,6 @@
     "DSA/Drawing 2024-12-20 16.00.34.excalidraw.md",
     "DSA/Arrays.md",
     "DSA/Array list vs linked list.md",
-    "DSA/2. Conditions and loops.md",
-    "DSA/1. Linked List.md",
     "titleformater.py",
     "spaceremover.py",
     "linkconverter.py",
