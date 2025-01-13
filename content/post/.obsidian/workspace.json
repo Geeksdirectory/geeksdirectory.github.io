@@ -81,18 +81,14 @@
             "id": "cf8e89a9461f73be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevOps - Cloud/Docker/Docker Index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker Index"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,18 +236,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e71e070c426830b8",
+  "active": "87ea37a756a7daa3",
   "lastOpenFiles": [
+    "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "DevOps - Cloud/Grafana/0. Grafana Index.md",
     "DevOps - Cloud/1. DevOps Index.md",
     "Internship work/0.index.md",
-    "DevOps - Cloud/Grafana/0. Grafana Index.md",
     "Internship work",
     "DevOps - Cloud/Docker/0. Docker Index.md",
     "DevOps - Cloud/Grafana",
     "DevOps - Cloud/Untitled.md",
     "DevOps - Cloud/Docker/2. Multistage Build.md",
     "DevOps - Cloud/Docker/1. Docker Introduction.md",
-    "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
     "DevOps - Cloud/Docker/Pasted image 20250113095558.png",
     "DevOps - Cloud/Docker/Pasted image 20250113095413.png",
