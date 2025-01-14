@@ -1,4 +1,4 @@
-- Distributed tracing, metrics, and logs are the **three pillars of observability**
+	- Distributed tracing, metrics, and logs are the **three pillars of observability**
 - help us understand, debug, and optimize modern distributed systems.
 
 
