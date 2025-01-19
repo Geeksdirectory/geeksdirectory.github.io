@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Super 30.md",
+                "file": "Java Learning/5. Recursion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Super 30"
+              "title": "5. Recursion"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps - Cloud/Kubernates notes/9. Demon Set.md",
+                "file": "certifications/Github foundation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Demon Set"
+              "title": "Github foundation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,13 +212,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ceca1f6a3e3138fa",
+  "active": "6fe03522f79ff99e",
   "lastOpenFiles": [
-    "DSA/Super 30.md",
-    "DSA/Validate Binary Search tree.md",
+    "free certifications/main.md",
+    "Java Learning/sorting algorithms/1. Bubble sort.md",
     "DSA/0. DSA Index.md",
     "DSA/Leetcode.md",
+    "Java Learning/2. oops in java.md",
+    "DSA/Arrays.md",
+    "DSA/Stack.md",
+    "Java Learning/5. Recursion.md",
+    "DSA/Validate Binary Search tree.md",
+    "DSA/Super 30.md",
     "DevOps - Cloud/Kubernates notes/9. Demon Set.md",
+    "DSA/Pasted image 20250119145033.png",
+    "DSA/Pasted image 20250119145013.png",
     "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "DevOps - Cloud/Kubernates notes/10.Static Pods, Manual Scheduling, Labels, and Selectors in Kubernetes.md",
     "DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
@@ -240,19 +248,11 @@
     "DevOps - Cloud/Kubernates notes/Pasted image 20250114112411.png",
     "DevOps - Cloud/Kubernates notes/Pasted image 20250114105225.png",
     "DevOps - Cloud/Docker/2. Multistage Build.md",
-    "DevOps - Cloud/Docker/0. Docker Index.md",
-    "DSA/Dynamic programming leetcode questions.md",
     "DSA/Pasted image 20250114063408.png",
-    "DSA/Call Stack - function call stack.md",
     "DSA/Pasted image 20250114061031.png",
-    "DSA/Pasted image 20250114060921.png",
-    "DSA/Pasted image 20250114060144.png",
     "DevOps - Cloud/SignoZ",
-    "Internship work/0.index.md",
     "Internship work",
     "DevOps - Cloud/Grafana",
-    "DevOps - Cloud/Untitled.md",
-    "DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
     "DevOps - Cloud/Kubernates notes",
     "titleformater.py",
     "spaceremover.py",
