@@ -20,3 +20,5 @@ date: 2025-01-04
 # [[sorting in java]]
 
 # [[Dynamic programming leetcode questions]]
+
+# [[Validate Binary Search tree]]
