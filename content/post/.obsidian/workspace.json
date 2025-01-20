@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -172,6 +171,18 @@
   },
   "active": "64fc7b185db8bc39",
   "lastOpenFiles": [
+    "path_to_your_pdf_output_folder",
+    "venv/bin/markdown_py",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/util.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/treeprocessors.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/test_tools.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/serializers.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/preprocessors.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/postprocessors.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/inlinepatterns.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/markdown/__pycache__/htmlparser.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/Markdown-3.7.dist-info/top_level.txt",
+    "venv/lib/python3.12/site-packages/Markdown-3.7.dist-info/LICENSE.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/12. Kubernetes Nodes Affinity.md",
     "0.Internship work/0.index.md",
@@ -200,24 +211,12 @@
     "2.DSA/Validate Binary Search tree.md",
     "certifications/Github foundation.md",
     "Java Learning/sorting algorithms/1. Bubble sort.md",
-    "2.DSA/0. DSA Index.md",
-    "2.DSA/Leetcode.md",
     "2.DSA/Pasted image 20250119145033.png",
     "2.DSA/Pasted image 20250119145013.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250116171049.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250115165359.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165745.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165027.png",
-    "1.DevOps - Cloud/SignoZ",
-    "0.Internship work",
-    "1.DevOps - Cloud/Grafana",
-    "1.DevOps - Cloud/Kubernates notes",
-    "titleformater.py",
-    "spaceremover.py",
-    "linkconverter.py",
-    "Kubernates",
-    "File I",
-    "2.DSA/Linked list code.canvas",
-    "interview/Untitled/OOPS in Java"
+    "2.DSA/Linked list code.canvas"
   ]
 }
