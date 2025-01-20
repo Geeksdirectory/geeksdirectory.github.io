@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e063d852642f5712",
+        "id": "65e885457f78f135",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a04893926c5d48",
+            "id": "bcbe889f449c5068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+                "file": "resume/common.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. kubernates index"
-            }
-          },
-          {
-            "id": "6022569b87501a69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java Learning/5. Recursion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Recursion"
-            }
-          },
-          {
-            "id": "ceca1f6a3e3138fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Validate Binary Search tree.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Validate Binary Search tree"
-            }
-          },
-          {
-            "id": "6fe03522f79ff99e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "certifications/Github foundation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Github foundation"
+              "title": "common"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,54 +169,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6fe03522f79ff99e",
+  "active": "27306c4d5ba7e6e9",
   "lastOpenFiles": [
+    "0.Internship work/0.index.md",
+    "Salary chart comparison/Pastedimage20241220173656.png",
+    "self learnings and improvements/how to be a good communicator.md",
+    "self learnings and improvements/Greatest Comeback.md",
+    "self learnings and improvements/Drawing 2024-12-18 11.31.58.excalidraw.md",
+    "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md",
+    "self learnings and improvements/1.main.md",
+    "SIH Project/AR app.md",
+    "SIH Project/VR APP.md",
+    "Timelines/AZ-104.md",
+    "Excalidraw/Scripts/Downloaded/SplitEllipse.svg",
+    "todo/main.md",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "Excalidraw/Drawing 2024-12-23 22.40.59.excalidraw.md",
     "free certifications/main.md",
-    "Java Learning/sorting algorithms/1. Bubble sort.md",
-    "DSA/0. DSA Index.md",
-    "DSA/Leetcode.md",
-    "Java Learning/2. oops in java.md",
-    "DSA/Arrays.md",
-    "DSA/Stack.md",
+    "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "Java Learning/5. Recursion.md",
-    "DSA/Validate Binary Search tree.md",
-    "DSA/Super 30.md",
-    "DevOps - Cloud/Kubernates notes/9. Demon Set.md",
-    "DSA/Pasted image 20250119145033.png",
-    "DSA/Pasted image 20250119145013.png",
-    "DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "DevOps - Cloud/Kubernates notes/10.Static Pods, Manual Scheduling, Labels, and Selectors in Kubernetes.md",
-    "DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
-    "DevOps - Cloud/Kubernates notes/7. NameSpaces.md",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250116171049.png",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250115165359.png",
-    "DevOps - Cloud/SignoZ/Distributed tracing, metrics, aur logs.md",
-    "DevOps - Cloud/SignoZ/0. Signoz Index.md",
-    "DevOps - Cloud/Kubernates notes/6. Kubernetes Services.md",
-    "DevOps - Cloud/SignoZ/2. Signoz alerts.md",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250114165745.png",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250114165027.png",
-    "DevOps - Cloud/Kubernates notes/5. Kubernetes Deployment, Replication Controller and ReplicaSet.md",
-    "DevOps - Cloud/SignoZ/PromQL.md",
-    "DevOps - Cloud/SignoZ/Click House.md",
-    "DevOps - Cloud/Grafana/0. Grafana Index.md",
-    "DevOps - Cloud/1. DevOps Index.md",
-    "DevOps - Cloud/Docker/1. Docker Introduction.md",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250114112411.png",
-    "DevOps - Cloud/Kubernates notes/Pasted image 20250114105225.png",
-    "DevOps - Cloud/Docker/2. Multistage Build.md",
-    "DSA/Pasted image 20250114063408.png",
-    "DSA/Pasted image 20250114061031.png",
-    "DevOps - Cloud/SignoZ",
-    "Internship work",
-    "DevOps - Cloud/Grafana",
-    "DevOps - Cloud/Kubernates notes",
+    "2.DSA/Validate Binary Search tree.md",
+    "certifications/Github foundation.md",
+    "Java Learning/sorting algorithms/1. Bubble sort.md",
+    "2.DSA/0. DSA Index.md",
+    "2.DSA/Leetcode.md",
+    "Java Learning/2. oops in java.md",
+    "2.DSA/Arrays.md",
+    "2.DSA/Stack.md",
+    "2.DSA/Super 30.md",
+    "1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
+    "2.DSA/Pasted image 20250119145033.png",
+    "2.DSA/Pasted image 20250119145013.png",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250116171049.png",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250115165359.png",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165745.png",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165027.png",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114112411.png",
+    "1.DevOps - Cloud/SignoZ",
+    "0.Internship work",
+    "1.DevOps - Cloud/Grafana",
+    "1.DevOps - Cloud/Kubernates notes",
     "titleformater.py",
     "spaceremover.py",
     "linkconverter.py",
     "Kubernates",
     "File I",
-    "DSA/Linked list code.canvas",
+    "2.DSA/Linked list code.canvas",
     "interview/Untitled/OOPS in Java"
   ]
 }
