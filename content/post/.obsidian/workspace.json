@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65e885457f78f135",
+        "id": "ce710a39cf0a8cf5",
         "type": "tabs",
         "children": [
           {
-            "id": "bcbe889f449c5068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. kubernates index"
-            }
-          },
-          {
-            "id": "af0bc6fbe31e2dc0",
+            "id": "c6ba8bf40b04d85f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "11. Taints and Tolerations in Kubernetes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.500732421875
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -184,13 +170,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "af0bc6fbe31e2dc0",
+  "active": "c6ba8bf40b04d85f",
   "lastOpenFiles": [
-    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250120105502.png",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
-    "resume/common.md",
     "0.Internship work/0.index.md",
+    "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
+    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250120105502.png",
+    "resume/common.md",
     "Salary chart comparison/Pastedimage20241220173656.png",
     "self learnings and improvements/how to be a good communicator.md",
     "self learnings and improvements/Greatest Comeback.md",
@@ -221,7 +208,6 @@
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250115165359.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165745.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165027.png",
-    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114112411.png",
     "1.DevOps - Cloud/SignoZ",
     "0.Internship work",
     "1.DevOps - Cloud/Grafana",
