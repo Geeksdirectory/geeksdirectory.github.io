@@ -91,7 +91,8 @@
               "title": "Complete till  Friday"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,13 +240,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "64fc7b185db8bc39",
+  "active": "f00950c0691c7ec6",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
     "1.DevOps - Cloud/Untitled",
     "1.DevOps - Cloud/Docker/0. Docker Index.md",
-    "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
     "1.DevOps - Cloud/Docker/0.docker commands.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Docker/1. Docker Introduction.md",
