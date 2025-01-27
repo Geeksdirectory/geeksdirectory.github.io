@@ -16,3 +16,5 @@ date: 2025-01-10
 VNet Peering With azure Bastion Architecture
 
 ![alt text](Pastedimage20241119222504.png)
+
+

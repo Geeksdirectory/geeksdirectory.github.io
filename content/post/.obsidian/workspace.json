@@ -4,95 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d68d23518a959040",
+        "id": "65d1d8c9f3c6f3fb",
         "type": "tabs",
         "children": [
           {
-            "id": "64fc7b185db8bc39",
+            "id": "1834c45a78b6137a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
+                "file": "rough work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complete till  Friday"
-            }
-          },
-          {
-            "id": "f00950c0691c7ec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "usefull commands"
-            }
-          },
-          {
-            "id": "5123f6520d1d1427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ArgoCD"
-            }
-          },
-          {
-            "id": "8da6e8e026306f7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Docker/0. Docker Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Docker Index"
-            }
-          },
-          {
-            "id": "0d48cc9ad5e90313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Docker/0.docker commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0.docker commands"
-            }
-          },
-          {
-            "id": "e39cf326db104a3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Complete till  Friday"
+              "title": "rough work"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -164,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rough work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for rough work"
             }
           },
           {
@@ -240,22 +171,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f00950c0691c7ec6",
+  "active": "7ff05e3a27225266",
   "lastOpenFiles": [
-    "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
-    "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-    "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
-    "1.DevOps - Cloud/Untitled",
+    "Time table.md",
+    "certifications/Azure/AI-900.md",
+    "1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
+    "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
     "1.DevOps - Cloud/Docker/0. Docker Index.md",
-    "1.DevOps - Cloud/Docker/0.docker commands.md",
+    "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
+    "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+    "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "1.DevOps - Cloud/Kubernates notes/12. Kubernetes Nodes Affinity.md",
+    "1.DevOps - Cloud/Docker/0.docker commands.md",
+    "1.DevOps - Cloud/Untitled",
     "1.DevOps - Cloud/Docker/1. Docker Introduction.md",
     "1.DevOps - Cloud/Docker/bind mount volume.md",
     "1.DevOps - Cloud/Kubernates notes/7. NameSpaces.md",
     "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
     "1.DevOps - Cloud/Kubernates notes/4.Types of YAML files in k8s.md",
     "1.DevOps - Cloud/Kubernates notes/3. Ideal k8s Deployment.md",
-    "1.DevOps - Cloud/Kubernates notes/12. Kubernetes Nodes Affinity.md",
     "path_to_your_pdf_output_folder",
     "venv/bin/markdown_py",
     "venv/lib/python3.12/site-packages/markdown/__pycache__/util.cpython-312.pyc",
@@ -267,7 +202,6 @@
     "venv/lib/python3.12/site-packages/markdown/__pycache__/inlinepatterns.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/Markdown-3.7.dist-info/LICENSE.md",
     "0.Internship work/0.index.md",
-    "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
     "0.Internship work/azure monitoring service charges.md",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250120105502.png",
     "resume/common.md",
@@ -277,9 +211,6 @@
     "self learnings and improvements/Drawing 2024-12-18 11.31.58.excalidraw.md",
     "self learnings and improvements/6 Social Skills to master for a Magnetic Aura.md",
     "self learnings and improvements/1.main.md",
-    "SIH Project/AR app.md",
-    "SIH Project/VR APP.md",
-    "Timelines/AZ-104.md",
     "Excalidraw/Scripts/Downloaded/SplitEllipse.svg",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "2.DSA/Pasted image 20250119145033.png",
