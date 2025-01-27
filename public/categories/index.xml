@@ -39,22 +39,6 @@
         <description></description>
         </item>
         <item>
-        <title>Deep Learning</title>
-        <link>http://localhost:1313/categories/deep-learning/</link>
-        <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/deep-learning/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>IA 2 Exam</title>
-        <link>http://localhost:1313/categories/ia-2-exam/</link>
-        <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/ia-2-exam/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Java</title>
         <link>http://localhost:1313/categories/java/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
@@ -84,22 +68,6 @@
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/sql/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Exam</title>
-        <link>http://localhost:1313/categories/exam/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/exam/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Sem7</title>
-        <link>http://localhost:1313/categories/sem7/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/sem7/</guid>
         <description></description>
         </item>
         <item>

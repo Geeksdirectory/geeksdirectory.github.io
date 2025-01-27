@@ -8,10 +8,10 @@
         <language>en</language>
         <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dsa/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linked list</title>
-        <link>http://localhost:1313/post/dsa/1.-linked-list/</link>
+        <link>http://localhost:1313/post/2.dsa/1.-linked-list/</link>
         <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/dsa/1.-linked-list/</guid>
+        <guid>http://localhost:1313/post/2.dsa/1.-linked-list/</guid>
         <description>&lt;p&gt;==Linear DS consist of nodes with some sort of data, and a pointer, or link, to the next node.==️
 &lt;strong&gt;data&lt;/strong&gt;: The value stored in the node
 &lt;strong&gt;Pointer/Link&lt;/strong&gt;: a reference to the next node on the sequence&lt;/p&gt;
@@ -706,7 +706,7 @@ solutions are in branches&lt;/p&gt;
 &lt;li&gt;This technique provides a way to break complicated problems down into simple problems which are easier to solve.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;recursion-example&#34;&gt;Recursion Example&lt;/h2&gt;
-&lt;p&gt;Adding two numbers together is easy to do, but adding a range of numbers is more complicated. In the following example, recursion is used to add a range of numbers together by breaking it down into the simple task of adding two numbers:&lt;/p&gt;
+&lt;p&gt;Adding two numbers together is easy to do, but ==adding a range of numbers is more complicated==. In the following example, recursion is used to add a range of numbers together by breaking it down into the simple task of adding two numbers:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; sum(10);

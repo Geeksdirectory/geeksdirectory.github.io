@@ -1,3 +1,8 @@
+---
+title: SignoZ PromQL
+date: 2025-01-14
+---
+
 **PromQL (Prometheus Query Language)** is a query language used in **Prometheus** (a popular open-source monitoring system) to retrieve and manipulate time-series data stored in its database.
 
 PromQL is powerful and flexible, enabling you to extract metrics, perform calculations, and create custom visualizations and alerts.

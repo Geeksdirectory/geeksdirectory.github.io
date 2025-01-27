@@ -1,3 +1,8 @@
+---
+title: Kubernates notes Complete till  Friday
+date: 2025-01-23
+---
+
 - [x] Handson on  k8s basics on minikube locally
 - [x] Deploy three tier app on k8s locally
 - [x] learn about helm charts and explore templates 

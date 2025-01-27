@@ -8,14 +8,14 @@
         <language>en</language>
         <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/syllabus/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>syllabus for DSA</title>
-        <link>http://localhost:1313/post/dsa/0.-dsa-index/</link>
+        <link>http://localhost:1313/post/2.dsa/0.-dsa-index/</link>
         <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/dsa/0.-dsa-index/</guid>
+        <guid>http://localhost:1313/post/2.dsa/0.-dsa-index/</guid>
         <description>&lt;p&gt;[[Super 30]]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Basic Java]]&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. Conditions and loops]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2.DSA/2. Conditions and loops]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[loops questions for interviews]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[2. oops in java]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Switch Cases and Statements in java]]&lt;/li&gt;
@@ -52,6 +52,7 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[1. Linked List]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Linked list code.canvas|Linked list code]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Stack]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; [[Call Stack - function call stack]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Queue&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Binary Tree&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; BST&lt;/li&gt;
@@ -96,77 +97,6 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Trie&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; Graph&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>syllabus for sem7</title>
-        <link>http://localhost:1313/post/syllabus/syllabus/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/post/syllabus/syllabus/</guid>
-        <description>&lt;h1 id=&#34;deep-learning&#34;&gt;[[Deep Learning]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114251.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114303.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h1 id=&#34;bda&#34;&gt;[[BDA]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114311.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114317.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h1 id=&#34;nlp&#34;&gt;[[NlP]]&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114357.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/Pastedimage20241018114414.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-&gt;&lt;/p&gt;
 </description>
         </item>
         

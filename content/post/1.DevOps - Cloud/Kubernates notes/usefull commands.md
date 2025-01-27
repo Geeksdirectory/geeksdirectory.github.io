@@ -1,3 +1,8 @@
+---
+title: Kubernates notes usefull commands
+date: 2025-01-22
+---
+
 ```
 minikube image load full-frontend:latest
 ```

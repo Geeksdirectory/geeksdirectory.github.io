@@ -1,3 +1,8 @@
+---
+title: 2.DSA Call Stack - function call stack
+date: 2025-01-14
+---
+
 ![[Pasted image 20250114060144.png]]
 
 

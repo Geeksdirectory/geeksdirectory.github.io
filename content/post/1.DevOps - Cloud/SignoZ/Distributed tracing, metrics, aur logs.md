@@ -1,3 +1,8 @@
+---
+title: SignoZ Distributed tracing, metrics, aur logs
+date: 2025-01-14
+---
+
 	- Distributed tracing, metrics, and logs are the **three pillars of observability**
 - help us understand, debug, and optimize modern distributed systems.
 

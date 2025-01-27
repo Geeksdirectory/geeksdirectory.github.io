@@ -2,6 +2,108 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/complete-till--friday/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/docker/0.docker-commands/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/0.-kubernates-index/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/argocd/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/usefull-commands/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/0.internship-work/0.index/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/0.internship-work/azure-monitoring-service-charges/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/11.-taints-and-tolerations-in-kubernetes/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/12.-kubernetes-nodes-affinity/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/venv/lib/python3.12/site-packages/markdown-3.7.dist-info/license/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2.dsa/validate-binary-search-tree/</loc>
+    <lastmod>2025-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/10.static-pods-manual-scheduling-labels-and-selectors-in-kubernetes/</loc>
+    <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/9.-demon-set/</loc>
+    <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/8.-multi-container-pod/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/7.-namespaces/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/signoz/2.-signoz-alerts/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2.dsa/call-stack---function-call-stack/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2.dsa/dynamic-programming-leetcode-questions/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/grafana/0.-grafana-index/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/5.-kubernetes-deployment-replication-controller-and-replicaset/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/6.-kubernetes-services/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/signoz/0.-signoz-index/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/signoz/click-house/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/signoz/distributed-tracing-metrics-aur-logs/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/signoz/promql/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/docker/1.-docker-introduction/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/docker/2.-multistage-build/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/3.-ideal-k8s-deployment/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/4.types-of-yaml-files-in-k8s/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/2.-kubernetes-cluster-types/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/office/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/postgressql/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/az-104/azure-bastion/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,118 +125,55 @@
     <loc>http://localhost:1313/post/java-learning/best-average-worst-cases/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/1.-syllabus/</loc>
+    <loc>http://localhost:1313/post/2.dsa/2.-conditions-and-loops/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/architecture-of-ethereum/</loc>
+    <loc>http://localhost:1313/post/2.dsa/array-list-vs-linked-list/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/blockchain/</loc>
+    <loc>http://localhost:1313/post/2.dsa/array-questions/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/blockchain-solution-actors/</loc>
+    <loc>http://localhost:1313/post/2.dsa/arrays/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/consensus-mechanisms/</loc>
+    <loc>http://localhost:1313/post/2.dsa/binary-search-algo-questions/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/distributed-ledger-technology/</loc>
+    <loc>http://localhost:1313/post/2.dsa/binary-search-algorithm/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/how-proof-of-work-solves--the-problem-of-double-spending/</loc>
+    <loc>http://localhost:1313/post/2.dsa/binary-search-in-2d-arrays/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/hyperledger-fabric/</loc>
+    <loc>http://localhost:1313/post/2.dsa/contiguous-memory-locations/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/merkle-tree/</loc>
+    <loc>http://localhost:1313/post/2.dsa/dump/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/paxos/</loc>
+    <loc>http://localhost:1313/post/2.dsa/file-io-operations/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/poapospowlpospbftpobpoet/</loc>
+    <loc>http://localhost:1313/post/2.dsa/hashmap-vs-treemap/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/private-blockchain-system/</loc>
+    <loc>http://localhost:1313/post/2.dsa/hashset-vs-treeset/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/raft/</loc>
+    <loc>http://localhost:1313/post/2.dsa/leetcode/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/transactions-in-bitcoin-network/</loc>
+    <loc>http://localhost:1313/post/2.dsa/linear-search-algorithm/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/alexnet/</loc>
+    <loc>http://localhost:1313/post/2.dsa/single-linked-list/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/gru/</loc>
+    <loc>http://localhost:1313/post/2.dsa/strings-and-stringbuilder-in-java/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/lenet/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/lstm/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/rnn/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/vanishing-and-exploding-gradient/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/2.-conditions-and-loops/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/array-list-vs-linked-list/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/array-questions/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/arrays/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/binary-search-algo-questions/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/binary-search-algorithm/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/binary-search-in-2d-arrays/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/contiguous-memory-locations/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/dump/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/file-io-operations/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/hashmap-vs-treemap/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/hashset-vs-treeset/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/leetcode/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/linear-search-algorithm/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/single-linked-list/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/strings-and-stringbuilder-in-java/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/switch-cases-and-statements-in-java/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/post/2.dsa/switch-cases-and-statements-in-java/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interview/htmlcssjs/1.-html/</loc>
@@ -161,58 +200,10 @@
     <loc>http://localhost:1313/post/java-learning/big-o-notation/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/jenkins/jenkins-index/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/jenkins/jenkins-index/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/kubernates/1.-introduction/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/mis/computer-based-information-system-cbis/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-1/activation-functions/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-1/big-data-and-hadoop/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-1/feedforward/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-2/2.training-optimization-regularization-of-deep-network/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-2/hdfs-and-mapreduce/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-3/1.-nosql/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-3/autoencoders/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-4/1.-mining-data-streams/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-5/1.-finding-similar-items-and-clustering/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-6/1.-real-time-big-data-models/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/n-gram/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/part-of-speech-pos-tagging/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/porter-stemmer/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/pragmatics/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/rule-based-tagging/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/1.-introduction/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interview/untitled/oops-in-java/2.-introduction/</loc>
@@ -221,16 +212,13 @@
     <loc>http://localhost:1313/post/string-questions/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/salary-chart-comparison/salary-in-hand-and-monthly/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/loops-questions-for-interviews/</loc>
+    <loc>http://localhost:1313/post/2.dsa/loops-questions-for-interviews/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/super-30/</loc>
+    <loc>http://localhost:1313/post/2.dsa/super-30/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interview/1.-interview-index/</loc>
@@ -239,10 +227,10 @@
     <loc>http://localhost:1313/post/0.-index/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/exception-handling/</loc>
+    <loc>http://localhost:1313/post/2.dsa/exception-handling/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/linux/linux-index/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/linux/linux-index/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/handwritten/</loc>
@@ -269,7 +257,7 @@
     <loc>http://localhost:1313/post/interview/java-oops-in-hinglish/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/stack/</loc>
+    <loc>http://localhost:1313/post/2.dsa/stack/</loc>
     <lastmod>2024-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/hackathons/gujarat/</loc>
@@ -300,9 +288,6 @@
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/time-table/</loc>
-    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/todo/main/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/free-certifications/main/</loc>
@@ -338,91 +323,16 @@
     <loc>http://localhost:1313/post/az-104/1.-azure-index/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/1.-impt-questions/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/blockchain-2.0/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/byzantine-fault-tolerant-algo/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/case-study-of-supply-chain-management-using-hyperledger/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/components-of-blocks-in-blockchain/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/consensus-protocol/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/dao/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/defi/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/difference-between-bitcoin-altcoins-and-tokens/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/difference-between-types-of-blockchain/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/erc721-and-erc20/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/features-of-blockchain/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/fungible-tokens-fts-and-non-fungible-tokens-nfts/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/hinglish-double-spending/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/hinglish-smr/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/hot-wallet-and-cold-wallet/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/hyperledger-platform/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/initial-coin-offering/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/security-token-offering/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/smart-contract/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/state-machine-replication/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/types-of-blockchain/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/utxo/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/certifications/github-foundation/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/1.-important-topics/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/1.-devops-index/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/gradient-descent-problem/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/docker/bind-mount-volume/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/1.-devops-index/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/docker/bind-mount-volume/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/docker/docker-index/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/docker/0.-docker-index/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/excalidraw/scripts/downloaded/slideshow/</loc>
@@ -431,22 +341,19 @@
     <loc>http://localhost:1313/post/excalidraw/scripts/downloaded/split-ellipse/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/hinglish-explaination-of-code/</loc>
+    <loc>http://localhost:1313/post/2.dsa/hinglish-explaination-of-code/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/exam/important-parameters-to-write-in-exam/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/git/git/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/git/git/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/git/git-branch-commands/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/git/git-branch-commands/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/git/git-index/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/ia-2-exam/syllabus/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/git/git-index/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interview/interview-tips/</loc>
@@ -465,54 +372,6 @@
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/learn-english/vocabulary/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/mis/impact-of-information-system-in-organisation-and-society/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/mis/information-system/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/mis/organizational-strategy-competitive-advantages-and-is/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-3/consistency-trade-offs/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-3/developer-agencet/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/big-data-analysis/module-3/standardization-challenges/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/ambiguities-in-natural-language/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/cfg-hinglish/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/challenges-of-nlp/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/difference-betn-semantic--analysis-and-syntactic-analysis/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/discourse-analysis/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/knowledge-in-language-processing/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/natural-language-processing/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/relation-between-words-and-senses/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/semantic-analysis/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/word-sense-disambiguation/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/2024-11-30/</loc>
@@ -554,12 +413,6 @@
     <loc>http://localhost:1313/post/self-learnings-and-improvements/how-to-be-a-good-communicator/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sih-project/ar-app/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sih-project/vr-app/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/sql/sql-index/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -569,20 +422,11 @@
     <loc>http://localhost:1313/post/timelines/az-104/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/viva/deep-learning/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/dsa/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/1.-linked-list/</loc>
+    <loc>http://localhost:1313/post/2.dsa/1.-linked-list/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gsoc/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/gsoc/gsoc-google-summer-of-code/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-10-31T00:00:00+00:00</lastmod>
@@ -593,7 +437,7 @@
     <loc>http://localhost:1313/categories/devops/</loc>
     <lastmod>2024-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/devops-roadmap/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/devops-roadmap/</loc>
     <lastmod>2024-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/dsa/</loc>
@@ -602,26 +446,11 @@
     <loc>http://localhost:1313/categories/syllabus/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/0.-dsa-index/</loc>
+    <loc>http://localhost:1313/post/2.dsa/0.-dsa-index/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/java-index/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/deep-learning/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-4-to-6/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ia-2-exam/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/ia-2-exam/nlp/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/ia-2-exam/bda-assignment/</loc>
-    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/java/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
@@ -665,10 +494,10 @@
     <loc>http://localhost:1313/post/java-learning/sorting-in-java/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/git/gitconfigurepasswordinlinux/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/git/gitconfigurepasswordinlinux/</loc>
     <lastmod>2024-06-05T12:24:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/shell-scripting/shell-scripting-index/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/shell-scripting/shell-scripting-index/</loc>
     <lastmod>2024-06-05T11:52:01+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/rough-work/</loc>
@@ -683,11 +512,13 @@
     <loc>http://localhost:1313/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/1.devops_index.excalidraw/</loc>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/drawing-2025-01-09-15.31.34.excalidraw/</loc>
+  </url><url>
+    <loc>http://localhost:1313/post/2.dsa/drawing-2024-12-20-16.00.34.excalidraw/</loc>
+  </url><url>
     <loc>http://localhost:1313/post/az-104/configure-and-manage-virtual-networking.excalidraw/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/devops---cloud/1.devops_index.excalidraw/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/dsa/drawing-2024-12-20-16.00.34.excalidraw/</loc>
   </url><url>
     <loc>http://localhost:1313/post/excalidraw/drawing-2024-12-23-22.40.59.excalidraw/</loc>
   </url><url>
@@ -697,31 +528,21 @@
   </url><url>
     <loc>http://localhost:1313/post/hackathons/information-flow.excalidraw/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/kubernates/drawing-2025-01-09-15.31.34.excalidraw/</loc>
-  </url><url>
     <loc>http://localhost:1313/post/projects/drawing-2024-12-16-15.56.23.excalidraw/</loc>
   </url><url>
     <loc>http://localhost:1313/post/self-learnings-and-improvements/drawing-2024-12-18-11.31.58.excalidraw/</loc>
+  </url><url>
+    <loc>http://localhost:1313/post/venv/lib/python3.12/site-packages/pdfkit-1.0.0.dist-info/authors/</loc>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/access-modifiers-in-java/</loc>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/6.-backtracking/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/ia-2-exam/module-wise-important-question-for-bda/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/ia-2-exam/blockchain-for-ia-2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/blockchain-technology/1.-main/</loc>
-  </url><url>
     <loc>http://localhost:1313/post/java-learning/sorting-algorithms/1.-bubble-sort/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/deep-learning/module-1/1.-fundamentals-of-neural-networks/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/exam/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/excalidraw/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/dsa/functions-in-java/</loc>
+    <loc>http://localhost:1313/post/2.dsa/functions-in-java/</loc>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/sorting-algorithms/3.-insertion-sort/</loc>
   </url><url>
@@ -730,10 +551,6 @@
     <loc>http://localhost:1313/post/java-learning/1.-basic-java/</loc>
   </url><url>
     <loc>http://localhost:1313/page/links/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/mis/1.-mis/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/sem7-final-exam/nlp/1.-main/</loc>
   </url><url>
     <loc>http://localhost:1313/post/java-learning/4.-patterns/</loc>
   </url><url>
@@ -745,13 +562,9 @@
   </url><url>
     <loc>http://localhost:1313/post/java-learning/sorting-algorithms/2.-selection-sort/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/sem7/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/sorting/</loc>
   </url><url>
     <loc>http://localhost:1313/post/ieee-paper/supply-chain-sih/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/syllabus/syllabus/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/test/</loc>
   </url><url>

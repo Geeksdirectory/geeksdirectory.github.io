@@ -1,3 +1,8 @@
+---
+title: SignoZ Click House
+date: 2025-01-14
+---
+
 ClickHouse is an open-source, columnar database management system designed for **online analytical processing (OLAP)**. It is widely used for real-time data analytics, large-scale data processing, and data warehousing. ClickHouse is known for its high performance and scalability, making it suitable for use cases such as log analysis, business intelligence, and observability platforms.
 
 ### Key Features of ClickHouse:
