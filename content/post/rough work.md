@@ -10,12 +10,6 @@ date: 2024-06-04T00:38:39+05:30
 
 
 
- 
-
-
-
-
-
 | certification | hackathon | exam | 
 | AZ 104         | nlp wala (ajink) | sem7 starts from 12th nov |      
 
