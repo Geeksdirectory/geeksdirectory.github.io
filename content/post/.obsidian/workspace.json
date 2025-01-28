@@ -188,10 +188,10 @@
   },
   "active": "f8db69b6039ff849",
   "lastOpenFiles": [
-    "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
-    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250128162505.png",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/15. Health Probes in K8s.md",
+    "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250128162505.png",
     "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained - HPA and VPA.md",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250128122720.png",
     "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained.md",
@@ -231,7 +231,6 @@
     "venv/lib/python3.12/site-packages/markdown/__pycache__/test_tools.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/markdown/__pycache__/serializers.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/markdown/__pycache__/preprocessors.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/markdown/__pycache__/postprocessors.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/Markdown-3.7.dist-info/LICENSE.md",
     "0.Internship work/0.index.md",
     "2.DSA/Linked list code.canvas"
