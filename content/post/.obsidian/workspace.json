@@ -202,6 +202,7 @@
   },
   "active": "23a958f28078bc04",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250129113004.png",
     "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/16. Configmap and secret in k8s.md",
@@ -247,7 +248,6 @@
     "venv/lib/python3.12/site-packages/markdown/__pycache__/test_tools.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/markdown/__pycache__/serializers.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/markdown/__pycache__/preprocessors.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/Markdown-3.7.dist-info/LICENSE.md",
     "2.DSA/Linked list code.canvas"
   ]
 }
