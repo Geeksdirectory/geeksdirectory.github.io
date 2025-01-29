@@ -49,8 +49,7 @@
               "title": "15. Health Probes in K8s"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,8 +199,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "23a958f28078bc04",
+  "active": "223484802876c303",
   "lastOpenFiles": [
+    "rough work.md",
     "Pasted image 20250129113959.png",
     "1.DevOps - Cloud/Kubernates notes/16. Configmap and secret in k8s.md",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250129113004.png",
@@ -219,12 +219,10 @@
     "1.DevOps - Cloud/Kubernates notes/Pastedimage20250108220716.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250116171049.png",
     "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114165027.png",
-    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250114112411.png",
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "1.DevOps - Cloud/Kubernates notes/13. Kubernetes Requests and Limits.md",
     "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
-    "rough work.md",
     "Time table.md",
     "certifications/Azure/AI-900.md",
     "1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
