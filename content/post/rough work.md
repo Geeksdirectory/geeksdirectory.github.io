@@ -27,3 +27,5 @@ https://www.youtube.com/watch?v=nq82V5OpapE
 
 ![[Pasted image 20250129113959.png]]
 
+
+http 
