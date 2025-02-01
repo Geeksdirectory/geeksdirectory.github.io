@@ -47,7 +47,8 @@
               "title": "Pasted image 20250130153108"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,11 +198,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "795023cee2d35a2e",
+  "active": "2d964998508fc574",
   "lastOpenFiles": [
-    "Pasted image 20250130153108.png",
     "rough work.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "Pasted image 20250130153108.png",
     "Pasted image 20250130155418.png",
     "Pasted image 20250130155100.png",
     "Pasted image 20250130155055.png",
