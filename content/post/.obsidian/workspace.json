@@ -35,7 +35,8 @@
               "title": "1. Basic Java"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +187,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "77771d035da9c093",
+  "active": "4ea16b765a107fc5",
   "lastOpenFiles": [
     "Java Learning/1. Basic Java.md",
     "2.DSA/0. DSA Index.md",
