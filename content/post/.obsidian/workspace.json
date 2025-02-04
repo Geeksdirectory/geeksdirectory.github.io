@@ -41,16 +41,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Learning/1. Basic Java.md",
+                "file": "interview/zoho.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Basic Java"
+              "title": "zoho"
+            }
+          },
+          {
+            "id": "9b65f1e67ddd83d4",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "a69487244342c451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office work.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Office work"
+            }
+          },
+          {
+            "id": "1f3a1fe0d46f5465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Devsecops/trivy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "trivy"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -82,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kube",
+                "query": "office",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -201,11 +238,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee29afc87efa53c5",
+  "active": "1f3a1fe0d46f5465",
   "lastOpenFiles": [
+    "Office work.md",
+    "interview/Office works.md",
+    "interview/zoho.md",
+    "rough work.md",
+    "1.DevOps - Cloud/Kubernates notes/office.md",
+    "1.DevOps - Cloud/Devsecops/trivy.md",
+    "Java Learning/1. Basic Java.md",
+    "1.DevOps - Cloud/Devsecops",
+    "Untitled",
     "2.DSA/0. DSA Index.md",
     "2.DSA/2. Conditions and loops.md",
-    "Java Learning/1. Basic Java.md",
     "Sem 8/AAI/0. AAI Index.md",
     "Sem 8/EVS/0.EVS.md",
     "Sem 8/Reinforcement Learning/0. Reinforcement learning.md",
@@ -224,7 +269,6 @@
     "Sem 8/AAI",
     "Sem 8",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "rough work.md",
     "Pasted image 20250130153108.png",
     "Pasted image 20250130155418.png",
     "Pasted image 20250130155100.png",
@@ -241,14 +285,7 @@
     "14. Kubernetes Autoscaling Explained - HPA ",
     "1.DevOps - Cloud/Kubernates notes/13. Kubernetes Requests and Limits.md",
     "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
-    "Time table.md",
-    "certifications/Azure/AI-900.md",
-    "1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
-    "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
-    "1.DevOps - Cloud/Docker/0. Docker Index.md",
-    "1.DevOps - Cloud/Untitled",
     "path_to_your_pdf_output_folder",
-    "venv/bin/markdown_py",
     "2.DSA/Linked list code.canvas"
   ]
 }

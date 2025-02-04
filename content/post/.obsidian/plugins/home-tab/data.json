@@ -1,0 +1,61 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showbookmarkedFiles": true,
+  "showRecentFiles": false,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "1.DevOps - Cloud/Devsecops/trivy.md",
+      "timestamp": 1738646683966
+    },
+    {
+      "filepath": "Office work.md",
+      "timestamp": 1738646681703
+    },
+    {
+      "filepath": "interview/zoho.md",
+      "timestamp": 1738646592304
+    },
+    {
+      "filepath": "rough work.md",
+      "timestamp": 1738646569502
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/office.md",
+      "timestamp": 1738646561674
+    }
+  ],
+  "bookmarkedFileStore": [
+    {
+      "filepath": "rough work.md"
+    },
+    {
+      "filepath": "Office work.md"
+    }
+  ],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true
+}
