@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "ee29afc87efa53c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.DSA/2. Conditions and loops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Conditions and loops"
+            }
+          },
+          {
             "id": "4ea16b765a107fc5",
             "type": "leaf",
             "state": {
@@ -187,10 +201,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ea16b765a107fc5",
+  "active": "ee29afc87efa53c5",
   "lastOpenFiles": [
-    "Java Learning/1. Basic Java.md",
     "2.DSA/0. DSA Index.md",
+    "2.DSA/2. Conditions and loops.md",
+    "Java Learning/1. Basic Java.md",
     "Sem 8/AAI/0. AAI Index.md",
     "Sem 8/EVS/0.EVS.md",
     "Sem 8/Reinforcement Learning/0. Reinforcement learning.md",
@@ -231,7 +246,6 @@
     "1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
     "1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
     "1.DevOps - Cloud/Docker/0. Docker Index.md",
-    "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
     "1.DevOps - Cloud/Untitled",
     "path_to_your_pdf_output_folder",
     "venv/bin/markdown_py",
