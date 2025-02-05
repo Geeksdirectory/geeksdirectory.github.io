@@ -41,30 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ArgoCD.md",
+                "file": "1.DevOps - Cloud/1. DevOps Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ArgoCD"
-            }
-          },
-          {
-            "id": "a4e3cc206f4d3d93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ArgoCD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ArgoCD"
+              "title": "1. DevOps Index"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -214,8 +201,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27306c4d5ba7e6e9",
+  "active": "c9a6a153533af2b5",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Pasted image 20250205114623.png",
+    "1.DevOps - Cloud/Pasted image 20250205113904.png",
+    "1.DevOps - Cloud/1. DevOps Index.md",
+    "1.DevOps - Cloud/ArgoCD.md",
+    "ArgoCD.md",
     "1.DevOps - Cloud/Kubernates notes/office.md",
     "1.DevOps - Cloud/Github Actions.md",
     "2.DSA/loops questions for interviews.md",
@@ -249,17 +241,12 @@
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "Pasted image 20250130153108.png",
     "Pasted image 20250130155418.png",
-    "Pasted image 20250130155100.png",
     "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
     "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
     "Java Learning/sorting algorithms/2. Selection sort.md",
     "1.DevOps - Cloud/Kubernates notes/17. Manage TLS Certificates In a Kubernetes Cluster.md",
-    "1.DevOps - Cloud/Kubernates notes/15. Health Probes in K8s.md",
-    "1.DevOps - Cloud/Kubernates notes/16. Configmap and secret in k8s.md",
     "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
-    "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained - HPA and VPA.md",
-    "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained.md",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "path_to_your_pdf_output_folder",
     "2.DSA/Linked list code.canvas"
