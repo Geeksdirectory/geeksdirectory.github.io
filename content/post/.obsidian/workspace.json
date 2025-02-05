@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "loops questions for interviews"
             }
+          },
+          {
+            "id": "c9a6a153533af2b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Github Actions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github Actions"
+            }
+          },
+          {
+            "id": "7dbd816a975d7de4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ArgoCD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ArgoCD"
+            }
+          },
+          {
+            "id": "a4e3cc206f4d3d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ArgoCD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ArgoCD"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -172,16 +214,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f009ea4b455ad2be",
+  "active": "27306c4d5ba7e6e9",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/office.md",
+    "1.DevOps - Cloud/Github Actions.md",
+    "2.DSA/loops questions for interviews.md",
+    "1.DevOps - Cloud/Devsecops/trivy.md",
+    "Office work.md",
     "2.DSA/0. DSA Index.md",
     "2.DSA/2. Conditions and loops.md",
     "interview/zoho.md",
-    "Office work.md",
-    "1.DevOps - Cloud/Devsecops/trivy.md",
     "interview/Office works.md",
     "rough work.md",
-    "1.DevOps - Cloud/Kubernates notes/office.md",
     "Java Learning/1. Basic Java.md",
     "1.DevOps - Cloud/Devsecops",
     "Untitled",
@@ -217,8 +261,6 @@
     "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained - HPA and VPA.md",
     "1.DevOps - Cloud/Kubernates notes/14. Kubernetes Autoscaling Explained.md",
     "14. Kubernetes Autoscaling Explained - HPA ",
-    "1.DevOps - Cloud/Kubernates notes/13. Kubernetes Requests and Limits.md",
-    "1.DevOps - Cloud/Kubernates notes/Complete till  Friday.md",
     "path_to_your_pdf_output_folder",
     "2.DSA/Linked list code.canvas"
   ]

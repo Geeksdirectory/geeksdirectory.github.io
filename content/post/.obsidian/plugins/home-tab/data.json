@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/ArgoCD.md",
+      "timestamp": 1738735523720
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Github Actions.md",
+      "timestamp": 1738735499769
+    },
+    {
       "filepath": "2.DSA/loops questions for interviews.md",
-      "timestamp": 1738688512395
+      "timestamp": 1738735494323
     },
     {
-      "filepath": "2.DSA/0. DSA Index.md",
-      "timestamp": 1738688510082
-    },
-    {
-      "filepath": "2.DSA/2. Conditions and loops.md",
-      "timestamp": 1738681831973
-    },
-    {
-      "filepath": "interview/zoho.md",
-      "timestamp": 1738681743623
+      "filepath": "1.DevOps - Cloud/Devsecops/trivy.md",
+      "timestamp": 1738735406759
     },
     {
       "filepath": "Office work.md",
-      "timestamp": 1738681743290
+      "timestamp": 1738732588464
     }
   ],
   "bookmarkedFileStore": [
