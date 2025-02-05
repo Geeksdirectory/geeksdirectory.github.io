@@ -49,8 +49,7 @@
               "title": "1. DevOps Index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,16 +200,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9a6a153533af2b5",
+  "active": "f009ea4b455ad2be",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Github Actions.md",
+    "2.DSA/loops questions for interviews.md",
     "1.DevOps - Cloud/Pasted image 20250205114623.png",
     "1.DevOps - Cloud/Pasted image 20250205113904.png",
     "1.DevOps - Cloud/1. DevOps Index.md",
     "1.DevOps - Cloud/ArgoCD.md",
     "ArgoCD.md",
     "1.DevOps - Cloud/Kubernates notes/office.md",
-    "1.DevOps - Cloud/Github Actions.md",
-    "2.DSA/loops questions for interviews.md",
     "1.DevOps - Cloud/Devsecops/trivy.md",
     "Office work.md",
     "2.DSA/0. DSA Index.md",
@@ -240,7 +239,6 @@
     "Sem 8",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "Pasted image 20250130153108.png",
-    "Pasted image 20250130155418.png",
     "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
     "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
