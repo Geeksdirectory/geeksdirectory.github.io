@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Office work.md",
+                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Office work"
+              "title": "usefull commands"
             }
           }
         ],
@@ -217,6 +217,8 @@
   },
   "active": "ca685a94b762596f",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "Office work.md",
     "2.DSA/loops questions for interviews.md",
     "1.DevOps - Cloud/Github Actions.md",
     "1.DevOps - Cloud/Pasted image 20250205114623.png",
@@ -226,7 +228,6 @@
     "ArgoCD.md",
     "1.DevOps - Cloud/Kubernates notes/office.md",
     "1.DevOps - Cloud/Devsecops/trivy.md",
-    "Office work.md",
     "2.DSA/0. DSA Index.md",
     "2.DSA/2. Conditions and loops.md",
     "interview/zoho.md",
@@ -252,7 +253,6 @@
     "Sem 8/Reinforcement Learning",
     "Sem 8/AAI",
     "Sem 8",
-    "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "Pasted image 20250130153108.png",
     "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
