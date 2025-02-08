@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+                "file": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usefull commands"
+              "title": "0. kubernates index"
             }
           }
         ],
@@ -217,7 +217,9 @@
   },
   "active": "ca685a94b762596f",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "Office work.md",
     "2.DSA/loops questions for interviews.md",
     "1.DevOps - Cloud/Github Actions.md",
@@ -258,7 +260,6 @@
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
     "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
     "Java Learning/sorting algorithms/2. Selection sort.md",
-    "1.DevOps - Cloud/Kubernates notes/17. Manage TLS Certificates In a Kubernetes Cluster.md",
     "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "path_to_your_pdf_output_folder",
