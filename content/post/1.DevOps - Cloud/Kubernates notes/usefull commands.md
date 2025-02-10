@@ -61,6 +61,9 @@ kubectl get pods -w
 ```
 
 ```
+kubectl get pods -o wide
+```
+
 kubectl delete -f kube
 ```
 

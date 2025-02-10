@@ -69,16 +69,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/ETCD.md",
+                "file": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ETCD"
+              "title": "0. kubernates index"
+            }
+          },
+          {
+            "id": "7ecbadb9c7ac9e13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "usefull commands"
+            }
+          },
+          {
+            "id": "87e2e2ea025286b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "usefull commands"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -229,12 +256,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1582e46ca4dff603",
+  "active": "7ecbadb9c7ac9e13",
   "lastOpenFiles": [
-    "1.DevOps - Cloud/Kubernates notes/ETCD.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
+    "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250211004439.png",
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
+    "1.DevOps - Cloud/Kubernates notes/ETCD.md",
     "Office work.md",
     "2.DSA/loops questions for interviews.md",
     "1.DevOps - Cloud/Github Actions.md",
@@ -270,10 +299,7 @@
     "Sem 8/Reinforcement Learning",
     "Sem 8/AAI",
     "Sem 8",
-    "Pasted image 20250130153108.png",
     "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
-    "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
-    "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
     "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "path_to_your_pdf_output_folder",

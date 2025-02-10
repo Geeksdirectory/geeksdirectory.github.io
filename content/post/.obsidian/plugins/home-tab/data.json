@@ -24,12 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "1.DevOps - Cloud/Kubernates notes/ETCD.md",
-      "timestamp": 1739200312346
+      "filepath": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+      "timestamp": 1739214948106
     },
     {
       "filepath": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-      "timestamp": 1739200288459
+      "timestamp": 1739214946185
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
+      "timestamp": 1739214623811
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
+      "timestamp": 1739214506267
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/ETCD.md",
+      "timestamp": 1739200312346
     }
   ],
   "bookmarkedFileStore": [
