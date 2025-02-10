@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "0. kubernates index"
             }
+          },
+          {
+            "id": "1582e46ca4dff603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/ETCD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ETCD"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -215,10 +229,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ca685a94b762596f",
+  "active": "1582e46ca4dff603",
   "lastOpenFiles": [
-    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
+    "1.DevOps - Cloud/Kubernates notes/ETCD.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+    "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "Office work.md",
     "2.DSA/loops questions for interviews.md",
@@ -259,7 +274,6 @@
     "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
     "14. Kubernetes Autoscaling Explained - HPA / VPA.md",
     "1.DevOps - Cloud/Kubernates notes/8. Multi container Pod.md",
-    "Java Learning/sorting algorithms/2. Selection sort.md",
     "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "path_to_your_pdf_output_folder",

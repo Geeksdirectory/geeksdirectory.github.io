@@ -24,16 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/ETCD.md",
+      "timestamp": 1739200312346
+    },
+    {
       "filepath": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-      "timestamp": 1739003830448
-    },
-    {
-      "filepath": "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
-      "timestamp": 1739002318515
-    },
-    {
-      "filepath": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-      "timestamp": 1739002295053
+      "timestamp": 1739200288459
     }
   ],
   "bookmarkedFileStore": [
