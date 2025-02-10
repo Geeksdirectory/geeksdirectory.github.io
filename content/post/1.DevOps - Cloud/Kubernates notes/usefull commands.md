@@ -72,5 +72,16 @@ kubectl delete -f kube
 
 ```
 kubectl config set-context --current --namespace=argocd
+
+
+
+## create nginx pod 
+
+```
+kubectl run myapp-pod --image=nginx --restart=Never
 ```
 
+
+```
+kubectl delete pod webapp
+```

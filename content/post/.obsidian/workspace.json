@@ -64,6 +64,48 @@
             }
           },
           {
+            "id": "46f072c22b4d7c97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "usefull commands"
+            }
+          },
+          {
+            "id": "2b60d5f7c2665845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Yaml in k8s"
+            }
+          },
+          {
+            "id": "229a99b9f329ba2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "usefull commands"
+            }
+          },
+          {
             "id": "1582e46ca4dff603",
             "type": "leaf",
             "state": {
@@ -106,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -163,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "0990eeb84f26bf37",
@@ -256,20 +299,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7ecbadb9c7ac9e13",
+  "active": "46f072c22b4d7c97",
   "lastOpenFiles": [
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
-    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250211004439.png",
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+    "1.DevOps - Cloud/1. DevOps Index.md",
+    "1.DevOps - Cloud/Github Actions.md",
+    "2.DSA/loops questions for interviews.md",
+    "1.DevOps - Cloud/Kubernates notes/Pasted image 20250211004439.png",
     "1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
     "1.DevOps - Cloud/Kubernates notes/ETCD.md",
     "Office work.md",
-    "2.DSA/loops questions for interviews.md",
-    "1.DevOps - Cloud/Github Actions.md",
     "1.DevOps - Cloud/Pasted image 20250205114623.png",
     "1.DevOps - Cloud/Pasted image 20250205113904.png",
-    "1.DevOps - Cloud/1. DevOps Index.md",
     "1.DevOps - Cloud/ArgoCD.md",
     "ArgoCD.md",
     "1.DevOps - Cloud/Kubernates notes/office.md",
