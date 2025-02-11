@@ -24,8 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "2.DSA/loops questions for interviews.md",
-      "timestamp": 1739297341419
+      "filepath": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
+      "timestamp": 1739297640234
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+      "timestamp": 1739297640081
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
+      "timestamp": 1739297639825
+    },
+    {
+      "filepath": "1.DevOps - Cloud/1. DevOps Index.md",
+      "timestamp": 1739297639382
+    },
+    {
+      "filepath": "1.DevOps - Cloud/Github Actions.md",
+      "timestamp": 1739297639228
     }
   ],
   "bookmarkedFileStore": [

@@ -4,151 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5acf262745bf38c5",
+        "id": "615dd7889a5f711a",
         "type": "tabs",
         "children": [
           {
-            "id": "f009ea4b455ad2be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.DSA/loops questions for interviews.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "loops questions for interviews"
-            }
-          },
-          {
-            "id": "c9a6a153533af2b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Github Actions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Github Actions"
-            }
-          },
-          {
-            "id": "7dbd816a975d7de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/1. DevOps Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. DevOps Index"
-            }
-          },
-          {
-            "id": "ca685a94b762596f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. kubernates index"
-            }
-          },
-          {
-            "id": "46f072c22b4d7c97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "usefull commands"
-            }
-          },
-          {
-            "id": "2b60d5f7c2665845",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yaml in k8s"
-            }
-          },
-          {
-            "id": "229a99b9f329ba2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "usefull commands"
-            }
-          },
-          {
-            "id": "1582e46ca4dff603",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. kubernates index"
-            }
-          },
-          {
-            "id": "7ecbadb9c7ac9e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "usefull commands"
-            }
-          },
-          {
-            "id": "87e2e2ea025286b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "usefull commands"
-            }
-          },
-          {
-            "id": "dac142e2419d883c",
+            "id": "820476c286e73b10",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -308,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f009ea4b455ad2be",
+  "active": "820476c286e73b10",
   "lastOpenFiles": [
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
