@@ -146,9 +146,19 @@
               "icon": "lucide-file",
               "title": "usefull commands"
             }
+          },
+          {
+            "id": "dac142e2419d883c",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -299,11 +309,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46f072c22b4d7c97",
+  "active": "dac142e2419d883c",
   "lastOpenFiles": [
+    "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
-    "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "1.DevOps - Cloud/1. DevOps Index.md",
     "1.DevOps - Cloud/Github Actions.md",
     "2.DSA/loops questions for interviews.md",
