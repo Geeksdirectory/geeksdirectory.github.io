@@ -20,8 +20,31 @@
               "icon": "lucide-file",
               "title": "Todo list"
             }
+          },
+          {
+            "id": "276ca6fb801e7693",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "eb187e1aeb23519f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-12 13.45.45.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-12 13.45.45.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,9 +195,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "820476c286e73b10",
+  "active": "eb187e1aeb23519f",
   "lastOpenFiles": [
+    "Excalidraw/Pasted Image 20250212163302_375.png",
+    "Excalidraw/Pasted Image 20250212163136_725.png",
+    "Excalidraw/Pasted Image 20250212162950_050.png",
+    "Excalidraw/Pasted Image 20250212162811_977.png",
     "Todo list.md",
+    "Excalidraw/Drawing 2025-02-12 13.45.45.excalidraw.md",
+    "Excalidraw/Pasted Image 20250212135818_261.png",
+    "Excalidraw/Pasted Image 20250212135656_597.png",
+    "Excalidraw/Pasted Image 20250212135623_304.png",
+    "Excalidraw/Pasted Image 20250212135508_644.png",
+    "Excalidraw/Pasted Image 20250212135120_287.png",
     "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
     "1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
@@ -186,7 +219,6 @@
     "1.DevOps - Cloud/Kubernates notes/ETCD.md",
     "Office work.md",
     "1.DevOps - Cloud/Pasted image 20250205114623.png",
-    "1.DevOps - Cloud/Pasted image 20250205113904.png",
     "1.DevOps - Cloud/ArgoCD.md",
     "ArgoCD.md",
     "1.DevOps - Cloud/Kubernates notes/office.md",
@@ -202,21 +234,12 @@
     "Sem 8/AAI/0. AAI Index.md",
     "Sem 8/EVS/0.EVS.md",
     "Sem 8/Reinforcement Learning/0. Reinforcement learning.md",
-    "Sem 8/EVS/Pasted image 20250201211504.png",
     "SQL/SQL handwritten notes.md",
-    "Sem 8/Social media Analysis/0.Social media Analysis.md",
-    "Sem 8/Social media Analysis/Pasted image 20250201211414.png",
-    "Sem 8/Social media Analysis/Pasted image 20250201211402.png",
-    "Sem 8/Reinforcement Learning/Pasted image 20250201211321.png",
-    "Sem 8/Reinforcement Learning/Pasted image 20250201211251.png",
-    "Sem 8/AAI/Pasted image 20250201211156.png",
-    "Sem 8/AAI/Pasted image 20250201211133.png",
     "Sem 8/Social media Analysis",
     "Sem 8/EVS",
     "Sem 8/Reinforcement Learning",
     "Sem 8/AAI",
     "Sem 8",
-    "1.DevOps - Cloud/Kubernates notes/18. Authentication and authorization in Kubernetes.md",
     "1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md.save",
     "14. Kubernetes Autoscaling Explained - HPA ",
     "path_to_your_pdf_output_folder",

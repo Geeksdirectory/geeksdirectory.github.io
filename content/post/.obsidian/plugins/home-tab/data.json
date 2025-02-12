@@ -24,8 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "todo.md",
-      "timestamp": 1739336909375
+      "filepath": "Excalidraw/Drawing 2025-02-12 13.45.45.excalidraw.md",
+      "timestamp": 1739351360974
+    },
+    {
+      "filepath": "Todo list.md",
+      "timestamp": 1739351358437
     },
     {
       "filepath": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "1.DevOps - Cloud/Kubernates notes/Yaml in k8s.md",
       "timestamp": 1739297639825
-    },
-    {
-      "filepath": "1.DevOps - Cloud/1. DevOps Index.md",
-      "timestamp": 1739297639382
     }
   ],
   "bookmarkedFileStore": [
