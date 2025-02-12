@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "todo.md",
+      "timestamp": 1739336909375
+    },
+    {
       "filepath": "1.DevOps - Cloud/Kubernates notes/usefull commands.md",
       "timestamp": 1739297640234
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "1.DevOps - Cloud/1. DevOps Index.md",
       "timestamp": 1739297639382
-    },
-    {
-      "filepath": "1.DevOps - Cloud/Github Actions.md",
-      "timestamp": 1739297639228
     }
   ],
   "bookmarkedFileStore": [
