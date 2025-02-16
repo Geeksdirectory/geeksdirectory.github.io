@@ -160,4 +160,60 @@ This balance is crucial for training AI in games, robotics, and real-world decis
 
 ---
 
-	
+
+## What is SARSA in reinforcement learning?
+
+### SARSA in Reinforcement Learning
+
+SARSA (State-Action-Reward-State-Action) is an **on-policy** reinforcement learning algorithm used to learn the optimal action-value function Q(s,a)Q(s, a). It is a modification of **Q-learning** but follows the policy it is currently learning (instead of always choosing the best action as in Q-learning).
+
+---
+
+### **How SARSA Works**
+
+The SARSA algorithm updates the action-value function using the following update rule:
+
+![[Pasted image 20250216221319.png]]
+### **Key Features of SARSA**
+
+1. **On-Policy Learning:**
+    
+    - Uses the same policy to **select and evaluate** actions.
+    - Typically follows an **ε-greedy** strategy to balance exploration and exploitation.
+2. **Updates Using the Next Action:**
+    
+    - Unlike Q-learning (which updates based on the best action in the next state), SARSA updates based on the **actual action chosen**.
+3. **More Conservative than Q-learning:**
+    
+    - Since it follows its current policy, SARSA tends to be safer in **stochastic** environments.
+
+---
+
+### **SARSA vs. Q-learning**
+
+|Feature|SARSA (On-Policy)|Q-learning (Off-Policy)|
+|---|---|---|
+|Policy Type|On-Policy (uses π)|Off-Policy (uses max Q)|
+|Next Action|Chosen by policy|Uses the max Q-value|
+|Risk Level|More conservative|More aggressive|
+|Performance|Safer in noisy environments|Faster convergence in deterministic settings|
+
+---
+
+### **Example: SARSA in Action**
+
+Imagine an agent navigating a grid world. If it's following an ε-greedy policy:
+
+4. It selects an action ata_t based on the policy.
+5. Moves to a new state st+1s_{t+1} and gets a reward rtr_t.
+6. Selects a new action at+1a_{t+1} using the same policy.
+7. Updates Q(st,at)Q(s_t, a_t) using the SARSA update rule.
+
+---
+
+### **When to Use SARSA?**
+
+- When **safety** is important (e.g., self-driving cars, medical treatments).
+- In **stochastic** environments where Q-learning might be too risky.
+- When following a specific policy (e.g., a soft policy like ε-greedy).
+
