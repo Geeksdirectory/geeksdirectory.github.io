@@ -86,3 +86,12 @@ kubectl run myapp-pod --image=nginx --restart=Never
 ```
 kubectl delete pod webapp
 ```
+
+
+scale replicas
+```
+kubectl scale --replicas=6 -f replicaset-defination.yml
+```
+
+
+![[Pasted image 20250217123143.png]]
