@@ -60,3 +60,4 @@ kubectl create deployment --image=httpd:2.4-alpine httpd-frontend --replicas=3
 ---
 
 
+![[Pasted image 20250217154257.png]]
