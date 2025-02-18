@@ -95,3 +95,13 @@ kubectl scale --replicas=6 -f replicaset-defination.yml
 
 
 ![[Pasted image 20250217123143.png]]
+
+
+### Command for selector and labels 
+```
+kubectl get pods --selector env=dev
+```
+
+![[Pasted image 20250218114445.png]]
+
+
