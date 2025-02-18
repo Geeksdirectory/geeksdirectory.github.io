@@ -10,3 +10,6 @@
 - [ ] argocd 
 - [ ] k8s 
 - [ ] trivy
+
+
+![[Pasted image 20250218152225.png]]
