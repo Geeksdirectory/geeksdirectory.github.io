@@ -1,4 +1,4 @@
-
+	
 ## 1. What is RL
 
 **Definition**: RL is a type of Machine Learning where an agent learns by interacting with an environment to maximize rewards.
@@ -160,7 +160,7 @@ This balance is crucial for training AI in games, robotics, and real-world decis
 
 ---
 
-
+# [[sarsa and q-learning hinglish]]
 ## What is SARSA in reinforcement learning?
 
 ### SARSA in Reinforcement Learning
@@ -216,4 +216,5 @@ Imagine an agent navigating a grid world. If it's following an ε-greedy policy:
 - When **safety** is important (e.g., self-driving cars, medical treatments).
 - In **stochastic** environments where Q-learning might be too risky.
 - When following a specific policy (e.g., a soft policy like ε-greedy).
+
 
