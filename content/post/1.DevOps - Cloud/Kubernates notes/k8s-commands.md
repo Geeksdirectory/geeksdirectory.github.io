@@ -4,6 +4,15 @@ date: 2025-01-22
 ---
 
 
+## Command to yaml file 
+
+```
+kubectl create deployment node01 --image=nginx --dry-run=client -o yaml > sample.yaml
+
+```
+
+
+
 ```
 minikube image load full-frontend:latest
 ```
@@ -105,3 +114,8 @@ kubectl get pods --selector env=dev
 ![[Pasted image 20250218114445.png]]
 
 
+## Label
+
+```
+kubectl label node node01 color=blue
+```
