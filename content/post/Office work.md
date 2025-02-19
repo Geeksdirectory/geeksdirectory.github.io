@@ -19,3 +19,6 @@
 increased share memory from 2gi to 16gi 
 
 ![[Pasted image 20250219112726.png]]
+
+
+if nothing worked then replace original file stored in backup directory in you device
