@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "9. Demon Set"
             }
+          },
+          {
+            "id": "22e5ef9ee016b053",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,7 +208,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6607375ebaae2217",
+  "active": "22e5ef9ee016b053",
   "lastOpenFiles": [
     "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "content/post/Office work.md",
