@@ -1,3 +1,8 @@
+---
+title: Kubernates notes ETCD
+date: 2025-02-10
+---
+
 ETCD is a **distributed key-value store** used to store configuration data, metadata, and distributed system coordination information. It is highly available, consistent, and used extensively in cloud-native applications like **Kubernetes**.
 
 #### **Key Features of ETCD**

@@ -232,7 +232,7 @@ name of program and public class is same&lt;br /&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;class&#34;&gt;Class&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Class&lt;/strong&gt;: &lt;code&gt;HelloWorld&lt;/code&gt; is the class name. In Java, everythingbelongs to a class. first letter is always capital (of class)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class&lt;/strong&gt;: &lt;code&gt;HelloWorld&lt;/code&gt; is the class name. In Java, everything belongs to a class. first letter is always capital (of class)&lt;/li&gt;
 &lt;li&gt;a &lt;strong&gt;class&lt;/strong&gt; is a blueprint or template for creating objects&lt;/li&gt;
 &lt;li&gt;defines the properties (fields) and behaviors (methods) that the objects created from the class will have&lt;/li&gt;
 &lt;/ul&gt;

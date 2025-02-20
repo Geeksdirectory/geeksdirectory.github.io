@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Container : build ship and execute ![[Pasted image 20250113095413.png]]
-![[Pasted image 20250113095558.png]]
-Hands on docker : play with docker
-[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Container : build ship and execute Hands on docker : play with docker
+[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.com/docker/compose/releases/download/v2.24.0/docker-compose-$(uname -s)-$(uname -m)&amp;#34; -o /usr/local/bin/docker-compose sudo chmod &#43;x /usr/local/bin/docker-compose Docker build any image docker build -t myimage .'>
 <title>Docker 1  Docker Introduction</title>
 
 <link rel='canonical' href='http://localhost:1313/post/1.devops---cloud/docker/1.-docker-introduction/'>
 
 <link rel="stylesheet" href="/scss/style.min.e205d45a16e76fe48280f77d5e8c5d351a2c7beb28c93a00f488056f5e6da877.css"><meta property='og:title' content='Docker 1  Docker Introduction'>
-<meta property='og:description' content='Container : build ship and execute ![[Pasted image 20250113095413.png]]
-![[Pasted image 20250113095558.png]]
-Hands on docker : play with docker
-[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.'>
+<meta property='og:description' content='Container : build ship and execute Hands on docker : play with docker
+[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.com/docker/compose/releases/download/v2.24.0/docker-compose-$(uname -s)-$(uname -m)&amp;#34; -o /usr/local/bin/docker-compose sudo chmod &#43;x /usr/local/bin/docker-compose Docker build any image docker build -t myimage .'>
 <meta property='og:url' content='http://localhost:1313/post/1.devops---cloud/docker/1.-docker-introduction/'>
 <meta property='og:site_name' content='GeeksDirectory'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-13T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Docker 1  Docker Introduction">
-<meta name="twitter:description" content="Container : build ship and execute ![[Pasted image 20250113095413.png]]
-![[Pasted image 20250113095558.png]]
-Hands on docker : play with docker
-[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.">
+<meta name="twitter:description" content="Container : build ship and execute Hands on docker : play with docker
+[[bind mount volume]] Docker Installation sudo apt install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt update sudo apt install -y docker-ce docker-ce-cli containerd.io Docker compose installation sudo curl -L &amp;#34;https://github.com/docker/compose/releases/download/v2.24.0/docker-compose-$(uname -s)-$(uname -m)&amp;#34; -o /usr/local/bin/docker-compose sudo chmod &#43;x /usr/local/bin/docker-compose Docker build any image docker build -t myimage .">
 
     </head>
     <body class="
@@ -428,8 +422,26 @@ Hands on docker : play with docker
     
     
     <h4 id="container--build-ship-and-execute">Container : build ship and execute</h4>
-<p>![[Pasted image 20250113095413.png]]</p>
-<p>![[Pasted image 20250113095558.png]]</p>
+<p><img src="/Pastedimage20250113095413.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><img src="/Pastedimage20250113095558.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
 <p>Hands on docker :  play with docker</p>
 <h1 id="bind-mount-volume">[[bind mount volume]]</h1>
 <h2 id="docker-installation">Docker Installation</h2>

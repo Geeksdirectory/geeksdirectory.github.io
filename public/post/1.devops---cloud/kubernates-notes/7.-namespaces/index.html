@@ -323,7 +323,42 @@ Isolate resources between environments or teams. Default namespace is used if no
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -371,7 +406,7 @@ Isolate resources between environments or teams. Default namespace is used if no
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -394,7 +429,109 @@ Isolate resources between environments or teams. Default namespace is used if no
 <li>Default namespace is used if none is specified.</li>
 <li>Useful for managing access and quotas.</li>
 </ul>
-<p>![[Pasted image 20250115165359.png]]</p>
+<p><img src="/Pastedimage20250115165359.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p><img src="/Pastedimage20250217151948.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+></p>
+<p>Namespaces in Kubernetes <strong>logically isolate resources</strong> within a cluster. They allow you to create multiple environments (e.g., dev, test, prod) in the same cluster while keeping resources separate.</p>
+<hr />
+<h5 id="2-key-features"><strong>2️⃣ Key Features</strong></h5>
+<p>✔ <strong>Multi-tenancy</strong>: Different teams can share the same cluster without conflicts.<br />
+✔ <strong>Resource Quotas</strong>: Limit CPU, memory, and object counts per namespace.<br />
+✔ <strong>Scoped Access Control</strong>: Use RBAC (Role-Based Access Control) to restrict permissions per namespace.<br />
+✔ <strong>Network Policies</strong>: Control communication between namespaces.</p>
+<hr />
+<h5 id="3-default-namespaces"><strong>3️⃣ Default Namespaces</strong></h5>
+<p>Kubernetes comes with some pre-created namespaces:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Namespace</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>default</code></td>
+<td>Default namespace for resources if no other namespace is specified.</td>
+</tr>
+<tr>
+<td><code>kube-system</code></td>
+<td>Critical system components (e.g., API server, scheduler).</td>
+</tr>
+<tr>
+<td><code>kube-public</code></td>
+<td>Public resources, readable by all users.</td>
+</tr>
+<tr>
+<td><code>kube-node-lease</code></td>
+<td>Heartbeat data for node health monitoring.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h5 id="4-commands-for-managing-namespaces"><strong>4️⃣ Commands for Managing Namespaces</strong></h5>
+<p>🔹 <strong>List all namespaces:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl get namespaces
+</span></span></code></pre></div><p>🔹 <strong>Create a namespace:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl create namespace my-namespace
+</span></span></code></pre></div><p>🔹 <strong>Apply a namespace from YAML:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl apply -f namespace.yaml
+</span></span></code></pre></div><p>✅ <strong>Example YAML:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Namespace</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">my-namespace</span>
+</span></span></code></pre></div><p>🔹 <strong>Use a specific namespace for a command:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl get pods -n my-namespace
+</span></span></code></pre></div><p>🔹 <strong>Set default namespace for <code>kubectl</code>:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl config set-context --current --namespace<span style="color:#f92672">=</span>my-namespace
+</span></span></code></pre></div><p>🔹 <strong>Delete a namespace:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl delete namespace my-namespace
+</span></span></code></pre></div><hr />
+<h5 id="5-best-practices"><strong>5️⃣ Best Practices</strong></h5>
+<p>✅ <strong>Use namespaces to separate environments</strong> (e.g., <code>dev</code>, <code>staging</code>, <code>prod</code>).<br />
+✅ <strong>Apply resource quotas</strong> to prevent excessive resource consumption.<br />
+✅ <strong>Use RBAC</strong> to restrict user access per namespace.<br />
+✅ <strong>Monitor namespace usage</strong> with <code>kubectl describe namespace &lt;name&gt;</code></p>
+<hr />
+<p>💡 <strong>Real-World Example</strong><br />
+🔹 <strong>Deploy an app in a namespace</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">apps/v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Deployment</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">webapp</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">namespace</span>: <span style="color:#ae81ff">dev</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">replicas</span>: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">selector</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">matchLabels</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">app</span>: <span style="color:#ae81ff">webapp</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">template</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">labels</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">app</span>: <span style="color:#ae81ff">webapp</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">containers</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">nginx</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">image</span>: <span style="color:#ae81ff">nginx</span>
+</span></span></code></pre></div><hr />
 
 </section>
 

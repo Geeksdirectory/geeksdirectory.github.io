@@ -1,3 +1,8 @@
+---
+title: Kubernates notes Admission controller
+date: 2025-02-20
+---
+
 
 ## **1. What is an Admission Controller?**
 

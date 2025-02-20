@@ -1,3 +1,8 @@
+---
+title: Reinforcement Learning Module 1
+date: 2025-02-21
+---
+
 	
 ## 1. What is RL
 
@@ -47,7 +52,7 @@ goal directed agent
 
 ## 2. **Importance of Exploration and Exploitation in Reinforcement Learning**
 
-![[Pasted image 20250216142342.png]]
+![alt text](Pastedimage20250216142342.png)
 
 In RL, an agent must balance two key strategies to learn effectively:
 
@@ -173,7 +178,7 @@ SARSA (State-Action-Reward-State-Action) is an **on-policy** reinforcement learn
 
 The SARSA algorithm updates the action-value function using the following update rule:
 
-![[Pasted image 20250216221319.png]]
+![alt text](Pastedimage20250216221319.png)
 ### **Key Features of SARSA**
 
 1. **On-Policy Learning:**

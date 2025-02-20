@@ -1,3 +1,8 @@
+---
+title: Kubernates notes Labels and selectors
+date: 2025-02-21
+---
+
 In Kubernetes, **labels** and **selectors** are fundamental for organizing, grouping, and managing resources like pods, nodes, and services. They help manage large, complex systems by enabling the selection and filtering of resources based on key-value pairs.
 
 ### 1. **Labels**:
@@ -96,4 +101,4 @@ Would you like an example of how to create resources with labels or selectors, o
 Use wordcount and no header in exams 👇
 
 
-![[Pasted image 20250218114445.png]]
+![alt text](Pastedimage20250218114445.png)

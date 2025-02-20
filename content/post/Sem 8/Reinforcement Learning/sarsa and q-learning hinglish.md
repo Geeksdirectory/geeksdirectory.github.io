@@ -1,3 +1,8 @@
+---
+title: Reinforcement Learning sarsa and q-learning hinglish
+date: 2025-02-21
+---
+
 Bhai tension nahi lene ka! SARSA aur Q-Learning dono **Reinforcement Learning (RL)** ke algorithms hain, jo agent ko best policy seekhne me madad karte hain. Dono **Temporal Difference (TD) Learning** ka part hain, lekin ek key difference hai jo game change karta hai.
 
 ---
@@ -6,7 +11,7 @@ Bhai tension nahi lene ka! SARSA aur Q-Learning dono **Reinforcement Learning (R
 
 - **"Best action" choose karta hai** har state ke liye, chahe jo bhi policy follow ho rahi ho.
 
-	![[Pasted image 20250217225545.png]]
+	![alt text](Pastedimage20250217225545.png)
 
 
     - Yahaan **max⁡a′Q(s′,a′)\max_{a'} Q(s', a')** ka matlab hai **future state ke best Q-value** ko consider karna.
@@ -22,7 +27,7 @@ Socho ek robot hai jo maze me sahi raasta dhundh raha hai. Agar wo **Q-Learning*
 
 - **"Jo action policy follow kar rahi hai" usko choose karta hai future update ke liye.**
 
-	![[Pasted image 20250217225607.png]]
+	![alt text](Pastedimage20250217225607.png)
 
     - Yahaan **Q(s′,a′)Q(s', a')** ka matlab hai **jo action policy abhi follow kar rahi hai**, wahi consider hoga.
     - Is wajah se ye **On-Policy** hai—jo action choose ho raha hai, wahi update me use hoga.

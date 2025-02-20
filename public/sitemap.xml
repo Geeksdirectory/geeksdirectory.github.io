@@ -3,12 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/complete-till--friday/</loc>
-    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/admission-controller/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/schedular-profile/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/untitled/</loc>
+    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/prompts/</loc>
+    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/todo-list/</loc>
+    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/etcd/</loc>
+    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/devsecops/trivy/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/merge-az-with-lens/</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/complete-till--friday/</loc>
     <lastmod>2025-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/1.devops---cloud/docker/0.docker-commands/</loc>
@@ -17,10 +41,10 @@
     <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/0.-kubernates-index/</loc>
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/argocd/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/argocd/</loc>
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/usefull-commands/</loc>
+    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/k8s-commands/</loc>
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/0.internship-work/0.index/</loc>
@@ -97,9 +121,6 @@
   </url><url>
     <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/2.-kubernetes-cluster-types/</loc>
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/office/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/1.devops---cloud/kubernates-notes/postgressql/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
@@ -521,6 +542,8 @@
     <loc>http://localhost:1313/post/az-104/configure-and-manage-virtual-networking.excalidraw/</loc>
   </url><url>
     <loc>http://localhost:1313/post/excalidraw/drawing-2024-12-23-22.40.59.excalidraw/</loc>
+  </url><url>
+    <loc>http://localhost:1313/post/excalidraw/firday-presentationexcalidraw/</loc>
   </url><url>
     <loc>http://localhost:1313/post/fusion/drawing-2024-12-28-23.42.13.excalidraw/</loc>
   </url><url>

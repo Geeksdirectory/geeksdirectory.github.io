@@ -1,19 +1,24 @@
+---
+title: Kubernates notes Multiple schedular
+date: 2025-02-21
+---
+
 creating custom schedular 
 
-![[Pasted image 20250220111322.png]]![[Pasted image 20250220111727.png]]
+![alt text](Pastedimage20250220111322.png)![alt text](Pastedimage20250220111727.png)
 
- ![[Pasted image 20250220111743.png]]
+ ![alt text](Pastedimage20250220111743.png)
 
 
 ### Deploy schedular as a pod 
 
- ![[Pasted image 20250220111945.png]]
+ ![alt text](Pastedimage20250220111945.png)
 
-![[Pasted image 20250220112329.png]]
+![alt text](Pastedimage20250220112329.png)
 
-![[Pasted image 20250220112432.png]]
+![alt text](Pastedimage20250220112432.png)
 
-![[Pasted image 20250220112520.png]]
+![alt text](Pastedimage20250220112520.png)
 
-![[Pasted image 20250220112536.png]]
+![alt text](Pastedimage20250220112536.png)
 

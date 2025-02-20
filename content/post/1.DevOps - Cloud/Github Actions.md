@@ -1,3 +1,8 @@
+---
+title: 1.DevOps - Cloud Github Actions
+date: 2025-02-21
+---
+
 
 GitHub Actions is a continuous integration and continuous delivery/deployment (CI/CD) platform that automates your software development workflows
 
@@ -5,7 +10,7 @@ allows you to build, test, and deploy software source code directly from your ==
 
 With various configuration options for triggers **based on commits and merges**
 
-![[Pasted image 20250205113904.png]]
+![alt text](Pastedimage20250205113904.png)
 
 uses yaml files
 executed when triggered by events like code pushes, pull requests, and releases.
@@ -24,7 +29,7 @@ executed when triggered by events like code pushes, pull requests, and releases.
 ### GitHub Actions runners
 
 Runners in GitHub Actions are virtual machines that execute jobs in a workflow
-![[Pasted image 20250205114623.png]]
+![alt text](Pastedimage20250205114623.png)
 
 ### GitHub Actions jobs
 

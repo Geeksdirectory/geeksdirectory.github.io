@@ -1,4 +1,9 @@
-![[Pasted image 20250215204724.png]]
+---
+title: Kubernates notes k8s controller - replication controller
+date: 2025-02-21
+---
+
+![alt text](Pastedimage20250215204724.png)
 
 
 #### **Replication Controller vs ReplicaSet in Kubernetes**
@@ -15,9 +20,9 @@ Both **ReplicationController (RC)** and **ReplicaSet (RS)** ensure that a specif
 
 💡 **Use Case**: Basic pod scaling in older Kubernetes versions.
 
-![[Pasted image 20250217121946.png]]
+![alt text](Pastedimage20250217121946.png)
 
-![[Pasted image 20250217122039.png]]
+![alt text](Pastedimage20250217122039.png)
 
 #### **2. ReplicaSet (RS)**
 
@@ -30,11 +35,11 @@ Both **ReplicationController (RC)** and **ReplicaSet (RS)** ensure that a specif
 
 💡 **Use Case**: Used in modern Kubernetes for pod scaling and high availability. Usually **not used directly** **Deployments** manage ReplicaSets internally.
 
-![[Pasted image 20250217122520.png]]
-![[Pasted image 20250217122536.png]]
+![alt text](Pastedimage20250217122520.png)
+![alt text](Pastedimage20250217122536.png)
 
 
-![[Pasted image 20250217122736.png]]
+![alt text](Pastedimage20250217122736.png)
 
 
 
@@ -44,5 +49,5 @@ Command to scale replicas
 kubectl scale --replicas=6 -f replicaset-defination.yml
 ```
 
-![[Pasted image 20250217123150.png]]
+![alt text](Pastedimage20250217123150.png)
 

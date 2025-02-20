@@ -1,3 +1,8 @@
+---
+title: post merge-az-with-lens
+date: 2025-01-28
+---
+
 
 az login
 

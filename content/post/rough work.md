@@ -15,7 +15,7 @@ date: 2024-06-04T00:38:39+05:30
 
 
 
-![[Pasted image 20250220232315.png]]
+![alt text](Pastedimage20250220232315.png)
 
 
 
@@ -29,9 +29,9 @@ date: 2024-06-04T00:38:39+05:30
 
 https://www.youtube.com/watch?v=nq82V5OpapE
 
-![[Pasted image 20250129113959.png]]
+![alt text](Pastedimage20250129113959.png)
 
 
 http 
 
-![[Pasted image 20250130155418.png]]
+![alt text](Pastedimage20250130155418.png)

@@ -1,9 +1,14 @@
-![[Pasted image 20250218110226.png]]
+---
+title: Kubernates notes Manual scheduling
+date: 2025-02-21
+---
+
+![alt text](Pastedimage20250218110226.png)
 
 
 ## Use of binding schedular
 
-![[Pasted image 20250218110255.png]]
+![alt text](Pastedimage20250218110255.png)
 
 
 In Kubernetes (K8s), ==**schedulers** are responsible for assigning pods to the most appropriate nodes in the cluster==. The default scheduler is built-in, but you can also implement custom schedulers, including a **manual scheduler**. Here's an overview of both:

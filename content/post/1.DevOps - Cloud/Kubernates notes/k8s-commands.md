@@ -103,7 +103,7 @@ kubectl scale --replicas=6 -f replicaset-defination.yml
 ```
 
 
-![[Pasted image 20250217123143.png]]
+![alt text](Pastedimage20250217123143.png)
 
 
 ### Command for selector and labels 
@@ -111,7 +111,7 @@ kubectl scale --replicas=6 -f replicaset-defination.yml
 kubectl get pods --selector env=dev
 ```
 
-![[Pasted image 20250218114445.png]]
+![alt text](Pastedimage20250218114445.png)
 
 
 ## Label

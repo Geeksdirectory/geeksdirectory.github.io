@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/rough work.md",
+                "file": "content/post/AZ-104/Azure Bastion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rough work"
+              "title": "Azure Bastion"
             }
           }
         ],
@@ -103,8 +103,7 @@
               "title": "rough work"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,22 +197,35 @@
   },
   "active": "141fccf9f15fe30b",
   "lastOpenFiles": [
-    "content/post/Pasted image 20250220232315.png",
+    "public/images/PastedImage20241216131325_479.png",
+    "public/images/Pastedimage20241125203806.png",
+    "public/images/PastedImage20241216131257_853.png",
+    "public/images/PastedImage20241218220804_236.png",
+    "public/images/Pastedimage20250102125250.png",
+    "public/images/PastedImage20241218220927_034.png",
+    "public/images/PastedImage20241216131344_666.png",
+    "public/images/Pastedimage20241120112716.png",
+    "public/images/PastedImage20241218221044_783.png",
+    "public/images/PastedImage20241218220836_396.png",
+    "public/images/PastedImage20241218221153_787.png",
+    "content/post/AZ-104/Azure Bastion.md",
+    "content/post/rough work.md",
+    "public/post/Sem 8/Social media Analysis",
+    "public/post/Sem 8/Reinforcement Learning",
+    "public/post/Sem 8/EVS",
+    "public/post/Sem 8/AAI",
+    "public/tags/excalidraw/page/3/index.html",
+    "public/tags/excalidraw/page/3",
+    "public/post/todo-list/index.html",
+    "public/post/todo-list",
+    "public/post/prompts/index.html",
+    "public/post/prompts",
     "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/schedular profile.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/Multiple schedular.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220112536.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220112520.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220112432.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220112329.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220111945.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220111743.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220111727.png",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Pasted image 20250220111322.png",
     "content/post/1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
     "content/post/Office work.md",
-    "content/post/Pasted image 20250219112726.png",
     "movies to watch.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/k8s-commands.md",
@@ -222,7 +234,6 @@
     "content/post/1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md",
     "content/post/1.DevOps - Cloud/git/gitconfigurepasswordinlinux.md",
     "content/post/1.DevOps - Cloud/git/Git Index.md",
-    "content/post/1.DevOps - Cloud/Docker/Pasted image 20250113095558.png",
     "content/post/1.DevOps - Cloud/Docker/bind mount volume.md",
     "content/post/1.DevOps - Cloud/Docker/2. Multistage Build.md",
     "content/post/1.DevOps - Cloud/Docker/0. Docker Index.md",
@@ -232,18 +243,6 @@
     "archetypes/default copy.md",
     "archetypes/default.md",
     "archetypes/categories.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Node selector.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/12. Kubernetes Nodes Affinity.md",
-    "content/post/Sem 8/SEM-VIII_AIDS_Syllabus.pdf",
-    "public/images",
-    "static/images",
-    "public/image",
-    "static/image",
-    "devops roadmap.pdf",
-    "content/post/Sem7 final exam/NLP",
-    "content/post/Sem7 final exam/MIS/Question Bank/1st QB MIS.pdf",
-    "content/post/Sem7 final exam/MIS/Question Bank/2nd QB MIS.pdf",
-    "content/post/Sem7 final exam/MIS/Question Bank/3rd QB MIS.pdf",
     "Untitled.canvas"
   ]
 }

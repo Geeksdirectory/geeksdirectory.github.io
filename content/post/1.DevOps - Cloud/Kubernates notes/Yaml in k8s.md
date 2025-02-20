@@ -1,3 +1,8 @@
+---
+title: Kubernates notes Yaml in k8s
+date: 2025-02-21
+---
+
 
 >>pod-deployment.yaml
 
@@ -6,7 +11,7 @@ k8s uses yaml as input for creation of obj (pods , nodes ,config etc)
 top level or root level properties 👇
 (required fields) 👇
 
-![[Pasted image 20250211004439.png]]
+![alt text](Pastedimage20250211004439.png)
 
 
 #### Example : 👇
