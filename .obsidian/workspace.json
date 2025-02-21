@@ -20,6 +20,7 @@
               "icon": "lucide-file",
               "title": "0. kubernates index"
             }
+<<<<<<< HEAD
           },
           {
             "id": "141fccf9f15fe30b",
@@ -34,9 +35,10 @@
               "icon": "lucide-file",
               "title": "Azure Bastion"
             }
+=======
+>>>>>>> parent of f9dc2be (Initial terminal commit)
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,6 +197,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
+<<<<<<< HEAD
   "active": "141fccf9f15fe30b",
   "lastOpenFiles": [
     "public/images/PastedImage20241216131325_479.png",
@@ -225,9 +228,14 @@
     "content/post/1.DevOps - Cloud/Kubernates notes/schedular profile.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/Multiple schedular.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
+=======
+  "active": "3a86e4599421bd57",
+  "lastOpenFiles": [
+>>>>>>> parent of f9dc2be (Initial terminal commit)
     "content/post/Office work.md",
     "movies to watch.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
+    "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/k8s-commands.md",
     "content/post/Sem 8/AAI/0. AAI Index.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
