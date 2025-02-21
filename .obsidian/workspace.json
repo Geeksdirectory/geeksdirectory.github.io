@@ -1,42 +1,25 @@
 {
   "main": {
-    "id": "3ff7d2c4425bdcb1",
+    "id": "b485a7f3d6fbbc88",
     "type": "split",
     "children": [
       {
-        "id": "c239867dba2e83a3",
+        "id": "82208db2e4891475",
         "type": "tabs",
         "children": [
           {
-            "id": "3a86e4599421bd57",
+            "id": "37e705a4bc990f9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
+                "file": "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. kubernates index"
+              "title": "Admission controller"
             }
-<<<<<<< HEAD
-          },
-          {
-            "id": "141fccf9f15fe30b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/AZ-104/Azure Bastion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Azure Bastion"
-            }
-=======
->>>>>>> parent of f9dc2be (Initial terminal commit)
           }
         ]
       }
@@ -44,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fe7860342dc00bc4",
+    "id": "e79c2846f822f161",
     "type": "split",
     "children": [
       {
-        "id": "16815359864a0d8c",
+        "id": "53c2ae89cec50630",
         "type": "tabs",
         "children": [
           {
-            "id": "13da6836fa1150b9",
+            "id": "46b3adbaa4cf33c5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,12 +48,12 @@
             }
           },
           {
-            "id": "82e264cde4907aa7",
+            "id": "dd88ad5dc2c476e9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "rough",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +65,7 @@
             }
           },
           {
-            "id": "90732a571a098f8a",
+            "id": "e637f81a7f10497a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -90,42 +73,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "d543a10327426078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/rough work.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rough work"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5004348754883
+    "width": 300
   },
   "right": {
-    "id": "6327d0845dfcdcc2",
+    "id": "ab39dcc4dce26bdc",
     "type": "split",
     "children": [
       {
-        "id": "999792ba354671e9",
+        "id": "119d8d894a0c187b",
         "type": "tabs",
         "children": [
           {
-            "id": "b46cdb15df5a73d0",
+            "id": "c6c7d3f6872ff8b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Sem7 final exam/Sem 4 exam/Deep Learning/Module 1/2.Training, optimization, Regularization of Deep network.md",
+                "file": "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,50 +104,54 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2.Training, optimization, Regularization of Deep network"
+              "title": "Backlinks for Admission controller"
             }
           },
           {
-            "id": "61facf4c8f2a8301",
+            "id": "4f492cfc072a131b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/dsa/Syllabus For DSA.md",
+                "file": "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Syllabus For DSA"
+              "title": "Outgoing links from Admission controller"
             }
           },
           {
-            "id": "e383db16606f83aa",
+            "id": "ceedb379ac4a2316",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "8913c5063f6de94b",
+            "id": "0af3b0d32f541f75",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/AZ-104/Network watcher service.md"
+                "file": "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network watcher service"
+              "title": "Outline of Admission controller"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,60 +170,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-<<<<<<< HEAD
-  "active": "141fccf9f15fe30b",
+  "active": "37e705a4bc990f9a",
   "lastOpenFiles": [
-    "public/images/PastedImage20241216131325_479.png",
-    "public/images/Pastedimage20241125203806.png",
-    "public/images/PastedImage20241216131257_853.png",
-    "public/images/PastedImage20241218220804_236.png",
-    "public/images/Pastedimage20250102125250.png",
-    "public/images/PastedImage20241218220927_034.png",
-    "public/images/PastedImage20241216131344_666.png",
-    "public/images/Pastedimage20241120112716.png",
-    "public/images/PastedImage20241218221044_783.png",
-    "public/images/PastedImage20241218220836_396.png",
-    "public/images/PastedImage20241218221153_787.png",
-    "content/post/AZ-104/Azure Bastion.md",
-    "content/post/rough work.md",
-    "public/post/Sem 8/Social media Analysis",
-    "public/post/Sem 8/Reinforcement Learning",
-    "public/post/Sem 8/EVS",
-    "public/post/Sem 8/AAI",
-    "public/tags/excalidraw/page/3/index.html",
-    "public/tags/excalidraw/page/3",
-    "public/post/todo-list/index.html",
-    "public/post/todo-list",
-    "public/post/prompts/index.html",
-    "public/post/prompts",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/schedular profile.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/Multiple schedular.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/9. Demon Set.md",
-=======
-  "active": "3a86e4599421bd57",
-  "lastOpenFiles": [
->>>>>>> parent of f9dc2be (Initial terminal commit)
-    "content/post/Office work.md",
-    "movies to watch.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/11. Taints and Tolerations in Kubernetes.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/k8s-commands.md",
-    "content/post/Sem 8/AAI/0. AAI Index.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/1. Introduction.md",
-    "content/post/1.DevOps - Cloud/Kubernates notes/2. Kubernetes Cluster types.md",
-    "content/post/1.DevOps - Cloud/git/gitconfigurepasswordinlinux.md",
-    "content/post/1.DevOps - Cloud/git/Git Index.md",
-    "content/post/1.DevOps - Cloud/Docker/bind mount volume.md",
-    "content/post/1.DevOps - Cloud/Docker/2. Multistage Build.md",
-    "content/post/1.DevOps - Cloud/Docker/0. Docker Index.md",
-    "content/post/1.DevOps - Cloud/Docker/0.docker commands.md",
-    "content/post/1.DevOps - Cloud/git/git.md",
-    "content/post/1.DevOps - Cloud/git/git branch commands.md",
-    "archetypes/default copy.md",
-    "archetypes/default.md",
-    "archetypes/categories.md",
-    "Untitled.canvas"
+    "content/post/2.DSA/1. Linked List.md",
+    "content/post/AZ-104/hands-on.md",
+    "content/post/AZ-104/AZure application gateway.md",
+    "content/post/AZ-104/Azure Bastion.md"
   ]
 }
