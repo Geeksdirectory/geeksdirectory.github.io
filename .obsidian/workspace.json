@@ -11,14 +11,12 @@
             "id": "37e705a4bc990f9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
-                "mode": "source",
-                "source": false
+                "file": "content/post/Sem 8/Social media Analysis/sma2019qb.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Admission controller"
+              "icon": "lucide-file-text",
+              "title": "sma2019qb"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab39dcc4dce26bdc",
@@ -172,6 +171,12 @@
   },
   "active": "37e705a4bc990f9a",
   "lastOpenFiles": [
+    "content/post/Sem 8/Social media Analysis/0.Social media Analysis.md",
+    "content/post/Sem 8/Social media Analysis/sma2019qb.pdf",
+    "content/post/Sem 8/Reinforcement Learning/RL2019qb.pdf",
+    "content/post/Sem 8/EVS/envmanagement2019qb.pdf",
+    "content/post/Sem 8/AAI/aai2019qp.pdf",
+    "content/post/1.DevOps - Cloud/Kubernates notes/Admission controller.md",
     "content/post/1.DevOps - Cloud/Kubernates notes/0. kubernates index.md",
     "content/post/2.DSA/1. Linked List.md",
     "content/post/AZ-104/hands-on.md",
