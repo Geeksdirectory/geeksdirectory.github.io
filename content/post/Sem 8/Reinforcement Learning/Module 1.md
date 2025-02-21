@@ -11,7 +11,7 @@ date: 2025-02-21
 ==a feedback based learning method==
 real time decision making
 goal directed agent
-
+PP
 **Key Components**:
 
 - **Agent**: Learns and makes decisions.
