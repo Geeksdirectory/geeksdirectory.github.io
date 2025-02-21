@@ -11,12 +11,14 @@
             "id": "37e705a4bc990f9a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/post/Sem 8/Social media Analysis/sma2019qb.pdf"
+                "file": "content/post/Sem 8/Social media Analysis/Module 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "sma2019qb"
+              "icon": "lucide-file",
+              "title": "Module 1"
             }
           }
         ]
@@ -171,7 +173,20 @@
   },
   "active": "37e705a4bc990f9a",
   "lastOpenFiles": [
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123837.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123813.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123350.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123331.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123052.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221123043.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221112013.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221111952.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221111913.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221111633.png",
+    "content/post/Sem 8/Social media Analysis/Pasted image 20250221111443.png",
     "content/post/Sem 8/Social media Analysis/0.Social media Analysis.md",
+    "content/post/Sem 8/Social media Analysis/Module 1.md",
+    "content/post/Sem 8/AAI/0. AAI Index.md",
     "content/post/Sem 8/Social media Analysis/sma2019qb.pdf",
     "content/post/Sem 8/Reinforcement Learning/RL2019qb.pdf",
     "content/post/Sem 8/EVS/envmanagement2019qb.pdf",
