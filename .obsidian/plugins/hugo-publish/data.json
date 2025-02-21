@@ -1,0 +1,9 @@
+{
+  "blog_tag": "",
+  "exclude_dir": "",
+  "blog_dir": "/home/yash/geeksdirectory.github.io/content/post",
+  "static_dir": "/home/yash/geeksdirectory.github.io/static",
+  "site_dir": "/home/yash/geeksdirectory.github.io",
+  "keep_list": "",
+  "export_blog_tag": true
+}
